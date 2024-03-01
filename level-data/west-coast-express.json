@@ -1,0 +1,39 @@
+{
+    "services" : {
+        "West Coast Express" : {
+            "Waterfront - Moody Centre" : 24,
+            "Moody Centre - Coquitlam Central" : 5,
+            "Coquitlam Central - Port Coquitlam" : 5,
+            "Port Coquitlam - Pitt Meadows" : 10,
+            "Pitt Meadows - Maple Meadows" : 4,
+            "Maple Meadows - Port Haney" : 6,
+            "Port Haney - Mission City" : 21
+        }
+    },
+    "stations" : {
+        "Coquitlam Central" : [
+            "West Coast Express"
+        ],
+        "Maple Meadows" :  [
+            "West Coast Express"
+        ],
+        "Mission City" : [
+            "West Coast Express"
+        ],
+        "Moody Centre" : [
+            "West Coast Express"
+        ],
+        "Pitt Meadows" : [
+            "West Coast Express"
+        ],
+        "Port Coquitlam" : [
+            "West Coast Express"
+        ],
+        "Port Haney" : [
+            "West Coast Express"
+        ],
+        "Waterfront" : [
+            "West Coast Express"
+        ]
+    }
+}
