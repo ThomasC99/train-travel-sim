@@ -406,7 +406,7 @@ def station (screen, player_data):
             service_name = service_name.split(" (")[0]
             service_data = player_data["service-data"]["services"][service_name]
             service_sequence = generate_service_times(service_data, player_data["current-station"], direction, time_str)
-            new_station = display_service(screen, service_sequence, service_name, direction, player_data["destination"])
+            new_station = display_service(screen, service_sequence, service_name, direction, player_data["target-station"])
             times = None
             if direction == service_data["destination"]:
                 times = service_data["schedule"]
@@ -493,19 +493,17 @@ def buy_new_departures (screen, player_data, departures, service):
         for item in player_data["service-data"]["services"][route]["schedule"]:
             total_cost += player_data["service-data"]["services"][route]["schedule"][item]
         total_cost *= 2
-    indicies = []
-    while len(indicies) < rows - 7 or len(indicies) == len(departures):
-        num = random.randint(0, len(departures) - 1)
-        if num not in indicies:
-                indicies.append(num)
     while running:
         menu = []
-        if (len(departures)) > 10:
-            for i in range(0, len(indicies)):
-                menu.append(departures[indicies[i]])
+        if (len(departures)) > rows - 7:
+            for i in range(0, rows - 7):
+                menu.append(departures[i])
+            if "Back" not in menu:
+                menu.append("Back")
         else:
             menu = departures
-        menu.append("Back")
+            if "Back" not in menu:
+                menu.append("Back")
         screen.clear()
         screen.addstr(0, 0, "Points : " + str(player_data["points"]))
         screen.addstr(1, 0, "Cost   : " + str(total_cost))
@@ -525,12 +523,8 @@ def buy_new_departures (screen, player_data, departures, service):
             else:
                 if player_data["points"] >= total_cost:
                     player_data["points"] -= total_cost
-                    player_data["service-data"]["services"][service]["departures"].append(departures[indicies[cursor]])
-                    del departures[indicies[cursor]]
-                    while len(indicies) < 10:
-                        num = random.randint(0, len(departures) - 1)
-                        if num not in indicies:
-                            indicies.append(num)
+                    player_data["service-data"]["services"][service]["departures"].append(departures[cursor])
+                    del departures[cursor]
                     cursor = 0
         screen.refresh()
         time.sleep(0.01)
