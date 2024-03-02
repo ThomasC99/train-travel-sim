@@ -1,3 +1,5 @@
 {
-    "West Coast Express" : "level-data/west-coast-express.json"
+	"CTRail" : "levels-data/ctrail.json",
+	"GO" : "levels-data/go.json",
+	"West Coast Express" : "level-data/west-coast-express.json"
 }
