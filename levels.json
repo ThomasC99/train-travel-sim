@@ -1,5 +1,6 @@
 {
-	"CTRail" : "levels-data/ctrail.json",
-	"GO" : "levels-data/go.json",
+	"CTRail" : "level-data/ctrail.json",
+	"GO" : "level-data/go.json",
+	"MetroNorth" : "level-data/metro-north.json",
 	"West Coast Express" : "level-data/west-coast-express.json"
 }

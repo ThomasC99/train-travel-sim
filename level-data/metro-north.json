@@ -1,0 +1,480 @@
+{
+	"services" : {
+		"Danbury Branch" : {
+			"Grand Central - Harlem-125th Street" : 15,
+			"Harlem-125th Street - Stamford" : 49,
+			"Stamford - South Norwalk" : 16,
+			"South Norwalk - Merritt 7" : 17,
+			"Merritt 7 - Wilton" : 6,
+			"Wilton - Cannondale" : 4,
+			"Cannondale - Branchville" : 7,
+			"Branchville - Redding" : 9,
+			"Redding - Bethel" : 8,
+			"Bethel - Danbury" : 6
+		},
+		"Harlem Line" : {
+			"Grand Central - Harlem-125th Street" : 14,
+			"Harlem-125th Street - Melrose" : 6,
+			"Melrose - Tremont" : 3,
+			"Tremont - Fordham" : 2,
+			"Fordham - Botanical Garden" : 3,
+			"Botanical Garden - Williams Bridge" : 2,
+			"Williams Bridge - Woodlawn" : 2,
+			"Woodlawn - Wakefield" : 3,
+			"Wakefield - Mount Vernon West" : 2,
+			"Mount Vernon West - Fleetwood" : 3,
+			"Fleetwood - Bronxville" : 2,
+			"Bronxville - Tuckahoe" : 2,
+			"Tuckahoe - Crestwood" : 2,
+			"Crestwood - Scarsdale" : 3,
+			"Scarsdale - Hartsdale" : 3,
+			"Hartsdale - White Plains" : 3,
+			"White Plains - North White Plains" : 4,
+			"North White Plains - Valhalla" : 4,
+			"Valhalla - Hawthorne" : 4,
+			"Hawthorne - Pleasantville" : 4,
+			"Pleasantville - Chappaqua" : 3,
+			"Chappaqua - Mount Kisco" : 5,
+			"Mount Kisco - Bedford Hills" : 4,
+			"Bedford Hills - Katonah" : 4,
+			"Katonah - Goldens Bridge" : 3,
+			"Goldens Bridge - Purdy's" : 4,
+			"Purdy's - Croton Falls" : 3,
+			"Croton Falls - Brewster" : 5,
+			"Brewster - Southeast" : 3,
+			"Southeast - Patterson" : 11,
+			"Patterson - Pawling" : 6,
+			"Pawling - Harlem Valley-Wingdale" : 7,
+			"Harlem Valley-Wingdale - Dover Plains" : 8,
+			"Dover Plains - Tenmile River" : 4,
+			"Tenmile River - Wassaic" : 4
+		},
+		"Hudson Line" : {
+			"Grand Central - Harlem-125th Street" : 14,
+			"Harlem-125th Street - Yankees-East 153rd Street" : 5,
+			"Yankees-East 153rd Street - Morris Heights" : 5,
+			"Morris Heights - University Heights" : 2,
+			"University Heights - Marble Hill" : 2,
+			"Marble Hill - Spuyten Duyvil" : 3,
+			"Spuyten Duyvil - Riverdale" : 4,
+			"Riverdale - Ludlow" : 3,
+			"Ludlow - Yonkers" : 2,
+			"Yonkers - Glenwood" : 2,
+			"Glenwood - Greystone" : 3,
+			"Greystone - Hastings-on-Hudson" : 3,
+			"Hastings-on-Hudson - Dobbs Ferry" : 2,
+			"Dobbs Ferry - Ardsley-on-Hudson" : 2,
+			"Ardsley-on-Hudson - Irvington" : 2,
+			"Irvington - Tarrytown" : 4,
+			"Tarrytown - Philipse Manor" : 2,
+			"Philipse Manor - Scarborough" : 4,
+			"Scarborough - Ossining" : 2,
+			"Ossining - Croton-Harmon" : 4,
+			"Croton-Harmon - Cortlandt" : 10,
+			"Cortlandt - Peekskill" : 4,
+			"Peekskill - Garrison" : 11,
+			"Garrison - Cold Spring" : 4,
+			"Cold Spring - Beacon" : 8,
+			"Beacon - New Hamburg" : 7,
+			"New Hamburg - Poughkeepsie" : 9
+		},
+		"New Canaan Branch" : {
+			"Grand Central - Harlem-125th Street" : 14,
+			"Harlem-125th Street - Stamford" : 45,
+			"Stamford - Glenbrook" : 6,
+			"Glenbrook - Springdale" : 3,
+			"Springdale - Talmadge Hill" : 4,
+			"Talmadge Hill - New Canaan" : 5
+		},
+		"New Haven Line" : {
+			"Grand Central - Harlem-125th Street" : 13,
+			"Harlem-125th Street - Fordham" : 11,
+			"Fordham - Mount Vernon East" : 8,
+			"Mount Vernon East - Pelham" : 3,
+			"Pelham - New Rochelle" : 5,
+			"New Rochelle - Larchmont" : 3,
+			"Larchmont - Marmaroneck" : 4,
+			"Marmaroneck - Harrison" : 3,
+			"Harrison - Rye" : 6,
+			"Rye - Port Chester" : 3,
+			"Port Chester - Greenwich" : 4,
+			"Greenwich - Cos Cob" : 3,
+			"Cos Cob - Riverside" : 2,
+			"Riverside - Old Greenwich" : 2,
+			"Old Greenwich - Stamford" : 3,
+			"Stamford - Noroton Heights" : 7,
+			"Noroton Heights - Darien" : 4,
+			"Darien - Rowayton" : 3,
+			"Rowayton - South Norwalk" : 4,
+			"South Norwalk - East Norwalk" : 3,
+			"East Norwalk - Westport" : 4,
+			"Westport - Green's Farms" : 5,
+			"Green's Farms - Southport" : 3,
+			"Southport - Fairfield" : 3,
+			"Fairfield - Fairfield Metro" : 4,
+			"Fairfield Metro - Bridgeport" : 5,
+			"Bridgeport - Stratford" : 7,
+			"Stratford - Milford" : 6,
+			"Milford - West Haven" : 8,
+			"West Haven - New Haven Union Station" : 5,
+			"New Haven Union Station - New Haven State Street" : 4
+		},
+		"Waterbury Branch" : {
+			"Grand Central - Harlem-125th Street" : 19,
+			"Harlem-125th Street - Stamford" : 41,
+			"Stamford - South Norwalk" : 14,
+			"South Norwalk - Bridgeport" : 27,
+			"Bridgeport - Stratford" : 6,
+			"Stratford - Derby-Shelton" : 21,
+			"Derby-Shelton - Ansonia" : 3,
+			"Ansonia - Seymour" : 7,
+			"Seymour - Beacon Falls" : 5,
+			"Beacon Falls - Naugatuck" : 5,
+			"Naugatuck - Waterbury" : 9
+		}
+	},
+	"stations" : {
+		"Ansonia" : [
+			"Waterbury Branch"
+		],
+		"Ardsley-on-Hudson" : [
+			"Hudson Line"
+		],
+		"Beacon" : [
+			"Hudson Line"
+		],
+		"Beacon Falls" : [
+			"Waterbury Branch"
+		],
+		"Bedford Hills" : [
+			"Harlem Line"
+		],
+		"Bethel" : [
+			"Danbury Branch"
+		],
+		"Botanical Garden" : [
+			"Harlem Line"
+		],
+		"Branchville" : [
+			"Danbury Branch"
+		],
+		"Brewster" : [
+			"Harlem Line"
+		],
+		"Bridgeport" : [
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Bronxville" : [
+			"Harlem Line"
+		],
+		"Cannondale" : [
+			"Danbury Branch"
+		],
+		"Chappaqua" : [
+			"Harlem Line"
+		],
+		"Cold Spring" : [
+			"Hudson Line"
+		],
+		"Cortlandt" : [
+			"Hudson Line"
+		],
+		"Cos Cob" : [
+			"New Haven Line"
+		],
+		"Crestwood" : [
+			"Harlem Line"
+		],
+		"Croton Falls" : [
+			"Harlem Line"
+		],
+		"Croton-Harmon" : [
+			"Hudson Line"
+		],
+		"Danbury" : [
+			"Danbury Branch"
+		],
+		"Darien" : [
+			"New Haven Line"
+		],
+		"Derby-Shelton" : [
+			"Waterbury Branch"
+		],
+		"Dobbs Ferry" : [
+			"Hudson Line"
+		],
+		"Dover Plains" : [
+			"Harlem Line"
+		],
+		"East Norwalk" : [
+			"New Haven Line"
+		],
+		"Fairfield" : [
+			"New Haven Line"
+		],
+		"Fairfield Metro" : [
+			"New Haven Line"
+		],
+		"Fleetwood" : [
+			"Harlem Line"
+		],
+		"Fordham" : [
+			"Harlem Line",
+			"New Haven Line"
+		],
+		"Garrison" : [
+			"Hudson Line"
+		],
+		"Glenbrook" : [
+			"New Canaan Branch"
+		],
+		"Glenwood" : [
+			"Hudson Line"
+		],
+		"Goldens Bridge" : [
+			"Harlem Line"
+		],
+		"Grand Central" : [
+			"Danbury Branch",
+			"Harlem Line",
+			"Hudson Line",
+			"New Canaan Branch",
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Green's Farms" : [
+			"New Haven Line"
+		],
+		"Greenwich" : [
+			"New Haven Line"
+		],
+		"Greystone" : [
+			"Hudson Line"
+		],
+		"Harlem-125th Street" : [
+			"Danbury Branch",
+			"Harlem Line",
+			"Hudson Line",
+			"New Canaan Branch",
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Harlem Valley-Wingdale" : [
+			"Harlem Line"
+		],
+		"Harrison" : [
+			"New Haven Line"
+		],
+		"Hartsdale" : [
+			"Harlem Line"
+		],
+		"Hastings-on-Hudson" : [
+			"Hudson Line"
+		],
+		"Hawthorne" : [
+			"Harlem Line"
+		],
+		"Irvington" : [
+			"Hudson Line"
+		],
+		"Katonah" : [
+			"Harlem Line"
+		],
+		"Larchmont" : [
+			"New Haven Line"
+		],
+		"Ludlow" : [
+			"Hudson Line"
+		],
+		"Marble Hill" : [
+			"Hudson Line"
+		],
+		"Marmaroneck" : [
+			"New Haven Line"
+		],
+		"Melrose" : [
+			"Harlem Line"
+		],
+		"Merritt 7" : [
+			"Danbury Branch"
+		],
+		"Milford" : [
+			"New Haven Line"
+		],
+		"Morris Heights" : [
+			"Hudson Line"
+		],
+		"Mount Kisco" : [
+			"Harlem Line"
+		],
+		"Mount Vernon East" : [
+			"New Haven Line"
+		],
+		"Mount Vernon West" : [
+			"Harlem Line"
+		],
+		"Naugatuck" : [
+			"Waterbury Branch"
+		],
+		"New Canaan" : [
+			"New Canaan Branch"
+		],
+		"New Hamburg" : [
+			"Hudson Line"
+		],
+		"New Haven State Street" : [
+			"New Haven Line"
+		],
+		"New Haven Union Station" : [
+			"New Haven Line"
+		],
+		"New Rochelle" : [
+			"New Haven Line"
+		],
+		"Noroton Heights" : [
+			"New Haven Line"
+		],
+		"North White Plains" : [
+			"Harlem Line"
+		],
+		"Old Greenwich" : [
+			"New Haven Line"
+		],
+		"Ossining" : [
+			"Hudson Line"
+		],
+		"Patterson" : [
+			"Harlem Line"
+		],
+		"Pawling" : [
+			"Harlem Line"
+		],
+		"Peekskill" : [
+			"Hudson Line"
+		],
+		"Pelham" : [
+			"New Haven Line"
+		],
+		"Philipse Manor" : [
+			"Hudson Line"
+		],
+		"Pleasantville" : [
+			"Harlem Line"
+		],
+		"Port Chester" : [
+			"New Haven Line"
+		],
+		"Poughkeepsie" : [
+			"Hudson Line"
+		],
+		"Purdy's" : [
+			"Harlem Line"
+		],
+		"Redding" : [
+			"Danbury Branch"
+		],
+		"Riverdale" : [
+			"Hudson Line"
+		],
+		"Riverside" : [
+			"New Haven Line"
+		],
+		"Rowayton" : [
+			"New Haven Line"
+		],
+		"Rye" : [
+			"New Haven Line"
+		],
+		"Scarborough" : [
+			"Hudson Line"
+		],
+		"Scarsdale" : [
+			"Harlem Line"
+		],
+		"Seymour" : [
+			"Waterbury Branch"
+		],
+		"South Norwalk" : [
+			"Danbury Branch",
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Southeast" : [
+			"Harlem Line"
+		],
+		"Southport" : [
+			"New Haven Line"
+		],
+		"Springdale" : [
+			"New Canaan Branch"
+		],
+		"Spuyten Duyvil" : [
+			"Hudson Line"
+		],
+		"Stamford" : [
+			"Danbury Branch",
+			"New Canaan Branch",
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Stratford" : [
+			"New Haven Line",
+			"Waterbury Branch"
+		],
+		"Talmadge Hill" : [
+			"New Canaan Branch"
+		],
+		"Tarrytown" : [
+			"Hudson Line"
+		],
+		"Tenmile River" : [
+			"Harlem Line"
+		],
+		"Tremont" : [
+			"Harlem Line"
+		],
+		"Tuckahoe" : [
+			"Harlem Line"
+		],
+		"University Heights" : [
+			"Hudson Line"
+		],
+		"Valhalla" : [
+			"Harlem Line"
+		],
+		"Wakefield" : [
+			"Harlem Line"
+		],
+		"Wassaic" : [ 
+			"Harlem Line"
+		],
+		"Waterbury" : [
+			"Waterbury Branch"
+		],
+		"West Haven" : [
+			"New Haven Line"
+		],
+		"Westport" : [
+			"New Haven Line"
+		],
+		"White Plains" : [
+			"Harlem Line"
+		],
+		"Williams Bridge" : [
+			"Harlem Line"
+		],
+		"Wilton" : [
+			"Danbury Branch"
+		],
+		"Woodlawn" : [
+			"Harlem Line"
+		],
+		"Yankees-East 153rd Street" : [
+			"Hudson Line"
+		],
+		"Yonkers" : [
+			"Hudson Line"
+		]
+	}
+}
