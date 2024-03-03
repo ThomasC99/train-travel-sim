@@ -390,6 +390,8 @@ def station (screen, player_data):
                 if menu_items >= rows - 5:
                     break
                 menu_items += 1
+            if menu_items >= rows - 5:
+                    break
 
         c = screen.getch() # 18
         if c == ord("q") or c == ord("Q"):
