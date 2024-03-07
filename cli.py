@@ -2,11 +2,9 @@ import curses
 import json
 import random
 import time
+import pygame
 
 from curses import wrapper
-from datetime import date
-from dijkstar import Graph
-from dijkstar import find_path
 
 def save_debug_data (data):
     file = open("log.txt", "w")
@@ -44,6 +42,7 @@ def display_service (screen, service, service_name, direction, destination):
     new_station = ""
     delete_first = False
     rows, cols = screen.getmaxyx()
+    chime = ""
     while running:
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
@@ -68,6 +67,10 @@ def display_service (screen, service, service_name, direction, destination):
         first = list(service.keys())[0]
         if first == time_str:
             delete_first = True
+        if first == time_str and chime != time_str:
+            pygame.mixer.music.load("./arrival-chime.mp3")
+            pygame.mixer.music.play(1)
+            chime = time_str
         if delete_first and time_str != first:
             del service[first]
             delete_first = False
@@ -356,6 +359,7 @@ def get_travel_time (schedule, start, end):
     return total_time
 
 def station (screen, player_data):
+    chime = ""
     running = True
     cursor = 0
     rows, cols = screen.getmaxyx()
@@ -382,11 +386,16 @@ def station (screen, player_data):
 
         menu_items = 0
         for departure in station_departures:
+            screen.addstr(3 + menu_items, 0, departure)
             for i in range (0, len(station_departures[departure])):
+                if departure == time_str and chime != time_str:
+                    pygame.mixer.music.load("./arrival-chime.mp3")
+                    pygame.mixer.music.play(1)
+                    chime = time_str
                 if departure == time_str and cursor == i:
-                    screen.addstr(3 + menu_items, 0, departure + "   " + station_departures[departure][i], curses.A_STANDOUT)
+                    screen.addstr(3 + menu_items, 7, station_departures[departure][i], curses.A_STANDOUT)
                 else:
-                    screen.addstr(3 + menu_items, 0, departure + "   " + station_departures[departure][i])
+                    screen.addstr(3 + menu_items, 7, station_departures[departure][i])
                 if menu_items >= rows - 5:
                     break
                 menu_items += 1
@@ -394,16 +403,18 @@ def station (screen, player_data):
                     break
 
         c = screen.getch() # 18
+        if time_str not in station_departures:
+            cursor = 0
         if c == ord("q") or c == ord("Q"):
             running = False
-        elif c == curses.KEY_DOWN:
-            pass
-        elif c == curses.KEY_UP:
-            pass
+        elif c == curses.KEY_DOWN and time_str in station_departures and cursor < len(station_departures[time_str]) - 1:
+            cursor += 1
+        elif c == curses.KEY_UP and cursor > 0:
+            cursor -= 1
         elif c == curses.KEY_LEFT:
             running = False
         elif c == ord("\n") and time_str in station_departures:
-            service_name = station_departures[time_str][0]
+            service_name = station_departures[time_str][cursor]
             direction = service_name.split(" (")[-1].replace(")", "")
             service_name = service_name.split(" (")[0]
             service_data = player_data["service-data"]["services"][service_name]
@@ -426,8 +437,10 @@ def station (screen, player_data):
 def add_route (player_data, service_name):
     service_data = player_data["network-data"]
     service = service_data["services"][service_name]
+    player_data["service-data"]["services"][service_name] = {}
     player_data["service-data"]["services"][service_name]["origin"] = list(service.keys())[0].split(" - ")[0]
     player_data["service-data"]["services"][service_name]["destination"] = list(service.keys())[-1].split(" - ")[1]
+    player_data["service-data"]["services"][service_name]["schedule"] = player_data["network-data"]["services"][service_name]
     schedule = list(service.keys())
     stations = []
 
@@ -470,17 +483,34 @@ def buy_new_route (screen, player_data, services):
         menu = []
         if len(route_list) > 10:
             menu = route_list[:9]
-            menu.append("Back")
         else:
             menu = route_list
+        if "Back" not in menu:
             menu.append("Back")
-        screen.clear
+        screen.clear()
         screen.addstr(0, 0, "Points : " + str(player_data["points"]))
-        for i in range (0, len(menu) - 1):
-            screen.addstr(i + 2, 0, route_list[i] + " (" + services[route_list[i]] + ")")
-        screen.addstr(2 + len(menu) - 2, 0, menu[-1])
+        for i in range (0, len(menu)):
+            if menu[i] != "Back":
+                screen.addstr(i + 2, 0, menu[i] + " (" + str(services[route_list[i]]) + ")", curses.A_STANDOUT if cursor == i else curses.A_NORMAL)
+            else:
+                screen.addstr(i + 2, 0, menu[i], curses.A_STANDOUT if cursor == i else curses.A_NORMAL)
+        c = screen.getch()
+        if c == curses.KEY_DOWN and cursor < len(menu) - 1:
+            cursor += 1
+        elif c == curses.KEY_UP and cursor > 0:
+            cursor -= 1
+        elif c == ord("\n"):
+            if menu[cursor] == "Back":
+                running = False
+            else:
+                if player_data["points"] >= services[route_list[cursor]]:
+                    player_data["points"] -= services[route_list[cursor]]
+                    player_data = add_route(player_data, route_list[cursor])
+                    del services[route_list[cursor]]
+                    del route_list[cursor]
         screen.refresh()
         time.sleep(0.01)
+    return player_data
         
         
         
@@ -540,10 +570,10 @@ def buy_new_departure_services (screen, player_data, services):
         menu.append("Back")
         screen.clear()
         for i in range (0, len(menu)):
-            if cursor == i:
-                screen.addstr(i, 0, menu[i], curses.A_STANDOUT)
+            if menu[i] != "Back":
+                screen.addstr(i, 0, menu[i] + " (" + str(len(services[menu[i]])) + ")" , curses.A_STANDOUT if cursor == i else curses.A_NORMAL)
             else:
-                screen.addstr(i, 0, menu[i])
+                screen.addstr(i, 0, menu[i], curses.A_STANDOUT if cursor == i else curses.A_NORMAL)
         c = screen.getch()
         if c == curses.KEY_DOWN and cursor < len(menu) - 1:
             cursor += 1
@@ -560,7 +590,7 @@ def buy_new_departure_services (screen, player_data, services):
     return player_data
 
 def store (screen, player_data):
-    new_routes = []
+    new_routes = {}
     new_departures = {}
     if "network-data" in player_data and len(player_data["network-data"]) > 0:
         routes = list(player_data["network-data"]["services"].keys())
@@ -616,6 +646,7 @@ def store (screen, player_data):
     return player_data
 
 def main (screen):
+    pygame.init()
     curses.curs_set(False)
     screen.nodelay(True)
 
