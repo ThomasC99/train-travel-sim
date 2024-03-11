@@ -18,7 +18,7 @@ for service in data["services"]:
 for station in data["stations"]:
     for line in data["stations"][station]:
         if line not in data["services"]:
-            print("Station '" + station + "' not found in services")
+            print("Station '" + station + "' not found in service '" + line + "'")
         else:
             found = False
             for item in data["services"][line]:

@@ -520,11 +520,9 @@ def buy_new_departures (screen, player_data, departures, service):
     running = True
     total_cost = 0
     rows, cols = screen.getmaxyx()
-    routes = list(player_data["service-data"]["services"].keys())
-    for route in routes:
-        for item in player_data["service-data"]["services"][route]["schedule"]:
-            total_cost += player_data["service-data"]["services"][route]["schedule"][item]
-        total_cost *= 2
+    for item in player_data["service-data"]["services"][service]["schedule"]:
+        total_cost += player_data["service-data"]["services"][service]["schedule"][item]
+    total_cost *= 2
     while running:
         menu = []
         if (len(departures)) > rows - 7:
@@ -592,7 +590,7 @@ def buy_new_departure_services (screen, player_data, services):
 def store (screen, player_data):
     new_routes = {}
     new_departures = {}
-    if "network-data" in player_data and len(player_data["network-data"]) > 0:
+    if "network-data" in player_data and len(player_data["network-data"]) > 0 and "services" in player_data["network-data"]:
         routes = list(player_data["network-data"]["services"].keys())
         for route in routes:
             total_cost = 0
@@ -606,7 +604,7 @@ def store (screen, player_data):
         departures = player_data["service-data"]["services"][route]["departures"]
         avail = []
         for i in range (0, 24):
-            for j in range (0, 3):
+            for j in range (0, 4):
                 time_str = get_time_string(i, offset + (j * 15))
                 if time_str not in departures:
                     avail.append(time_str)
