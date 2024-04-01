@@ -274,6 +274,9 @@ def sort_departures (current_time, departures):
             index = keys.index(departure)
         if (int(current_time.split(":")[0]) < int(departure.split(":")[0])) and index == 0:
             index = keys.index(departure)
+        if current_time == departure:
+            index = keys.index(departure)
+            break
     sorted = []
     for i in range (index, len(departures)):
         sorted.append(keys[i])
@@ -300,6 +303,7 @@ def generate_service_times (service_data, station_name, direction, current_time)
             total_time += service_data["schedule"][item]
             new_min = minute + total_time
             new_hour = hour + new_min // 60
+            new_hour = new_hour % 24
             new_min = new_min % 60
             sequence[get_time_string(new_hour, new_min)] = item.split(" - ")[1]
     elif station_name == service_data["destination"]:
@@ -310,6 +314,7 @@ def generate_service_times (service_data, station_name, direction, current_time)
             total_time += schedule[item]
             new_min = minute + total_time
             new_hour = hour + new_min // 60
+            new_hour = new_hour % 24
             new_min = new_min % 60
             sequence[get_time_string(new_hour, new_min)] = item.split(" - ")[1]
     elif direction == service_data["destination"]:
@@ -324,6 +329,7 @@ def generate_service_times (service_data, station_name, direction, current_time)
             total_time += service_data["schedule"][keys[i]]
             new_min = minute + total_time
             new_hour = hour + new_min // 60
+            new_hour = new_hour % 24
             new_min = new_min % 60
             sequence[get_time_string(new_hour, new_min)] = keys[i].split(" - ")[1]
     elif direction == service_data["origin"]:
@@ -367,6 +373,7 @@ def station (screen, player_data):
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
         time_str = get_time_string(hour, minute)
+        # time_str = "00:00"
         
         station_departures = {}
 
