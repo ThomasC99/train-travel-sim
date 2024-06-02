@@ -1,0 +1,207 @@
+{
+    "services" : {
+        "FB 8620" : {
+            "Milano Centrale - Pavia" : 34,
+            "Pavia - Genova Piazza Principe" : 72,
+            "Genova Piazza Principe - Genova Brignole" : 7,
+            "Genova Brignole - Chiavari" : 25,
+            "Chiavari - La Spezia Centrale" : 31,
+            "La Spezia Centrale - Massa Centro" : 20,
+            "Massa Centro - Viareggio" : 12,
+            "Viareggio - Pisa Centrale" : 17,
+            "Pisa Centrale - Livorno Centrale" : 15,
+            "Livorno Centrale - Campiglia Marittima" : 43,
+            "Campiglia Marittima - Grosseto" : 27,
+            "Grosseto - Civitavecchia" : 52,
+            "Civitavecchia - Roma Termini" : 54
+        },
+        "FB 8606" : {
+            "Torino Porta Nuova - Torino Lingotto" : 8,
+            "Torino Lingotto - Asti" : 30,
+            "Asti - Alessandria" : 18,
+            "Alessandria - Genova Piazza Principe" : 45,
+            "Genova Piazza Principe - Genova Brignole" : 14,
+            "Genova Brignole - Chiavari" : 28,
+            "Chiavari - La Spezia Centrale" : 29,
+            "La Spezia Centrale - Massa Centro" : 20,
+            "Massa Centro - Viareggio" : 13,
+            "Viareggio - Pisa Centrale" : 16,
+            "Pisa Centrale - Livorno Centrale" : 15,
+            "Livorno Centrale - Cecina" : 24,
+            "Cecina - Campiglia Marittima" : 15,
+            "Campiglia Marittima - Grosseto" : 26,
+            "Grosseto - Civitavecchia" : 47,
+            "Civitavecchia - Roma Termini" : 49
+        },
+        "FB 8619" : {
+            "Milano Centrale - Pavia" : 25,
+            "Pavia - Genova Piazza Principe" : 87,
+            "Genova Piazza Principe - Genova Brignole" : 7,
+            "Genova Brignole - Rapallo" : 25,
+            "Rapallo - Chiavari" : 9,
+            "Chiavari - La Spezia Centrale" : 30,
+            "La Spezia Centrale - Massa Centro" : 20,
+            "Massa Centro - Viareggio" : 12,
+            "Viareggio - Pisa Centrale" : 19,
+            "Pisa Centrale - Livorno Centrale" : 15,
+            "Livorno Centrale - Campiglia Marittima" : 43,
+            "Campiglia Marittima - Grosseto" : 27,
+            "Grosseto - Civitavecchia" : 52,
+            "Civitavecchia - Roma Termini" : 54
+        },
+        "FB 8623" : {
+            "Torino Porta Nuova - Torino Lingotto" : 8,
+            "Torino Lingotto - Asti" : 32,
+            "Asti - Alessandria" : 21,
+            "Alessandria - Genova Piazza Principe" : 49,
+            "Genova Piazza Principe - Genova Brignole" : 7,
+            "Genova Brignole - Rapallo" : 25,
+            "Rapallo - Chiavari" : 9,
+            "Chiavari - La Spezia Centrale" : 30,
+            "La Spezia Centrale - Sarzana" : 12,
+            "Sarzana - Massa Centro" : 12,
+            "Massa Centro - Viareggio" : 12,
+            "Viareggio - Pisa Centrale" : 19,
+            "Pisa Centrale - Livorno Centrale" : 15,
+            "Livorno Centrale - Cecina" : 22,
+            "Cecina - Campiglia Marittima" : 21,
+            "Campiglia Marittima - Grosseto" : 27,
+            "Grosseto - Civitavecchia" : 48,
+            "Civitavecchia - Roma Termini" : 39
+        },
+        "FB 8626" : {
+            "Genova Piazza Principe - Genova Brignole" : 5,
+            "Genova Brignole - Rapallo" : 26,
+            "Rapallo - La Spezia Centrale" : 42,
+            "La Spezia Centrale - Massa Centro" : 21,
+            "Massa Centro - Viareggio" : 13,
+            "Viareggio - Pisa Centrale" : 16,
+            "Pisa Centrale - Livorno Centrale" : 16,
+            "Livorno Centrale - Campiglia Marittima" : 41,
+            "Campiglia Marittima - Grosseto" : 29,
+            "Grosseto - Civitavecchia" : 52,
+            "Civitavecchia - Roma Termini" : 49
+        }
+    },
+    "stations" : {
+        "Alessandria" : [
+            "FB 8606",
+            "FB 8623"
+        ],
+        "Asti" : [
+            "FB 8606",
+            "FB 8623"
+        ],
+        "Campiglia Marittima" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Cecina" : [
+            "FB 8606",
+            "FB 8623"
+        ],
+        "Chiavari" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623"
+        ],
+        "Civitavecchia" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Genova Brignole" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Genova Piazza Principe" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Grosseto" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "La Spezia Centrale" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Livorno Centrale" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Massa Centro" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Milano Centrale" : [
+            "FB 8619",
+            "FB 8620"
+        ],
+        "Pavia" : [
+            "FB 8619",
+            "FB 8620"
+        ],
+        "Pisa Centrale" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Rapallo" : [
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Roma Termini" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ],
+        "Sarzana" : [
+            "FB 8623"
+        ],
+        "Torino Lingotto" : [
+            "FB 8606",
+            "FB 8623"
+        ],
+        "Torino Porta Nuova" : [
+            "FB 8606",
+            "FB 8623"
+        ],
+        "Viareggio" : [
+            "FB 8620",
+            "FB 8606",
+            "FB 8619",
+            "FB 8623",
+            "FB 8626"
+        ]
+    }
+}

@@ -6,6 +6,8 @@ import pygame
 
 from curses import wrapper
 
+last_beep = ""
+
 def save_debug_data (data):
     file = open("log.txt", "w")
     file.write(data)
@@ -37,6 +39,13 @@ def get_time_string (hours, minutes):
     string += str(minutes)
     return string
 
+def beep (current_time):
+    global last_beep
+    if last_beep != current_time:
+        pygame.mixer.music.load("./arrival-chime.mp3")
+        pygame.mixer.music.play(1)
+        last_beep = current_time
+
 def display_service (screen, service, service_name, direction, destination):
     running = True
     new_station = ""
@@ -67,16 +76,15 @@ def display_service (screen, service, service_name, direction, destination):
         first = list(service.keys())[0]
         if first == time_str:
             delete_first = True
-        if first == time_str and chime != time_str:
-            pygame.mixer.music.load("./arrival-chime.mp3")
-            pygame.mixer.music.play(1)
-            chime = time_str
+        if first == time_str:
+            beep(time_str)
         if delete_first and time_str != first:
+            if len(service) == 1:
+                new_station = service[list(service.keys())[0]]
             del service[first]
             delete_first = False
         if len(list(service.keys())) == 0:
             running = False
-            new_station = first
         screen.refresh()
         time.sleep(0.01)
     return new_station
@@ -395,10 +403,8 @@ def station (screen, player_data):
         for departure in station_departures:
             screen.addstr(3 + menu_items, 0, departure)
             for i in range (0, len(station_departures[departure])):
-                if departure == time_str and chime != time_str:
-                    pygame.mixer.music.load("./arrival-chime.mp3")
-                    pygame.mixer.music.play(1)
-                    chime = time_str
+                if departure == time_str:
+                    beep(time_str)
                 if departure == time_str and cursor == i:
                     screen.addstr(3 + menu_items, 7, station_departures[departure][i], curses.A_STANDOUT)
                 else:
@@ -675,31 +681,36 @@ def main (screen):
     menu = ["Station", "Store", "Save", "Quit"]
     running = True
     cursor = 0
-    while running:
-        screen.clear()
-        for i in range (0, len(menu)):
-            if cursor == i:
-                screen.addstr(i, 0, menu[i], curses.A_STANDOUT)
-            else:
-                screen.addstr(i, 0, menu[i])
-        screen.refresh()
-        c = screen.getch()
-        if c == curses.KEY_UP and cursor > 0:
-            cursor -=1
-        elif c == curses.KEY_DOWN and cursor < len(menu) - 1:
-            cursor += 1
-        elif c == ord("\n"):
-            if cursor == 0:
-                player_data = station(screen, player_data)
-                coursor = 0
-            elif cursor == 1:
-                player_data = store(screen, player_data)
-                coursor = 0
-            elif cursor == 2:
-                save_game(player_data)
-                corsor = 0
-            elif cursor == 3:
-                running = False
-        time.sleep(0.01)
+    try:
+        while running:
+            screen.clear()
+            for i in range (0, len(menu)):
+                if cursor == i:
+                    screen.addstr(i, 0, menu[i], curses.A_STANDOUT)
+                else:
+                    screen.addstr(i, 0, menu[i])
+            screen.refresh()
+            c = screen.getch()
+            if c == curses.KEY_UP and cursor > 0:
+                cursor -=1
+            elif c == curses.KEY_DOWN and cursor < len(menu) - 1:
+                cursor += 1
+            elif c == ord("\n"):
+                if cursor == 0:
+                    player_data = station(screen, player_data)
+                    coursor = 0
+                elif cursor == 1:
+                    player_data = store(screen, player_data)
+                    coursor = 0
+                elif cursor == 2:
+                    save_game(player_data)
+                    corsor = 0
+                elif cursor == 3:
+                    running = False
+            time.sleep(0.01)
+    except Exception:
+        player_data["points"] += 100
+        save_game(player_data)
+        print("An error occured, 100 points has been added to your save")
 
 wrapper(main)

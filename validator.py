@@ -13,7 +13,7 @@ for service in data["services"]:
         for station in schedule_item.split(" - "):
             if station not in data["stations"]:
                 print("Station '" + station + "' found in service '" + service + "' does not exist")
-            if service not in data["stations"][station]:
+            elif service not in data["stations"][station]:
                 print("Service '" + service + "' not found to serve station '" + station + "'")
 
 # Station validation
