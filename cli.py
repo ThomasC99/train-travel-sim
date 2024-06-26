@@ -7,6 +7,8 @@ import pygame
 from curses import wrapper
 
 last_beep = ""
+ran = False
+scilence = False
 
 def save_debug_data (data):
     file = open("log.txt", "w")
@@ -41,12 +43,15 @@ def get_time_string (hours, minutes):
 
 def beep (current_time):
     global last_beep
-    if last_beep != current_time:
+    global scilence
+    if last_beep != current_time and not scilence:
         pygame.mixer.music.load("./arrival-chime.mp3")
         pygame.mixer.music.play(1)
         last_beep = current_time
 
 def display_service (screen, service, service_name, direction, destination):
+    global ran
+    global scilence
     running = True
     new_station = ""
     delete_first = False
@@ -58,6 +63,10 @@ def display_service (screen, service, service_name, direction, destination):
         time_str = get_time_string(hour, minute)
         screen.clear()
         screen.addstr(0, 0, time_str)
+        if ran:
+            screen.addstr(0, len(time_str) + 3, "R")
+        if scilence:
+            screen.addstr(0, len(time_str) + 4, "S")
         screen.addstr(1, 0, destination)
         screen.addstr(2, 0, service_name + " (" + direction + ")")
         menu_items = 0
@@ -71,6 +80,13 @@ def display_service (screen, service, service_name, direction, destination):
             menu_items += 1
         c = screen.getch()
         if c == ord("\n") and time_str in service:
+            new_station = service[time_str]
+            running = False
+        if c == ord("r") or c == ord("R"):
+            ran = not ran
+        if c == ord("s") or c == ord("S"):
+            scilence = not scilence
+        if ran and time_str in service and service[time_str] == destination:
             new_station = service[time_str]
             running = False
         first = list(service.keys())[0]
@@ -344,6 +360,7 @@ def generate_service_times (service_data, station_name, direction, current_time)
         schedule = get_reversed_schedule(service_data)
         sequence[current_time] = station_name
         keys = list(schedule.keys())
+        index = 0
         for i in range (0, len(keys)):
             if station_name == keys[i].split(" - ")[0]:
                 index = i
@@ -351,7 +368,7 @@ def generate_service_times (service_data, station_name, direction, current_time)
         for i in range (index, len(keys)):
             total_time += schedule[keys[i]]
             new_min = minute + total_time
-            new_hour = hour + (new_min // 60)
+            new_hour = (hour + (new_min // 60)) % 24
             new_min = new_min % 60
             sequence[get_time_string(new_hour, new_min)] = keys[i].split(" - ")[1]
     return sequence
@@ -373,6 +390,8 @@ def get_travel_time (schedule, start, end):
     return total_time
 
 def station (screen, player_data):
+    global ran
+    global scilence
     chime = ""
     running = True
     cursor = 0
@@ -397,6 +416,10 @@ def station (screen, player_data):
 
         screen.clear()
         screen.addstr(0, 0, time_str)
+        if ran:
+            screen.addstr(0, len(time_str) + 3, "R")
+        if scilence:
+            screen.addstr(0, len(time_str) + 4, "S")
         screen.addstr(1, 0, player_data["current-station"] + " (" + player_data["target-station"] + ")")
 
         menu_items = 0
@@ -420,13 +443,19 @@ def station (screen, player_data):
             cursor = 0
         if c == ord("q") or c == ord("Q"):
             running = False
+        elif c == ord("r") or c == ord("R"):
+            ran = not ran
+        elif c == ord("s") or c == ord("S"):
+            scilence = not scilence
         elif c == curses.KEY_DOWN and time_str in station_departures and cursor < len(station_departures[time_str]) - 1:
             cursor += 1
         elif c == curses.KEY_UP and cursor > 0:
             cursor -= 1
         elif c == curses.KEY_LEFT:
             running = False
-        elif c == ord("\n") and time_str in station_departures:
+        elif (c == ord("\n") or ran) and time_str in station_departures:
+            if ran:
+                save_game(player_data)
             service_name = station_departures[time_str][cursor]
             direction = service_name.split(" (")[-1].replace(")", "")
             service_name = service_name.split(" (")[0]
@@ -681,36 +710,31 @@ def main (screen):
     menu = ["Station", "Store", "Save", "Quit"]
     running = True
     cursor = 0
-    try:
-        while running:
-            screen.clear()
-            for i in range (0, len(menu)):
-                if cursor == i:
-                    screen.addstr(i, 0, menu[i], curses.A_STANDOUT)
-                else:
-                    screen.addstr(i, 0, menu[i])
-            screen.refresh()
-            c = screen.getch()
-            if c == curses.KEY_UP and cursor > 0:
-                cursor -=1
-            elif c == curses.KEY_DOWN and cursor < len(menu) - 1:
-                cursor += 1
-            elif c == ord("\n"):
-                if cursor == 0:
-                    player_data = station(screen, player_data)
-                    coursor = 0
-                elif cursor == 1:
-                    player_data = store(screen, player_data)
-                    coursor = 0
-                elif cursor == 2:
-                    save_game(player_data)
-                    corsor = 0
-                elif cursor == 3:
-                    running = False
-            time.sleep(0.01)
-    except Exception:
-        player_data["points"] += 100
-        save_game(player_data)
-        print("An error occured, 100 points has been added to your save")
+    while running:
+        screen.clear()
+        for i in range (0, len(menu)):
+            if cursor == i:
+                screen.addstr(i, 0, menu[i], curses.A_STANDOUT)
+            else:
+                screen.addstr(i, 0, menu[i])
+        screen.refresh()
+        c = screen.getch()
+        if c == curses.KEY_UP and cursor > 0:
+            cursor -=1
+        elif c == curses.KEY_DOWN and cursor < len(menu) - 1:
+            cursor += 1
+        elif c == ord("\n"):
+            if cursor == 0:
+                player_data = station(screen, player_data)
+                coursor = 0
+            elif cursor == 1:
+                player_data = store(screen, player_data)
+                coursor = 0
+            elif cursor == 2:
+                save_game(player_data)
+                corsor = 0
+            elif cursor == 3:
+                running = False
+        time.sleep(0.01)
 
 wrapper(main)
