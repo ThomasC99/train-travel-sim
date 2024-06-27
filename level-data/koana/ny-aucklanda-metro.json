@@ -1,0 +1,440 @@
+{
+    "services" : {
+        "M-1" : {
+            "Central - GC-North" : 2,
+            "GC-North - GC-South" : 2,
+            "GC-South - Ekero" : 2,
+            "Ekero - Bosjokloster" : 2,
+            "Bosjokloster - Ibesya" : 2,
+            "Ibesya - Lerdal" : 2,
+            "Lerdal - Tiarp" : 2,
+            "Tiarp - Ostra Torn" : 2,
+            "Ostra Torn - Borstil" : 2,
+            "Borstil - Anglymnona" : 2,
+            "Anglymnona - Anovia" : 2,
+            "Anovia - Odeborg" : 2,
+            "Odeborg - Austror" : 2,
+            "Austror - Angersjo" : 2,
+            "Angersjo - Odeshog" : 2,
+            "Odeshog - Hamrange" : 2,
+            "Hamrange - Mollevangen" : 2,
+            "Mollevangen - Svenneby" : 2,
+            "Svenneby - Ringamala" : 2,
+            "Ringamala - Frillestad" : 2,
+            "Frillestad - Stavnas" : 2,
+            "Stavnas - Ullervad" : 2
+        },
+        "M-1x" : {
+            "Central - GC-North" : 2,
+            "GC-North - GC-South" : 2,
+            "GC-South - Ekero" : 2,
+            "Ekero - Lerdal" : 5,
+            "Lerdal - Ostra Torn" : 3,
+            "Ostra Torn - Anovia" : 5,
+            "Anovia - Angersjo" : 5,
+            "Angersjo - Mollevangen" : 5,
+            "Mollevangen - Stavnas" : 6,
+            "Stavnas - Ullervad" : 2
+        },
+        "M-2" : {
+            "Save - GC-North" : 2,
+            "GC-North - Central" : 2,
+            "Central - Agorene" : 2,
+            "Agorene - Moja" : 2,
+            "Moja - Forsa" : 2,
+            "Forsa - Bjorksta" : 2,
+            "Bjorksta - Ekero" : 2,
+            "Ekero - Pitea" : 2,
+            "Pitea - Norrby" : 2,
+            "Norrby - Tived" : 2,
+            "Tived - Flober" : 2,
+            "Flober - Melosa" : 2,
+            "Melosa - Vattak" : 2,
+            "Vattak - NAECC" : 2,
+            "NAECC - Tanum" : 2,
+            "Tanum - Olympic" : 2,
+            "Olympic - Mosjo" : 2,
+            "Mosjo - Kvidinge" : 2,
+            "Kvidinge - Larbro" : 2,
+            "Larbro - Hajom" : 2,
+            "Hajom - Bergum" : 2,
+            "Bergum - Ramsele" : 2,
+            "Ramsele - Vanstad" : 2,
+            "Vanstad - Bolinon" : 2,
+            "Bolinon - Haga" : 2,
+            "Haga - Ebontium" : 2,
+            "Ebontium - Jamshog" : 2,
+            "Jamshog - Molleberga" : 2,
+            "Molleberga - Lyrestad" : 2,
+            "Lyrestad - Karlstorp" : 2,
+            "Karlstorp - Iternica" : 2,
+            "Iternica - Northmount" : 2,
+            "Northmount - Svolde" : 2
+        },
+        "M-2x" : {
+            "Save - GC-North" : 2,
+            "GC-North - Central" : 2,
+            "Central - Agorene" : 2,
+            "Agorene - Moja" : 2,
+            "Moja - Forsa" : 2,
+            "Forsa - Bjorksta" : 2,
+            "Bjorksta - Ekero" : 2,
+            "Ekero - Pitea" : 2,
+            "Pitea - Norrby" : 2,
+            "Norrby - Tived" : 2,
+            "Tived - Melosa" : 3,
+            "Melosa - Tanum" : 5,
+            "Tanum - Olympic" : 2,
+            "Olympic - Mosjo" : 2,
+            "Mosjo - Larbro" : 3,
+            "Larbro - Bergum" : 3,
+            "Bergum - Ebontium" : 8,
+            "Ebontium - Molleberga" : 3,
+            "Molleberga - Iternica" : 5,
+            "Iternica - Svolde" : 3
+        },
+        "M-3" : {
+            "Moja - Agorene" : 2,
+            "Agorene - Central" : 2,
+            "Central - GC-North" : 2,
+            "GC-North - Save" : 2,
+            "Save - Norrby" : 2,
+            "Norrby - Pitea" : 2,
+            "Pitea - Ekero" : 2,
+            "Ekero - Bjorksta" : 2,
+            "Bjorksta - Forsa" : 2,
+            "Forsa - Estadana" : 2,
+            "Estadana - Sadaki" : 2,
+            "Sadaki - Itis" : 2,
+            "Itis - Nacka" : 2,
+            "Nacka - Trehorna" : 2,
+            "Trehorna - Fjalkinge" : 2,
+            "Fjalkinge - Ruckjuck" : 2,
+            "Ruckjuck - Daretorp" : 2,
+            "Daretorp - Malexander" : 2,
+            "Malexander - Herrestad" : 2,
+            "Herrestad - Rammen" : 2,
+            "Rammen - Cottager" : 2,
+            "Cottager - Hubbo" : 2,
+            "Hubbo - Roma" : 2,
+            "Roma - Manstad" : 2,
+            "Manstad - Sabra" : 2,
+            "Sabra - Castacaia" : 2,
+            "Castacaia - Hemse" : 2,
+            "Hemse - Aquesium" : 2,
+            "Aquesium - Teg" : 2,
+            "Teg - Finnekumla" : 2
+        },
+        "M-3x" : {
+            "Moja - Agorene" : 2,
+            "Agorene - Central" : 2,
+            "Central - GC-North" : 2,
+            "GC-North - Save" : 2,
+            "Save - Norrby" : 2,
+            "Norrby - Pitea" : 2,
+            "Pitea - Ekero" : 2,
+            "Ekero - Bjorksta" : 2,
+            "Bjorksta - Forsa" : 2,
+            "Forsa - Itis" : 5,
+            "Itis - Nacka" : 2,
+            "Nacka - Fjalkinge" : 3,
+            "Fjalkinge - Herrestad" : 6,
+            "Herrestad - Hubbo" : 5,
+            "Hubbo - Sabra" : 5,
+            "Sabra - Hemse" : 3,
+            "Hemse - Teg" : 3,
+            "Teg - Finnekumla" : 2
+        }
+    },
+    "stations" : {
+        "Agorene" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Angersjo" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Anglymnona" : [
+            "M-1"
+        ],
+        "Anovia" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Aquesium" : [
+            "M-3"
+        ],
+        "Austror" : [
+            "M-1"
+        ],
+        "Bergum" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Bjorksta" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Bolinon" : [
+            "M-2"
+        ],
+        "Borstil" : [
+            "M-1"
+        ],
+        "Bosjokloster" : [
+            "M-1"
+        ],
+        "Castacaia" : [
+            "M-3"
+        ],
+        "Central" : [
+            "M-1",
+            "M-1x",
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Cottager" : [
+            "M-3"
+        ],
+        "Daretorp" : [
+            "M-3"
+        ],
+        "Ebontium" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Ekero" : [
+            "M-1",
+            "M-1x",
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Estadana" : [
+            "M-3"
+        ],
+        "Finnekumla" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Fjalkinge" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Flober" : [
+            "M-2"
+        ],
+        "Forsa" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Frillestad" : [
+            "M-1"
+        ],
+        "GC-North" : [
+            "M-1",
+            "M-1x",
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "GC-South" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Haga" : [
+            "M-2"
+        ],
+        "Hajom" : [
+            "M-2"
+        ],
+        "Hamrange" : [
+            "M-1"
+        ],
+        "Hemse" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Herrestad" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Hubbo" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Ibesya" : [
+            "M-1"
+        ],
+        "Iternica" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Itis" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Jamshog" : [
+            "M-2"
+        ],
+        "Karlstorp" : [
+            "M-2"
+        ],
+        "Kvidinge" : [
+            "M-2"
+        ],
+        "Larbro" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Lerdal" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Lyrestad" : [
+            "M-2"
+        ],
+        "Malexander" : [
+            "M-3"
+        ],
+        "Manstad" : [
+            "M-3"
+        ],
+        "Melosa" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Moja" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Mollevangen" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Molleberga" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Mosjo" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Nacka" : [
+            "M-3",
+            "M-3x"
+        ],
+        "NAECC" : [
+            "M-2"
+        ],
+        "Norrby" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Northmount" : [
+            "M-2"
+        ],
+        "Odeborg" : [
+            "M-1"
+        ],
+        "Odeshog" : [
+            "M-1"
+        ],
+        "Olympic" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Ostra Torn" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Pitea" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Rammen" : [
+            "M-3"
+        ],
+        "Ramsele" : [
+            "M-2"
+        ],
+        "Ringamala" : [
+            "M-1"
+        ],
+        "Roma" : [
+            "M-3"
+        ],
+        "Ruckjuck" : [
+            "M-3"
+        ],
+        "Sabra" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Sadaki" : [
+            "M-3"
+        ],
+        "Save" : [
+            "M-2",
+            "M-2x",
+            "M-3",
+            "M-3x"
+        ],
+        "Stavnas" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Svenneby" : [
+            "M-1"
+        ],
+        "Svolde" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Tanum" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Teg" : [
+            "M-3",
+            "M-3x"
+        ],
+        "Tiarp" : [
+            "M-1"
+        ],
+        "Tived" : [
+            "M-2",
+            "M-2x"
+        ],
+        "Trehorna" : [
+            "M-3"
+        ],
+        "Ullervad" : [
+            "M-1",
+            "M-1x"
+        ],
+        "Vanstad" : [
+            "M-2"
+        ],
+        "Vattak" : [
+            "M-2"
+        ]
+    }
+}
