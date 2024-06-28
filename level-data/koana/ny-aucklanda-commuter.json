@@ -1,0 +1,463 @@
+{
+    "services" : {
+        "C-1" : {
+            "Aalen Central - Aalen Engaria" : 5,
+            "Aalen Engaria - Aalen Eksta" : 5,
+            "Aalen Eksta - Aalen Lochnevi" : 5,
+            "Aalen Lochnevi - Aalen South" : 5,
+            "Aalen South - Finska" : 5,
+            "Finska - Trollhattan" : 5,
+            "Trollhattan - Central" : 5,
+            "Central - Friel" : 5,
+            "Friel - Tived" : 5,
+            "Tived - Lerdal" : 5,
+            "Lerdal - Los" : 5,
+            "Los - Saleby" : 5,
+            "Saleby - Skolvene" : 5,
+            "Skolvene - Nynas" : 5,
+            "Nynas - Otterstad" : 5,
+            "Otterstad - Arca" : 5,
+            "Arca - Kristberg Central" : 5
+        },
+        "C-2" : {
+            "Grimmared Central - Grimmared Norra" : 5,
+            "Grimmared Norra - Kristberg Söder" : 5,
+            "Kristberg Söder - Kristberg Host" : 5,
+            "Kristberg Host - Kristberg Central" : 5,
+            "Kristberg Central - Otterstad" : 9,
+            "Otterstad - Agrunum" : 9,
+            "Agrunum - Fjalkinge" : 5,
+            "Fjalkinge - Central" : 13,
+            "Central - Friel" : 5,
+            "Friel - Switrini" : 21,
+            "Switrini - Vastra Skedvi" : 9,
+            "Vastra Skedvi - Molleberga" : 5,
+            "Molleberga - Flo Central" : 17,
+            "Flo Central - Flo Forsmark" : 5,
+            "Flo Forsmark - Flo Skon" : 5,
+            "Flo Skon - Flo Jarn" : 5,
+            "Flo Jarn - Ostra Karrstorp" : 5,
+            "Ostra Karrstorp - Enbacka Anga" : 5,
+            "Enbacka Anga - Enbacka Roddinge" : 5,
+            "Enbacka Roddinge - Enbacka Central" : 5
+        },
+        "C-3" : {
+            "Sundborn - Söder Sundborn" : 5,
+            "Söder Sundborn - Norra Gotlands" : 5,
+            "Norra Gotlands - Gotlands" : 5,
+            "Gotlands - Söder Gotlands" : 5,
+            "Söder Gotlands - Landolin" : 5,
+            "Landolin - Hornaryd" : 5,
+            "Hornaryd - Brandstorp" : 5,
+            "Brandstorp - Blidsberg" : 5,
+            "Blidsberg - Fallfors" : 5,
+            "Fallfors - Lemnhult" : 5,
+            "Lemnhult - Vaversunda" : 5,
+            "Vaversunda - Frosthult" : 5,
+            "Frosthult - Fresta" : 5,
+            "Fresta - Guldsmed" : 5,
+            "Guldsmed - Central" : 13,
+            "Central - Tanum" : 13,
+            "Tanum - Gardslosa" : 17,
+            "Gardslosa - Onslunda" : 13,
+            "Onslunda - Hyssna" : 5,
+            "Hyssna - Ny Chatham Norra" : 5,
+            "Ny Chatham Norra - Ny Chatham" : 5,
+            "Ny Chatham - Ny Chatham Öst" : 5,
+            "Ny Chatham Öst - Viska" : 5,
+            "Viska - Hudiksval" : 5
+        },
+        "C-3x" : {
+            "Sundborn - Gotlands" : 13,
+            "Gotlands - Landolin" : 9,
+            "Landolin - Hornaryd" : 5,
+            "Hornaryd - Blidsberg" : 9,
+            "Blidsberg - Lemnhult" : 9,
+            "Lemnhult - Frosthult" : 9,
+            "Frosthult - Central" : 21
+        },
+        "C-4" : {
+            "Kristberg Central - Arca" : 5,
+            "Arca - Otterstad" : 5,
+            "Otterstad - Ebana" : 5,
+            "Ebana - Acteria" : 5,
+            "Acteria - Agrunum" : 5,
+            "Agrunum - Fjalkinge" : 5,
+            "Fjalkinge - Torsas" : 5,
+            "Torsas - Fole" : 5,
+            "Fole - Central" : 5,
+            "Central - Vastra Skedvi" : 33,
+            "Vastra Skedvi - Mystision" : 5,
+            "Mystision - Harpfen" : 5,
+            "Harpfen - Glostorp" : 5,
+            "Glostorp - Ystad" : 5,
+            "Ystad - Volkersgau" : 5,
+            "Volkersgau - Stenungssunds" : 5
+        },
+        "C-5" : {
+            "Wonderland - Raceway" : 5,
+            "Raceway - Finska" : 5,
+            "Finska - Trollhattan" : 5,
+            "Trollhattan - Central" : 5,
+            "Central - Friel" : 5,
+            "Friel - Naskott" : 5,
+            "Naskott - Tanum" : 5,
+            "Tanum - Hardemo" : 5,
+            "Hardemo - Norra-Vi" : 5,
+            "Norra-Vi - Sjonhem" : 5,
+            "Sjonhem - Gardslosa" : 5,
+            "Gardslosa - Gottsunda" : 5,
+            "Gottsunda - Torstuna" : 5,
+            "Torstuna - Onslunda" : 5,
+            "Onslunda - Ny Aucklanda International Airport" : 5
+        },
+        "C-6" : {
+            "Arvidsvajur - Arvidsvajur Söder" : 5,
+            "Arvidsvajur Söder - Fowlmere" : 5,
+            "Fowlmere - Gunnarp" : 5,
+            "Gunnarp - Aalen Norra" : 5,
+            "Aalen Norra - Aalen Brismene" : 5,
+            "Aalen Brismene - Aalen Central" : 5,
+            "Aalen Central - Finska" : 21,
+            "Finska - Central" : 9,
+            "Central - Friel" : 5,
+            "Friel - Naskott" : 5,
+            "Naskott - Rydaholm" : 5,
+            "Rydaholm - Hibyson" : 5,
+            "Hibyson - Osterunda" : 5,
+            "Osterunda - Switrini" : 5,
+            "Switrini - Ibon" : 5,
+            "Ibon - Vastra Skedvi" : 5,
+            "Vastra Skedvi - Molleberga" : 5,
+            "Molleberga - Rono" : 5,
+            "Rono - Sigtuna" : 5,
+            "Sigtuna - Flo Marka" : 5,
+            "Flo Marka - Flo Central" : 5,
+            "Flo Central - Flo Forsmark" : 5,
+            "Flo Forsmark - Vastra Karrstorp" : 5,
+            "Vastra Karrstorp - Perschen" : 5,
+            "Perschen - Ny Chatham Norra" : 5,
+            "Ny Chatham Norra - Ny Chatham" : 5
+        }
+    },
+    "stations" : {
+        "Aalen Brismene" : [
+            "C-6"
+        ],
+        "Aalen Central" : [
+            "C-1",
+            "C-6"
+        ],
+        "Aalen Eksta" : [
+            "C-1"
+        ],
+        "Aalen Engaria" : [
+            "C-1"
+        ],
+        "Aalen Lochnevi" : [
+            "C-1"
+        ],
+        "Aalen Norra" : [
+            "C-6"
+        ],
+        "Aalen South" : [
+            "C-1"
+        ],
+        "Acteria" : [
+            "C-4"
+        ],
+        "Agrunum" : [
+            "C-2",
+            "C-4"
+        ],
+        "Arca" : [
+            "C-1",
+            "C-4"
+        ],
+        "Arvidsvajur" : [
+            "C-6"
+        ],
+        "Arvidsvajur Söder" : [
+            "C-6"
+        ],
+        "Blidsberg" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Brandstorp" : [
+            "C-3"
+        ],
+        "Central" : [
+            "C-1",
+            "C-2",
+            "C-3",
+            "C-3x",
+            "C-4",
+            "C-5",
+            "C-6"
+        ],
+        "Ebana" : [
+            "C-4"
+        ],
+        "Enbacka Anga" : [
+            "C-2"
+        ],
+        "Enbacka Central" : [
+            "C-2"
+        ],
+        "Enbacka Roddinge" : [
+            "C-2"
+        ],
+        "Fallfors" : [
+            "C-3"
+        ],
+        "Finska" : [
+            "C-1",
+            "C-5",
+            "C-6"
+        ],
+        "Fjalkinge" : [
+            "C-2",
+            "C-4"
+        ],
+        "Flo Central" : [
+            "C-2",
+            "C-6"
+        ],
+        "Flo Forsmark" : [
+            "C-2",
+            "C-6"
+        ],
+        "Flo Jarn" : [
+            "C-2"
+        ],
+        "Flo Marka" : [
+            "C-6"
+        ],
+        "Flo Skon" : [
+            "C-2"
+        ],
+        "Fole" : [
+            "C-4"
+        ],
+        "Fowlmere" : [
+            "C-6"
+        ],
+        "Fresta" : [
+            "C-3"
+        ],
+        "Friel" : [
+            "C-1",
+            "C-2",
+            "C-5",
+            "C-6"
+        ],
+        "Frosthult" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Gardslosa" : [
+            "C-3",
+            "C-5"
+        ],
+        "Glostorp" : [
+            "C-4"
+        ],
+        "Gotlands" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Gottsunda" : [
+            "C-5"
+        ],
+        "Grimmared Central" : [
+            "C-2"
+        ],
+        "Grimmared Norra" : [
+            "C-2"
+        ],
+        "Guldsmed" : [
+            "C-3"
+        ],
+        "Gunnarp" : [
+            "C-6"
+        ],
+        "Hardemo" : [
+            "C-5"
+        ],
+        "Harpfen" : [
+            "C-4"
+        ],
+        "Hibyson" : [
+            "C-6"
+        ],
+        "Hornaryd" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Hudiksval" : [
+            "C-3"
+        ],
+        "Hyssna" : [
+            "C-3"
+        ],
+        "Ibon" : [
+            "C-6"
+        ],
+        "Kristberg Central" : [
+            "C-1",
+            "C-2",
+            "C-4"
+        ],
+        "Kristberg Host" : [
+            "C-2"
+        ],
+        "Kristberg Söder" : [
+            "C-2"
+        ],
+        "Landolin" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Lemnhult" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Lerdal" : [
+            "C-1"
+        ],
+        "Los" : [
+            "C-1"
+        ],
+        "Molleberga" : [
+            "C-2",
+            "C-6"
+        ],
+        "Mystision" : [
+            "C-4"
+        ],
+        "Naskott" : [
+            "C-5",
+            "C-6"
+        ],
+        "Norra Gotlands" : [
+            "C-3"
+        ],
+        "Norra-Vi" : [
+            "C-5"
+        ],
+        "Ny Aucklanda International Airport" : [
+            "C-5"
+        ],
+        "Ny Chatham" : [
+            "C-3",
+            "C-6"
+        ],
+        "Ny Chatham Norra" : [
+            "C-3",
+            "C-6"
+        ],
+        "Ny Chatham Öst" : [
+            "C-3"
+        ],
+        "Nynas" : [
+            "C-1"
+        ],
+        "Onslunda" : [
+            "C-3",
+            "C-5"
+        ],
+        "Osterunda" : [
+            "C-6"
+        ],
+        "Ostra Karrstorp" : [
+            "C-2"
+        ],
+        "Otterstad" : [
+            "C-1",
+            "C-2",
+            "C-4"
+        ],
+        "Perschen" : [
+            "C-6"
+        ],
+        "Raceway" : [
+            "C-5"
+        ],
+        "Rono" : [
+            "C-6"
+        ],
+        "Rydaholm" : [
+            "C-6"
+        ],
+        "Saleby" : [
+            "C-1"
+        ],
+        "Sigtuna" : [
+            "C-6"
+        ],
+        "Sjonhem" : [
+            "C-5"
+        ],
+        "Skolvene" : [
+            "C-1"
+        ],
+        "Söder Gotlands" : [
+            "C-3"
+        ],
+        "Söder Sundborn" : [
+            "C-3"
+        ],
+        "Stenungssunds" : [
+            "C-4"
+        ],
+        "Sundborn" : [
+            "C-3",
+            "C-3x"
+        ],
+        "Switrini" : [
+            "C-2",
+            "C-6"
+        ],
+        "Tanum" : [
+            "C-3",
+            "C-5"
+        ],
+        "Tived" : [
+            "C-1"
+        ],
+        "Torsas" : [
+            "C-4"
+        ],
+        "Torstuna" : [
+            "C-5"
+        ],
+        "Trollhattan" : [
+            "C-1",
+            "C-5"
+        ],
+        "Vastra Karrstorp" : [
+            "C-6"
+        ],
+        "Vastra Skedvi" : [
+            "C-2",
+            "C-4",
+            "C-6"
+        ],
+        "Vaversunda" : [
+            "C-3"
+        ],
+        "Viska" : [
+            "C-3"
+        ],
+        "Volkersgau" : [
+            "C-4"
+        ],
+        "Wonderland" : [
+            "C-5"
+        ],
+        "Ystad" : [
+            "C-4"
+        ]
+    }
+}
