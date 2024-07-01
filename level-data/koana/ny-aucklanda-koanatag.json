@@ -1,0 +1,141 @@
+{
+    "services": {
+        "WL-21": {
+            "Central - Aalen Central": 15,
+            "Aalen Central - Arvidsvajur": 15
+        },
+        "WL-22": {
+            "Central - Gardslosa": 15,
+            "Gardslosa - Ny Chatham": 15
+        },
+        "WL-37": {
+            "Central - Frosthult": 15,
+            "Frosthult - Landolin": 15,
+            "Landolin - Gotlands": 9,
+            "Gotlands - Sundborn": 13
+        },
+        "WL-38": {
+            "Central - Vastra Skedvi": 15,
+            "Vastra Skedvi - Glostorp": 13,
+            "Glostorp - Stenungssunds": 13
+        },
+        "WL-39": {
+            "Central - Frosthult": 15,
+            "Frosthult - Landolin": 15,
+            "Landolin - Gotlands": 9,
+            "Gotlands - Sundborn": 13,
+            "Sundborn - Bettelwald": 15,
+            "Bettelwald - Krabburen": 15,
+            "Krabburen - Hornburg": 15,
+            "Hornburg - Cling": 15,
+            "Cling - Arvidsvajur": 15
+        },
+        "WL-40": {
+            "Central - Kristberg Central": 15,
+            "Kristberg Central - Grimmared Central": 15,
+            "Grimmared Central - Adegeest": 15
+        },
+        "WL-1": {
+            "Central - Aalen Central": 15,
+            "Aalen Central - Arvidsvajur": 15
+        },
+        "WL-2": {
+            "Central - Ny Chatham": 25
+        },
+        "WL-3": {
+            "Central - Gotlands": 25,
+            "Gotlands - Sundborn": 22
+        },
+        "WL-4": {
+            "Central - Gotlands": 25,
+            "Gotlands - Sundborn": 22
+        },
+        "WL-5": {
+            "Central - Gotlands": 25,
+            "Gotlands - Sundborn": 22
+        }
+    },
+    "stations": {
+        "Aalen Central": [
+            "WL-21",
+            "WL-1"
+        ],
+        "Adegeest": [
+            "WL-40"
+        ],
+        "Arvidsvajur": [
+            "WL-21",
+            "WL-39",
+            "WL-1"
+        ],
+        "Bettelwald": [
+            "WL-39"
+        ],
+        "Central": [
+            "WL-21",
+            "WL-22",
+            "WL-37",
+            "WL-38",
+            "WL-39",
+            "WL-40",
+            "WL-1",
+            "WL-2",
+            "WL-3",
+            "WL-4",
+            "WL-5"
+        ],
+        "Cling": [
+            "WL-39"
+        ],
+        "Frosthult": [
+            "WL-37",
+            "WL-39"
+        ],
+        "Gardslosa": [
+            "WL-22"
+        ],
+        "Glostorp": [
+            "WL-38"
+        ],
+        "Gotlands": [
+            "WL-37",
+            "WL-39",
+            "WL-3",
+            "WL-4",
+            "WL-5"
+        ],
+        "Grimmared Central": [
+            "WL-40"
+        ],
+        "Hornburg": [
+            "WL-39"
+        ],
+        "Krabburen": [
+            "WL-39"
+        ],
+        "Kristberg Central": [
+            "WL-40"
+        ],
+        "Landolin": [
+            "WL-37",
+            "WL-39"
+        ],
+        "Ny Chatham": [
+            "WL-22",
+            "WL-2"
+        ],
+        "Stenungssunds": [
+            "WL-38"
+        ],
+        "Sundborn": [
+            "WL-37",
+            "WL-39",
+            "WL-3",
+            "WL-4",
+            "WL-5"
+        ],
+        "Vastra Skedvi": [
+            "WL-38"
+        ]
+    }
+}
