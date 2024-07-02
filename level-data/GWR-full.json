@@ -1,0 +1,46 @@
+{
+    "services" : {
+        "T11-1" : {
+            "London Paddington - Ealing Broadway" : 8,
+            "Ealing Broadway - West Ealing" : 3,
+            "West Ealing - Drayton Green" : 2,
+            "Drayton Green - Castle Bar Park" : 2,
+            "Castle Bar Park - South Greenford" : 3,
+            "South Greenford - Greenford" : 5
+        },
+        "T11-2" : {
+            "West Ealing - Drayton Green" : 2,
+            "Drayton Green - Castle Bar Park" : 2,
+            "Castle Bar Park - South Greenford" : 3,
+            "South Greenford - Greenford" : 5
+        }
+    },
+    "stations" : {
+        "Castle Bar Park" : [
+            "T11-1",
+            "T11-2"
+        ],
+        "Drayton Green" : [
+            "T11-1",
+            "T11-2"
+        ],
+        "Ealing Broadway" : [
+            "T11-1"
+        ],
+        "Greenford" : [
+            "T11-1",
+            "T11-2"
+        ],
+        "London Paddington" : [
+            "T11-1"
+        ],
+        "South Greenford" : [
+            "T11-1",
+            "T11-2"
+        ],
+        "West Ealing" : [
+            "T11-1",
+            "T11-2"
+        ]
+    }
+}
