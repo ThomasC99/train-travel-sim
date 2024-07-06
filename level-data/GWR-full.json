@@ -1,5 +1,50 @@
 {
     "services" : {
+        "T10-1" : {
+            "London Paddington - Ealing Broadway" : 8,
+            "Ealing Broadway - Southall" : 5,
+            "Southall - Hayes & Harlington" : 3,
+            "Hayes & Harlington - West Drayton" : 4,
+            "West Drayton - Slough" : 7,
+            "Slough - Maidenhead" : 6,
+            "Maidenhead - Twyford" : 7,
+            "Twyford - Reading" : 8
+        },
+        "T10-2" : {
+            "Reading - Tilehurst" : 5,
+            "Tilehurst - Pangbourne" : 4,
+            "Pangbourne - Goring & Streatley" : 4,
+            "Goring & Streatley - Cholsey" : 5,
+            "Cholsey - Dicot Parkway" : 7
+        },
+        "T10-3" : {
+            "London Paddington - Slough" : 15,
+            "Slough - Maidenhead" : 6,
+            "Maidenhead - Twyford" : 8,
+            "Twyford - Reading" : 7,
+            "Reading - Tilehurst" : 4,
+            "Tilehurst - Pangbourne" : 4,
+            "Pangbourne - Goring & Streatley" : 4,
+            "Goring & Streatley - Cholsey" : 4,
+            "Cholsey - Dicot Parkway" : 8
+        },
+        "T10-4" : {
+            "Twyford - Reading" : 7
+        },
+        "T10-5" : {
+            "London Paddington - Ealing Broadway" : 8,
+            "Ealing Broadway - Southall" : 5,
+            "Southall - Hayes & Harlington" : 3,
+            "Hayes & Harlington - West Drayton" : 4,
+            "West Drayton - Iver" : 3,
+            "Iver - Langley" : 3,
+            "Langley - Slough" : 4,
+            "Slough - Burnham" : 3,
+            "Burnham - Taplow" : 3,
+            "Taplow - Maidenhead" : 3,
+            "Maidenhead - Twyford" : 7,
+            "Twyford - Reading" : 8
+        },
         "T11-1" : {
             "London Paddington - Ealing Broadway" : 8,
             "Ealing Broadway - West Ealing" : 3,
@@ -16,27 +61,99 @@
         }
     },
     "stations" : {
+        "Burnham" : [
+            "T10-5"
+        ],
         "Castle Bar Park" : [
             "T11-1",
             "T11-2"
+        ],
+        "Cholsey" : [
+            "T10-2",
+            "T10-3"
+        ],
+        "Dicot Parkway" : [
+            "T10-2",
+            "T10-3"
         ],
         "Drayton Green" : [
             "T11-1",
             "T11-2"
         ],
         "Ealing Broadway" : [
+            "T10-1",
+            "T10-5",
             "T11-1"
+        ],
+        "Goring & Streatley" : [
+            "T10-2",
+            "T10-3"
         ],
         "Greenford" : [
             "T11-1",
             "T11-2"
         ],
+        "Hayes & Harlington" : [
+            "T10-1",
+            "T10-5"
+        ],
+        "Iver" : [
+            "T10-5"
+        ],
+        "Langley" : [
+            "T10-5"
+        ],
         "London Paddington" : [
+            "T10-1",
+            "T10-3",
+            "T10-5",
             "T11-1"
+        ],
+        "Maidenhead" : [
+            "T10-1",
+            "T10-3",
+            "T10-5"
+        ],
+        "Pangbourne" : [
+            "T10-2",
+            "T10-3"
+        ],
+        "Reading" : [
+            "T10-1",
+            "T10-2",
+            "T10-3",
+            "T10-4",
+            "T10-5"
+        ],
+        "Slough" : [
+            "T10-1",
+            "T10-3",
+            "T10-5"
         ],
         "South Greenford" : [
             "T11-1",
             "T11-2"
+        ],
+        "Southall" : [
+            "T10-1",
+            "T10-5"
+        ],
+        "Taplow" : [
+            "T10-5"
+        ],
+        "Tilehurst" : [
+            "T10-2",
+            "T10-3"
+        ],
+        "Twyford" : [
+            "T10-1",
+            "T10-3",
+            "T10-4",
+            "T10-5"
+        ],
+        "West Drayton" : [
+            "T10-1",
+            "T10-5"
         ],
         "West Ealing" : [
             "T11-1",
