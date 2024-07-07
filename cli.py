@@ -3,12 +3,46 @@ import json
 import random
 import time
 import pygame
+import re
 
 from curses import wrapper
+from urllib import request
+from gtts import gTTS
+from pydub import AudioSegment
+from pydub.utils import ratio_to_db
 
 last_beep = ""
+route_announcements = None
 ran = False
 scilence = False
+announcements = False
+
+def is_connected ():
+    try:
+        request.urlopen("https://www.google.com", timeout=1)
+        return True
+    except:
+        return False
+
+def create_announcement_and_play (announcement, time_str):
+    global last_beep
+    if scilence or last_beep == time_str:
+        return
+    elif not is_connected():
+        beep(time_str)
+        return
+    try:
+        text_to_speech = gTTS(text=announcement, lang='en', tld="ca", slow=False)
+        text_to_speech.save("announce.mp3")
+        sound1 = AudioSegment.from_mp3("./arrival-chime.mp3")
+        sound2 = AudioSegment.from_mp3("./announce.mp3")
+        sound3 = sound1.append(sound2)
+        sound3.export("chime-announce.mp3", format="mp3")
+        pygame.mixer.music.load("./chime-announce.mp3")
+        pygame.mixer.music.play(1)
+    except Exception:
+        beep(time_str)
+    last_beep = time_str
 
 def save_debug_data (data):
     file = open("log.txt", "w")
@@ -49,30 +83,45 @@ def beep (current_time):
         pygame.mixer.music.play(1)
         last_beep = current_time
 
+def display_opts (screen):
+    global ran
+    global scilence
+    global announcements
+    if ran:
+        screen.addstr(0, 8, "R")
+    if scilence:
+        screen.addstr(0, 9, "S")
+    if announcements:
+        screen.addstr(0, 10, "A")
+
 def display_service (screen, service, service_name, direction, destination):
     global ran
     global scilence
+    global announcements
+    global last_beep
+    global route_announcements
     running = True
     new_station = ""
     delete_first = False
     rows, cols = screen.getmaxyx()
     chime = ""
     while running:
+        announcement = "Now arriving at, "
+        route_announcement = "This is the, " + service_name + ", to," + direction + ", stopping at, "
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
         time_str = get_time_string(hour, minute)
         screen.clear()
         screen.addstr(0, 0, time_str)
-        if ran:
-            screen.addstr(0, len(time_str) + 3, "R")
-        if scilence:
-            screen.addstr(0, len(time_str) + 4, "S")
+        display_opts(screen)
         screen.addstr(1, 0, destination)
         screen.addstr(2, 0, service_name + " (" + direction + ")")
         menu_items = 0
         for i in range (0, len(list(service.keys()))):
             if time_str == list(service.keys())[i]:
                 screen.addstr(4 + i, 0, list(service.keys())[i] + "   " + service[list(service.keys())[i]], curses.A_STANDOUT)
+                announcement += service[list(service.keys())[i]]
+                route_announcements = None
             else:
                 screen.addstr(4 + i, 0, list(service.keys())[i] + "   " + service[list(service.keys())[i]])
             if menu_items >= rows - 7:
@@ -86,6 +135,8 @@ def display_service (screen, service, service_name, direction, destination):
             ran = not ran
         if c == ord("s") or c == ord("S"):
             scilence = not scilence
+        if c == ord("A") or c == ord("a"):
+            announcements = not announcements
         if ran and time_str in service and service[time_str] == destination:
             new_station = service[time_str]
             running = False
@@ -93,7 +144,11 @@ def display_service (screen, service, service_name, direction, destination):
         if first == time_str:
             delete_first = True
         if first == time_str:
-            beep(time_str)
+            if not announcements:
+                create_announcement_and_play(announcement, time_str)
+            else:
+                beep(time_str)
+            last_beep = time_str
         if delete_first and time_str != first:
             if len(service) == 1:
                 new_station = service[list(service.keys())[0]]
@@ -101,6 +156,14 @@ def display_service (screen, service, service_name, direction, destination):
             delete_first = False
         if len(list(service.keys())) == 0:
             running = False
+        if route_announcements == None and last_beep != time_str:
+            length = len(list(service.keys()))
+            for i in range (0, length):
+                route_announcement += service[list(service.keys())[i]] + ", "
+                if i == length - 2:
+                    route_announcement += "and, "
+            create_announcement_and_play(route_announcement, time_str)
+            route_announcements = time_str
         screen.refresh()
         time.sleep(0.01)
     return new_station
@@ -392,6 +455,7 @@ def get_travel_time (schedule, start, end):
 def station (screen, player_data):
     global ran
     global scilence
+    global announcements
     chime = ""
     running = True
     cursor = 0
@@ -416,27 +480,35 @@ def station (screen, player_data):
 
         screen.clear()
         screen.addstr(0, 0, time_str)
-        if ran:
-            screen.addstr(0, len(time_str) + 3, "R")
-        if scilence:
-            screen.addstr(0, len(time_str) + 4, "S")
+        display_opts(screen)
         screen.addstr(1, 0, player_data["current-station"] + " (" + player_data["target-station"] + ")")
 
         menu_items = 0
+        deps = False
+        station_announcement = ""
+        station_announcement_base = "SERVICE, to, DEST, is now arriving. "
         for departure in station_departures:
             screen.addstr(3 + menu_items, 0, departure)
             for i in range (0, len(station_departures[departure])):
                 if departure == time_str:
-                    beep(time_str)
+                    deps = True
                 if departure == time_str and cursor == i:
                     screen.addstr(3 + menu_items, 7, station_departures[departure][i], curses.A_STANDOUT)
                 else:
                     screen.addstr(3 + menu_items, 7, station_departures[departure][i])
+                if departure == time_str:
+                    station_announcement += station_announcement_base.replace("SERVICE", station_departures[departure][i].split("(")[0]).replace("DEST", station_departures[departure][i].split("(")[1].replace(")", ""))
                 if menu_items >= rows - 5:
                     break
                 menu_items += 1
             if menu_items >= rows - 5:
                     break
+        
+        if deps:
+            if not announcements:
+                create_announcement_and_play(station_announcement, time_str)
+            else:
+                beep(time_str)
 
         c = screen.getch() # 18
         if time_str not in station_departures:
