@@ -36,7 +36,7 @@
             "Ajax - Whitby" : 8,
             "Whitby - Oshawa" : 7
         },
-        "Lakeshore West Line Hamilton" : {
+        "Lakeshore West Line Hamilton Branch" : {
             "Union - Exhibition" : 7,
             "Exhibition - Mimico" : 7,
             "Mimico - Long Branch" : 6,
@@ -49,7 +49,7 @@
             "Burlington - Aldershot" : 8,
             "Aldershot - Hamilton" : 18
         },
-        "Lakeshore West Line Niagara Falls" : {
+        "Lakeshore West Line Niagara Falls Branch" : {
             "Union - Exhibition" : 7,
             "Exhibition - Port Credit" : 14,
             "Port Credit - Clarkson" : 7,
@@ -108,15 +108,15 @@
             "Lakeshore East Line"
         ],
         "Aldershot" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Allandale Waterfront" : [
             "Barrie Line"
         ],
         "Appleby" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Aurora" : [
             "Barrie Line"
@@ -141,19 +141,19 @@
             "Kitchener Line"
         ],
         "Bronte" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Burlington" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Centennial" : [
             "Stouffville Line"
         ],
         "Clarkson" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Cooksville" : [
             "Milton Line"
@@ -180,8 +180,8 @@
             "Kitchener Line"
         ],
         "Exhibition" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Georgetown" : [
             "Kitchener Line"
@@ -196,7 +196,7 @@
             "Lakeshore East Line"
         ],
         "Hamilton" : [
-            "Lakeshore West Line Hamilton"
+            "Lakeshore West Line Hamilton Branch"
         ],
         "Kennedy" : [
             "Stouffville Line"
@@ -217,7 +217,7 @@
             "Milton Line"
         ],
         "Long Branch" : [
-            "Lakeshore West Line Hamilton"
+            "Lakeshore West Line Hamilton Branch"
         ],
         "Malton" : [
             "Kitchener Line"
@@ -238,7 +238,7 @@
             "Milton Line"
         ],
         "Mimico" : [
-            "Lakeshore West Line Hamilton"
+            "Lakeshore West Line Hamilton Branch"
         ],
         "Mount Joy" : [
             "Stouffville Line"
@@ -250,11 +250,11 @@
             "Barrie Line"
         ],
         "Niagara Falls" : [
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Oakville" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Old Cummer" : [
             "Richmond Hill Line"
@@ -275,8 +275,8 @@
             "Lakeshore East Line"
         ],
         "Port Credit" : [
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Richmond Hill" : [
             "Richmond Hill Line"
@@ -291,7 +291,7 @@
             "Lakeshore East Line"
         ],
         "St Catharines" : [
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Stouffville" : [
             "Stouffville Line"
@@ -303,8 +303,8 @@
             "Barrie Line",
             "Kitchener Line",
             "Lakeshore East Line",
-            "Lakeshore West Line Hamilton",
-            "Lakeshore West Line Niagara Falls",
+            "Lakeshore West Line Hamilton Branch",
+            "Lakeshore West Line Niagara Falls Branch",
             "Milton Line",
             "Richmond Hill Line",
             "Stouffville Line",
@@ -314,7 +314,7 @@
             "Stouffville Line"
         ],
         "West Harbour" : [
-            "Lakeshore West Line Niagara Falls"
+            "Lakeshore West Line Niagara Falls Branch"
         ],
         "Weston" : [
             "Kitchener Line",

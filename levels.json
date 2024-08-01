@@ -1,9 +1,4 @@
 {
-	"CTRail" : "level-data/ctrail.json",
-	"GO" : "level-data/go.json",
-	"MetroNorth" : "level-data/metro-north.json",
-	"Montreal Metro Fatasy" : "level-data/montreal-metro-fantasy.json",
-	"OTrain Fantasy" : "level-data/otrain-fantasy.json",
-	"Trenitalia (Frecciabianca)" : "level-data/trenitalia-frecciabianca.json",
+	"Ottawa" : "level-data/ottawa.json",
 	"West Coast Express" : "level-data/west-coast-express.json"
 }

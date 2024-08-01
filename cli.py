@@ -107,7 +107,7 @@ def display_service (screen, service, service_name, direction, destination):
     chime = ""
     while running:
         announcement = "Now arriving at, "
-        route_announcement = "This is the, " + service_name + ", to," + direction + ", stopping at, "
+        route_announcement = "This is, " + service_name + ", to," + direction + ", stopping at, "
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
         time_str = get_time_string(hour, minute)

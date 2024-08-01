@@ -1,0 +1,59 @@
+{
+	"services" : {
+		"Line 1" : { 
+			"Blair - Cyrville" : 2,
+			"Cyrville - St-Laurent" : 2,
+			"St-Laurent - Tremblay" : 3,
+			"Tremblay - Hurdman" : 3,
+			"Hurdman - Lees" : 3,
+			"Lees - uOttawa" : 2,
+			"uOttawa - Rideau" : 3,
+			"Rideau - Parliament" : 2,
+			"Parliament - Lyon" : 2,
+			"Lyon - Pimisi" : 2,
+			"Pimisi - Bayview" : 2,
+			"Bayview - Tunney's Pasture" : 2
+		}
+	},
+	"stations" : {
+		"Bayview" : [
+			"Line 1"
+		],
+		"Blair" : [
+			"Line 1"
+		],
+		"Cyrville" : [
+			"Line 1"
+		],
+		"Hurdman" : [
+			"Line 1"
+		],
+		"Lees" : [
+			"Line 1"
+		],
+		"Lyon" : [
+			"Line 1"
+		],
+		"Parliament" : [
+			"Line 1"
+		],
+		"Pimisi" : [
+			"Line 1"
+		],
+		"Rideau" : [
+			"Line 1"
+		],
+		"St-Laurent" : [
+			"Line 1"
+		],
+		"Tremblay" : [
+			"Line 1"
+		],
+		"Tunney's Pasture" : [
+			"Line 1"
+		],
+		"uOttawa" : [
+			"Line 1"
+		]
+	}
+}
