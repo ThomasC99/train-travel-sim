@@ -16,6 +16,10 @@ route_announcements = None
 ran = False
 scilence = False
 announcements = False
+game_time = None
+
+def update_time_and_stats ():
+    pass
 
 def is_connected ():
     try:
@@ -213,6 +217,7 @@ def new_or_load (screen):
         elif c == ord("\n"):
             result = menu[cursor]
             running = False
+        time.sleep(0.01)
     return result
 
 def create_initial_timetable (player_data):
@@ -241,12 +246,19 @@ def create_initial_timetable (player_data):
         if service_name not in player_data["service-data"]["stations"][station]:
             player_data["service-data"]["stations"][station].append(service_name)
 
-    time_offset = random.randint(0, 14)
+    hours = time.localtime().tm_hour
+    minutes = time.localtime().tm_min
+    minutes += 5
+    if minutes >= 60:
+        minutes -= 60
+        hours += 1
+    if hours >= 24:
+        hours -= 24
+    time_offset = minutes % 5
     player_data["service-data"]["services"][service_name]["time-offset"] = time_offset
     player_data["service-data"]["services"][service_name]["departures"] = []
 
-    for i in range (0, 24):
-        player_data["service-data"]["services"][service_name]["departures"].append(get_time_string(i, time_offset))
+    player_data["service-data"]["services"][service_name]["departures"].append(get_time_string(hours, minutes))
     del player_data["network-data"]["services"][service_name]
     if len(player_data["network-data"]["services"]) == 0:
         del player_data["network-data"]["services"]
@@ -341,23 +353,25 @@ def combine_departures (target, source):
 def sort_departures (current_time, departures):
     index = 0
     keys = list(departures.keys())
-    sorted_keys = []
-    dic = {}
-    for key in keys:
-        hour = int(key.split(":")[0])
-        minute = int(key.split(":")[1])
-        if hour not in dic:
-            dic[hour] = []
-        dic[hour].append(minute)
-    hours =  list(dic.keys())
-    hours.sort()
-    for hour in hours:
-        dic[hour].sort()
-        for minute in dic[hour]:
-            sorted_keys.append(get_time_string(hour, minute))
-    keys = sorted_keys
+    # sorted_keys = []
+    # dic = {}
+    # for key in keys:
+    #     hour = int(key.split(":")[0])
+    #     minute = int(key.split(":")[1])
+    #     if hour not in dic:
+    #         dic[hour] = []
+    #     dic[hour].append(minute)
+    # hours =  list(dic.keys())
+    # hours.sort()
+    # for hour in hours:
+    #     dic[hour].sort()
+    #     for minute in dic[hour]:
+    #         sorted_keys.append(get_time_string(hour, minute))
+    # keys = sorted_keys
+    keys.sort()
     for departure in keys:
-        if (int(current_time.split(":")[0]) == int(departure.split(":")[0]) and int(current_time.split(":")[1]) <= int(departure.split(":")[1])) and index == 0:
+        current_time_hours = int(current_time.split(":")[0])
+        if (current_time_hours == int(departure.split(":")[0]) and int(current_time.split(":")[1]) <= int(departure.split(":")[1])) and index == 0:
             index = keys.index(departure)
         if (int(current_time.split(":")[0]) < int(departure.split(":")[0])) and index == 0:
             index = keys.index(departure)
@@ -477,6 +491,16 @@ def station (screen, player_data):
             combine_departures(station_departures, departures)
         
         station_departures = sort_departures(time_str, station_departures)
+        total_menu_items = 0
+        # for departure in station_departures:
+        #     total_menu_items += len(station_departures[departure])
+        # if total_menu_items <= rows - 5:
+        #     new_station_departures = {}
+        #     keys = list(station_departures.keys())
+        #     new_station_departures[keys[-1]] = station_departures[keys[-1]]
+        #     for i in range(0, len(keys) - 1):
+        #         new_station_departures[keys[i]] = station_departures[keys[i]]
+        #     station_departures = new_station_departures
 
         screen.clear()
         screen.addstr(0, 0, time_str)
@@ -498,11 +522,11 @@ def station (screen, player_data):
                     screen.addstr(3 + menu_items, 7, station_departures[departure][i])
                 if departure == time_str:
                     station_announcement += station_announcement_base.replace("SERVICE", station_departures[departure][i].split("(")[0]).replace("DEST", station_departures[departure][i].split("(")[1].replace(")", ""))
-                if menu_items >= rows - 5:
+                if menu_items >= rows - 4:
                     break
                 menu_items += 1
-            if menu_items >= rows - 5:
-                    break
+            if menu_items >= rows - 4:
+                break
         
         if deps:
             if not announcements:
@@ -570,12 +594,20 @@ def add_route (player_data, service_name):
         if service_name not in player_data["service-data"]["stations"][station]:
             player_data["service-data"]["stations"][station].append(service_name)
 
-    time_offset = random.randint(0, 14)
+    hours = time.localtime().tm_hour
+    minutes = time.localtime().tm_min
+    minutes += 5
+    if minutes >= 60:
+        minutes -= 60
+        hours += 1
+    if hours >= 24:
+        hours -= 24
+
+    time_offset = minutes % 5
     player_data["service-data"]["services"][service_name]["time-offset"] = time_offset
     player_data["service-data"]["services"][service_name]["departures"] = []
 
-    for i in range (0, 24):
-        player_data["service-data"]["services"][service_name]["departures"].append(get_time_string(i, time_offset))
+    player_data["service-data"]["services"][service_name]["departures"].append(get_time_string(hours, minutes))
     del player_data["network-data"]["services"][service_name]
     if len(player_data["network-data"]["services"]) == 0:
         del player_data["network-data"]["services"]
@@ -634,20 +666,20 @@ def buy_new_departures (screen, player_data, departures, service):
     running = True
     total_cost = 0
     rows, cols = screen.getmaxyx()
+    rows -= 3
+    page = 0
     for item in player_data["service-data"]["services"][service]["schedule"]:
         total_cost += player_data["service-data"]["services"][service]["schedule"][item]
     total_cost *= 2
     while running:
+        pages = int((len(departures) / (rows)) - 1) + 1
+        if page > pages:
+            page = pages
         menu = []
-        if (len(departures)) > rows - 7:
-            for i in range(0, rows - 7):
-                menu.append(departures[i])
-            if "Back" not in menu:
-                menu.append("Back")
-        else:
-            menu = departures
-            if "Back" not in menu:
-                menu.append("Back")
+        max_index = (page * rows) + rows
+        if max_index >= len(departures):
+            max_index = len(departures) - 1
+        menu = departures[int(page * rows) : max_index]
         screen.clear()
         screen.addstr(0, 0, "Points : " + str(player_data["points"]))
         screen.addstr(1, 0, "Cost   : " + str(total_cost))
@@ -661,15 +693,18 @@ def buy_new_departures (screen, player_data, departures, service):
             cursor += 1
         elif c == curses.KEY_UP and cursor > 0:
             cursor -= 1
+        elif c == curses.KEY_LEFT and page == 0:
+            running = False
+        elif c == curses.KEY_LEFT and page > 0:
+            page -= 1
+        elif c == curses.KEY_RIGHT and page < pages:
+            page += 1
         elif c == ord("\n"):
-            if cursor == len(menu) - 1:
-                running = False
-            else:
-                if player_data["points"] >= total_cost:
-                    player_data["points"] -= total_cost
-                    player_data["service-data"]["services"][service]["departures"].append(departures[cursor])
-                    del departures[cursor]
-                    cursor = 0
+            if player_data["points"] >= total_cost:
+                player_data["points"] -= total_cost
+                player_data["service-data"]["services"][service]["departures"].append(departures[cursor + (page * rows)])
+                del departures[cursor + (page * rows)]
+                cursor = 0
         screen.refresh()
         time.sleep(0.01)
     return player_data
@@ -718,8 +753,8 @@ def store (screen, player_data):
         departures = player_data["service-data"]["services"][route]["departures"]
         avail = []
         for i in range (0, 24):
-            for j in range (0, 4):
-                time_str = get_time_string(i, offset + (j * 15))
+            for j in range (0, 12):
+                time_str = get_time_string(i, offset + (j * 5))
                 if time_str not in departures:
                     avail.append(time_str)
         if len(avail) > 0:
@@ -757,7 +792,27 @@ def store (screen, player_data):
         time.sleep(0.01)
     return player_data
 
+def work (screen, player_data):
+    running = True
+    worked = time.time()
+    while running:
+        screen.clear()
+        screen.addstr(0, 0, get_time_string(time.localtime().tm_hour, time.localtime().tm_min))
+        screen.addstr(2, 0, "Points : " + str(player_data["points"]))
+        screen.addstr(4, 0, "Back", curses.A_STANDOUT)
+        if (((time.time() - worked) / 3600) * 27.25) > 1:
+            worked = time.time()
+            player_data["points"] += 1
+        screen.refresh()
+        c = screen.getch()
+        if c == ord("\n"):
+            running = False
+        time.sleep(0.01)
+    return player_data
+
 def main (screen):
+    global game_time
+    game_time = get_time_string(time.localtime().tm_hour, time.localtime().tm_min)
     pygame.init()
     curses.curs_set(False)
     screen.nodelay(True)
@@ -779,7 +834,7 @@ def main (screen):
     elif new_game == "Load game":
         player_data = load_game()
 
-    menu = ["Station", "Store", "Save", "Quit"]
+    menu = ["Station", "Work", "Store", "Save", "Quit"]
     running = True
     cursor = 0
     while running:
@@ -796,16 +851,15 @@ def main (screen):
         elif c == curses.KEY_DOWN and cursor < len(menu) - 1:
             cursor += 1
         elif c == ord("\n"):
-            if cursor == 0:
+            if menu[cursor] == "Station":
                 player_data = station(screen, player_data)
-                coursor = 0
-            elif cursor == 1:
+            elif menu[cursor] == "Work":
+                player_data = work(screen, player_data)
+            elif menu[cursor] == "Store":
                 player_data = store(screen, player_data)
-                coursor = 0
-            elif cursor == 2:
+            elif menu[cursor] == "Save":
                 save_game(player_data)
-                corsor = 0
-            elif cursor == 3:
+            elif menu[cursor] == "Quit":
                 running = False
         time.sleep(0.01)
 
