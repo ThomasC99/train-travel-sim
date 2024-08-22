@@ -12,11 +12,13 @@ from pydub import AudioSegment
 from pydub.utils import ratio_to_db
 
 last_beep = ""
-route_announcements = None
+route_announcements = True
 ran = False
 scilence = False
 announcements = False
 game_time = None
+
+lang = "en"
 
 def update_time_and_stats ():
     pass
@@ -36,7 +38,7 @@ def create_announcement_and_play (announcement, time_str):
         beep(time_str)
         return
     try:
-        text_to_speech = gTTS(text=announcement, lang='en', tld="ca", slow=False)
+        text_to_speech = gTTS(text=announcement, lang='en', tld="com.au", slow=False)
         text_to_speech.save("announce.mp3")
         sound1 = AudioSegment.from_mp3("./arrival-chime.mp3")
         sound2 = AudioSegment.from_mp3("./announce.mp3")
@@ -111,7 +113,8 @@ def display_service (screen, service, service_name, direction, destination):
     chime = ""
     while running:
         announcement = "Now arriving at, "
-        route_announcement = "This is, " + service_name + ", to," + direction + ", stopping at, "
+        route_announcement = "This is, SERVICE, to, DIR, stopping at, "
+        route_announcement = route_announcement.replace("SERVICE", service_name).replace("DIR", direction)
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
         time_str = get_time_string(hour, minute)
@@ -121,11 +124,13 @@ def display_service (screen, service, service_name, direction, destination):
         screen.addstr(1, 0, destination)
         screen.addstr(2, 0, service_name + " (" + direction + ")")
         menu_items = 0
+        highlight = False
         for i in range (0, len(list(service.keys()))):
             if time_str == list(service.keys())[i]:
                 screen.addstr(4 + i, 0, list(service.keys())[i] + "   " + service[list(service.keys())[i]], curses.A_STANDOUT)
                 announcement += service[list(service.keys())[i]]
                 route_announcements = None
+                highlight = True
             else:
                 screen.addstr(4 + i, 0, list(service.keys())[i] + "   " + service[list(service.keys())[i]])
             if menu_items >= rows - 7:
@@ -160,7 +165,8 @@ def display_service (screen, service, service_name, direction, destination):
             delete_first = False
         if len(list(service.keys())) == 0:
             running = False
-        if route_announcements == None and last_beep != time_str:
+            break
+        if (route_announcements == None and highlight == False) and last_beep != time_str:
             length = len(list(service.keys()))
             for i in range (0, length):
                 route_announcement += service[list(service.keys())[i]] + ", "
@@ -220,10 +226,28 @@ def new_or_load (screen):
         time.sleep(0.01)
     return result
 
-def create_initial_timetable (player_data):
+def create_initial_timetable (player_data, screen):
     service_data = player_data["network-data"]
     service_list = list(service_data["services"].keys())
-    service_name = service_list[random.randint(0, len(service_list) - 1)]
+    service_name = ""
+
+    running = True
+    cursor = 0
+    while running:
+        screen.clear()
+        for i in range(0, len(service_list)):
+            screen.addstr(i, 0, service_list[i], curses.A_STANDOUT if cursor == i else curses.A_NORMAL)
+        c = screen.getch()
+        if c == ord("\n"):
+            service_name = service_list[cursor]
+            running = False
+        elif c == curses.KEY_UP and cursor > 0:
+            cursor -= 1
+        elif c == curses.KEY_DOWN and cursor < len(service_list) - 1:
+            cursor += 1
+        time.sleep(0.01)
+
+    # service_name = service_list[random.randint(0, len(service_list) - 1)]
     player_data["service-data"]["services"] = {}
     player_data["service-data"]["services"][service_name] = {}
     player_data["service-data"]["services"][service_name]["schedule"] = service_data["services"][service_name]
@@ -510,7 +534,7 @@ def station (screen, player_data):
         menu_items = 0
         deps = False
         station_announcement = ""
-        station_announcement_base = "SERVICE, to, DEST, is now arriving. "
+        station_announcement_base = "SERVICE, to, DEST, is now arriving."
         for departure in station_departures:
             screen.addstr(3 + menu_items, 0, departure)
             for i in range (0, len(station_departures[departure])):
@@ -622,13 +646,15 @@ def add_route (player_data, service_name):
     return player_data
 
 def buy_new_route (screen, player_data, services):
+    rows, cols = screen.getmaxyx()
+    rows -= 5
     route_list = list(services.keys())
     cursor = 0
     running = True
     while running:
         menu = []
-        if len(route_list) > 10:
-            menu = route_list[:9]
+        if len(route_list) > rows:
+            menu = route_list[:rows]
         else:
             menu = route_list
         if "Back" not in menu:
@@ -678,7 +704,7 @@ def buy_new_departures (screen, player_data, departures, service):
         menu = []
         max_index = (page * rows) + rows
         if max_index >= len(departures):
-            max_index = len(departures) - 1
+            max_index = len(departures)
         menu = departures[int(page * rows) : max_index]
         screen.clear()
         screen.addstr(0, 0, "Points : " + str(player_data["points"]))
@@ -801,8 +827,8 @@ def work (screen, player_data):
         screen.addstr(2, 0, "Points : " + str(player_data["points"]))
         screen.addstr(4, 0, "Back", curses.A_STANDOUT)
         if (((time.time() - worked) / 3600) * 27.25) > 1:
+            player_data["points"] += int(((time.time() - worked) / 3600) * 27.25)
             worked = time.time()
-            player_data["points"] += 1
         screen.refresh()
         c = screen.getch()
         if c == ord("\n"):
@@ -818,7 +844,7 @@ def main (screen):
     screen.nodelay(True)
 
     player_data = {}
-    player_data["points"] = 0
+    player_data["points"] = 26440
     player_data["network-data"] = {}
     player_data["service-data"] = {}
     player_data["target-station"] = ""
@@ -829,7 +855,7 @@ def main (screen):
         file = open(level, "r")
         player_data["network-data"] = json.loads(file.read())
         file.close()
-        player_data = create_initial_timetable(player_data)
+        player_data = create_initial_timetable(player_data, screen)
         player_data["current-station"] = list(player_data["service-data"]["stations"].keys())[random.randint(0, len(list(player_data["service-data"]["stations"].keys())) - 1)]
     elif new_game == "Load game":
         player_data = load_game()
