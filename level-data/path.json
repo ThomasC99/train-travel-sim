@@ -1,0 +1,103 @@
+{
+    "services" : {
+        "HOB-33" : {
+            "Hoboken - Christopher Street" : 9,
+            "Christopher Street - 9th Street" : 2,
+            "9th Street - 14th Street" : 1,
+            "14th Street - 23rd Street" : 2,
+            "23rd Street - 33rd Street" : 2
+        },
+        "HOB-WTC" : {
+            "Hoboken - Newport" : 4,
+            "Newport - Exchange Place" : 5,
+            "Exchange Place - World Trade Center" : 4
+        },
+        "JSQ-33" : {
+            "Journal Square - Grove Street" : 5,
+            "Grove Street - Newport" : 4,
+            "Newport - Christopher Street" : 9,
+            "Christopher Street - 9th Street" : 2,
+            "9th Street - 14th Street" : 1,
+            "14th Street - 23rd Street" : 2,
+            "23rd Street - 33rd Street" : 2
+        },
+        "JSQ-33 via HOB" : {
+            "Journal Square - Grove Street" : 5,
+            "Grove Street - Newport" : 4,
+            "Newport - Hoboken" : 4,
+            "Hoboken - Christopher Street" : 9,
+            "Christopher Street - 9th Street" : 2,
+            "9th Street - 14th Street" : 1,
+            "14th Street - 23rd Street" : 2,
+            "23rd Street - 33rd Street" : 2
+        },
+        "NWK-WTC" : {
+            "Newark - Harrison" : 2,
+            "Harrison - Journal Square" : 11,
+            "Journal Square - Grove Street" : 5,
+            "Grove Street - Exchange Place" : 3,
+            "Exchange Place - World Trade Center" : 4
+        }
+    },
+    "stations" : {
+        "9th Street" : [
+            "HOB-33",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "14th Street" : [
+            "HOB-33",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "23rd Street" : [
+            "HOB-33",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "33rd Street" : [
+            "HOB-33",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "Christopher Street" : [
+            "HOB-33",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "Exchange Place" : [
+            "HOB-WTC",
+            "NWK-WTC"
+        ],
+        "Grove Street" : [
+            "JSQ-33",
+            "JSQ-33 via HOB",
+            "NWK-WTC"
+        ],
+        "Harrison" : [
+            "NWK-WTC"
+        ],
+        "Hoboken" : [
+            "HOB-33",
+            "HOB-WTC",
+            "JSQ-33 via HOB"
+        ],
+        "Journal Square" : [
+            "JSQ-33",
+            "JSQ-33 via HOB",
+            "NWK-WTC"
+        ],
+        "Newark" : [
+            "NWK-WTC"
+        ],
+        "Newport" : [
+            "HOB-WTC",
+            "JSQ-33",
+            "JSQ-33 via HOB"
+        ],
+        "World Trade Center" : [
+            "HOB-WTC",
+            "NWK-WTC"
+        ]
+    }
+}

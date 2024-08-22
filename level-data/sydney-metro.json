@@ -1,0 +1,91 @@
+{
+    "services" : {
+        "M1" : {
+            "Sydenham - Waterloo" : 3,
+            "Waterloo - Sydney Central" : 3,
+            "Sydney Central - Gadigal" : 2,
+            "Gadigal - Martin Place" : 3,
+            "Martin Place - Barangaroo" : 2,
+            "Barangaroo - Victoria Cross" : 4,
+            "Victoria Cross - Crows Nest" : 2,
+            "Crows Nest - Chatswood" : 4,
+            "Chatswood - North Ryde" : 6,
+            "North Ryde - Macquarie Park" : 2,
+            "Macquarie Park - Macquarie University" : 2,
+            "Macquarie University - Epping" : 4,
+            "Epping - Cherrybrook" : 6,
+            "Cherrybrook - Castle Hill" : 2,
+            "Castle Hill - Hills Showground" : 3,
+            "Hills Showground - Norwest" : 2,
+            "Norwest - Bella Vista" : 3,
+            "Bella Vista - Kellyville" : 3,
+            "Kellyville - Rouse Hill" : 3,
+            "Rouse Hill - Tallawong" : 2
+        }
+    },
+    "stations" : {
+        "Barangaroo" : [
+            "M1"
+        ],
+        "Bella Vista" : [
+            "M1"
+        ],
+        "Castle Hill" : [
+            "M1"
+        ],
+        "Chatswood" : [
+            "M1"
+        ],
+        "Cherrybrook" : [
+            "M1"
+        ],
+        "Crows Nest" : [
+            "M1"
+        ],
+        "Epping" : [
+            "M1"
+        ],
+        "Gadigal" : [
+            "M1"
+        ],
+        "Hills Showground" : [
+            "M1"
+        ],
+        "Kellyville" : [
+            "M1"
+        ],
+        "Macquarie Park" : [
+            "M1"
+        ],
+        "Macquarie University" : [
+            "M1"
+        ],
+        "Martin Place" : [
+            "M1"
+        ],
+        "North Ryde" : [
+            "M1"
+        ],
+        "Norwest" : [
+            "M1"
+        ],
+        "Rouse Hill" : [
+            "M1"
+        ],
+        "Sydenham" : [
+            "M1"
+        ],
+        "Sydney Central" : [
+            "M1"
+        ],
+        "Tallawong" : [
+            "M1"
+        ],
+        "Victoria Cross" : [
+            "M1"
+        ],
+        "Waterloo" : [
+            "M1"
+        ]
+    }
+}

@@ -1,4 +1,7 @@
 {
+	"Montréal Metro Fantasy" : "level-data/montreal-metro-fantasy.json",
 	"Ottawa" : "level-data/ottawa.json",
-	"West Coast Express" : "level-data/west-coast-express.json"
+	"PATH" : "level-data/PATH.json",
+	"Sydney Metro" : "level-data/sydney-metro.json",
+	"Sydney Trains" : "level-data/sydney-trains.json"
 }
