@@ -844,7 +844,7 @@ def main (screen):
     screen.nodelay(True)
 
     player_data = {}
-    player_data["points"] = 26440
+    player_data["points"] = 0
     player_data["network-data"] = {}
     player_data["service-data"] = {}
     player_data["target-station"] = ""
