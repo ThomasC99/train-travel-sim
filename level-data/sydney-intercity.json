@@ -1,0 +1,313 @@
+{
+    "services" : {
+        "Blue Mountains Line" : {
+            "Sydney Central - Redfern" : 3,
+            "Redfern - Strathfield" : 11,
+            "Strathfield - Parramatta" : 12,
+            "Parramatta - Westmead" : 3,
+            "Westmead - Blacktown" : 10,
+            "Blacktown - Penrith" : 16,
+            "Penrith - Emu Plains" : 4,
+            "Emu Plains - Lapstone" : 6,
+            "Lapstone - Glenbrook" : 4,
+            "Glenbrook - Blaxland" : 5,
+            "Blaxland - Warrimoo" : 4,
+            "Warrimoo - Valley Heights" : 4,
+            "Valley Heights - Springwood" : 3,
+            "Springwood - Faulconbridge" : 4,
+            "Faulconbridge - Linden" : 5,
+            "Linden - Woodford" : 5,
+            "Woodford - Hazelbrook" : 4,
+            "Hazelbrook - Lawson" : 3,
+            "Lawson - Bullaburra" : 3,
+            "Bullaburra - Wentworth Falls" : 6,
+            "Wentworth Falls - Leura" : 6,
+            "Leura - Katoomba" : 4,
+            "Katoomba - Medlow Bath" : 6,
+            "Medlow Bath - Blackheath" : 6,
+            "Blackheath - Mount Victoria" : 7,
+            "Mount Victoria - Bell" : 11,
+            "Bell - Zig Zag" : 14,
+            "Zig Zag - Lithgow" : 16,
+            "Lithgow - Rydal" : 21,
+            "Rydal - Tarana" : 16,
+            "Tarana - Bathurst" : 32
+        },
+        "Central Coast & Newcastle Line via Strathfield" : {
+            "Sydney Central - Redfern" : 3,
+            "Redfern - Strathfield" : 11,
+            "Strathfield - Epping" : 13,
+            "Epping - Hornsby" : 11,
+            "Hornsby - Asquith" : 3,
+            "Asquith - Mount Colah" : 3,
+            "Mount Colah - Mount Kuring-gai" : 3,
+            "Mount Kuring-gai - Berowra" : 3,
+            "Berowra - Cowan" : 5,
+            "Cowan - Hawkesbury River" : 10,
+            "Hawkesbury River - Wondabyne" : 7,
+            "Wondabyne - Woy Woy" : 6,
+            "Woy Woy - Koolewong" : 3,
+            "Koolewong - Tascott" : 3,
+            "Tascott - Point Clare" : 3,
+            "Point Clare - Gosford" : 3,
+            "Gosford - Narara" : 6,
+            "Narara - Niagara Park" : 2,
+            "Niagara Park - Lisarow" : 3,
+            "Lisarow - Ourimbah" : 3,
+            "Ourimbah - Tuggerah" : 6,
+            "Tuggerah - Wyong" : 3,
+            "Wyong - Warnervale" : 4,
+            "Warnervale - Wyee" : 7,
+            "Wyee - Morisset" : 6,
+            "Morisset - Dora Creek" : 4,
+            "Dora Creek - Awaba" : 9,
+            "Awaba - Fassifern" : 4,
+            "Fassifern - Booragul" : 5,
+            "Booragul - Teralba" : 2,
+            "Teralba - Cockle Creek" : 3,
+            "Cockle Creek - Cardiff" : 4,
+            "Cardiff - Kotara" : 5,
+            "Kotara - Adamstown" : 2,
+            "Adamstown - Broadmeadow" : 3,
+            "Broadmeadow - Hamilton" : 3,
+            "Hamilton - Newcastle Interchange" : 3
+        },
+        "Central Coast & Newcastle Line via Chatswood" : {
+            "Sydney Central - Town Hall" : 3,
+            "Town Hall - Wynyard" : 4,
+            "Wynyard - Milsons Point" : 4,
+            "Milsons Point - North Sydney" : 2,
+            "North Sydney - Waverton" : 4,
+            "Waverton - Wollstonecraft" : 2,
+            "Wollstonecraft - St Leonards" : 2
+        }
+    },
+    "stations" : {
+        "Adamstown" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Asquith" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Awaba" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Bathurst" : [
+            "Blue Mountains Line"
+        ],
+        "Bell" : [
+            "Blue Mountains Line"
+        ],
+        "Berowra" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Blackheath" : [
+            "Blue Mountains Line"
+        ],
+        "Blacktown" : [
+            "Blue Mountains Line"
+        ],
+        "Blaxland" : [
+            "Blue Mountains Line"
+        ],
+        "Booragul" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Broadmeadow" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Bullaburra" : [
+            "Blue Mountains Line"
+        ],
+        "Cardiff" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Cockle Creek" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Cowan" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Dora Creek" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Emu Plains" : [
+            "Blue Mountains Line"
+        ],
+        "Epping" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Fassifern" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Faulconbridge" : [
+            "Blue Mountains Line"
+        ],
+        "Glenbrook" : [
+            "Blue Mountains Line"
+        ],
+        "Gosford" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Hamilton" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Hawkesbury River" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Hazelbrook" : [
+            "Blue Mountains Line"
+        ],
+        "Hornsby" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Katoomba" : [
+            "Blue Mountains Line"
+        ],
+        "Koolewong" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Kotara" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Lapstone" : [
+            "Blue Mountains Line"
+        ],
+        "Lawson" : [
+            "Blue Mountains Line"
+        ],
+        "Leura" : [
+            "Blue Mountains Line"
+        ],
+        "Linden" : [
+            "Blue Mountains Line"
+        ],
+        "Lisarow" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Lithgow" : [
+            "Blue Mountains Line"
+        ],
+        "Medlow Bath" : [
+            "Blue Mountains Line"
+        ],
+        "Milsons Point" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Morisset" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Mount Colah" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Mount Kuring-gai" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Mount Victoria" : [
+            "Blue Mountains Line"
+        ],
+        "Narara" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Newcastle Interchange" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Niagara Park" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "North Sydney" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Ourimbah" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Parramatta" : [
+            "Blue Mountains Line"
+        ],
+        "Penrith" : [
+            "Blue Mountains Line"
+        ],
+        "Point Clare" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Redfern" : [
+            "Blue Mountains Line",
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Rydal" : [
+            "Blue Mountains Line"
+        ],
+        "Springwood" : [
+            "Blue Mountains Line"
+        ],
+        "St Leonards" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Strathfield" : [
+            "Blue Mountains Line",
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Sydney Central" : [
+            "Blue Mountains Line",
+            "Central Coast & Newcastle Line via Strathfield",
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Tarana" : [
+            "Blue Mountains Line"
+        ],
+        "Tascott" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Teralba" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Town Hall" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Tuggerah" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Valley Heights" : [
+            "Blue Mountains Line"
+        ],
+        "Warnervale" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Warrimoo" : [
+            "Blue Mountains Line"
+        ],
+        "Waverton" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Wentworth Falls" : [
+            "Blue Mountains Line"
+        ],
+        "Westmead" : [
+            "Blue Mountains Line"
+        ],
+        "Wollstonecraft" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Wondabyne" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Woodford" : [
+            "Blue Mountains Line"
+        ],
+        "Woy Woy" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Wyee" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Wynyard" : [
+            "Central Coast & Newcastle Line via Chatswood"
+        ],
+        "Wyong" : [
+            "Central Coast & Newcastle Line via Strathfield"
+        ],
+        "Zig Zag" : [
+            "Blue Mountains Line"
+        ]
+    }
+}

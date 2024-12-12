@@ -1,0 +1,55 @@
+{
+    "services" : {
+        "Island Line Local" : {
+            "Ryde Pier Head - Ryde Esplanade" : 2,
+            "Ryde Esplanade - Ryde St John's Road" : 2,
+            "Ryde St John's Road - Smallbrook Junction" : 3,
+            "Smallbrook Junction - Brading" : 4,
+            "Brading - Sandown" : 3,
+            "Sandown - Lake" : 2,
+            "Lake - Shanklin" : 3
+        },
+        "Island Line Limited" : {
+            "Ryde Pier Head - Ryde St John's Road" : 3,
+            "Ryde St John's Road - Sandown" : 6,
+            "Sandown - Lake" : 2,
+            "Lake - Shanklin" : 3
+        },
+        "Island Line Express" : {
+            "Ryde Pier Head - Shanklin" : 9
+        }
+    },
+    "stations" : {
+        "Brading" : [
+            "Island Line Local"
+        ],
+        "Lake" : [
+            "Island Line Local",
+            "Island Line Limited"
+        ],
+        "Ryde Esplanade" : [
+            "Island Line Local"
+        ],
+        "Ryde Pier Head" : [
+            "Island Line Local",
+            "Island Line Limited",
+            "Island Line Express"
+        ],
+        "Ryde St John's Road" : [
+            "Island Line Local",
+            "Island Line Limited"
+        ],
+        "Sandown" : [
+            "Island Line Local",
+            "Island Line Limited"
+        ],
+        "Shanklin" : [
+            "Island Line Local",
+            "Island Line Limited",
+            "Island Line Express"
+        ],
+        "Smallbrook Junction" : [
+            "Island Line Local"
+        ]
+    }
+}

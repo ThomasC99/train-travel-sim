@@ -1,0 +1,182 @@
+{
+    "services" : {
+        "E" : {
+            "Lighthouse - Utium" : 2,
+            "Utium - Judateos" : 2,
+            "Judateos - Mallowacre Barrens" : 2,
+            "Mallowacre Barrens - Wolfmere" : 2,
+            "Wolfmere - Thyania" : 2,
+            "Thyania - Ostford" : 2,
+            "Ostford - City" : 2,
+            "City - Kvistbro" : 2,
+            "Kvistbro - Ibini" : 2,
+            "Ibini - Aspo" : 2,
+            "Aspo - Rhodycea" : 2,
+            "Rhodycea - Rya" : 2,
+            "Rya - Clinton Lake" : 2,
+            "Clinton Lake - Vyavahara" : 2,
+            "Vyavahara - Tuniatand Street" : 2,
+            "Tuniatand Street - Viksjo" : 2,
+            "Viksjo - Edgerston" : 2,
+            "Edgerston - Rinkaby" : 2,
+            "Rinkaby - Sanda" : 2,
+            "Sanda - Stockyard" : 2,
+            "Stockyard - Gallator" : 2,
+            "Gallator - Lundby" : 2,
+            "Lundby - Jarnskog" : 2,
+            "Jarnskog - Mirundya" : 2,
+            "Mirundya - Kila" : 2,
+            "Kila - Euphaveos" : 2,
+            "Euphaveos - Virestad" : 2,
+            "Virestad - Kanna" : 2,
+            "Kanna - Adelso" : 2,
+            "Adelso - Sandbean" : 2,
+            "Sandbean - Endre" : 2,
+            "Endre - Gillstad" : 2
+        },
+        "I2" : {
+            "Wave Watcher - Island" : 2,
+            "Island - Eurita" : 2,
+            "Eurita - Smula" : 2,
+            "Smula - Vemmenhog" : 2,
+            "Vemmenhog - Njutanger" : 2,
+            "Njutanger - Bollebygd" : 2,
+            "Bollebygd - Frustuna" : 2,
+            "Frustuna - Omfattandestad Söder" : 2,
+            "Omfattandestad Söder - Humla" : 2,
+            "Humla - Thyania" : 2
+        }
+    },
+    "stations" : {
+        "Adelso" : [
+            "E"
+        ],
+        "Aspo" : [
+            "E"
+        ],
+        "Bollebygd" : [
+            "I2"
+        ],
+        "City" : [
+            "E"
+        ],
+        "Clinton Lake" : [
+            "E"
+        ],
+        "Edgerston" : [
+            "E"
+        ],
+        "Endre" : [
+            "E"
+        ],
+        "Euphaveos" : [
+            "E"
+        ],
+        "Eurita" : [
+            "I2"
+        ],
+        "Frustuna" : [
+            "I2"
+        ],
+        "Gallator" : [
+            "E"
+        ],
+        "Gillstad" : [
+            "E"
+        ],
+        "Humla" : [
+            "I2"
+        ],
+        "Ibini" : [
+            "E"
+        ],
+        "Island" : [
+            "I2"
+        ],
+        "Jarnskog" : [
+            "E"
+        ],
+        "Judateos" : [
+            "E"
+        ],
+        "Kanna" : [
+            "E"
+        ],
+        "Kila" : [
+            "E"
+        ],
+        "Kvistbro" : [
+            "E"
+        ],
+        "Lighthouse" : [
+            "E"
+        ],
+        "Lundby" : [
+            "E"
+        ],
+        "Mallowacre Barrens" : [
+            "E"
+        ],
+        "Mirundya" : [
+            "E"
+        ],
+        "Njutanger" : [
+            "I2"
+        ],
+        "Omfattandestad Söder" : [
+            "I2"
+        ],
+        "Ostford" : [
+            "E"
+        ],
+        "Rhodycea" : [
+            "E"
+        ],
+        "Rinkaby" : [
+            "E"
+        ],
+        "Rya" : [
+            "E"
+        ],
+        "Sanda" : [
+            "E"
+        ],
+        "Sandbean" : [
+            "E"
+        ],
+        "Smula" : [
+            "I2"
+        ],
+        "Stockyard" : [
+            "E"
+        ],
+        "Thyania" : [
+            "E",
+            "I2"
+        ],
+        "Tuniatand Street" : [
+            "E"
+        ],
+        "Utium" : [
+            "E"
+        ],
+        "Vemmenhog" : [
+            "I2"
+        ],
+        "Viksjo" : [
+            "E"
+        ],
+        "Virestad" : [
+            "E"
+        ],
+        "Vyavahara" : [
+            "E"
+        ],
+        "Wave Watcher" : [
+            "I2"
+        ],
+        "Wolfmere" : [
+            "E"
+        ]
+    }
+}

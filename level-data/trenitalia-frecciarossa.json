@@ -1,0 +1,83 @@
+{
+    "services" : {
+        "FR 8335" : {
+            "Fiumicino Aeroporto - Roma Termini" : 32,
+            "Roma Termini - Napoli Afragola" : 59,
+            "Napoli Afragola - Napoli Centrale" : 12
+        },
+        "FR 8566" : {
+            "Fiumicino Aeroporto - Roma Termini" : 32
+        },
+        "FR 9501" : {
+            "Roma Termini - Napoli Afragola" : 56,
+            "Napoli Afragola - Napoli Centrale" : 14
+        },
+        "FR 9503" : {
+            "Firenze Santa Maria Novella - Roma Tiburtina" : 99,
+            "Roma Tiburtina - Roma Termini" : 10,
+            "Roma Termini - Napoli Afragola" : 56,
+            "Napoli Afragola - Napoli Centrale" : 15
+        },
+        "FR 9568" : {
+            "Pompei - Napoli Centrale" : 43,
+            "Napoli Centrale - Napoli Afragola" : 16,
+            "Napoli Afragola - Roma Termini" : 57,
+            "Roma Termini - Roma Tiburtina" : 10,
+            "Roma Tiburtina - Firenze Santa Maria Novella" : 98
+        },
+        "FR 9591" : {
+            "Firenze Santa Maria Novella - Roma Tiburtina" : 79,
+            "Roma Tiburtina - Roma Termini" : 11,
+            "Roma Termini - Fiumicino Aeroporto" : 32
+        },
+        "FR 9693" : {
+            "Roma Termini - Napoli Afragola" : 55,
+            "Napoli Afragola - Napoli Centrale" : 13,
+            "Napoli Centrale - Pompei" : 27
+        }
+    },
+    "stations" : {
+        "Firenze Santa Maria Novella" : [
+            "FR 9503",
+            "FR 9568",
+            "FR 9591"
+        ],
+        "Fiumicino Aeroporto" : [
+            "FR 8335",
+            "FR 8566",
+            "FR 9591"
+        ],
+        "Napoli Afragola" : [
+            "FR 8335",
+            "FR 9501",
+            "FR 9503",
+            "FR 9568",
+            "FR 9693"
+        ],
+        "Napoli Centrale" : [
+            "FR 8335",
+            "FR 9501",
+            "FR 9503",
+            "FR 9568",
+            "FR 9693"
+        ],
+        "Pompei" : [
+            "FR 9568",
+            "FR 9693"
+        ],
+        "Roma Termini" : [
+            "FR 8335",
+            "FR 8566",
+            "FR 9501",
+            "FR 9503",
+            "FR 9568",
+            "FR 9591",
+            "FR 9693"
+        ],
+        "Roma Tiburtina" : [
+            "FR 9591",
+            "FR 9503",
+            "FR 9568"
+        ]
+    }
+}

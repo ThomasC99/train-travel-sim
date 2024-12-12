@@ -1,0 +1,232 @@
+{
+    "services" : {
+        "District Line Tower Hill Branch" : {
+            "Earl's Court - Gloucester Road" : 2
+        },
+        "District Line Wimbledon Branch" : {
+            "Wimbledon - Wimbledon Park" : 2,
+            "Wimbledon Park - Southfields" : 3,
+            "Southfields - East Putney" : 2,
+            "East Putney - Putney Bridge" : 3,
+            "Putney Bridge - Parsons Green" : 2,
+            "Parsons Green - Fulham Broadway" : 1,
+            "Fulham Broadway - West Brompton" : 2,
+            "West Brompton - Earl's Court" : 3
+        },
+        "Tramlink Line 1" : {
+            "Elmers End - Arena" : 2,
+            "Arena - Woodside" : 2,
+            "Woodside - Blackhorse Lane" : 1,
+            "Blackhorse Lane - Addiscombe" : 2,
+            "Addiscombe - Sandilands" : 2,
+            "Sandilands - Lebanon Road" : 2,
+            "Lebanon Road - East Croydon" : 2,
+            "East Croydon - George Street" : 2,
+            "George Street - Church Street" : 2,
+            "Church Street - Centrale" : 1,
+            "Centrale - West Croydon" : 2,
+            "West Croydon - Wellesley Road" : 3
+        },
+        "Tramlink Line 2" : {
+            "Beckenham Junction - Beckenham Road" : 3,
+            "Beckenham Road - Avenue Road" : 1,
+            "Avenue Road - Birkbeck" : 1,
+            "Birkbeck - Hardington Road" : 3,
+            "Hardington Road - Arena" : 3,
+            "Arena - Woodside" : 2,
+            "Woodside - Blackhorse Lane" : 1,
+            "Blackhorse Lane - Addiscombe" : 2,
+            "Addiscombe - Sandilands" : 2,
+            "Sandilands - Lebanon Road" : 2,
+            "Lebanon Road - East Croydon" : 2,
+            "East Croydon - George Street" : 2
+        },
+        "Tramlink Line 3" : {
+            "New Addington - King Henry's Drive" : 1,
+            "King Henry's Drive - Fieldway" : 2,
+            "Fieldway - Addington Village" : 2,
+            "Addington Village - Gravel Hill" : 2,
+            "Gravel Hill - Combe Lane" : 3,
+            "Combe Lane - Lloyd Park" : 3,
+            "Lloyd Park - Sandilands" : 4
+        },
+        "Tramlink Line 4" : {
+            "Wimbledon - Dundondald Road" : 1,
+            "Dundondald Road - Merton Park" : 2,
+            "Merton Park - Morden Road" : 1,
+            "Morden Road - Phipps Bridge" : 2,
+            "Phipps Bridge - Belgrave Walk" : 1,
+            "Belgrave Walk - Mitcham" : 2,
+            "Mitcham - Mitcham Junction" : 3,
+            "Mitcham Junction - Beddington Lane" : 2,
+            "Beddington Lane - Therapia Lane" : 2,
+            "Therapia Lane - Ampere Way" : 1,
+            "Ampere Way - Waddon Marsh" : 2,
+            "Waddon Marsh - Wandle Park" : 1,
+            "Wandle Park - Reeves Corner" : 2,
+            "Reeves Corner - Centrale" : 2
+        }
+    },
+    "stations" : {
+        "Abbey Road" : [
+            "DLR Line 6"
+        ],
+        "Addington Village" : [
+            "Tramlink Line 3"
+        ],
+        "Addiscombe" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Ampere Way" : [
+            "Tramlink Line 4"
+        ],
+        "Arena" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Avenue Road" : [
+            "Tramlink Line 2"
+        ],
+        "Beckenham Junction" : [
+            "Tramlink Line 2"
+        ],
+        "Beckenham Road" : [
+            "Tramlink Line 2"
+        ],
+        "Beddington Lane" : [
+            "Tramlink Line 4"
+        ],
+        "Belgrave Walk" : [
+            "Tramlink Line 4"
+        ],
+        "Birkbeck" : [
+            "Tramlink Line 2"
+        ],
+        "Blackhorse Lane" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Centrale" : [
+            "Tramlink Line 1",
+            "Tramlink Line 4"
+        ],
+        "Church Street" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Combe Lane" : [
+            "Tramlink Line 3"
+        ],
+        "Dundondald Road" : [
+            "Tramlink Line 4"
+        ],
+        "Earl's Court" : [
+            "District Line Tower Hill Branch",
+            "District Line Wimbledon Branch"
+        ],
+        "East Croydon" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "East Putney" : [
+            "District Line Wimbledon Branch"
+        ],
+        "Elmers End" : [
+            "Tramlink Line 1"
+        ],
+        "Fieldway" : [
+            "Tramlink Line 3"
+        ],
+        "Fulham Broadway" : [
+            "District Line Wimbledon Branch"
+        ],
+        "George Street" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Gloucester Road" : [
+            "District Line Tower Hill Branch"
+        ],
+        "Gravel Hill" : [
+            "Tramlink Line 3"
+        ],
+        "Hardington Road" : [
+            "Tramlink Line 2"
+        ],
+        "King Henry's Drive" : [
+            "Tramlink Line 3"
+        ],
+        "Lebanon Road" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ],
+        "Lloyd Park" : [
+            "Tramlink Line 3"
+        ],
+        "Merton Park" : [
+            "Tramlink Line 4"
+        ],
+        "Mitcham" : [
+            "Tramlink Line 4"
+        ],
+        "Mitcham Junction" : [
+            "Tramlink Line 4"
+        ],
+        "Morden Road" : [
+            "Tramlink Line 4"
+        ],
+        "New Addington" : [
+            "Tramlink Line 3"
+        ],
+        "Parsons Green" : [
+            "District Line Wimbledon Branch"
+        ],
+        "Phipps Bridge" : [
+            "Tramlink Line 4"
+        ],
+        "Putney Bridge" : [
+            "District Line Wimbledon Branch"
+        ],
+        "Reeves Corner" : [
+            "Tramlink Line 4"
+        ],
+        "Sandilands" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2",
+            "Tramlink Line 3"
+        ],
+        "Southfields" : [
+            "District Line Wimbledon Branch"
+        ],
+        "Therapia Lane" : [
+            "Tramlink Line 4"
+        ],
+        "Waddon Marsh" : [
+            "Tramlink Line 4"
+        ],
+        "Wandle Park" : [
+            "Tramlink Line 4"
+        ],
+        "Wellesley Road" : [
+            "Tramlink Line 1"
+        ],
+        "West Brompton" : [
+            "District Line Wimbledon Branch"
+        ],
+        "West Croydon" : [
+            "Tramlink Line 1"
+        ],
+        "Wimbledon" : [
+            "District Line Wimbledon Branch",
+            "Tramlink Line 4"
+        ],
+        "Wimbledon Park" : [
+            "District Line Wimbledon Branch"
+        ],
+        "Woodside" : [
+            "Tramlink Line 1",
+            "Tramlink Line 2"
+        ]
+    }
+}

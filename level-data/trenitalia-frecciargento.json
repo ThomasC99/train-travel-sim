@@ -1,5 +1,35 @@
 {
     "services" : {
+        "FA 8311" : {
+            "Roma Termini - Caserta" : 69,
+            "Caserta - Benevento" : 49,
+            "Benevento - Foggia" : 63,
+            "Foggia - Barletta" : 29,
+            "Barletta - Bari Centrale" : 30
+        },
+        "FA 8315" : {
+            "Roma Termini - Caserta" : 69,
+            "Caserta - Benevento" : 48,
+            "Benevento - Foggia" : 53,
+            "Foggia - Barletta" : 30,
+            "Barletta - Bari Centrale" : 31,
+            "Bari Centrale - Brindisi" : 56,
+            "Brindisi - Lecce" : 24
+        },
+        "FA 8317" : {
+            "Roma Termini - Caserta" : 69,
+            "Caserta - Benevento" : 50,
+            "Benevento - Foggia" : 58
+        },
+        "FA 8333" : {
+            "Roma Termini - Napoli Afragola" : 64,
+            "Napoli Afragola - Salerno" : 34,
+            "Salerno - Paola" : 112,
+            "Paola - Lamezia Terme Centrale" : 29,
+            "Lamezia Terme Centrale - Rosarno" : 28,
+            "Rosarno - Villa San Giovanni" : 60,
+            "Villa San Giovanni - Reggio Di Calabria Centrale" : 23
+        },
         "FA 8551" : {
             "Genova Piazza Principe - Genova Brignole" : 8,
             "Genova Brignole - Rapallo" : 29,
@@ -54,9 +84,46 @@
             "Falconara Marittima - Pesaro" : 23,
             "Pesaro - Rimini" : 24,
             "Rimini - Ravenna" : 43
+        },
+        "FA 8863" : {
+            "Roma Termini - Napoli Afragola" : 65,
+            "Napoli Afragola - Salerno" : 30,
+            "Salerno - Battipaglia" : 11,
+            "Battipaglia - Sapri" : 53,
+            "Sapri - Paola" : 49,
+            "Paola - Lamezia Terme Centrale" : 29,
+            "Lamezia Terme Centrale - Vibo Valentina Pizzo" : 16,
+            "Vibo Valentina Pizzo - Rosarno" : 15,
+            "Rosarno - Gioia Tauro" : 8,
+            "Gioia Tauro - Villa San Giovanni" : 26,
+            "Villa San Giovanni - Reggio Di Calabria Centrale" : 20
         }
     },
     "stations" : {
+        "Bari Centrale" : [
+            "FA 8311",
+            "FA 8315"
+        ],
+        "Barletta" : [
+            "FA 8311",
+            "FA 8315"
+        ],
+        "Battipaglia" : [
+            "FA 8863"
+        ],
+        "Benevento" : [
+            "FA 8311",
+            "FA 8315",
+            "FA 8317"
+        ],
+        "Brindisi" : [
+            "FA 8315"
+        ],
+        "Caserta" : [
+            "FA 8311",
+            "FA 8315",
+            "FA 8317"
+        ],
         "Fabriano" : [
             "FA 8851",
             "FA 8852"
@@ -68,6 +135,11 @@
         "Firenze Santa Maria Novella" : [
             "FA 8583",
             "FA 8591"
+        ],
+        "Foggia" : [
+            "FA 8311",
+            "FA 8315",
+            "FA 8317"
         ],
         "Foligno" : [
             "FA 8851",
@@ -85,6 +157,9 @@
             "FA 8588",
             "FA 8591"
         ],
+        "Gioia Tauro" : [
+            "FA 8863"
+        ],
         "Jesi" : [
             "FA 8851",
             "FA 8852"
@@ -95,9 +170,24 @@
             "FA 8588",
             "FA 8591"
         ],
+        "Lamezia Terme Centrale" : [
+            "FA 8333",
+            "FA 8863"
+        ],
+        "Lecce" : [
+            "FA 8315"
+        ],
         "Massa Centro" : [
             "FA 8588",
             "FA 8591"
+        ],
+        "Napoli Afragola" : [
+            "FA 8333",
+            "FA 8863"
+        ],
+        "Paola" : [
+            "FA 8333",
+            "FA 8863"
         ],
         "Pesaro" : [
             "FA 8851",
@@ -116,22 +206,42 @@
             "FA 8851",
             "FA 8852"
         ],
+        "Reggio Di Calabria Centrale" : [
+            "FA 8333",
+            "FA 8863"
+        ],
         "Rimini" : [
             "FA 8851",
             "FA 8852"
         ],
         "Roma Termini" : [
+            "FA 8311",
+            "FA 8315",
+            "FA 8317",
+            "FA 8333",
             "FA 8551",
             "FA 8583",
             "FA 8588",
             "FA 8591",
             "FA 8851",
-            "FA 8852"
+            "FA 8852",
+            "FA 8863"
         ],
         "Roma Tiburtina" : [
             "FA 8583",
             "FA 8591",
             "FA 8851"
+        ],
+        "Rosarno" : [
+            "FA 8333",
+            "FA 8863"
+        ],
+        "Salerno" : [
+            "FA 8333",
+            "FA 8863"
+        ],
+        "Sapri" : [
+            "FA 8863"
         ],
         "Sarzana" : [
             "FA 8591"
@@ -143,6 +253,13 @@
         "Terni" : [
             "FA 8851",
             "FA 8852"
+        ],
+        "Vibo Valentina Pizzo" : [
+            "FA 8863"
+        ],
+        "Villa San Giovanni" : [
+            "FA 8333",
+            "FA 8863"
         ]
     }
 }

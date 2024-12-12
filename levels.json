@@ -1,12 +1,6 @@
 {
-	"Montréal Metro Fantasy" : "level-data/montreal-metro-fantasy.json",
-	"Ottawa" : "level-data/ottawa.json",
-	"PATH" : "level-data/PATH.json",
 	"Sydney Trams" : "level-data/sydney-trams.json",
 	"Sydney Metro" : "level-data/sydney-metro.json",
-	"Sydney Trains" : "level-data/sydney-trains.json",
-	"Sydney Trams and Metro" : "level-data/sydney-metro-trams.json",
-	"Sydney Trams and Trains" : "level-data/sydney-trams-trains.json",
-	"Sydney Metro and Trains" : "level-data/sydney-metro-trains.json",
-	"Sydney Trams, Metro, and Trains" : "level-data/sydney-trams-metro-trains.json"
+	"Sydney Metro and Trams" : "level-data/sydney-metro-trams.json",
+	"UK (custom)" : "level-data/my-uk.json"
 }
