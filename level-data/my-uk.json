@@ -1,9 +1,6 @@
 {
     "services" : {
-        "District Line Tower Hill Branch" : {
-            "Earl's Court - Gloucester Road" : 2
-        },
-        "District Line Wimbledon Branch" : {
+        "District Line Barking Branch" : {
             "Wimbledon - Wimbledon Park" : 2,
             "Wimbledon Park - Southfields" : 3,
             "Southfields - East Putney" : 2,
@@ -11,7 +8,87 @@
             "Putney Bridge - Parsons Green" : 2,
             "Parsons Green - Fulham Broadway" : 1,
             "Fulham Broadway - West Brompton" : 2,
-            "West Brompton - Earl's Court" : 3
+            "West Brompton - Earl's Court" : 3,
+            "Earl's Court - Gloucester Road" : 2,
+            "Gloucester Road - South Kensington" : 2,
+            "South Kensington - Sloane Square" : 2,
+            "Sloane Square - Victoria" : 2,
+            "Victoria - St James's Park" : 2,
+            "St James's Park - Westminster" : 2,
+            "Westminster - Embankment" : 2,
+            "Embankment - Temple" : 1,
+            "Temple - Blackfriars" : 2,
+            "Blackfriars - Mansion House" : 2,
+            "Mansion House - Cannon Street" : 1,
+            "Cannon Street - Monument" : 2,
+            "Monument - Tower Hill" : 2,
+            "Tower Hill - Aldgate East" : 3,
+            "Aldgate East - Whitechapel" : 2,
+            "Whitechapel - Stepney Green" : 2,
+            "Stepney Green - Mile End" : 2,
+            "Mile End - Bow Road" : 2,
+            "Bow Road - Bromley-by-Bow" : 2,
+            "Bromley-by-Bow - West Ham" : 2,
+            "West Ham - Plaistow" : 2,
+            "Plaistow - Upton Park" : 2,
+            "Upton Park - East Ham" : 3,
+            "East Ham - Barking" : 4
+        },
+        "DLR Line 1" : {
+            "Bank - Shadwell" : 3,
+            "Shadwell - Limehouse" : 2,
+            "Limehouse - West Ferry" : 2,
+            "West Ferry - West India Quay" : 2,
+            "West India Quay - Canary Wharf" : 2,
+            "Canary Wharf - Heron Quays" : 1,
+            "Heron Quays - South Quay" : 2,
+            "South Quay - Crossharbour" : 2,
+            "Crossharbour - Mudchute" : 2,
+            "Mudchute - Island Gardens" : 1,
+            "Island Gardens - Cutty Sark for Maritime Greenwich" : 2,
+            "Cutty Sark for Maritime Greenwich - Greenwich" : 2,
+            "Greenwich - Deptford Bridge" : 2,
+            "Deptford Bridge - Elverson Road" : 1,
+            "Elverson Road - Lewisham" : 2
+        },
+        "DLR Line 2" : {
+            "Blackwall - East India" : 1,
+            "East India - Canning Town" : 2
+        },
+        "DLR Line 3" : {
+            "Tower Gateway - Shadwell" : 2
+        },
+        "DLR Line 4" : {
+            "Canning Town - Royal Victoria" : 2,
+            "Royal Victoria - Custom House" : 1,
+            "Custom House - Prince Regent" : 2,
+            "Prince Regent - Royal Albert" : 2,
+            "Royal Albert - Beckton Park" : 1,
+            "Beckton Park - Cyprus" : 2,
+            "Cyprus - Gallions Reach" : 2,
+            "Gallions Reach - Beckton" : 2
+        },
+        "DLR Line 5" : {
+            "Stratford - Pudding Mill Lane" : 1,
+            "Pudding Mill Lane - Bow Church" : 3,
+            "Bow Church - Devons Road" : 1,
+            "Devons Road - Langdon Park" : 2,
+            "Langdon Park - All Saints" : 1,
+            "All Saints - Poplar" : 2,
+            "Poplar - West India Quay" : 2
+        },
+        "DLR Line 6" : {
+            "Stratford International - Stratford" : 2,
+            "Stratford - Stratford High Street" : 2,
+            "Stratford High Street - Abbey Road" : 1,
+            "Abbey Road - West Ham" : 2,
+            "West Ham - Star Lane" : 1,
+            "Star Lane - Canning Town" : 2,
+            "Canning Town - West Silvertown" : 4,
+            "West Silvertown - Pontoon Dock" : 2,
+            "Pontoon Dock - London City Airport" : 3,
+            "London City Airport - King George V" : 2,
+            "King George V - Woolwich Arsenal" : 3
         },
         "Tramlink Line 1" : {
             "Elmers End - Arena" : 2,
@@ -39,7 +116,11 @@
             "Addiscombe - Sandilands" : 2,
             "Sandilands - Lebanon Road" : 2,
             "Lebanon Road - East Croydon" : 2,
-            "East Croydon - George Street" : 2
+            "East Croydon - George Street" : 2,
+            "George Street - Church Street" : 2,
+            "Church Street - Centrale" : 1,
+            "Centrale - West Croydon" : 2,
+            "West Croydon - Wellesley Road" : 3
         },
         "Tramlink Line 3" : {
             "New Addington - King Henry's Drive" : 1,
@@ -48,7 +129,13 @@
             "Addington Village - Gravel Hill" : 2,
             "Gravel Hill - Combe Lane" : 3,
             "Combe Lane - Lloyd Park" : 3,
-            "Lloyd Park - Sandilands" : 4
+            "Lloyd Park - Sandilands" : 4,
+            "Sandilands - Lebanon Road" : 2,
+            "Lebanon Road - East Croydon" : 2,
+            "East Croydon - George Street" : 2,
+            "George Street - Church Street" : 2,
+            "Church Street - Wandle Park" : 3,
+            "Wandle Park - Waddon Marsh" : 1
         },
         "Tramlink Line 4" : {
             "Wimbledon - Dundondald Road" : 1,
@@ -64,7 +151,9 @@
             "Ampere Way - Waddon Marsh" : 2,
             "Waddon Marsh - Wandle Park" : 1,
             "Wandle Park - Reeves Corner" : 2,
-            "Reeves Corner - Centrale" : 2
+            "Reeves Corner - Centrale" : 2,
+            "Centrale - West Croydon" : 2,
+            "West Croydon - Wellesley Road" : 3
         }
     },
     "stations" : {
@@ -78,6 +167,12 @@
             "Tramlink Line 1",
             "Tramlink Line 2"
         ],
+        "Aldgate East" : [
+            "District Line Barking Branch"
+        ],
+        "All Saints" : [
+            "DLR Line 5"
+        ],
         "Ampere Way" : [
             "Tramlink Line 4"
         ],
@@ -88,11 +183,23 @@
         "Avenue Road" : [
             "Tramlink Line 2"
         ],
+        "Bank" : [
+            "DLR Line 1"
+        ],
+        "Barking" : [
+            "District Line Barking Branch"
+        ],
         "Beckenham Junction" : [
             "Tramlink Line 2"
         ],
         "Beckenham Road" : [
             "Tramlink Line 2"
+        ],
+        "Beckton" : [
+            "DLR Line 4"
+        ],
+        "Beckton Park" : [
+            "DLR Line 4"
         ],
         "Beddington Lane" : [
             "Tramlink Line 4"
@@ -103,69 +210,162 @@
         "Birkbeck" : [
             "Tramlink Line 2"
         ],
+        "Blackfriars" : [
+            "District Line Barking Branch"
+        ],
         "Blackhorse Lane" : [
             "Tramlink Line 1",
             "Tramlink Line 2"
         ],
+        "Blackwall" : [
+            "DLR Line 2"
+        ],
+        "Bow Church" : [
+            "DLR Line 5"
+        ],
+        "Bow Road" : [
+            "District Line Barking Branch"
+        ],
+        "Bromley-by-Bow" : [
+            "District Line Barking Branch"
+        ],
+        "Canary Wharf" : [
+            "DLR Line 1"
+        ],
+        "Canning Town" : [
+            "DLR Line 2",
+            "DLR Line 4",
+            "DLR Line 6"
+        ],
+        "Cannon Street" : [
+            "District Line Barking Branch"
+        ],
         "Centrale" : [
             "Tramlink Line 1",
+            "Tramlink Line 2",
             "Tramlink Line 4"
         ],
         "Church Street" : [
             "Tramlink Line 1",
-            "Tramlink Line 2"
+            "Tramlink Line 2",
+            "Tramlink Line 3"
         ],
         "Combe Lane" : [
             "Tramlink Line 3"
+        ],
+        "Crossharbour" : [
+            "DLR Line 1"
+        ],
+        "Custom House" : [
+            "DLR Line 4"
+        ],
+        "Cutty Sark for Maritime Greenwich" : [
+            "DLR Line 1"
+        ],
+        "Cyprus" : [
+            "DLR Line 4"
+        ],
+        "Deptford Bridge" : [
+            "DLR Line 1"
+        ],
+        "Devons Road" : [
+            "DLR Line 5"
         ],
         "Dundondald Road" : [
             "Tramlink Line 4"
         ],
         "Earl's Court" : [
-            "District Line Tower Hill Branch",
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "East Croydon" : [
             "Tramlink Line 1",
-            "Tramlink Line 2"
+            "Tramlink Line 2",
+            "Tramlink Line 3"
+        ],
+        "East Ham" : [
+            "District Line Barking Branch"
+        ],
+        "East India" : [
+            "DLR Line 2"
         ],
         "East Putney" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "Elmers End" : [
             "Tramlink Line 1"
+        ],
+        "Elverson Road" : [
+            "DLR Line 1"
+        ],
+        "Embankment" : [
+            "District Line Barking Branch"
         ],
         "Fieldway" : [
             "Tramlink Line 3"
         ],
         "Fulham Broadway" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
+        ],
+        "Gallions Reach" : [
+            "DLR Line 4"
         ],
         "George Street" : [
             "Tramlink Line 1",
-            "Tramlink Line 2"
+            "Tramlink Line 2",
+            "Tramlink Line 3"
         ],
         "Gloucester Road" : [
-            "District Line Tower Hill Branch"
+            "District Line Barking Branch"
         ],
         "Gravel Hill" : [
             "Tramlink Line 3"
         ],
+        "Greenwich" : [
+            "DLR Line 1"
+        ],
         "Hardington Road" : [
             "Tramlink Line 2"
+        ],
+        "Heron Quays" : [
+            "DLR Line 1"
+        ],
+        "Island Gardens" : [
+            "DLR Line 1"
+        ],
+        "King George V" : [
+            "DLR Line 6"
         ],
         "King Henry's Drive" : [
             "Tramlink Line 3"
         ],
+        "Langdon Park" : [
+            "DLR Line 5"
+        ],
         "Lebanon Road" : [
             "Tramlink Line 1",
-            "Tramlink Line 2"
+            "Tramlink Line 2",
+            "Tramlink Line 3"
+        ],
+        "Lewisham" : [
+            "DLR Line 1"
+        ],
+        "Limehouse" : [
+            "DLR Line 1"
         ],
         "Lloyd Park" : [
             "Tramlink Line 3"
         ],
+        "London City Airport" : [
+            "DLR Line 6"
+        ],
+        "Mansion House" : [
+            "District Line Barking Branch"
+        ],
         "Merton Park" : [
             "Tramlink Line 4"
+        ],
+        "Mile End" : [
+            "District Line Barking Branch"
         ],
         "Mitcham" : [
             "Tramlink Line 4"
@@ -173,60 +373,163 @@
         "Mitcham Junction" : [
             "Tramlink Line 4"
         ],
+        "Monument" : [
+            "District Line Barking Branch"
+        ],
         "Morden Road" : [
             "Tramlink Line 4"
+        ],
+        "Mudchute" : [
+            "DLR Line 1"
         ],
         "New Addington" : [
             "Tramlink Line 3"
         ],
         "Parsons Green" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "Phipps Bridge" : [
             "Tramlink Line 4"
         ],
+        "Plaistow" : [
+            "District Line Barking Branch"
+        ],
+        "Pontoon Dock" : [
+            "DLR Line 6"
+        ],
+        "Poplar" : [
+            "DLR Line 5"
+        ],
+        "Prince Regent" : [
+            "DLR Line 4"
+        ],
+        "Pudding Mill Lane" : [
+            "DLR Line 5"
+        ],
         "Putney Bridge" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "Reeves Corner" : [
             "Tramlink Line 4"
+        ],
+        "Royal Albert" : [
+            "DLR Line 4"
+        ],
+        "Royal Victoria" : [
+            "DLR Line 4"
         ],
         "Sandilands" : [
             "Tramlink Line 1",
             "Tramlink Line 2",
             "Tramlink Line 3"
         ],
+        "Shadwell" : [
+            "DLR Line 1",
+            "DLR Line 3"
+        ],
+        "Sloane Square" : [
+            "District Line Barking Branch"
+        ],
+        "South Kensington" : [
+            "District Line Barking Branch"
+        ],
+        "South Quay" : [
+            "DLR Line 1"
+        ],
         "Southfields" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
+        ],
+        "St James's Park" : [
+            "District Line Barking Branch"
+        ],
+        "Star Lane" : [
+            "DLR Line 6"
+        ],
+        "Stepney Green" : [
+            "District Line Barking Branch"
+        ],
+        "Stratford" : [
+            "DLR Line 5",
+            "DLR Line 6"
+        ],
+        "Stratford High Street" : [
+            "DLR Line 6"
+        ],
+        "Stratford International" : [
+            "DLR Line 6"
+        ],
+        "Temple" : [
+            "District Line Barking Branch"
         ],
         "Therapia Lane" : [
             "Tramlink Line 4"
         ],
+        "Tower Gateway" : [
+            "DLR Line 3"
+        ],
+        "Tower Hill" : [
+            "District Line Barking Branch"
+        ],
+        "Upton Park" : [
+            "District Line Barking Branch"
+        ],
+        "Victoria" : [
+            "District Line Barking Branch"
+        ],
         "Waddon Marsh" : [
+            "Tramlink Line 3",
             "Tramlink Line 4"
         ],
         "Wandle Park" : [
+            "Tramlink Line 3",
             "Tramlink Line 4"
         ],
         "Wellesley Road" : [
-            "Tramlink Line 1"
+            "Tramlink Line 1",
+            "Tramlink Line 2",
+            "Tramlink Line 4"
         ],
         "West Brompton" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "West Croydon" : [
-            "Tramlink Line 1"
+            "Tramlink Line 1",
+            "Tramlink Line 2",
+            "Tramlink Line 4"
+        ],
+        "West Ferry" : [
+            "DLR Line 1"
+        ],
+        "West Ham" : [
+            "DLR Line 6",
+            "District Line Barking Branch"
+        ],
+        "West India Quay" : [
+            "DLR Line 1",
+            "DLR Line 5"
+        ],
+        "West Silvertown" : [
+            "DLR Line 6"
+        ],
+        "Westminster" : [
+            "District Line Barking Branch"
+        ],
+        "Whitechapel" : [
+            "District Line Barking Branch"
         ],
         "Wimbledon" : [
-            "District Line Wimbledon Branch",
+            "District Line Barking Branch",
             "Tramlink Line 4"
         ],
         "Wimbledon Park" : [
-            "District Line Wimbledon Branch"
+            "District Line Barking Branch"
         ],
         "Woodside" : [
             "Tramlink Line 1",
             "Tramlink Line 2"
+        ],
+        "Woolwich Arsenal" : [
+            "DLR Line 6"
         ]
     }
 }

@@ -1,6 +1,5 @@
 {
-	"Sydney Trams" : "level-data/sydney-trams.json",
-	"Sydney Metro" : "level-data/sydney-metro.json",
-	"Sydney Metro and Trams" : "level-data/sydney-metro-trams.json",
-	"UK (custom)" : "level-data/my-uk.json"
+	"Hokkaido" : "level-data/hokkaido.json",
+	"Isle of Wight" : "level-data/iow.json",
+	"Montréal Metro Fantasy" : "level-data/montreal-metro-fantasy.json"
 }

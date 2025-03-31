@@ -1,0 +1,107 @@
+{
+    "services" : {
+        "Line 1" : {
+            "Airport - Waterfront" : 4,
+            "Waterfront - Harbourview" : 3,
+            "Harbourview - Sand Bar" : 2,
+            "Sand Bar - Bank" : 3,
+            "Bank - City Hall" : 2,
+            "City Hall - Parliament" : 2,
+            "Parliament - Wellington" : 2,
+            "Wellington - O'Connor" : 2,
+            "O'Connor - Kent" : 2,
+            "Kent - Elgin" : 2,
+            "Elgin - York" : 2,
+            "York - Sussex" : 2,
+            "Sussex - Dalhousie" : 3,
+            "Dalhousie - Waller" : 3,
+            "Waller - Laurier" : 2,
+            "Laurier - Somerset" : 2,
+            "Somerset - Bronson" : 2,
+            "Bronson - Glebe" : 2,
+            "Glebe - Lansdowne" : 2,
+            "Lansdowne - Bayview" : 2,
+            "Bayview - Hintonburg" : 2,
+            "Hintonburg - Fisher" : 2,
+            "Fisher - Baseline" : 2,
+            "Baseline - North Bay" : 2
+        }
+    },
+    "stations" : {
+        "Airport" : [
+            "Line 1"
+        ],
+        "Bank" : [
+            "Line 1"
+        ],
+        "Baseline" : [
+            "Line 1"
+        ],
+        "Bayview" : [
+            "Line 1"
+        ],
+        "Bronson" : [
+            "Line 1"
+        ],
+        "City Hall" : [
+            "Line 1"
+        ],
+        "Dalhousie" : [
+            "Line 1"
+        ],
+        "Elgin" : [
+            "Line 1"
+        ],
+        "Fisher" : [
+            "Line 1"
+        ],
+        "Glebe" : [
+            "Line 1"
+        ],
+        "Harbourview" : [
+            "Line 1"
+        ],
+        "Hintonburg" : [
+            "Line 1"
+        ],
+        "Kent" : [
+            "Line 1"
+        ],
+        "Lansdowne" : [
+            "Line 1"
+        ],
+        "Laurier" : [
+            "Line 1"
+        ],
+        "North Bay" : [
+            "Line 1"
+        ],
+        "O'Connor" : [
+            "Line 1"
+        ],
+        "Parliament" : [
+            "Line 1"
+        ],
+        "Sand Bar" : [
+            "Line 1"
+        ],
+        "Somerset" : [
+            "Line 1"
+        ],
+        "Sussex" : [
+            "Line 1"
+        ],
+        "Waller" : [
+            "Line 1"
+        ],
+        "Waterfront" : [
+            "Line 1"
+        ],
+        "Wellington" : [
+            "Line 1"
+        ],
+        "York" : [
+            "Line 1"
+        ]
+    }
+}

@@ -1,0 +1,259 @@
+{
+    "services" : {
+        "Eastern Line" : {
+            "Ryde Pier Head - Ryde Esplanade" : 2,
+            "Ryde Esplanade - Ryde St John's Road" : 3,
+            "Ryde St John's Road - Smallbrook Junction" : 3,
+            "Smallbrook Junction - Brading" : 5,
+            "Brading - Sandown" : 4,
+            "Sandown - Lake" : 2,
+            "Lake - Shanklin" : 3,
+            "Shanklin - Wroxall" : 5,
+            "Wroxall - Ventnor" : 4
+        },
+        "Bembridge Line" : {
+            "Brading - St Helens" : 4,
+            "St Helens - St Helens Quay" : 2,
+            "St Helens Quay - Bembridge" : 3
+        },
+        "Northern Line" : {
+            "Ryde Pier Head - Ryde Esplanade" : 2,
+            "Ryde Esplanade - Ryde St John's Road" : 3,
+            "Ryde St John's Road - Smallbrook Junction" : 3,
+            "Smallbrook Junction - Ashey" : 4,
+            "Ashey - Havenstreet" : 4,
+            "Havenstreet - Wootton" : 3,
+            "Wootton - Whippingham" : 3,
+            "Whippingham - Newport" : 4,
+            "Newport - Cement Mills" : 3,
+            "Cement Mills - Medina Wharf" : 4,
+            "Medina Wharf - Mill Hill" : 2,
+            "Mill Hill - Cowes" : 2
+        },
+        "Line 22" : {
+            "Newport - Carisbrooke" : 3
+        },
+        "Line 23" : {
+            "Carisbrooke - Gunville" : 2
+        },
+        "Line 24" : {
+            "Gunville - Watchingwell" : 4
+        },
+        "Line 25" : {
+            "Watchingwell - Calbourne and Shalfleet" : 4
+        },
+        "Line 26" : {
+            "Calbourne and Shalfleet - Dowty" : 3
+        },
+        "Line 27" : {
+            "Dowty - Ningwood" : 2
+        },
+        "Line 28" : {
+            "Ningwood - Wellow" : 3
+        },
+        "Line 29" : {
+            "Wellow - Yarmouth" : 4
+        },
+        "Line 30" : {
+            "Yarmouth - Freshwater" : 4
+        },
+        "Line 31" : {
+            "Newport - Ran" : 2
+        },
+        "Line 32" : {
+            "Ran - Shide" : 2
+        },
+        "Line 33" : {
+            "Shide - Blackwater" : 3
+        },
+        "Line 34" : {
+            "Blackwater - Merstone" : 4
+        },
+        "Line 35" : {
+            "Merstone - Godshill" : 4
+        },
+        "Line 36" : {
+            "Godshill - Whitwell" : 5
+        },
+        "Line 37" : {
+            "Whitwell - St Lawrence" : 3
+        },
+        "Line 38" : {
+            "St Lawrence - Ventnor West" : 3
+        },
+        "Line 39" : {
+            "Merstone - Horringford" : 3
+        },
+        "Line 40" : {
+            "Horringford - Newchurch" : 3
+        },
+        "Line 41" : {
+            "Newchurch - Alverstone" : 3
+        },
+        "Line 42" : {
+            "Alverstone - Waterworks" : 3
+        },
+        "Central Line" : {
+            "Waterworks - Sandown" : 2
+        }
+    },
+    "stations" : {
+        "Alverstone" : [
+            "Line 41",
+            "Line 42"
+        ],
+        "Ashey" : [
+            "Northern Line"
+        ],
+        "Bembridge" : [
+            "Bembridge Line"
+        ],
+        "Blackwater" : [
+            "Line 33",
+            "Line 34"
+        ],
+        "Brading" : [
+            "Eastern Line",
+            "Bembridge Line"
+        ],
+        "Calbourne and Shalfleet" : [
+            "Line 25",
+            "Line 26"
+        ],
+        "Carisbrooke" : [
+            "Line 22",
+            "Line 23"
+        ],
+        "Cement Mills" : [
+            "Northern Line"
+        ],
+        "Cowes" : [
+            "Northern Line"
+        ],
+        "Dowty" : [
+            "Line 26",
+            "Line 27"
+        ],
+        "Freshwater" : [
+            "Line 30"
+        ],
+        "Godshill" : [
+            "Line 35",
+            "Line 36"
+        ],
+        "Gunville" : [
+            "Line 23",
+            "Line 24"
+        ],
+        "Havenstreet" : [
+            "Northern Line"
+        ],
+        "Horringford" : [
+            "Line 39",
+            "Line 40"
+        ],
+        "Lake" : [
+            "Eastern Line"
+        ],
+        "Medina Wharf" : [
+            "Northern Line"
+        ],
+        "Merstone" : [
+            "Line 34",
+            "Line 35",
+            "Line 39"
+        ],
+        "Mill Hill" : [
+            "Northern Line"
+        ],
+        "Newchurch" : [
+            "Line 40",
+            "Line 41"
+        ],
+        "Newport" : [
+            "Northern Line",
+            "Line 22",
+            "Line 31"
+        ],
+        "Ningwood" : [
+            "Line 27",
+            "Line 28"
+        ],
+        "Ran" : [
+            "Line 31",
+            "Line 32"
+        ],
+        "Ryde Esplanade" : [
+            "Eastern Line",
+            "Northern Line"
+        ],
+        "Ryde Pier Head" : [
+            "Eastern Line",
+            "Northern Line"
+        ],
+        "Ryde St John's Road" : [
+            "Eastern Line",
+            "Northern Line"
+        ],
+        "Sandown" : [
+            "Central Line",
+            "Eastern Line"
+        ],
+        "Shanklin" : [
+            "Eastern Line"
+        ],
+        "Shide" : [
+            "Line 32",
+            "Line 33"
+        ],
+        "Smallbrook Junction" : [
+            "Eastern Line",
+            "Northern Line"
+        ],
+        "St Helens" : [
+            "Bembridge Line"
+        ],
+        "St Helens Quay" : [
+            "Bembridge Line"
+        ],
+        "St Lawrence" : [
+            "Line 37",
+            "Line 38"
+        ],
+        "Ventnor" : [
+            "Eastern Line"
+        ],
+        "Ventnor West" : [
+            "Line 38"
+        ],
+        "Watchingwell" : [
+            "Line 24",
+            "Line 25"
+        ],
+        "Waterworks" : [
+            "Line 42",
+            "Central Line"
+        ],
+        "Wellow" : [
+            "Line 28",
+            "Line 29"
+        ],
+        "Whippingham" : [
+            "Northern Line"
+        ],
+        "Whitwell" : [
+            "Line 36",
+            "Line 37"
+        ],
+        "Wootton" : [
+            "Northern Line"
+        ],
+        "Wroxall" : [
+            "Eastern Line"
+        ],
+        "Yarmouth" : [
+            "Line 29",
+            "Line 30"
+        ]
+    }
+}

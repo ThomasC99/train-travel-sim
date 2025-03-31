@@ -1,634 +1,3978 @@
 {
-  "points": 20,
+  "points": 85,
   "network-data": {
     "services": {
-      "L1": {
-        "Sydney Central - Capitol Square": 3,
-        "Capitol Square - Paddy's Market": 2,
-        "Paddy's Market - Exhibition Centre": 3,
-        "Exhibition Centre - Convention": 1,
-        "Convention - Pyrmont Bay": 1,
-        "Pyrmont Bay - The Star": 2,
-        "The Star - John Street Square": 1,
-        "John Street Square - Fish Market": 1,
-        "Fish Market - Wentworth Park": 2,
-        "Wentworth Park - Glebe": 1,
-        "Glebe - Jubilee Park": 2,
-        "Jubilee Park - Rozelle Bay": 1,
-        "Rozelle Bay - Lilyfield": 3,
-        "Lilyfield - Leichhardt North": 2,
-        "Leichhardt North - Hawthorne": 2,
-        "Hawthorne - Marion": 2,
-        "Marion - Taverners Hill": 1,
-        "Taverners Hill - Lewisham West": 1,
-        "Lewisham West - Waratah Mills": 2,
-        "Waratah Mills - Arlington": 1,
-        "Arlington - Dulwich Grove": 1,
-        "Dulwich Grove - Dulwich Hill": 1
+      "A1": {
+        "Bout de L'\u00cele - Beausoleil": 2,
+        "Beausoleil - Yves Th\u00e9riault": 2,
+        "Yves Th\u00e9riault - De la Rousssli\u00e8re": 2,
+        "De la Rousssli\u00e8re - 36e Avenue": 2,
+        "36e Avenue - Tricentenaire": 2,
+        "Tricentenaire - Forsyth": 2,
+        "Forsyth - Leli\u00e8vre": 2,
+        "Leli\u00e8vre - Gamble": 2,
+        "Gamble - Gonthier": 2,
+        "Gonthier - Honor\u00e9 Beaugrand": 3,
+        "Honor\u00e9 Beaugrand - Langelier": 3,
+        "Langelier - Parc Olympique": 3,
+        "Parc Olympique - Papineau": 4,
+        "Papineau - Sherbrooke": 3,
+        "Sherbrooke - Bleury": 3,
+        "Bleury - McGill": 2,
+        "McGill - Atwater": 3,
+        "Atwater - Vend\u00f4me": 3,
+        "Vend\u00f4me - Ville St Pierre": 4,
+        "Ville St Pierre - Dorval": 5,
+        "Dorval - Cedar Park": 4,
+        "Cedar Park - Beaconsfield": 3,
+        "Beaconsfield - Fairway": 2,
+        "Fairway - Beaurepaire": 2,
+        "Beaurepaire - Baie d'Urf\u00e9": 2,
+        "Baie d'Urf\u00e9 - John Abbott": 2,
+        "John Abbott - Ste Anne de Bellevue": 2
+      },
+      "A3": {
+        "St Vincent de Paul - Li\u00e9bert": 2,
+        "Li\u00e9bert - Rose de Lima": 2,
+        "Rose de Lima - Pilon": 2,
+        "Pilon - Monselet": 2,
+        "Monselet - JB Martineau": 2,
+        "JB Martineau - Denis Papin": 2,
+        "Denis Papin - Jarry": 2,
+        "Jarry - Petit Maghreb": 2,
+        "Petit Maghreb - Beaubien": 2,
+        "Beaubien - Jardin Botanique": 2,
+        "Jardin Botanique - Parc Olympique": 2,
+        "Parc Olympique - Joliette": 2,
+        "Joliette - Moreau": 2,
+        "Moreau - Chapleau": 2,
+        "Chapleau - Papineau": 2,
+        "Papineau - La Fontaine": 2,
+        "La Fontaine - Sherbrooke": 2,
+        "Sherbrooke - Coloniale": 2,
+        "Coloniale - Bleury": 2,
+        "Bleury - McGill": 2,
+        "McGill - Drummond": 2,
+        "Drummond - Guy": 2,
+        "Guy - Atwater": 2,
+        "Atwater - Olivier": 2,
+        "Olivier - Melville": 2,
+        "Melville - Vend\u00f4me": 2,
+        "Vend\u00f4me - Snowdon": 3,
+        "Snowdon - Namur": 3,
+        "Namur - C\u00f4te Vertu": 4,
+        "C\u00f4te Vertu - Bois Franc": 3,
+        "Bois Franc - Chomedey": 4,
+        "Chomedey - L\u00e9pine": 2,
+        "L\u00e9pine - Robinson": 2,
+        "Robinson - Fafard": 2,
+        "Fafard - \u00c9milie Zola": 2,
+        "\u00c9milie Zola - Dagenais": 2,
+        "Dagenais - Des Oiseaux": 2,
+        "Des Oiseaux - De la Renaissance": 2,
+        "De la Renaissance - Ste Rose": 2
+      },
+      "A4": {
+        "Plage Chartrand - Rivi\u00e8re des Prairies": 2,
+        "Rivi\u00e8re des Prairies - Don Bosco": 2,
+        "Don Bosco - Armand Bombardier": 2,
+        "Armand Bombardier - Andr\u00e9 Amp\u00e8re": 2,
+        "Andr\u00e9 Amp\u00e8re - Marie Victorin": 2,
+        "Marie Victorin - Montr\u00e9al Nord": 2,
+        "Montr\u00e9al Nord - Couture": 2,
+        "Couture - De Nevers": 2,
+        "De Nevers - M\u00e9tropolitain": 2,
+        "M\u00e9tropolitain - Petit Maghreb": 2,
+        "Petit Maghreb - St Zotique": 2,
+        "St Zotique - C\u00f4te Visitation": 2,
+        "C\u00f4te Visitation - De Lorimier": 2,
+        "De Lorimier - G\u00e9n\u00e9reaux": 2,
+        "G\u00e9n\u00e9reaux - Lanaudi\u00e8re": 2,
+        "Lanaudi\u00e8re - Sherbrooke": 2,
+        "Sherbrooke - Bleury": 3,
+        "Bleury - McGill": 2,
+        "McGill - Atwater": 3,
+        "Atwater - Vend\u00f4me": 3,
+        "Vend\u00f4me - Montr\u00e9al Ouest": 3,
+        "Montr\u00e9al Ouest - Ville St Pierre": 2,
+        "Ville St Pierre - Dorval": 5,
+        "Dorval - L'A\u00e9roport-YUL": 2,
+        "L'A\u00e9roport-YUL - Des Sources": 3,
+        "Des Sources - Roxboro": 5,
+        "Roxboro - Gravel": 2,
+        "Gravel - \u00cele Bigras": 2,
+        "\u00cele Bigras - Hector Nadon": 2,
+        "Hector Nadon - Laval sur le Lac": 2,
+        "Laval sur le Lac - St Antoine": 2,
+        "St Antoine - Albert Camus": 2,
+        "Albert Camus - Laval Ouest": 2
+      },
+      "B1": {
+        "Bout de L'\u00cele - Beausoleil": 2,
+        "Beausoleil - 51e Avenue": 2,
+        "51e Avenue - 32e Avenue": 2,
+        "32e Avenue - Du Colombier": 2,
+        "Du Colombier - Pointe aux Trembles": 2,
+        "Pointe aux Trembles - St Cyr": 2,
+        "St Cyr - Durocher": 2,
+        "Durocher - Contrecoeur": 2,
+        "Contrecoeur - Mercier": 2,
+        "Mercier - Bellerive": 2,
+        "Bellerive - Des Futailles": 2,
+        "Des Futailles - Longue Pointe": 2,
+        "Longue Pointe - Dickson": 2,
+        "Dickson - Viauville": 2,
+        "Viauville - Hochelaga": 2,
+        "Hochelaga - Frontenac": 3,
+        "Frontenac - Square Papineau": 2,
+        "Square Papineau - Beaudry": 2,
+        "Beaudry - UQAM": 2,
+        "UQAM - Place des Arts": 2,
+        "Place des Arts - Bonaventure": 2,
+        "Bonaventure - Concordia": 3,
+        "Concordia - Vend\u00f4me": 4,
+        "Vend\u00f4me - Ville St Pierre": 4,
+        "Ville St Pierre - Dorval": 5,
+        "Dorval - Cedar Park": 4,
+        "Cedar Park - Beaconsfield": 3,
+        "Beaconsfield - Fairway": 2,
+        "Fairway - Beaurepaire": 2,
+        "Beaurepaire - Baie d'Urf\u00e9": 2,
+        "Baie d'Urf\u00e9 - John Abbott": 2,
+        "John Abbott - Ste Anne de Bellevue": 2
+      },
+      "B2": {
+        "Plage Chartrand - Rivi\u00e8re des Prairies": 2,
+        "Rivi\u00e8re des Prairies - Don Bosco": 2,
+        "Don Bosco - Armand Bombardier": 2,
+        "Armand Bombardier - Andr\u00e9 Amp\u00e8re": 2,
+        "Andr\u00e9 Amp\u00e8re - Marie Victorin": 2,
+        "Marie Victorin - Montr\u00e9al Nord": 2,
+        "Montr\u00e9al Nord - Couture": 2,
+        "Couture - De Nevers": 2,
+        "De Nevers - M\u00e9tropolitain": 2,
+        "M\u00e9tropolitain - Petit Maghreb": 2,
+        "Petit Maghreb - St Zotique": 2,
+        "St Zotique - C\u00f4te Visitation": 2,
+        "C\u00f4te Visitation - De Lorimier": 2,
+        "De Lorimier - G\u00e9n\u00e9reaux": 2,
+        "G\u00e9n\u00e9reaux - Lanaudi\u00e8re": 2,
+        "Lanaudi\u00e8re - Sherbrooke": 2,
+        "Sherbrooke - Maisonneuve": 2,
+        "Maisonneuve - Place des Arts": 2,
+        "Place des Arts - Bonaventure": 2,
+        "Bonaventure - Concordia": 3,
+        "Concordia - Vend\u00f4me": 4,
+        "Vend\u00f4me - Snowdon": 3,
+        "Snowdon - Namur": 3,
+        "Namur - C\u00f4te Vertu": 4,
+        "C\u00f4te Vertu - Bois Franc": 3,
+        "Bois Franc - Chomedey": 4,
+        "Chomedey - L\u00e9pine": 2,
+        "L\u00e9pine - Robinson": 2,
+        "Robinson - Fafard": 2,
+        "Fafard - \u00c9milie Zola": 2,
+        "\u00c9milie Zola - Dagenais": 2,
+        "Dagenais - Des Oiseaux": 2,
+        "Des Oiseaux - De la Renaissance": 2,
+        "De la Renaissance - Ste Rose": 2
+      },
+      "B3": {
+        "Ste Rose - De la Renaissance": 2,
+        "De la Renaissance - Des Oiseaux": 2,
+        "Des Oiseaux - Champfleury": 2,
+        "Champfleury - Des Rossignols": 2,
+        "Des Rossignols - St Elz\u00e9ar": 2,
+        "St Elz\u00e9ar - Centre Laval": 3,
+        "Centre Laval - Montmorency": 3,
+        "Montmorency - De la Concorde": 2,
+        "De la Concorde - Cartier": 3,
+        "Cartier - Sauv\u00e9": 3,
+        "Sauv\u00e9 - Jean Talon": 3,
+        "Jean Talon - St Joseph": 3,
+        "St Joseph - Sherbrooke": 3,
+        "Sherbrooke - UQAM": 3,
+        "UQAM - Place des Arts": 2,
+        "Place des Arts - Bonaventure": 2,
+        "Bonaventure - Lucien L'Allier": 2,
+        "Lucien L'Allier - Concordia": 2,
+        "Concordia - Seymour": 2,
+        "Seymour - Hallowell": 2,
+        "Hallowell - Lansdowne": 2,
+        "Lansdowne - Vend\u00f4me": 2,
+        "Vend\u00f4me - Clifton": 2,
+        "Clifton - Benny Farm": 2,
+        "Benny Farm - Montr\u00e9al Ouest": 2,
+        "Montr\u00e9al Ouest - Ville St Pierre": 2,
+        "Ville St Pierre - Albert Gari\u00e9py": 2,
+        "Albert Gari\u00e9py - 24e Avenue": 2,
+        "24e Avenue - 43e Avenue": 2,
+        "43e Avenue - 55e Avenue": 2,
+        "55e Avenue - Dorval": 2,
+        "Dorval - L'A\u00e9roport-YUL": 2,
+        "L'A\u00e9roport-YUL - Reverchon": 2,
+        "Reverchon - Des Sources": 2,
+        "Des Sources - Brunswick": 2,
+        "Brunswick - Hyman": 2,
+        "Hyman - Roger Pilon": 2,
+        "Roger Pilon - Anselme Lavigne": 2,
+        "Anselme Lavigne - Roxboro": 2
+      },
+      "B4": {
+        "St Elz\u00e9ar - Carrefour Laval": 2,
+        "Carrefour Laval - Cosmod\u00f4me": 2,
+        "Cosmod\u00f4me - Centre Laval": 2,
+        "Centre Laval - Du Souvenir": 2,
+        "Du Souvenir - Montmorency": 2,
+        "Montmorency - De la Concorde": 2,
+        "De la Concorde - Robin": 2,
+        "Robin - Cartier": 2,
+        "Cartier - Henri Bourassa": 2,
+        "Henri Bourassa - Sauv\u00e9": 2,
+        "Sauv\u00e9 - Cr\u00e9mazie": 2,
+        "Cr\u00e9mazie - Villeray": 2,
+        "Villeray - Jean Talon": 2,
+        "Jean Talon - Petite Patrie": 2,
+        "Petite Patrie - Rosemont": 2,
+        "Rosemont - St Joseph": 2,
+        "St Joseph - Rachel": 2,
+        "Rachel - Sherbrooke": 2,
+        "Sherbrooke - \u00c9milie Gamelin": 2,
+        "\u00c9milie Gamelin - UQAM": 2,
+        "UQAM - Place des Arts": 2,
+        "Place des Arts - Bonaventure": 2,
+        "Bonaventure - Lucien L'Allier": 2,
+        "Lucien L'Allier - Concordia": 2,
+        "Concordia - Seymour": 2,
+        "Seymour - Hallowell": 2,
+        "Hallowell - Lansdowne": 2,
+        "Lansdowne - Vend\u00f4me": 2,
+        "Vend\u00f4me - Girouard": 2,
+        "Girouard - Villa Maria": 2,
+        "Villa Maria - Snowdon": 2,
+        "Snowdon - C\u00f6te St Catherine": 2,
+        "C\u00f6te St Catherine - Plamondon": 2,
+        "Plamondon - Namur": 2,
+        "Namur - De la Savane": 2,
+        "De la Savane - Dion": 2,
+        "Dion - Beaudet": 2,
+        "Beaudet - C\u00f4te Vertu": 2,
+        "C\u00f4te Vertu - Poirier": 2,
+        "Poirier - Bois Franc": 2,
+        "Bois Franc - Salaberry": 2,
+        "Salaberry - Cartierville": 2,
+        "Cartierville - St Maxime": 2,
+        "St Maxime - Chomedey": 2
+      },
+      "C1": {
+        "Pascal - Poupart": 2,
+        "Poupart - Bellerose": 2,
+        "Bellerose - Vimont": 2,
+        "Vimont - Edimbourg": 2,
+        "Edimbourg - B\u00e9langer": 3,
+        "B\u00e9langer - Gianchetti": 2,
+        "Gianchetti - Pont Viau": 2,
+        "Pont Viau - Cartier": 2,
+        "Cartier - Sauv\u00e9": 3,
+        "Sauv\u00e9 - Jean Talon": 3,
+        "Jean Talon - St Joseph": 3,
+        "St Joseph - Sherbrooke": 3,
+        "Sherbrooke - Place d'Armes": 3,
+        "Place d'Armes - Robert Bourassa": 2,
+        "Robert Bourassa - Georges Vanier": 3,
+        "Georges Vanier - Ch\u00e2teauguay": 2,
+        "Ch\u00e2teauguay - Verdun": 3,
+        "Verdun - Woodland": 2,
+        "Woodland - V\u00e9rendrye": 2,
+        "V\u00e9rendrye - Monk": 2,
+        "Monk - Angrignon": 2,
+        "Angrignon - L\u00e9ger": 2,
+        "L\u00e9ger - Thierry": 2,
+        "Thierry - Dollard": 2,
+        "Dollard - LaSalle": 2,
+        "LaSalle - Strathyre": 2,
+        "Strathyre - Lachine": 2,
+        "Lachine - 28e Avenue": 2,
+        "28e Avenue - Provost": 2,
+        "Provost - Galland": 2,
+        "Galland - Dorval": 2,
+        "Dorval - L'A\u00e9roport-YUL": 2,
+        "L'A\u00e9roport-YUL - Des Sources": 3,
+        "Des Sources - Roxboro": 5,
+        "Roxboro - Gravel": 2,
+        "Gravel - \u00cele Bigras": 2,
+        "\u00cele Bigras - Hector Nadon": 2,
+        "Hector Nadon - Laval sur le Lac": 2,
+        "Laval sur le Lac - St Antoine": 2,
+        "St Antoine - Albert Camus": 2,
+        "Albert Camus - Laval Ouest": 2
+      },
+      "C2": {
+        "Bout de L'\u00cele - Beausoleil": 2,
+        "Beausoleil - 51e Avenue": 2,
+        "51e Avenue - 32e Avenue": 2,
+        "32e Avenue - Du Colombier": 2,
+        "Du Colombier - Pointe aux Trembles": 2,
+        "Pointe aux Trembles - St Cyr": 2,
+        "St Cyr - Durocher": 2,
+        "Durocher - Contrecoeur": 2,
+        "Contrecoeur - Mercier": 2,
+        "Mercier - Bellerive": 2,
+        "Bellerive - Des Futailles": 2,
+        "Des Futailles - Longue Pointe": 2,
+        "Longue Pointe - Dickson": 2,
+        "Dickson - Viauville": 2,
+        "Viauville - Hochelaga": 2,
+        "Hochelaga - Frontenac": 3,
+        "Frontenac - Place d'Armes": 4,
+        "Place d'Armes - Robert Bourassa": 2,
+        "Robert Bourassa - Georges Vanier": 3,
+        "Georges Vanier - Charlevoix": 2,
+        "Charlevoix - Place St Henri": 2,
+        "Place St Henri - Courcelle": 2,
+        "Courcelle - Turcot": 2,
+        "Turcot - Vend\u00f4me": 2,
+        "Vend\u00f4me - Girouard": 2,
+        "Girouard - Villa Maria": 2,
+        "Villa Maria - Snowdon": 2,
+        "Snowdon - C\u00f6te St Catherine": 2,
+        "C\u00f6te St Catherine - Plamondon": 2,
+        "Plamondon - Namur": 2,
+        "Namur - De la Savane": 2,
+        "De la Savane - Dion": 2,
+        "Dion - Beaudet": 2,
+        "Beaudet - C\u00f4te Vertu": 2,
+        "C\u00f4te Vertu - Poirier": 2,
+        "Poirier - Bois Franc": 2,
+        "Bois Franc - Salaberry": 2,
+        "Salaberry - Cartierville": 2,
+        "Cartierville - St Maxime": 2,
+        "St Maxime - Chomedey": 2
+      },
+      "C4": {
+        "St Elz\u00e9ar - Carrefour Laval": 2,
+        "Carrefour Laval - Cosmod\u00f4me": 2,
+        "Cosmod\u00f4me - Centre Laval": 2,
+        "Centre Laval - Du Souvenir": 2,
+        "Du Souvenir - Montmorency": 2,
+        "Montmorency - De la Concorde": 2,
+        "De la Concorde - Robin": 2,
+        "Robin - Cartier": 2,
+        "Cartier - Henri Bourassa": 2,
+        "Henri Bourassa - Sauv\u00e9": 2,
+        "Sauv\u00e9 - Cr\u00e9mazie": 2,
+        "Cr\u00e9mazie - Villeray": 2,
+        "Villeray - Jean Talon": 2,
+        "Jean Talon - Petite Patrie": 2,
+        "Petite Patrie - Rosemont": 2,
+        "Rosemont - St Joseph": 2,
+        "St Joseph - Rachel": 2,
+        "Rachel - Sherbrooke": 2,
+        "Sherbrooke - \u00c9milie Gamelin": 2,
+        "\u00c9milie Gamelin - Champ de Mars": 2,
+        "Champ de Mars - Place d'Armes": 2,
+        "Place d'Armes - Robert Bourassa": 2,
+        "Robert Bourassa - Eleanor": 2,
+        "Eleanor - Little Burgundy": 2,
+        "Little Burgundy - Georges Vanier": 2,
+        "Georges Vanier - Charlevoix": 2,
+        "Charlevoix - Place St Henri": 2,
+        "Place St Henri - Courcelle": 2,
+        "Courcelle - Galt": 2,
+        "Galt - Jolicoeur": 2,
+        "Jolicoeur - Monk": 2,
+        "Monk - Angrignon": 2,
+        "Angrignon - L\u00e9ger": 2,
+        "L\u00e9ger - Thierry": 2,
+        "Thierry - Dollard": 2,
+        "Dollard - LaSalle": 2,
+        "LaSalle - Strathyre": 2,
+        "Strathyre - Lachine": 2,
+        "Lachine - 28e Avenue": 2,
+        "28e Avenue - Provost": 2,
+        "Provost - Galland": 2,
+        "Galland - Dorval": 2,
+        "Dorval - L'A\u00e9roport-YUL": 2,
+        "L'A\u00e9roport-YUL - Reverchon": 2,
+        "Reverchon - Des Sources": 2,
+        "Des Sources - Brunswick": 2,
+        "Brunswick - Hyman": 2,
+        "Hyman - Roger Pilon": 2,
+        "Roger Pilon - Anselme Lavigne": 2,
+        "Anselme Lavigne - Roxboro": 2
+      },
+      "D1": {
+        "Ste Rose - De la Renaissance": 2,
+        "De la Renaissance - Des Oiseaux": 2,
+        "Des Oiseaux - Champfleury": 2,
+        "Champfleury - Des Rossignols": 2,
+        "Des Rossignols - St Elz\u00e9ar": 2,
+        "St Elz\u00e9ar - Centre Laval": 3,
+        "Centre Laval - Montmorency": 3,
+        "Montmorency - De la Concorde": 2,
+        "De la Concorde - St Simon": 4,
+        "St Simon - Parc": 3,
+        "Parc - Mile End": 3,
+        "Mile End - Bleury": 3,
+        "Bleury - Place des Arts": 2,
+        "Place des Arts - Place d'Armes": 2,
+        "Place d'Armes - Jean Drapeau": 2,
+        "Jean Drapeau - S\u00e9rigny": 2,
+        "S\u00e9rigny - Centre Longueuil": 2,
+        "Centre Longueuil - Chambly": 3,
+        "Chambly - Guimond": 5,
+        "Guimond - Jean Neveu": 2,
+        "Jean Neveu - Nogent": 2,
+        "Nogent - Boucherville": 2
+      },
+      "D2": {
+        "Pascal - Poupart": 2,
+        "Poupart - Bellerose": 2,
+        "Bellerose - Vimont": 2,
+        "Vimont - Edimbourg": 2,
+        "Edimbourg - B\u00e9langer": 3,
+        "B\u00e9langer - De la Concorde": 3,
+        "De la Concorde - St Simon": 4,
+        "St Simon - Parc": 3,
+        "Parc - Mile End": 3,
+        "Mile End - Bleury": 3,
+        "Bleury - Place des Arts": 2,
+        "Place des Arts - Place d'Armes": 2,
+        "Place d'Armes - Griffintown": 3,
+        "Griffintown - Cit\u00e9 du Havre": 2,
+        "Cit\u00e9 du Havre - St Lambert": 2,
+        "St Lambert - St Georges": 2,
+        "St Georges - Southwark": 2,
+        "Southwark - Stratton-Roberval": 2,
+        "Stratton-Roberval - Gareau": 2,
+        "Gareau - Springfield Park": 2,
+        "Springfield Park - Ga\u00e9tan Boucher": 2,
+        "Ga\u00e9tan Boucher - Westley": 2,
+        "Westley - Brookline": 2
+      },
+      "D4": {
+        "Haut St Fran\u00e7ois - Monette": 2,
+        "Monette - Lucerne": 2,
+        "Lucerne - Edimbourg": 2,
+        "Edimbourg - Saulnier": 2,
+        "Saulnier - B\u00e9langer": 2,
+        "B\u00e9langer - C\u00f4te d'Azur": 2,
+        "C\u00f4te d'Azur - De la Concorde": 2,
+        "De la Concorde - Bernard Landry": 2,
+        "Bernard Landry - Nouveau Bordeaux": 2,
+        "Nouveau Bordeaux - Bois de Boulogne": 2,
+        "Bois de Boulogne - St Simon": 2,
+        "St Simon - Querbes": 2,
+        "Querbes - St Roch": 2,
+        "St Roch - Parc": 2,
+        "Parc - Van Horne": 2,
+        "Van Horne - Mile End": 2,
+        "Mile End - Jeanne Mance": 2,
+        "Jeanne Mance - Pine": 2,
+        "Pine - Bleury": 2,
+        "Bleury - Place des Arts": 2,
+        "Place des Arts - Place d'Armes": 2,
+        "Place d'Armes - Queen": 2,
+        "Queen - Griffintown": 2,
+        "Griffintown - Pointe St Charles": 2,
+        "Pointe St Charles - Rushbrooke": 2,
+        "Rushbrooke - De l'\u00c9glise": 2,
+        "De l'\u00c9glise - Verdun": 2,
+        "Verdun - Brault": 2,
+        "Brault - Douglas": 2,
+        "Douglas - Clemen\u00e7eau": 2,
+        "Clemen\u00e7eau - Leroux": 2,
+        "Leroux - Shevchenko": 2,
+        "Shevchenko - Salley": 2,
+        "Salley - Upton": 2,
+        "Upton - LaSalle": 2,
+        "LaSalle - Airlie": 2
+      },
+      "E1": {
+        "Montbrun - Montarville": 2,
+        "Montarville - Cicot": 2,
+        "Cicot - De la Barre": 2,
+        "De la Barre - Guimond": 2,
+        "Guimond - Chambly": 5,
+        "Chambly - La Fayette": 3,
+        "La Fayette - St Lambert": 3,
+        "St Lambert - Griffintown": 3,
+        "Griffintown - Robert Bourassa": 2,
+        "Robert Bourassa - Bonaventure": 2,
+        "Bonaventure - McGill": 2,
+        "McGill - \u00c9douard Montpetit": 2,
+        "\u00c9douard Montpetit - Canora": 3,
+        "Canora - Muir": 3,
+        "Muir - Bois Franc": 3,
+        "Bois Franc - Marette": 3,
+        "Marette - Valiquette": 3,
+        "Valiquette - Des Sources": 3,
+        "Des Sources - Pointe Claire": 3,
+        "Pointe Claire - Kirkland": 3,
+        "Kirkland - Berne": 2,
+        "Berne - Timberlea": 2,
+        "Timberlea - Ste Marie": 2,
+        "Ste Marie - Meloche": 2,
+        "Meloche - John Abbott": 2,
+        "John Abbott - Ste Anne de Bellevue": 2
+      },
+      "E2": {
+        "Seignurial - St Bruno": 2,
+        "St Bruno - Lucien Milette": 2,
+        "Lucien Milette - Masson": 2,
+        "Masson - St Hubert": 2,
+        "St Hubert - Stratton-Roberval": 2,
+        "Stratton-Roberval - Southwark": 2,
+        "Southwark - St Georges": 2,
+        "St Georges - St Lambert": 2,
+        "St Lambert - Cit\u00e9 du Havre": 2,
+        "Cit\u00e9 du Havre - Griffintown": 2,
+        "Griffintown - Robert Bourassa": 2,
+        "Robert Bourassa - Bonaventure": 2,
+        "Bonaventure - McGill": 2,
+        "McGill - \u00c9douard Montpetit": 2,
+        "\u00c9douard Montpetit - Canora": 3,
+        "Canora - Muir": 3,
+        "Muir - Bois Franc": 3,
+        "Bois Franc - Marette": 3,
+        "Marette - Saraguay": 2,
+        "Saraguay - Bois de Liesse": 2,
+        "Bois de Liesse - Alexander": 2,
+        "Alexander - Sunnybrooke": 2,
+        "Sunnybrooke - Lalande": 2,
+        "Lalande - Jean Brillant": 2,
+        "Jean Brillant - Roxboro": 2,
+        "Roxboro - Westpark": 2,
+        "Westpark - Fredmir": 2,
+        "Fredmir - Richmond": 2,
+        "Richmond - St G\u00e9rard": 2,
+        "St G\u00e9rard - Pierrefonds": 2,
+        "Pierrefonds - Ste Genvi\u00e8ve": 2,
+        "Ste Genvi\u00e8ve - Forbes": 2,
+        "Forbes - Nanterre": 2,
+        "Nanterre - D\u00e9p\u00f4t \u00e0 Neige": 2
+      },
+      "E4": {
+        "Seignurial - St Bruno": 2,
+        "St Bruno - Lucien Milette": 2,
+        "Lucien Milette - Masson": 2,
+        "Masson - St Hubert": 2,
+        "St Hubert - Stratton-Roberval": 2,
+        "Stratton-Roberval - St Georges": 3,
+        "St Georges - St Lambert": 2,
+        "St Lambert - Griffintown": 3,
+        "Griffintown - Robert Bourassa": 2,
+        "Robert Bourassa - Bonaventure": 2,
+        "Bonaventure - McGill": 2,
+        "McGill - \u00c9douard Montpetit": 2,
+        "\u00c9douard Montpetit - Barclay": 2,
+        "Barclay - Canora": 2,
+        "Canora - Connaught": 2,
+        "Connaught - Dunkirk": 2,
+        "Dunkirk - Muir": 2,
+        "Muir - Cr\u00e9peau": 2,
+        "Cr\u00e9peau - O'Brien": 2,
+        "O'Brien - Bois Franc": 2,
+        "Bois Franc - Duchesne": 2,
+        "Duchesne - Marette": 2,
+        "Marette - Thimens": 2,
+        "Thimens - Valiquette": 2,
+        "Valiquette - Marie Curie": 2,
+        "Marie Curie - Alexander Fleming": 2,
+        "Alexander Fleming - L'A\u00e9roport-YUL": 2,
+        "L'A\u00e9roport-YUL - Dorval": 2
+      },
+      "F1": {
+        "Pointe aux Trembles - Reeves": 2,
+        "Reeves - Forsyth": 2,
+        "Forsyth - Marien": 2,
+        "Marien - Broadway": 2,
+        "Broadway - Bourget": 2,
+        "Bourget - Rh\u00e9aume": 2,
+        "Rh\u00e9aume - Edison": 2,
+        "Edison - Anjou": 2,
+        "Anjou - Lacordaire": 3,
+        "Lacordaire - Petit Maghreb": 3,
+        "Petit Maghreb - Jean Talon": 4,
+        "Jean Talon - Parc": 3,
+        "Parc - \u00c9douard Montpetit": 3,
+        "\u00c9douard Montpetit - Universit\u00e9 de Montr\u00e9al": 2,
+        "Universit\u00e9 de Montr\u00e9al - Snowdon": 3,
+        "Snowdon - C\u00f4te St Luc": 3,
+        "C\u00f4te St Luc - Wavell": 2,
+        "Wavell - Mackie": 2,
+        "Mackie - Hickmore": 2,
+        "Hickmore - Ryan": 2,
+        "Ryan - Pitfield": 2,
+        "Pitfield - Marc Blain": 2,
+        "Marc Blain - Valiquette": 2,
+        "Valiquette - Bois de Liesse": 2,
+        "Bois de Liesse - Bord de l'Eau": 2,
+        "Bord de l'Eau - Ste Doroth\u00e9e": 2,
+        "Ste Doroth\u00e9e - Desserte": 2,
+        "Desserte - Cl\u00e9roux": 2,
+        "Cl\u00e9roux - \u00c9tienne Lenoir": 2,
+        "\u00c9tienne Lenoir - Fabreville": 2
+      },
+      "F2": {
+        "Marie Victorin - 6e Avenue": 2,
+        "6e Avenue - Larrey": 2,
+        "Larrey - Grenache": 2,
+        "Grenache - Anjou": 2,
+        "Anjou - Lacordaire": 3,
+        "Lacordaire - Petit Maghreb": 3,
+        "Petit Maghreb - Jean Talon": 4,
+        "Jean Talon - Parc": 3,
+        "Parc - \u00c9douard Montpetit": 3,
+        "\u00c9douard Montpetit - Universit\u00e9 de Montr\u00e9al": 2,
+        "Universit\u00e9 de Montr\u00e9al - Snowdon": 3,
+        "Snowdon - C\u00f4te St Luc": 3,
+        "C\u00f4te St Luc - Westminster": 2,
+        "Westminster - Ville St Pierre": 2,
+        "Ville St Pierre - Du Canal": 2,
+        "Du Canal - Jean Milot": 2,
+        "Jean Milot - Airlie": 2
+      },
+      "G1": {
+        "Guimond - \u00cele Charron": 2,
+        "\u00cele Charron - Curatteau": 2,
+        "Curatteau - Bellerive": 2,
+        "Bellerive - Honor\u00e9 Beaugrand": 2,
+        "Honor\u00e9 Beaugrand - Yves Pr\u00e9vost": 2,
+        "Yves Pr\u00e9vost - Anjou": 2,
+        "Anjou - Grenache": 2,
+        "Grenache - Larrey": 2,
+        "Larrey - Montr\u00e9al Nord": 2,
+        "Montr\u00e9al Nord - JB Martineau": 3,
+        "JB Martineau - Sauv\u00e9": 4,
+        "Sauv\u00e9 - St Simon": 3,
+        "St Simon - Muir": 3,
+        "Muir - C\u00f4te Vertu": 3,
+        "C\u00f4te Vertu - Place Vertu": 3,
+        "Place Vertu - Marc Blain": 3,
+        "Marc Blain - Des Sources": 3,
+        "Des Sources - Pointe Claire": 3,
+        "Pointe Claire - Kirkland": 3,
+        "Kirkland - Berne": 2,
+        "Berne - Timberlea": 2,
+        "Timberlea - Ste Marie": 2,
+        "Ste Marie - Meloche": 2,
+        "Meloche - John Abbott": 2,
+        "John Abbott - Ste Anne de Bellevue": 2
+      },
+      "G2": {
+        "Bout de L'\u00cele - Beausoleil": 2,
+        "Beausoleil - Yves Th\u00e9riault": 2,
+        "Yves Th\u00e9riault - Armand Chaput": 2,
+        "Armand Chaput - St Jean Baptise": 2,
+        "St Jean Baptise - 60e Avenue": 2,
+        "60e Avenue - Pierre Bonne": 2,
+        "Pierre Bonne - Pasquale Gattuso": 2,
+        "Pasquale Gattuso - Ray Lawson": 2,
+        "Ray Lawson - 6e Avenue": 2,
+        "6e Avenue - Montr\u00e9al Nord": 2,
+        "Montr\u00e9al Nord - JB Martineau": 3,
+        "JB Martineau - Sauv\u00e9": 4,
+        "Sauv\u00e9 - St Simon": 3,
+        "St Simon - Muir": 3,
+        "Muir - C\u00f4te Vertu": 3,
+        "C\u00f4te Vertu - Place Vertu": 3,
+        "Place Vertu - Marc Blain": 3,
+        "Marc Blain - Valiquette": 2,
+        "Valiquette - Bois de Liesse": 2,
+        "Bois de Liesse - Alexander": 2,
+        "Alexander - Sunnybrooke": 2,
+        "Sunnybrooke - Lalande": 2,
+        "Lalande - Jean Brillant": 2,
+        "Jean Brillant - Roxboro": 2,
+        "Roxboro - Westpark": 2,
+        "Westpark - Fredmir": 2,
+        "Fredmir - Richmond": 2,
+        "Richmond - St G\u00e9rard": 2,
+        "St G\u00e9rard - Pierrefonds": 2,
+        "Pierrefonds - Ste Genvi\u00e8ve": 2,
+        "Ste Genvi\u00e8ve - Forbes": 2,
+        "Forbes - Nanterre": 2,
+        "Nanterre - D\u00e9p\u00f4t \u00e0 Neige": 2
+      },
+      "H1": {
+        "Boucherville - Nogent": 2,
+        "Nogent - Jean Neveu": 2,
+        "Jean Neveu - Guimond": 2,
+        "Guimond - Jean Paul Vincent": 2,
+        "Jean Paul Vincent - Pointe du Marigot": 2,
+        "Pointe du Marigot - Atrium": 2,
+        "Atrium - Auvergne": 2,
+        "Auvergne - Chambly": 2,
+        "Chambly - Quinn": 2,
+        "Quinn - Marquette": 2,
+        "Marquette - La Fayette": 2,
+        "La Fayette - Tiffin": 2,
+        "Tiffin - St Georges": 2,
+        "St Georges - Panama": 5,
+        "Panama - Napol\u00e9on": 3,
+        "Napol\u00e9on - La Prairie": 4,
+        "La Prairie - St Jos\u00e9": 2,
+        "St Jos\u00e9 - Montcalm": 2,
+        "Montcalm - Candiac": 2,
+        "Candiac - Libert\u00e9": 2,
+        "Libert\u00e9 - Delson": 2,
+        "Delson - Beauvais": 2,
+        "Beauvais - St Constant": 2,
+        "St Constant - Monchamp": 2,
+        "Monchamp - Wilfrid Lamarche": 2
+      },
+      "H2": {
+        "Montbrun - Montarville": 2,
+        "Montarville - Cicot": 2,
+        "Cicot - De la Barre": 2,
+        "De la Barre - Guimond": 2,
+        "Guimond - Jean Paul Vincent": 2,
+        "Jean Paul Vincent - Pointe du Marigot": 2,
+        "Pointe du Marigot - Atrium": 2,
+        "Atrium - Auvergne": 2,
+        "Auvergne - Chambly": 2,
+        "Chambly - Quinn": 2,
+        "Quinn - Marquette": 2,
+        "Marquette - La Fayette": 2,
+        "La Fayette - Tiffin": 2,
+        "Tiffin - St Georges": 2,
+        "St Georges - Panama": 5,
+        "Panama - Napol\u00e9on": 3,
+        "Napol\u00e9on - La Prairie": 4,
+        "La Prairie - St Jos\u00e9": 2,
+        "St Jos\u00e9 - Montcalm": 2,
+        "Montcalm - Champlain": 2,
+        "Champlain - Jogues": 2,
+        "Jogues - Des \u00c9cluses": 2,
+        "Des \u00c9cluses - Br\u00e9beuf": 2,
+        "Br\u00e9beuf - Cherrier": 2
+      },
+      "J1": {
+        "Plage Chartrand - Rivi\u00e8re des Prairies": 2,
+        "Rivi\u00e8re des Prairies - Don Bosco": 2,
+        "Don Bosco - Armand Bombardier": 2,
+        "Armand Bombardier - Pierre Blanchet": 2,
+        "Pierre Blanchet - Ruisseau de Montigny": 2,
+        "Ruisseau de Montigny - Rolland": 2,
+        "Rolland - Ste Colette": 2,
+        "Ste Colette - \u00c9thier": 2,
+        "\u00c9thier - Rose de Lima": 2,
+        "Rose de Lima - Lesage": 2,
+        "Lesage - Duvernay": 2,
+        "Duvernay - Auriol": 2,
+        "Auriol - Des Alouettes": 2,
+        "Des Alouettes - Pont Viau": 2,
+        "Pont Viau - 15e Rue": 2,
+        "15e Rue - De la Concorde": 2,
+        "De la Concorde - Montmorency": 2,
+        "Montmorency - Du Souvenir": 2,
+        "Du Souvenir - Armand Frappier": 2,
+        "Armand Frappier - Alton Goldbloom": 2,
+        "Alton Goldbloom - Chomedey": 2,
+        "Chomedey - \u00c9lisabeth": 2,
+        "\u00c9lisabeth - Ch\u00e2telaine": 2,
+        "Ch\u00e2telaine - Ste Doroth\u00e9e": 2,
+        "Ste Doroth\u00e9e - Josaphat Demers": 2,
+        "Josaphat Demers - Samson": 2,
+        "Samson - Belair": 2,
+        "Belair - Roxboro": 2,
+        "Roxboro - Richmond": 3,
+        "Richmond - Pierrefonds": 3,
+        "Pierrefonds - Forbes": 3,
+        "Forbes - Duval": 2,
+        "Duval - Lacey Green": 2,
+        "Lacey Green - Kirkland": 2,
+        "Kirkland - Creswell": 2,
+        "Creswell - Beaconsfield": 2
+      },
+      "J2": {
+        "St Elz\u00e9ar - Carrefour Laval": 2,
+        "Carrefour Laval - Cosmod\u00f4me": 2,
+        "Cosmod\u00f4me - Centre Laval": 2,
+        "Centre Laval - Armand Frappier": 2,
+        "Armand Frappier - Alton Goldbloom": 2,
+        "Alton Goldbloom - Chomedey": 2,
+        "Chomedey - \u00c9lisabeth": 2,
+        "\u00c9lisabeth - Ch\u00e2telaine": 2,
+        "Ch\u00e2telaine - Ste Doroth\u00e9e": 2,
+        "Ste Doroth\u00e9e - Josaphat Demers": 2,
+        "Josaphat Demers - Samson": 2,
+        "Samson - Belair": 2,
+        "Belair - Roxboro": 2,
+        "Roxboro - Richmond": 3,
+        "Richmond - Pierrefonds": 3,
+        "Pierrefonds - Forbes": 3,
+        "Forbes - Duval": 2,
+        "Duval - Lacey Green": 2,
+        "Lacey Green - Kirkland": 2,
+        "Kirkland - Creswell": 2,
+        "Creswell - Beaconsfield": 2
       }
     },
     "stations": {
-      "Arlington": [
-        "L1"
+      "6e Avenue": [
+        "F2",
+        "G2"
       ],
-      "Capitol Square": [
-        "L1"
+      "15e Rue": [
+        "J1"
       ],
-      "Convention": [
-        "L1"
+      "24e Avenue": [
+        "B3"
       ],
-      "Dulwich Grove": [
-        "L1"
+      "28e Avenue": [
+        "C1",
+        "C4"
       ],
-      "Dulwich Hill": [
-        "L1"
+      "32e Avenue": [
+        "B1",
+        "C2"
       ],
-      "Exhibition Centre": [
-        "L1"
+      "36e Avenue": [
+        "A1"
       ],
-      "Fish Market": [
-        "L1"
+      "43e Avenue": [
+        "B3"
       ],
-      "Glebe": [
-        "L1"
+      "51e Avenue": [
+        "B1",
+        "C2"
       ],
-      "Hawthorne": [
-        "L1"
+      "55e Avenue": [
+        "B3"
       ],
-      "John Street Square": [
-        "L1"
+      "60e Avenue": [
+        "G2"
       ],
-      "Jubilee Park": [
-        "L1"
+      "Airlie": [
+        "D4",
+        "F2"
       ],
-      "Leichhardt North": [
-        "L1"
+      "Albert Camus": [
+        "A4",
+        "C1"
       ],
-      "Lewisham West": [
-        "L1"
+      "Albert Gari\u00e9py": [
+        "B3"
       ],
-      "Lilyfield": [
-        "L1"
+      "Alexander": [
+        "E2",
+        "G2"
       ],
-      "Marion": [
-        "L1"
+      "Alexander Fleming": [
+        "E4"
       ],
-      "Paddy's Market": [
-        "L1"
+      "Alton Goldbloom": [
+        "J1",
+        "J2"
       ],
-      "Pyrmont Bay": [
-        "L1"
+      "Andr\u00e9 Amp\u00e8re": [
+        "A4",
+        "B2"
       ],
-      "Rozelle Bay": [
-        "L1"
+      "Angrignon": [
+        "C1",
+        "C4"
       ],
-      "Sydney Central": [
-        "L1"
+      "Anjou": [
+        "F1",
+        "F2",
+        "G1"
       ],
-      "Taverners Hill": [
-        "L1"
+      "Anselme Lavigne": [
+        "B3",
+        "C4"
       ],
-      "The Star": [
-        "L1"
+      "Armand Bombardier": [
+        "A4",
+        "B2",
+        "J1"
       ],
-      "Waratah Mills": [
-        "L1"
+      "Armand Chaput": [
+        "G2"
       ],
-      "Wentworth Park": [
-        "L1"
+      "Armand Frappier": [
+        "J1",
+        "J2"
+      ],
+      "Atrium": [
+        "H1",
+        "H2"
+      ],
+      "Atwater": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "Auriol": [
+        "J1"
+      ],
+      "Auvergne": [
+        "H1",
+        "H2"
+      ],
+      "Baie d'Urf\u00e9": [
+        "A1",
+        "B1"
+      ],
+      "Barclay": [
+        "E4"
+      ],
+      "Beaubien": [
+        "A3"
+      ],
+      "Beaconsfield": [
+        "A1",
+        "B1",
+        "J1",
+        "J2"
+      ],
+      "Beaudet": [
+        "B4",
+        "C2"
+      ],
+      "Beaudry": [
+        "B1"
+      ],
+      "Beaurepaire": [
+        "A1",
+        "B1"
+      ],
+      "Beausoleil": [
+        "A1",
+        "B1",
+        "C2",
+        "G2"
+      ],
+      "Beauvais": [
+        "H1"
+      ],
+      "Belair": [
+        "J1",
+        "J2"
+      ],
+      "B\u00e9langer": [
+        "C1",
+        "D2",
+        "D4"
+      ],
+      "Bellerive": [
+        "B1",
+        "C2",
+        "G1"
+      ],
+      "Bellerose": [
+        "C1",
+        "D2"
+      ],
+      "Benny Farm": [
+        "B3"
+      ],
+      "Bernard Landry": [
+        "D4"
+      ],
+      "Berne": [
+        "E1",
+        "G1"
+      ],
+      "Bleury": [
+        "A1",
+        "A3",
+        "A4",
+        "D1",
+        "D2",
+        "D4"
+      ],
+      "Bois de Boulogne": [
+        "D4"
+      ],
+      "Bois de Liesse": [
+        "E2",
+        "F1",
+        "G2"
+      ],
+      "Bois Franc": [
+        "A3",
+        "B2",
+        "B4",
+        "C2",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Bonaventure": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Bout de L'\u00cele": [
+        "A1",
+        "B1",
+        "C2",
+        "G2"
+      ],
+      "Brault": [
+        "D4"
+      ],
+      "Br\u00e9beuf": [
+        "H2"
+      ],
+      "Brookline": [
+        "D2"
+      ],
+      "Brunswick": [
+        "B3",
+        "C4"
+      ],
+      "Bord de l'Eau": [
+        "F1"
+      ],
+      "Boucherville": [
+        "D1",
+        "H1"
+      ],
+      "Bourget": [
+        "F1"
+      ],
+      "Broadway": [
+        "F1"
+      ],
+      "Candiac": [
+        "H1"
+      ],
+      "Canora": [
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Carrefour Laval": [
+        "B4",
+        "C4",
+        "J2"
+      ],
+      "Cartier": [
+        "B3",
+        "B4",
+        "C1",
+        "C4"
+      ],
+      "Cartierville": [
+        "B4",
+        "C2"
+      ],
+      "Cedar Park": [
+        "A1",
+        "B1"
+      ],
+      "Centre Laval": [
+        "B3",
+        "B4",
+        "C4",
+        "D1",
+        "J2"
+      ],
+      "Centre Longueuil": [
+        "D1"
+      ],
+      "Chambly": [
+        "D1",
+        "E1",
+        "H1",
+        "H2"
+      ],
+      "Champ de Mars": [
+        "C4"
+      ],
+      "Champfleury": [
+        "B3",
+        "D1"
+      ],
+      "Champlain": [
+        "H2"
+      ],
+      "Chapleau": [
+        "A3"
+      ],
+      "Charlevoix": [
+        "C2",
+        "C4"
+      ],
+      "Ch\u00e2teauguay": [
+        "C1"
+      ],
+      "Ch\u00e2telaine": [
+        "J1",
+        "J2"
+      ],
+      "Cherrier": [
+        "H2"
+      ],
+      "Chomedey": [
+        "A3",
+        "B2",
+        "B4",
+        "C2",
+        "J1",
+        "J2"
+      ],
+      "Cicot": [
+        "E1",
+        "H2"
+      ],
+      "Cit\u00e9 du Havre": [
+        "D2",
+        "E2"
+      ],
+      "Clemen\u00e7eau": [
+        "D4"
+      ],
+      "Cl\u00e9roux": [
+        "F1"
+      ],
+      "Clifton": [
+        "B3"
+      ],
+      "Coloniale": [
+        "A3"
+      ],
+      "Concordia": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "Connaught": [
+        "E4"
+      ],
+      "Contrecoeur": [
+        "B1",
+        "C2"
+      ],
+      "Cosmod\u00f4me": [
+        "B4",
+        "C4",
+        "J2"
+      ],
+      "C\u00f4te d'Azur": [
+        "D4"
+      ],
+      "C\u00f6te St Catherine": [
+        "B4",
+        "C2"
+      ],
+      "C\u00f4te St Luc": [
+        "F1",
+        "F2"
+      ],
+      "C\u00f4te Vertu": [
+        "A3",
+        "B2",
+        "B4",
+        "C2",
+        "G1",
+        "G2"
+      ],
+      "C\u00f4te Visitation": [
+        "A4",
+        "B2"
+      ],
+      "Courcelle": [
+        "C2",
+        "C4"
+      ],
+      "Couture": [
+        "A4",
+        "B2"
+      ],
+      "Cr\u00e9mazie": [
+        "B4",
+        "C4"
+      ],
+      "Cr\u00e9peau": [
+        "E4"
+      ],
+      "Creswell": [
+        "J1",
+        "J2"
+      ],
+      "Curatteau": [
+        "G1"
+      ],
+      "Dagenais": [
+        "A3",
+        "B2"
+      ],
+      "De l'\u00c9glise": [
+        "D4"
+      ],
+      "De la Barre": [
+        "E1",
+        "H2"
+      ],
+      "De la Concorde": [
+        "B3",
+        "B4",
+        "C4",
+        "D1",
+        "D2",
+        "D4",
+        "J1"
+      ],
+      "De la Renaissance": [
+        "A3",
+        "B2",
+        "B3",
+        "D1"
+      ],
+      "De la Rousssli\u00e8re": [
+        "A1"
+      ],
+      "De la Savane": [
+        "B4",
+        "C2"
+      ],
+      "De Lorimier": [
+        "A4",
+        "B2"
+      ],
+      "De Nevers": [
+        "A4",
+        "B2"
+      ],
+      "Des Alouettes": [
+        "J1"
+      ],
+      "Delson": [
+        "H1"
+      ],
+      "Denis Papin": [
+        "A3"
+      ],
+      "D\u00e9p\u00f4t \u00e0 Neige": [
+        "E2",
+        "G2"
+      ],
+      "Des \u00c9cluses": [
+        "H2"
+      ],
+      "Des Futailles": [
+        "B1",
+        "C2"
+      ],
+      "Des Oiseaux": [
+        "A3",
+        "B2",
+        "B3",
+        "D1"
+      ],
+      "Des Rossignols": [
+        "B3",
+        "D1"
+      ],
+      "Des Sources": [
+        "A4",
+        "B3",
+        "C1",
+        "C4",
+        "E1",
+        "G1"
+      ],
+      "Desserte": [
+        "F1"
+      ],
+      "Dickson": [
+        "B1",
+        "C2"
+      ],
+      "Dion": [
+        "B4",
+        "C2"
+      ],
+      "Dollard": [
+        "C1",
+        "C4"
+      ],
+      "Don Bosco": [
+        "A4",
+        "B2",
+        "J1"
+      ],
+      "Dorval": [
+        "A1",
+        "A4",
+        "B1",
+        "B3",
+        "C1",
+        "C4",
+        "E4"
+      ],
+      "Douglas": [
+        "D4"
+      ],
+      "Drummond": [
+        "A3"
+      ],
+      "Du Canal": [
+        "F2"
+      ],
+      "Du Colombier": [
+        "B1",
+        "C2"
+      ],
+      "Du Souvenir": [
+        "B4",
+        "C4",
+        "J1"
+      ],
+      "Duchesne": [
+        "E4"
+      ],
+      "Dunkirk": [
+        "E4"
+      ],
+      "Durocher": [
+        "B1",
+        "C2"
+      ],
+      "Duval": [
+        "J1",
+        "J2"
+      ],
+      "Duvernay": [
+        "J1"
+      ],
+      "Edimbourg": [
+        "C1",
+        "D2",
+        "D4"
+      ],
+      "Edison": [
+        "F1"
+      ],
+      "\u00c9douard Montpetit": [
+        "E1",
+        "E2",
+        "E4",
+        "F1",
+        "F2"
+      ],
+      "Eleanor": [
+        "C4"
+      ],
+      "\u00c9milie Gamelin": [
+        "B4",
+        "C4"
+      ],
+      "\u00c9milie Zola": [
+        "A3",
+        "B2"
+      ],
+      "\u00c9lisabeth": [
+        "J1",
+        "J2"
+      ],
+      "\u00c9thier": [
+        "J1"
+      ],
+      "\u00c9tienne Lenoir": [
+        "F1"
+      ],
+      "Fabreville": [
+        "F1"
+      ],
+      "Fairway": [
+        "A1",
+        "B1"
+      ],
+      "Fafard": [
+        "A3",
+        "B2"
+      ],
+      "Forbes": [
+        "E2",
+        "G2",
+        "J1",
+        "J2"
+      ],
+      "Forsyth": [
+        "A1",
+        "F1"
+      ],
+      "Fredmir": [
+        "E2",
+        "G2"
+      ],
+      "Frontenac": [
+        "B1",
+        "C2"
+      ],
+      "Ga\u00e9tan Boucher": [
+        "D2"
+      ],
+      "Galland": [
+        "C1",
+        "C4"
+      ],
+      "Galt": [
+        "C4"
+      ],
+      "Gamble": [
+        "A1"
+      ],
+      "Gareau": [
+        "D2"
+      ],
+      "G\u00e9n\u00e9reaux": [
+        "A4",
+        "B2"
+      ],
+      "Georges Vanier": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "Gianchetti": [
+        "C1"
+      ],
+      "Girouard": [
+        "B4",
+        "C2"
+      ],
+      "Gonthier": [
+        "A1"
+      ],
+      "Gravel": [
+        "A4",
+        "C1"
+      ],
+      "Grenache": [
+        "F2",
+        "G1"
+      ],
+      "Griffintown": [
+        "D2",
+        "D4",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Guimond": [
+        "D1",
+        "E1",
+        "G1",
+        "H1",
+        "H2"
+      ],
+      "Guy": [
+        "A3"
+      ],
+      "Hallowell": [
+        "B3",
+        "B4"
+      ],
+      "Haut St Fran\u00e7ois": [
+        "D4"
+      ],
+      "Hector Nadon": [
+        "A4",
+        "C1"
+      ],
+      "Henri Bourassa": [
+        "B4",
+        "C4"
+      ],
+      "Hickmore": [
+        "F1"
+      ],
+      "Hochelaga": [
+        "B1",
+        "C2"
+      ],
+      "Honor\u00e9 Beaugrand": [
+        "A1",
+        "G1"
+      ],
+      "Hyman": [
+        "B3",
+        "C4"
+      ],
+      "\u00cele Bigras": [
+        "A4",
+        "C1"
+      ],
+      "\u00cele Charron": [
+        "G1"
+      ],
+      "Jardin Botanique": [
+        "A3"
+      ],
+      "Jarry": [
+        "A3"
+      ],
+      "JB Martineau": [
+        "A3",
+        "G1",
+        "G2"
+      ],
+      "Jean Brillant": [
+        "E2",
+        "G2"
+      ],
+      "Jean Drapeau": [
+        "D1"
+      ],
+      "Jean Milot": [
+        "F2"
+      ],
+      "Jean Neveu": [
+        "D1",
+        "H1"
+      ],
+      "Jean Paul Vincent": [
+        "H1",
+        "H2"
+      ],
+      "Jean Talon": [
+        "B3",
+        "B4",
+        "C1",
+        "C4",
+        "F1",
+        "F2"
+      ],
+      "Jeanne Mance": [
+        "D4"
+      ],
+      "Jogues": [
+        "H2"
+      ],
+      "John Abbott": [
+        "A1",
+        "B1",
+        "E1",
+        "G1"
+      ],
+      "Jolicoeur": [
+        "C4"
+      ],
+      "Joliette": [
+        "A3"
+      ],
+      "Josaphat Demers": [
+        "J1",
+        "J2"
+      ],
+      "Kirkland": [
+        "E1",
+        "G1",
+        "J1",
+        "J2"
+      ],
+      "L'A\u00e9roport-YUL": [
+        "A4",
+        "B3",
+        "C1",
+        "C4",
+        "E4"
+      ],
+      "La Fayette": [
+        "E1",
+        "H1",
+        "H2"
+      ],
+      "La Fontaine": [
+        "A3"
+      ],
+      "La Prairie": [
+        "H1",
+        "H2"
+      ],
+      "Lacey Green": [
+        "J1",
+        "J2"
+      ],
+      "Lachine": [
+        "C1",
+        "C4"
+      ],
+      "Lacordaire": [
+        "F1",
+        "F2"
+      ],
+      "Lalande": [
+        "E2",
+        "G2"
+      ],
+      "Lanaudi\u00e8re": [
+        "A4",
+        "B2"
+      ],
+      "Langelier": [
+        "A1"
+      ],
+      "Lansdowne": [
+        "B3",
+        "B4"
+      ],
+      "Larrey": [
+        "F2",
+        "G1"
+      ],
+      "LaSalle": [
+        "C1",
+        "C4",
+        "D4"
+      ],
+      "Laval Ouest": [
+        "A4",
+        "C1"
+      ],
+      "Laval sur le Lac": [
+        "A4",
+        "C1"
+      ],
+      "L\u00e9ger": [
+        "C1",
+        "C4"
+      ],
+      "Leli\u00e8vre": [
+        "A1"
+      ],
+      "L\u00e9pine": [
+        "A3",
+        "B2"
+      ],
+      "Leroux": [
+        "D4"
+      ],
+      "Lesage": [
+        "J1"
+      ],
+      "Libert\u00e9": [
+        "H1"
+      ],
+      "Li\u00e9bert": [
+        "A3"
+      ],
+      "Little Burgundy": [
+        "C4"
+      ],
+      "Longue Pointe": [
+        "B1",
+        "C2"
+      ],
+      "Lucerne": [
+        "D4"
+      ],
+      "Lucien L'Allier": [
+        "B3",
+        "B4"
+      ],
+      "Lucien Milette": [
+        "E2",
+        "E4"
+      ],
+      "Mackie": [
+        "F1"
+      ],
+      "Maisonneuve": [
+        "B2"
+      ],
+      "Marc Blain": [
+        "F1",
+        "G1",
+        "G2"
+      ],
+      "Marette": [
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Marie Curie": [
+        "E4"
+      ],
+      "Marie Victorin": [
+        "A4",
+        "B2",
+        "F2"
+      ],
+      "Marien": [
+        "F1"
+      ],
+      "Marquette": [
+        "H1",
+        "H2"
+      ],
+      "Masson": [
+        "E2",
+        "E4"
+      ],
+      "McGill": [
+        "A1",
+        "A3",
+        "A4",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Meloche": [
+        "E1",
+        "G1"
+      ],
+      "Melville": [
+        "A3"
+      ],
+      "Mercier": [
+        "B1",
+        "C2"
+      ],
+      "M\u00e9tropolitain": [
+        "A4",
+        "B2"
+      ],
+      "Mile End": [
+        "D1",
+        "D2",
+        "D4"
+      ],
+      "Monchamp": [
+        "H1"
+      ],
+      "Monette": [
+        "D4"
+      ],
+      "Monk": [
+        "C1",
+        "C4"
+      ],
+      "Montarville": [
+        "E1",
+        "H2"
+      ],
+      "Montbrun": [
+        "E1",
+        "H2"
+      ],
+      "Montmorency": [
+        "B3",
+        "B4",
+        "C4",
+        "D1",
+        "J1"
+      ],
+      "Monselet": [
+        "A3"
+      ],
+      "Montcalm": [
+        "H1",
+        "H2"
+      ],
+      "Montr\u00e9al Nord": [
+        "A4",
+        "B2",
+        "G1",
+        "G2"
+      ],
+      "Montr\u00e9al Ouest": [
+        "A4",
+        "B3"
+      ],
+      "Moreau": [
+        "A3"
+      ],
+      "Muir": [
+        "E1",
+        "E2",
+        "E4",
+        "G1",
+        "G2"
+      ],
+      "Namur": [
+        "A3",
+        "B2",
+        "B4",
+        "C2"
+      ],
+      "Nanterre": [
+        "E2",
+        "G2"
+      ],
+      "Napol\u00e9on": [
+        "H1",
+        "H2"
+      ],
+      "Nogent": [
+        "D1",
+        "H1"
+      ],
+      "Nouveau Bordeaux": [
+        "D4"
+      ],
+      "O'Brien": [
+        "E4"
+      ],
+      "Olivier": [
+        "A3"
+      ],
+      "Panama": [
+        "H1",
+        "H2"
+      ],
+      "Papineau": [
+        "A1",
+        "A3"
+      ],
+      "Parc": [
+        "D1",
+        "D2",
+        "D4",
+        "F1",
+        "F2"
+      ],
+      "Parc Olympique": [
+        "A1",
+        "A3"
+      ],
+      "Pascal": [
+        "C1",
+        "D2"
+      ],
+      "Pasquale Gattuso": [
+        "G2"
+      ],
+      "Petit Maghreb": [
+        "A3",
+        "A4",
+        "B2",
+        "F1",
+        "F2"
+      ],
+      "Petite Patrie": [
+        "B4",
+        "C4"
+      ],
+      "Pierre Blanchet": [
+        "J1"
+      ],
+      "Pierre Bonne": [
+        "G2"
+      ],
+      "Pierrefonds": [
+        "E2",
+        "G2",
+        "J1",
+        "J2"
+      ],
+      "Pilon": [
+        "A3"
+      ],
+      "Pine": [
+        "D4"
+      ],
+      "Pitfield": [
+        "F1"
+      ],
+      "Place d'Armes": [
+        "C1",
+        "C2",
+        "C4",
+        "D1",
+        "D2",
+        "D4"
+      ],
+      "Place des Arts": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "D1",
+        "D2",
+        "D4"
+      ],
+      "Place St Henri": [
+        "C2",
+        "C4"
+      ],
+      "Place Vertu": [
+        "G1",
+        "G2"
+      ],
+      "Plage Chartrand": [
+        "A4",
+        "B2",
+        "J1"
+      ],
+      "Plamondon": [
+        "B4",
+        "C2"
+      ],
+      "Pointe aux Trembles": [
+        "B1",
+        "C2",
+        "F1"
+      ],
+      "Pointe Claire": [
+        "E1",
+        "G1"
+      ],
+      "Pointe du Marigot": [
+        "H1",
+        "H2"
+      ],
+      "Pointe St Charles": [
+        "D4"
+      ],
+      "Poirier": [
+        "B4",
+        "C2"
+      ],
+      "Pont Viau": [
+        "C1",
+        "J1"
+      ],
+      "Poupart": [
+        "C1",
+        "D2"
+      ],
+      "Provost": [
+        "C1",
+        "C4"
+      ],
+      "Queen": [
+        "D4"
+      ],
+      "Querbes": [
+        "D4"
+      ],
+      "Quinn": [
+        "H1",
+        "H2"
+      ],
+      "Rachel": [
+        "B4",
+        "C4"
+      ],
+      "Ray Lawson": [
+        "G2"
+      ],
+      "Reeves": [
+        "F1"
+      ],
+      "Reverchon": [
+        "B3",
+        "C4"
+      ],
+      "Rh\u00e9aume": [
+        "F1"
+      ],
+      "Richmond": [
+        "E2",
+        "G2",
+        "J1",
+        "J2"
+      ],
+      "Rivi\u00e8re des Prairies": [
+        "A4",
+        "B2",
+        "J1"
+      ],
+      "Robert Bourassa": [
+        "C1",
+        "C2",
+        "C4",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "Robin": [
+        "B4",
+        "C4"
+      ],
+      "Robinson": [
+        "A3",
+        "B2"
+      ],
+      "Roger Pilon": [
+        "B3",
+        "C4"
+      ],
+      "Rolland": [
+        "J1"
+      ],
+      "Rose de Lima": [
+        "A3",
+        "J1"
+      ],
+      "Rosemont": [
+        "B4",
+        "C4"
+      ],
+      "Roxboro": [
+        "A4",
+        "B3",
+        "C1",
+        "C4",
+        "E2",
+        "G2",
+        "J1",
+        "J2"
+      ],
+      "Ruisseau de Montigny": [
+        "J1"
+      ],
+      "Rushbrooke": [
+        "D4"
+      ],
+      "Ryan": [
+        "F1"
+      ],
+      "Salaberry": [
+        "B4",
+        "C2"
+      ],
+      "Salley": [
+        "D4"
+      ],
+      "Samson": [
+        "J1",
+        "J2"
+      ],
+      "Saraguay": [
+        "E2"
+      ],
+      "Saulnier": [
+        "D4"
+      ],
+      "Sauv\u00e9": [
+        "B3",
+        "B4",
+        "C1",
+        "C4",
+        "G1",
+        "G2"
+      ],
+      "Seignurial": [
+        "E2",
+        "E4"
+      ],
+      "S\u00e9rigny": [
+        "D1"
+      ],
+      "Seymour": [
+        "B3",
+        "B4"
+      ],
+      "Sherbrooke": [
+        "A1",
+        "A3",
+        "A4",
+        "B2",
+        "B3",
+        "B4",
+        "C1",
+        "C4"
+      ],
+      "Shevchenko": [
+        "D4"
+      ],
+      "Snowdon": [
+        "A3",
+        "B2",
+        "B4",
+        "C2",
+        "F1",
+        "F2"
+      ],
+      "Southwark": [
+        "D2",
+        "E2"
+      ],
+      "Springfield Park": [
+        "D2"
+      ],
+      "Square Papineau": [
+        "B1"
+      ],
+      "St Antoine": [
+        "A4",
+        "C1"
+      ],
+      "St Bruno": [
+        "E2",
+        "E4"
+      ],
+      "St Constant": [
+        "H1"
+      ],
+      "St Cyr": [
+        "B1",
+        "C2"
+      ],
+      "St Elz\u00e9ar": [
+        "B3",
+        "B4",
+        "C4",
+        "D1",
+        "J2"
+      ],
+      "St Georges": [
+        "D2",
+        "E2",
+        "E4",
+        "H1",
+        "H2"
+      ],
+      "St G\u00e9rard": [
+        "E2",
+        "G2"
+      ],
+      "St Hubert": [
+        "E2",
+        "E4"
+      ],
+      "St Jean Baptise": [
+        "G2"
+      ],
+      "St Jos\u00e9": [
+        "H1",
+        "H2"
+      ],
+      "St Joseph": [
+        "B3",
+        "B4",
+        "C1",
+        "C4"
+      ],
+      "St Lambert": [
+        "D2",
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "St Maxime": [
+        "B4",
+        "C2"
+      ],
+      "St Roch": [
+        "D4"
+      ],
+      "St Simon": [
+        "D1",
+        "D2",
+        "D4",
+        "G1",
+        "G2"
+      ],
+      "St Vincent de Paul": [
+        "A3"
+      ],
+      "St Zotique": [
+        "A4",
+        "B2"
+      ],
+      "Ste Anne de Bellevue": [
+        "A1",
+        "B1",
+        "E1",
+        "G1"
+      ],
+      "Ste Colette": [
+        "J1"
+      ],
+      "Ste Doroth\u00e9e": [
+        "F1",
+        "J1",
+        "J2"
+      ],
+      "Ste Genvi\u00e8ve": [
+        "E2",
+        "G2"
+      ],
+      "Ste Marie": [
+        "E1",
+        "G1"
+      ],
+      "Ste Rose": [
+        "A3",
+        "B2",
+        "B3",
+        "D1"
+      ],
+      "Strathyre": [
+        "C1",
+        "C4"
+      ],
+      "Stratton-Roberval": [
+        "D2",
+        "E2",
+        "E4"
+      ],
+      "Sunnybrooke": [
+        "E2",
+        "G2"
+      ],
+      "Thierry": [
+        "C1",
+        "C4"
+      ],
+      "Tiffin": [
+        "H1",
+        "H2"
+      ],
+      "Timberlea": [
+        "E1",
+        "G1"
+      ],
+      "Thimens": [
+        "E4"
+      ],
+      "Tricentenaire": [
+        "A1"
+      ],
+      "Turcot": [
+        "C2"
+      ],
+      "Universit\u00e9 de Montr\u00e9al": [
+        "F1",
+        "F2"
+      ],
+      "Upton": [
+        "D4"
+      ],
+      "UQAM": [
+        "B1",
+        "B3",
+        "B4"
+      ],
+      "Valiquette": [
+        "E1",
+        "E4",
+        "F1",
+        "G2"
+      ],
+      "Van Horne": [
+        "D4"
+      ],
+      "Vend\u00f4me": [
+        "A1",
+        "A3",
+        "A4",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "C2"
+      ],
+      "Verdun": [
+        "C1",
+        "D4"
+      ],
+      "V\u00e9rendrye": [
+        "C1"
+      ],
+      "Viauville": [
+        "B1",
+        "C2"
+      ],
+      "Villa Maria": [
+        "B4",
+        "C2"
+      ],
+      "Ville St Pierre": [
+        "A1",
+        "A4",
+        "B1",
+        "B3",
+        "F2"
+      ],
+      "Villeray": [
+        "B4",
+        "C4"
+      ],
+      "Vimont": [
+        "C1",
+        "D2"
+      ],
+      "Wavell": [
+        "F1"
+      ],
+      "Westley": [
+        "D2"
+      ],
+      "Westminster": [
+        "F2"
+      ],
+      "Westpark": [
+        "E2",
+        "G2"
+      ],
+      "Wilfrid Lamarche": [
+        "H1"
+      ],
+      "Woodland": [
+        "C1"
+      ],
+      "Yves Pr\u00e9vost": [
+        "G1"
+      ],
+      "Yves Th\u00e9riault": [
+        "A1",
+        "G2"
       ]
     }
   },
   "service-data": {
     "services": {
-      "L2": {
+      "V": {
         "schedule": {
-          "Circular Quay - Bridge Street": 2,
-          "Bridge Street - Wynyard": 1,
-          "Wynyard - QVB": 2,
-          "QVB - Town Hall": 1,
-          "Town Hall - Chinatown": 2,
-          "Chinatown - Haymarket": 3,
-          "Haymarket - Sydney Central": 2,
-          "Sydney Central - Surry Hills": 2,
-          "Surry Hills - Moore Park": 4,
-          "Moore Park - Royal Randwick": 3,
-          "Royal Randwick - Wansey Road": 3,
-          "Wansey Road - UNSW High Street": 2,
-          "UNSW High Street - Randwick": 4
+          "Vend\u00f4me - Turcot": 2,
+          "Turcot - Angers": 2,
+          "Angers - Bannatyne": 2,
+          "Bannatyne - Verdun": 2
         },
-        "origin": "Circular Quay",
-        "destination": "Randwick",
-        "time-offset": 3,
+        "origin": "Vend\u00f4me",
+        "destination": "Verdun",
+        "time-offset": 0,
         "departures": [
-          "07:53",
-          "08:33",
-          "08:38",
-          "09:13",
-          "09:18",
-          "09:43",
-          "09:48",
-          "09:58",
-          "10:03",
-          "10:13",
-          "10:38",
-          "12:13",
-          "12:18",
-          "12:23",
-          "12:28",
-          "12:48",
-          "12:53",
-          "12:58",
-          "13:18",
-          "13:23",
-          "13:48",
-          "13:53",
-          "13:58",
-          "15:28",
-          "15:33",
-          "15:53",
-          "16:38",
-          "19:58",
-          "20:03",
-          "20:38",
-          "20:43",
-          "21:08",
-          "21:13",
-          "21:18",
-          "09:53",
-          "10:08",
-          "10:18",
-          "10:23",
-          "10:28",
-          "10:33",
-          "12:08",
-          "12:33",
-          "12:43",
-          "13:28",
-          "13:33",
-          "13:38",
-          "13:43",
-          "14:03",
-          "14:08",
-          "14:13",
-          "14:18",
-          "14:23",
-          "14:53",
-          "18:18",
-          "18:23",
-          "18:28",
-          "18:33",
-          "18:38",
-          "18:43",
-          "19:43",
-          "19:48",
-          "21:58",
-          "22:03",
-          "22:08",
-          "22:13",
-          "22:18",
-          "10:43",
-          "10:48",
-          "10:53",
-          "10:58",
-          "11:03",
-          "11:08",
-          "11:13",
-          "11:18",
-          "11:23",
-          "11:28",
-          "11:33",
-          "11:38",
-          "11:43",
-          "11:53",
-          "13:03",
-          "13:08",
-          "13:13",
-          "14:28",
-          "14:33",
-          "14:38",
-          "14:43",
-          "14:48",
-          "18:08",
-          "18:13",
-          "18:48",
-          "18:53",
-          "18:58",
-          "19:03",
-          "19:08",
-          "19:13",
-          "19:18",
-          "19:28",
-          "19:53",
-          "20:08",
-          "20:48",
-          "20:53",
-          "20:58",
-          "21:03",
-          "21:23",
-          "21:28",
-          "21:33",
-          "21:38",
-          "21:43",
-          "21:48",
-          "22:23",
-          "22:38",
-          "23:03",
-          "23:08",
-          "07:18",
-          "07:23",
-          "07:28",
-          "07:58",
-          "08:23",
-          "08:58",
-          "09:03",
-          "09:28",
-          "09:33",
-          "11:48",
-          "11:58",
-          "12:03",
-          "12:38",
-          "14:58",
-          "15:03",
-          "15:08",
-          "15:13",
-          "15:18",
-          "15:23",
-          "15:38",
-          "15:43",
-          "15:48",
-          "15:58",
-          "16:03",
-          "16:08",
-          "16:13",
-          "16:18",
-          "16:23",
-          "16:28",
-          "16:33",
-          "16:43",
-          "16:48",
-          "16:53",
-          "16:58",
-          "17:03",
-          "17:08",
-          "17:13",
-          "17:18",
-          "19:23",
-          "19:33",
-          "19:38",
-          "20:13",
-          "20:18",
-          "20:23",
-          "20:28",
-          "20:33",
-          "21:53",
-          "22:28",
-          "22:33",
-          "22:43",
-          "22:48",
-          "22:53",
-          "22:58",
-          "23:13",
-          "23:18",
-          "23:23",
-          "23:28",
-          "23:33",
-          "23:38",
-          "23:43",
-          "23:48",
-          "23:53",
-          "23:58",
-          "03:23",
-          "03:53",
-          "03:58",
-          "04:03",
-          "04:23",
-          "04:28",
-          "04:43",
-          "04:58",
-          "05:18",
-          "05:48",
-          "09:23",
-          "09:38",
-          "17:23",
-          "17:28",
-          "17:33",
-          "17:38",
-          "17:43",
-          "17:48",
-          "17:53",
-          "17:58",
-          "18:03",
-          "00:03",
-          "00:08",
-          "00:13",
-          "00:18",
-          "00:23",
-          "00:28",
-          "00:33",
-          "00:38",
-          "00:43",
-          "00:48",
-          "00:53",
-          "00:58",
-          "01:03",
-          "01:08",
-          "01:13",
-          "01:18",
-          "01:23",
-          "01:28",
-          "01:33",
-          "01:38",
-          "01:43",
-          "01:48",
-          "01:53",
-          "01:58",
-          "02:03",
-          "02:08",
-          "02:13",
-          "02:18",
-          "02:23",
-          "02:28",
-          "02:33",
-          "02:38",
-          "02:43",
-          "02:48",
-          "02:53",
-          "02:58",
-          "03:03",
-          "03:08",
-          "03:13",
-          "03:18",
-          "03:28",
-          "03:33",
-          "03:38",
-          "03:43",
-          "03:48",
-          "04:08",
-          "04:13",
-          "04:18",
-          "04:33",
-          "04:38",
-          "04:48",
-          "04:53",
-          "05:03",
-          "05:08",
-          "05:13",
-          "05:23",
-          "05:28",
-          "05:33",
-          "05:38",
-          "05:43",
-          "05:53",
-          "05:58",
-          "06:03",
-          "06:08",
-          "06:13",
-          "06:18",
-          "06:23",
-          "06:28",
-          "06:33",
-          "06:38",
-          "06:43",
-          "08:53",
-          "06:48",
-          "06:53",
-          "06:58",
-          "07:03",
-          "07:08",
-          "07:13",
-          "07:33",
-          "07:38",
-          "07:43",
-          "07:48",
-          "08:03",
-          "08:08",
-          "08:13",
-          "08:18",
-          "08:28",
-          "08:43",
-          "08:48",
-          "09:08"
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
         ]
       },
-      "L3": {
-        "origin": "Circular Quay",
-        "destination": "Juniors Kingsford",
+      "A2": {
+        "origin": "Gonthier",
+        "destination": "Beaconsfield",
         "schedule": {
-          "Circular Quay - Bridge Street": 2,
-          "Bridge Street - Wynyard": 1,
-          "Wynyard - QVB": 2,
-          "QVB - Town Hall": 1,
-          "Town Hall - Chinatown": 2,
-          "Chinatown - Haymarket": 3,
-          "Haymarket - Sydney Central": 2,
-          "Sydney Central - Surry Hills": 2,
-          "Surry Hills - Moore Park": 4,
-          "Moore Park - ES Marks": 3,
-          "ES Marks - Kensington": 1,
-          "Kensington - UNSW Anzac Parade": 3,
-          "UNSW Anzac Parade - Kingsford": 2,
-          "Kingsford - Juniors Kingsford": 3
+          "Gonthier - Des Ormeaux": 2,
+          "Des Ormeaux - Honor\u00e9 Beaugrand": 2,
+          "Honor\u00e9 Beaugrand - Radisson": 2,
+          "Radisson - Langelier": 2,
+          "Langelier - Monsabr\u00e9": 2,
+          "Monsabr\u00e9 - Viau": 2,
+          "Viau - Parc Olympique": 2,
+          "Parc Olympique - Joliette": 2,
+          "Joliette - Moreau": 2,
+          "Moreau - Chapleau": 2,
+          "Chapleau - Papineau": 2,
+          "Papineau - La Fontaine": 2,
+          "La Fontaine - Sherbrooke": 2,
+          "Sherbrooke - Coloniale": 2,
+          "Coloniale - Bleury": 2,
+          "Bleury - McGill": 2,
+          "McGill - Drummond": 2,
+          "Drummond - Guy": 2,
+          "Guy - Atwater": 2,
+          "Atwater - Olivier": 2,
+          "Olivier - Melville": 2,
+          "Melville - Vend\u00f4me": 2,
+          "Vend\u00f4me - Clifton": 2,
+          "Clifton - Benny Farm": 2,
+          "Benny Farm - Montr\u00e9al Ouest": 2,
+          "Montr\u00e9al Ouest - Ville St Pierre": 2,
+          "Ville St Pierre - Albert Gari\u00e9py": 2,
+          "Albert Gari\u00e9py - 24e Avenue": 2,
+          "24e Avenue - 43e Avenue": 2,
+          "43e Avenue - 55e Avenue": 2,
+          "55e Avenue - Dorval": 2,
+          "Dorval - Pine Beach": 2,
+          "Pine Beach - Valois": 2,
+          "Valois - Coolbreeze": 2,
+          "Coolbreeze - Cedar Park": 2,
+          "Cedar Park - Amberley": 2,
+          "Amberley - Beaconsfield": 2
         },
-        "time-offset": 1,
+        "time-offset": 0,
         "departures": [
-          "14:41",
-          "15:06",
-          "15:11",
-          "15:21",
-          "15:41",
-          "16:31",
-          "16:41",
-          "16:51",
-          "17:11",
-          "17:41",
-          "17:46",
-          "18:11",
-          "18:16",
-          "18:41",
-          "19:31",
-          "19:36",
-          "20:46",
-          "21:06",
-          "21:21",
-          "21:26",
-          "21:31",
-          "21:41",
-          "21:56",
-          "09:26",
-          "09:31",
-          "09:36",
-          "09:41",
-          "09:46",
-          "09:51",
-          "09:56",
-          "10:01",
-          "10:26",
-          "10:31",
-          "10:36",
-          "10:41",
-          "10:46",
-          "10:51",
-          "11:51",
-          "11:56",
-          "12:01",
-          "12:06",
-          "12:21",
-          "12:56",
-          "14:11",
-          "14:16",
-          "14:31",
-          "14:46",
-          "14:51",
-          "15:46",
-          "15:51",
-          "15:56",
-          "16:01",
-          "16:06",
-          "16:56",
-          "17:01",
-          "17:06",
-          "17:16",
-          "17:21",
-          "17:26",
-          "17:31",
-          "17:36",
-          "17:51",
-          "17:56",
-          "18:21",
-          "18:26",
-          "18:46",
-          "19:11",
-          "19:41",
-          "19:46",
-          "19:51",
-          "20:51",
-          "20:56",
-          "21:01",
-          "22:31",
-          "23:06",
-          "23:11",
-          "07:26",
-          "07:31",
-          "07:36",
-          "07:41",
-          "07:46",
-          "07:56",
-          "08:21",
-          "08:46",
-          "08:51",
-          "10:56",
-          "11:11",
-          "11:01",
-          "11:06",
-          "11:21",
-          "11:26",
-          "11:31",
-          "11:41",
-          "11:46",
-          "12:11",
-          "12:26",
-          "12:31",
-          "13:01",
-          "13:26",
-          "13:31",
-          "13:51",
-          "13:36",
-          "13:41",
-          "14:56",
-          "15:01",
-          "15:16",
-          "15:26",
-          "15:31",
-          "16:11",
-          "16:16",
-          "16:21",
-          "16:26",
-          "16:36",
-          "16:46",
-          "18:01",
-          "18:06",
-          "18:31",
-          "18:36",
-          "18:51",
-          "18:56",
-          "19:01",
-          "19:06",
-          "19:56",
-          "20:01"
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "F5": {
+        "origin": "Anjou",
+        "destination": "Ville St Pierre",
+        "schedule": {
+          "Anjou - St L\u00e9onard": 2,
+          "St L\u00e9onard - Lacordaire": 2,
+          "Lacordaire - Terbois": 2,
+          "Terbois - Petit Maghreb": 2,
+          "Petit Maghreb - St Michel": 2,
+          "St Michel - D'Iberville": 2,
+          "D'Iberville - Fabre": 2,
+          "Fabre - Jean Talon": 2,
+          "Jean Talon - De Castelnau": 2,
+          "De Castelnau - Parc": 2,
+          "Parc - Acadie": 2,
+          "Acadie - Graham": 2,
+          "Graham - Canora": 2,
+          "Canora - Glenmount": 2,
+          "Glenmount - Legault": 2,
+          "Legault - Namur": 2,
+          "Namur - Aldred": 2,
+          "Aldred - Rembrandt": 2,
+          "Rembrandt - C\u00f4te St Luc": 2,
+          "C\u00f4te St Luc - Ville St Pierre": 3
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "G4": {
+        "origin": "Montr\u00e9al Nord",
+        "destination": "Dorval",
+        "schedule": {
+          "Montr\u00e9al Nord - Gervais": 2,
+          "Gervais - H\u00e9nault": 2,
+          "H\u00e9nault - JB Martineau": 2,
+          "JB Martineau - Des Hirondelles": 2,
+          "Des Hirondelles - St Sulpice": 2,
+          "St Sulpice - Youville": 2,
+          "Youville - Sauv\u00e9": 2,
+          "Sauv\u00e9 - L'Esplanade": 2,
+          "L'Esplanade - St Simon": 2,
+          "St Simon - Port Royal": 2,
+          "Port Royal - Lebeau": 2,
+          "Lebeau - Muir": 2,
+          "Muir - Montpellier": 2,
+          "Montpellier - Ste Croix": 2,
+          "Ste Croix - C\u00f4te Vertu": 2,
+          "C\u00f4te Vertu - Alexis Nihon": 2,
+          "Alexis Nihon - Place Vertu": 2,
+          "Place Vertu - B\u00e9gin": 2,
+          "B\u00e9gin - Pitfield": 2,
+          "Pitfield - Herv\u00e9 St Martin": 2,
+          "Herv\u00e9 St Martin - L'A\u00e9roport-YUL": 2,
+          "L'A\u00e9roport-YUL - Dorval": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "G3": {
+        "origin": "Montr\u00e9al Nord",
+        "destination": "Beaconsfield",
+        "schedule": {
+          "Montr\u00e9al Nord - Gervais": 2,
+          "Gervais - H\u00e9nault": 2,
+          "H\u00e9nault - JB Martineau": 2,
+          "JB Martineau - Des Hirondelles": 2,
+          "Des Hirondelles - St Sulpice": 2,
+          "St Sulpice - Youville": 2,
+          "Youville - Sauv\u00e9": 2,
+          "Sauv\u00e9 - L'Esplanade": 2,
+          "L'Esplanade - St Simon": 2,
+          "St Simon - Port Royal": 2,
+          "Port Royal - Lebeau": 2,
+          "Lebeau - Muir": 2,
+          "Muir - Montpellier": 2,
+          "Montpellier - Ste Croix": 2,
+          "Ste Croix - C\u00f4te Vertu": 2,
+          "C\u00f4te Vertu - Alexis Nihon": 2,
+          "Alexis Nihon - Place Vertu": 2,
+          "Place Vertu - B\u00e9gin": 2,
+          "B\u00e9gin - Pitfield": 2,
+          "Pitfield - Herv\u00e9 St Martin": 2,
+          "Herv\u00e9 St Martin - L'A\u00e9roport-YUL": 2,
+          "L'A\u00e9roport-YUL - Pine Beach": 2,
+          "Pine Beach - Valois": 2,
+          "Valois - Coolbreeze": 2,
+          "Coolbreeze - Cedar Park": 2,
+          "Cedar Park - Amberley": 2,
+          "Amberley - Beaconsfield": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "02:00",
+          "01:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "F3": {
+        "origin": "Gonthier",
+        "destination": "Airlie",
+        "schedule": {
+          "Gonthier - Des Ormeaux": 2,
+          "Des Ormeaux - Honor\u00e9 Beaugrand": 2,
+          "Honor\u00e9 Beaugrand - Radisson": 2,
+          "Radisson - Langelier": 2,
+          "Langelier - Monsabr\u00e9": 2,
+          "Monsabr\u00e9 - Viau": 2,
+          "Viau - Jardin Botanique": 2,
+          "Jardin Botanique - Lafond": 2,
+          "Lafond - Vieux Rosemont": 2,
+          "Vieux Rosemont - De Lorimier": 2,
+          "De Lorimier - Laurier": 2,
+          "Laurier - St Joseph": 2,
+          "St Joseph - St Laurent": 2,
+          "St Laurent - Mile End": 2,
+          "Mile End - Wiseman": 2,
+          "Wiseman - \u00c9douard Montpetit": 2,
+          "\u00c9douard Montpetit - Universit\u00e9 de Montr\u00e9al": 2,
+          "Universit\u00e9 de Montr\u00e9al - C\u00f4te des Neiges": 2,
+          "C\u00f4te des Neiges - Lacombe": 2,
+          "Lacombe - Snowdon": 2,
+          "Snowdon - Hampstead": 2,
+          "Hampstead - Cavendish": 2,
+          "Cavendish - C\u00f4te St Luc": 2,
+          "C\u00f4te St Luc - Westminster": 2,
+          "Westminster - Ville St Pierre": 2,
+          "Ville St Pierre - Du Canal": 2,
+          "Du Canal - Jean Milot": 2,
+          "Jean Milot - Airlie": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "D3": {
+        "origin": "Haut St Fran\u00e7ois",
+        "destination": "Brossard",
+        "schedule": {
+          "Haut St Fran\u00e7ois - Monette": 2,
+          "Monette - Lucerne": 2,
+          "Lucerne - Edimbourg": 2,
+          "Edimbourg - Saulnier": 2,
+          "Saulnier - B\u00e9langer": 2,
+          "B\u00e9langer - C\u00f4te d'Azur": 2,
+          "C\u00f4te d'Azur - De la Concorde": 2,
+          "De la Concorde - Bernard Landry": 2,
+          "Bernard Landry - Nouveau Bordeaux": 2,
+          "Nouveau Bordeaux - Bois de Boulogne": 2,
+          "Bois de Boulogne - St Simon": 2,
+          "St Simon - Querbes": 2,
+          "Querbes - St Roch": 2,
+          "St Roch - Parc": 2,
+          "Parc - Van Horne": 2,
+          "Van Horne - Mile End": 2,
+          "Mile End - Jeanne Mance": 2,
+          "Jeanne Mance - Pine": 2,
+          "Pine - Bleury": 2,
+          "Bleury - Place des Arts": 2,
+          "Place des Arts - Place d'Armes": 2,
+          "Place d'Armes - Queen": 2,
+          "Queen - Griffintown": 2,
+          "Griffintown - Pointe St Charles": 2,
+          "Pointe St Charles - \u00cele des Soeurs": 2,
+          "\u00cele des Soeurs - Villon": 2,
+          "Villon - Panama": 2,
+          "Panama - Milan": 2,
+          "Milan - Leduc": 2,
+          "Leduc - Du Quartier": 2,
+          "Du Quartier - Brossard": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "L": {
+        "origin": "Chambly",
+        "destination": "Leduc",
+        "schedule": {
+          "Chambly - Leblanc": 2,
+          "Leblanc - Grant": 2,
+          "Grant - Nobert": 2,
+          "Nobert - Wilson": 2,
+          "Wilson - Stratton-Roberval": 2,
+          "Stratton-Roberval - Gareau": 2,
+          "Gareau - Springfield Park": 2,
+          "Springfield Park - Ga\u00e9tan Boucher": 2,
+          "Ga\u00e9tan Boucher - Payer": 2,
+          "Payer - Grande All\u00e9e": 2,
+          "Grande All\u00e9e - Leduc": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "H4": {
+        "origin": "Touraine",
+        "destination": "La Prairie",
+        "schedule": {
+          "Touraine - Newton": 2,
+          "Newton - Coulomb": 2,
+          "Coulomb - Boileau": 2,
+          "Boileau - Bossuet": 2,
+          "Bossuet - Adoncour": 2,
+          "Adoncour - Brodeaur": 2,
+          "Brodeaur - Grant": 2,
+          "Grant - Marmier": 2,
+          "Marmier - Manseau": 2,
+          "Manseau - St Georges": 2,
+          "St Georges - Le Moyne": 2,
+          "Le Moyne - Lafl\u00e8che": 2,
+          "Lafl\u00e8che - Auguste": 2,
+          "Auguste - Lapini\u00e8re": 2,
+          "Lapini\u00e8re - Panama": 2,
+          "Panama - Rome": 2,
+          "Rome - Napol\u00e9on": 2,
+          "Napol\u00e9on - Oc\u00e9anie": 2,
+          "Oc\u00e9anie - Rivard": 2,
+          "Rivard - Balmoral": 2,
+          "Balmoral - La Prairie": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "H3": {
+        "origin": "Boucherville",
+        "destination": "La Prairie",
+        "schedule": {
+          "Boucherville - Nogent": 2,
+          "Nogent - Amp\u00e9re": 2,
+          "Amp\u00e9re - Volta": 2,
+          "Volta - Jean Paul Lemieux": 2,
+          "Jean Paul Lemieux - Bossuet": 2,
+          "Bossuet - Adoncour": 2,
+          "Adoncour - Brodeaur": 2,
+          "Brodeaur - Grant": 2,
+          "Grant - Marmier": 2,
+          "Marmier - Manseau": 2,
+          "Manseau - St Georges": 2,
+          "St Georges - Le Moyne": 2,
+          "Le Moyne - Lafl\u00e8che": 2,
+          "Lafl\u00e8che - Auguste": 2,
+          "Auguste - Lapini\u00e8re": 2,
+          "Lapini\u00e8re - Panama": 2,
+          "Panama - Rome": 2,
+          "Rome - Napol\u00e9on": 2,
+          "Napol\u00e9on - Oc\u00e9anie": 2,
+          "Oc\u00e9anie - Rivard": 2,
+          "Rivard - Balmoral": 2,
+          "Balmoral - La Prairie": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "J3": {
+        "origin": "Plage Chartrand",
+        "destination": "St Elz\u00e9ar",
+        "schedule": {
+          "Plage Chartrand - Rivi\u00e8re des Prairies": 2,
+          "Rivi\u00e8re des Prairies - Don Bosco": 2,
+          "Don Bosco - Armand Bombardier": 2,
+          "Armand Bombardier - Pierre Blanchet": 2,
+          "Pierre Blanchet - Ruisseau de Montigny": 2,
+          "Ruisseau de Montigny - Rolland": 2,
+          "Rolland - Ste Colette": 2,
+          "Ste Colette - \u00c9thier": 2,
+          "\u00c9thier - Rose de Lima": 2,
+          "Rose de Lima - Lesage": 2,
+          "Lesage - Duvernay": 2,
+          "Duvernay - Auriol": 2,
+          "Auriol - Des Alouettes": 2,
+          "Des Alouettes - Pont Viau": 2,
+          "Pont Viau - 15e Rue": 2,
+          "15e Rue - De la Concorde": 2,
+          "De la Concorde - Montmorency": 2,
+          "Montmorency - Du Souvenir": 2,
+          "Du Souvenir - Centre Laval": 2,
+          "Centre Laval - Cosmod\u00f4me": 2,
+          "Cosmod\u00f4me - Carrefour Laval": 2,
+          "Carrefour Laval - St Elz\u00e9ar": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "E3": {
+        "origin": "Brossard",
+        "destination": "Kirkland",
+        "schedule": {
+          "Brossard - Du Quartier": 2,
+          "Du Quartier - Leduc": 2,
+          "Leduc - Milan": 2,
+          "Milan - Panama": 2,
+          "Panama - Villon": 2,
+          "Villon - \u00cele des Soeurs": 2,
+          "\u00cele des Soeurs - Pointe St Charles": 2,
+          "Pointe St Charles - Griffintown": 2,
+          "Griffintown - Robert Bourassa": 2,
+          "Robert Bourassa - Bonaventure": 2,
+          "Bonaventure - McGill": 2,
+          "McGill - \u00c9douard Montpetit": 2,
+          "\u00c9douard Montpetit - Barclay": 2,
+          "Barclay - Canora": 2,
+          "Canora - Connaught": 2,
+          "Connaught - Dunkirk": 2,
+          "Dunkirk - Muir": 2,
+          "Muir - Cr\u00e9peau": 2,
+          "Cr\u00e9peau - O'Brien": 2,
+          "O'Brien - Bois Franc": 2,
+          "Bois Franc - Duchesne": 2,
+          "Duchesne - Marette": 2,
+          "Marette - Thimens": 2,
+          "Thimens - Valiquette": 2,
+          "Valiquette - St Regis": 2,
+          "St Regis - Andr\u00e9": 2,
+          "Andr\u00e9 - Des Sources": 2,
+          "Des Sources - Delmar": 2,
+          "Delmar - Doyon": 2,
+          "Doyon - Pointe Claire": 2,
+          "Pointe Claire - Stillview": 2,
+          "Stillview - Kirkland": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "F4": {
+        "origin": "Anjou",
+        "destination": "Kirkland",
+        "schedule": {
+          "Anjou - St L\u00e9onard": 2,
+          "St L\u00e9onard - Lacordaire": 2,
+          "Lacordaire - Terbois": 2,
+          "Terbois - Petit Maghreb": 2,
+          "Petit Maghreb - St Michel": 2,
+          "St Michel - D'Iberville": 2,
+          "D'Iberville - Fabre": 2,
+          "Fabre - Jean Talon": 2,
+          "Jean Talon - De Castelnau": 2,
+          "De Castelnau - Parc": 2,
+          "Parc - Acadie": 2,
+          "Acadie - Outremont": 2,
+          "Outremont - \u00c9douard Montpetit": 2,
+          "\u00c9douard Montpetit - Universit\u00e9 de Montr\u00e9al": 2,
+          "Universit\u00e9 de Montr\u00e9al - C\u00f4te des Neiges": 2,
+          "C\u00f4te des Neiges - Lacombe": 2,
+          "Lacombe - Snowdon": 2,
+          "Snowdon - Hampstead": 2,
+          "Hampstead - Cavendish": 2,
+          "Cavendish - C\u00f4te St Luc": 2,
+          "C\u00f4te St Luc - Wavell": 2,
+          "Wavell - Mackie": 2,
+          "Mackie - Hickmore": 2,
+          "Hickmore - Ryan": 2,
+          "Ryan - Pitfield": 2,
+          "Pitfield - Marc Blain": 2,
+          "Marc Blain - St Regis": 2,
+          "St Regis - Andr\u00e9": 2,
+          "Andr\u00e9 - Des Sources": 2,
+          "Des Sources - Delmar": 2,
+          "Delmar - Doyon": 2,
+          "Doyon - Pointe Claire": 2,
+          "Pointe Claire - Stillview": 2,
+          "Stillview - Kirkland": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00",
+          "10:00",
+          "11:00",
+          "12:00",
+          "13:00",
+          "14:00",
+          "15:00",
+          "16:00",
+          "17:00",
+          "18:00",
+          "19:00",
+          "20:00",
+          "21:00",
+          "22:00",
+          "23:00"
+        ]
+      },
+      "C3": {
+        "origin": "St Vincent de Paul",
+        "destination": "Airlie",
+        "schedule": {
+          "St Vincent de Paul - Li\u00e9bert": 2,
+          "Li\u00e9bert - Rose de Lima": 2,
+          "Rose de Lima - Pilon": 2,
+          "Pilon - Monselet": 2,
+          "Monselet - JB Martineau": 2,
+          "JB Martineau - Denis Papin": 2,
+          "Denis Papin - Jarry": 2,
+          "Jarry - Petit Maghreb": 2,
+          "Petit Maghreb - Beaubien": 2,
+          "Beaubien - Jardin Botanique": 2,
+          "Jardin Botanique - Parc Olympique": 2,
+          "Parc Olympique - Hochelaga": 2,
+          "Hochelaga - D\u00e9z\u00e9ry": 2,
+          "D\u00e9z\u00e9ry - Frontenac": 2,
+          "Frontenac - Square Papineau": 2,
+          "Square Papineau - Atateken": 2,
+          "Atateken - Champ de Mars": 2,
+          "Champ de Mars - Place d'Armes": 2,
+          "Place d'Armes - Robert Bourassa": 2,
+          "Robert Bourassa - Eleanor": 2,
+          "Eleanor - Little Burgundy": 2,
+          "Little Burgundy - Georges Vanier": 2,
+          "Georges Vanier - Ch\u00e2teauguay": 2,
+          "Ch\u00e2teauguay - Rushbrooke": 2,
+          "Rushbrooke - De l'\u00c9glise": 2,
+          "De l'\u00c9glise - Verdun": 2,
+          "Verdun - Brault": 2,
+          "Brault - Douglas": 2,
+          "Douglas - Clemen\u00e7eau": 2,
+          "Clemen\u00e7eau - Leroux": 2,
+          "Leroux - Shevchenko": 2,
+          "Shevchenko - Salley": 2,
+          "Salley - Upton": 2,
+          "Upton - LaSalle": 2,
+          "LaSalle - Airlie": 2
+        },
+        "time-offset": 0,
+        "departures": [
+          "00:00",
+          "01:00",
+          "02:00",
+          "03:00",
+          "04:00",
+          "18:00",
+          "05:00",
+          "06:00",
+          "07:00",
+          "08:00",
+          "09:00"
         ]
       }
     },
     "stations": {
-      "Circular Quay": [
-        "L2",
-        "L3"
+      "Vend\u00f4me": [
+        "V",
+        "A2"
       ],
-      "Bridge Street": [
-        "L2",
-        "L3"
+      "Turcot": [
+        "V"
       ],
-      "Wynyard": [
-        "L2",
-        "L3"
+      "Angers": [
+        "V"
       ],
-      "QVB": [
-        "L2",
-        "L3"
+      "Bannatyne": [
+        "V"
       ],
-      "Town Hall": [
-        "L2",
-        "L3"
+      "Verdun": [
+        "V",
+        "C3"
       ],
-      "Chinatown": [
-        "L2",
-        "L3"
+      "Gonthier": [
+        "A2",
+        "F3"
       ],
-      "Haymarket": [
-        "L2",
-        "L3"
+      "Des Ormeaux": [
+        "A2",
+        "F3"
       ],
-      "Sydney Central": [
-        "L2",
-        "L3"
+      "Honor\u00e9 Beaugrand": [
+        "A2",
+        "F3"
       ],
-      "Surry Hills": [
-        "L2",
-        "L3"
+      "Radisson": [
+        "A2",
+        "F3"
       ],
-      "Moore Park": [
-        "L2",
-        "L3"
+      "Langelier": [
+        "A2",
+        "F3"
       ],
-      "Royal Randwick": [
-        "L2"
+      "Monsabr\u00e9": [
+        "A2",
+        "F3"
       ],
-      "Wansey Road": [
-        "L2"
+      "Viau": [
+        "A2",
+        "F3"
       ],
-      "UNSW High Street": [
-        "L2"
+      "Parc Olympique": [
+        "A2",
+        "C3"
       ],
-      "Randwick": [
-        "L2"
+      "Joliette": [
+        "A2"
       ],
-      "ES Marks": [
-        "L3"
+      "Moreau": [
+        "A2"
       ],
-      "Kensington": [
-        "L3"
+      "Chapleau": [
+        "A2"
       ],
-      "UNSW Anzac Parade": [
-        "L3"
+      "Papineau": [
+        "A2"
       ],
-      "Kingsford": [
-        "L3"
+      "La Fontaine": [
+        "A2"
       ],
-      "Juniors Kingsford": [
-        "L3"
+      "Sherbrooke": [
+        "A2"
+      ],
+      "Coloniale": [
+        "A2"
+      ],
+      "Bleury": [
+        "A2",
+        "D3"
+      ],
+      "McGill": [
+        "A2",
+        "E3"
+      ],
+      "Drummond": [
+        "A2"
+      ],
+      "Guy": [
+        "A2"
+      ],
+      "Atwater": [
+        "A2"
+      ],
+      "Olivier": [
+        "A2"
+      ],
+      "Melville": [
+        "A2"
+      ],
+      "Clifton": [
+        "A2"
+      ],
+      "Benny Farm": [
+        "A2"
+      ],
+      "Montr\u00e9al Ouest": [
+        "A2"
+      ],
+      "Ville St Pierre": [
+        "A2",
+        "F5",
+        "F3"
+      ],
+      "Albert Gari\u00e9py": [
+        "A2"
+      ],
+      "24e Avenue": [
+        "A2"
+      ],
+      "43e Avenue": [
+        "A2"
+      ],
+      "55e Avenue": [
+        "A2"
+      ],
+      "Dorval": [
+        "A2",
+        "G4"
+      ],
+      "Pine Beach": [
+        "A2",
+        "G3"
+      ],
+      "Valois": [
+        "A2",
+        "G3"
+      ],
+      "Coolbreeze": [
+        "A2",
+        "G3"
+      ],
+      "Cedar Park": [
+        "A2",
+        "G3"
+      ],
+      "Amberley": [
+        "A2",
+        "G3"
+      ],
+      "Beaconsfield": [
+        "A2",
+        "G3"
+      ],
+      "Anjou": [
+        "F5",
+        "F4"
+      ],
+      "St L\u00e9onard": [
+        "F5",
+        "F4"
+      ],
+      "Lacordaire": [
+        "F5",
+        "F4"
+      ],
+      "Terbois": [
+        "F5",
+        "F4"
+      ],
+      "Petit Maghreb": [
+        "F5",
+        "F4",
+        "C3"
+      ],
+      "St Michel": [
+        "F5",
+        "F4"
+      ],
+      "D'Iberville": [
+        "F5",
+        "F4"
+      ],
+      "Fabre": [
+        "F5",
+        "F4"
+      ],
+      "Jean Talon": [
+        "F5",
+        "F4"
+      ],
+      "De Castelnau": [
+        "F5",
+        "F4"
+      ],
+      "Parc": [
+        "F5",
+        "D3",
+        "F4"
+      ],
+      "Acadie": [
+        "F5",
+        "F4"
+      ],
+      "Graham": [
+        "F5"
+      ],
+      "Canora": [
+        "F5",
+        "E3"
+      ],
+      "Glenmount": [
+        "F5"
+      ],
+      "Legault": [
+        "F5"
+      ],
+      "Namur": [
+        "F5"
+      ],
+      "Aldred": [
+        "F5"
+      ],
+      "Rembrandt": [
+        "F5"
+      ],
+      "C\u00f4te St Luc": [
+        "F5",
+        "F3",
+        "F4"
+      ],
+      "Montr\u00e9al Nord": [
+        "G4",
+        "G3"
+      ],
+      "Gervais": [
+        "G4",
+        "G3"
+      ],
+      "H\u00e9nault": [
+        "G4",
+        "G3"
+      ],
+      "JB Martineau": [
+        "G4",
+        "G3",
+        "C3"
+      ],
+      "Des Hirondelles": [
+        "G4",
+        "G3"
+      ],
+      "St Sulpice": [
+        "G4",
+        "G3"
+      ],
+      "Youville": [
+        "G4",
+        "G3"
+      ],
+      "Sauv\u00e9": [
+        "G4",
+        "G3"
+      ],
+      "L'Esplanade": [
+        "G4",
+        "G3"
+      ],
+      "St Simon": [
+        "G4",
+        "G3",
+        "D3"
+      ],
+      "Port Royal": [
+        "G4",
+        "G3"
+      ],
+      "Lebeau": [
+        "G4",
+        "G3"
+      ],
+      "Muir": [
+        "G4",
+        "G3",
+        "E3"
+      ],
+      "Montpellier": [
+        "G4",
+        "G3"
+      ],
+      "Ste Croix": [
+        "G4",
+        "G3"
+      ],
+      "C\u00f4te Vertu": [
+        "G4",
+        "G3"
+      ],
+      "Alexis Nihon": [
+        "G4",
+        "G3"
+      ],
+      "Place Vertu": [
+        "G4",
+        "G3"
+      ],
+      "B\u00e9gin": [
+        "G4",
+        "G3"
+      ],
+      "Pitfield": [
+        "G4",
+        "G3",
+        "F4"
+      ],
+      "Herv\u00e9 St Martin": [
+        "G4",
+        "G3"
+      ],
+      "L'A\u00e9roport-YUL": [
+        "G4",
+        "G3"
+      ],
+      "Jardin Botanique": [
+        "F3",
+        "C3"
+      ],
+      "Lafond": [
+        "F3"
+      ],
+      "Vieux Rosemont": [
+        "F3"
+      ],
+      "De Lorimier": [
+        "F3"
+      ],
+      "Laurier": [
+        "F3"
+      ],
+      "St Joseph": [
+        "F3"
+      ],
+      "St Laurent": [
+        "F3"
+      ],
+      "Mile End": [
+        "F3",
+        "D3"
+      ],
+      "Wiseman": [
+        "F3"
+      ],
+      "\u00c9douard Montpetit": [
+        "F3",
+        "E3",
+        "F4"
+      ],
+      "Universit\u00e9 de Montr\u00e9al": [
+        "F3",
+        "F4"
+      ],
+      "C\u00f4te des Neiges": [
+        "F3",
+        "F4"
+      ],
+      "Lacombe": [
+        "F3",
+        "F4"
+      ],
+      "Snowdon": [
+        "F3",
+        "F4"
+      ],
+      "Hampstead": [
+        "F3",
+        "F4"
+      ],
+      "Cavendish": [
+        "F3",
+        "F4"
+      ],
+      "Westminster": [
+        "F3"
+      ],
+      "Du Canal": [
+        "F3"
+      ],
+      "Jean Milot": [
+        "F3"
+      ],
+      "Airlie": [
+        "F3",
+        "C3"
+      ],
+      "Haut St Fran\u00e7ois": [
+        "D3"
+      ],
+      "Monette": [
+        "D3"
+      ],
+      "Lucerne": [
+        "D3"
+      ],
+      "Edimbourg": [
+        "D3"
+      ],
+      "Saulnier": [
+        "D3"
+      ],
+      "B\u00e9langer": [
+        "D3"
+      ],
+      "C\u00f4te d'Azur": [
+        "D3"
+      ],
+      "De la Concorde": [
+        "D3",
+        "J3"
+      ],
+      "Bernard Landry": [
+        "D3"
+      ],
+      "Nouveau Bordeaux": [
+        "D3"
+      ],
+      "Bois de Boulogne": [
+        "D3"
+      ],
+      "Querbes": [
+        "D3"
+      ],
+      "St Roch": [
+        "D3"
+      ],
+      "Van Horne": [
+        "D3"
+      ],
+      "Jeanne Mance": [
+        "D3"
+      ],
+      "Pine": [
+        "D3"
+      ],
+      "Place des Arts": [
+        "D3"
+      ],
+      "Place d'Armes": [
+        "D3",
+        "C3"
+      ],
+      "Queen": [
+        "D3"
+      ],
+      "Griffintown": [
+        "D3",
+        "E3"
+      ],
+      "Pointe St Charles": [
+        "D3",
+        "E3"
+      ],
+      "\u00cele des Soeurs": [
+        "D3",
+        "E3"
+      ],
+      "Villon": [
+        "D3",
+        "E3"
+      ],
+      "Panama": [
+        "D3",
+        "H4",
+        "H3",
+        "E3"
+      ],
+      "Milan": [
+        "D3",
+        "E3"
+      ],
+      "Leduc": [
+        "D3",
+        "L",
+        "E3"
+      ],
+      "Du Quartier": [
+        "D3",
+        "E3"
+      ],
+      "Brossard": [
+        "D3",
+        "E3"
+      ],
+      "Chambly": [
+        "L"
+      ],
+      "Leblanc": [
+        "L"
+      ],
+      "Grant": [
+        "L",
+        "H4",
+        "H3"
+      ],
+      "Nobert": [
+        "L"
+      ],
+      "Wilson": [
+        "L"
+      ],
+      "Stratton-Roberval": [
+        "L"
+      ],
+      "Gareau": [
+        "L"
+      ],
+      "Springfield Park": [
+        "L"
+      ],
+      "Ga\u00e9tan Boucher": [
+        "L"
+      ],
+      "Payer": [
+        "L"
+      ],
+      "Grande All\u00e9e": [
+        "L"
+      ],
+      "Touraine": [
+        "H4"
+      ],
+      "Newton": [
+        "H4"
+      ],
+      "Coulomb": [
+        "H4"
+      ],
+      "Boileau": [
+        "H4"
+      ],
+      "Bossuet": [
+        "H4",
+        "H3"
+      ],
+      "Adoncour": [
+        "H4",
+        "H3"
+      ],
+      "Brodeaur": [
+        "H4",
+        "H3"
+      ],
+      "Marmier": [
+        "H4",
+        "H3"
+      ],
+      "Manseau": [
+        "H4",
+        "H3"
+      ],
+      "St Georges": [
+        "H4",
+        "H3"
+      ],
+      "Le Moyne": [
+        "H4",
+        "H3"
+      ],
+      "Lafl\u00e8che": [
+        "H4",
+        "H3"
+      ],
+      "Auguste": [
+        "H4",
+        "H3"
+      ],
+      "Lapini\u00e8re": [
+        "H4",
+        "H3"
+      ],
+      "Rome": [
+        "H4",
+        "H3"
+      ],
+      "Napol\u00e9on": [
+        "H4",
+        "H3"
+      ],
+      "Oc\u00e9anie": [
+        "H4",
+        "H3"
+      ],
+      "Rivard": [
+        "H4",
+        "H3"
+      ],
+      "Balmoral": [
+        "H4",
+        "H3"
+      ],
+      "La Prairie": [
+        "H4",
+        "H3"
+      ],
+      "Boucherville": [
+        "H3"
+      ],
+      "Nogent": [
+        "H3"
+      ],
+      "Amp\u00e9re": [
+        "H3"
+      ],
+      "Volta": [
+        "H3"
+      ],
+      "Jean Paul Lemieux": [
+        "H3"
+      ],
+      "Plage Chartrand": [
+        "J3"
+      ],
+      "Rivi\u00e8re des Prairies": [
+        "J3"
+      ],
+      "Don Bosco": [
+        "J3"
+      ],
+      "Armand Bombardier": [
+        "J3"
+      ],
+      "Pierre Blanchet": [
+        "J3"
+      ],
+      "Ruisseau de Montigny": [
+        "J3"
+      ],
+      "Rolland": [
+        "J3"
+      ],
+      "Ste Colette": [
+        "J3"
+      ],
+      "\u00c9thier": [
+        "J3"
+      ],
+      "Rose de Lima": [
+        "J3",
+        "C3"
+      ],
+      "Lesage": [
+        "J3"
+      ],
+      "Duvernay": [
+        "J3"
+      ],
+      "Auriol": [
+        "J3"
+      ],
+      "Des Alouettes": [
+        "J3"
+      ],
+      "Pont Viau": [
+        "J3"
+      ],
+      "15e Rue": [
+        "J3"
+      ],
+      "Montmorency": [
+        "J3"
+      ],
+      "Du Souvenir": [
+        "J3"
+      ],
+      "Centre Laval": [
+        "J3"
+      ],
+      "Cosmod\u00f4me": [
+        "J3"
+      ],
+      "Carrefour Laval": [
+        "J3"
+      ],
+      "St Elz\u00e9ar": [
+        "J3"
+      ],
+      "Robert Bourassa": [
+        "E3",
+        "C3"
+      ],
+      "Bonaventure": [
+        "E3"
+      ],
+      "Barclay": [
+        "E3"
+      ],
+      "Connaught": [
+        "E3"
+      ],
+      "Dunkirk": [
+        "E3"
+      ],
+      "Cr\u00e9peau": [
+        "E3"
+      ],
+      "O'Brien": [
+        "E3"
+      ],
+      "Bois Franc": [
+        "E3"
+      ],
+      "Duchesne": [
+        "E3"
+      ],
+      "Marette": [
+        "E3"
+      ],
+      "Thimens": [
+        "E3"
+      ],
+      "Valiquette": [
+        "E3"
+      ],
+      "St Regis": [
+        "E3",
+        "F4"
+      ],
+      "Andr\u00e9": [
+        "E3",
+        "F4"
+      ],
+      "Des Sources": [
+        "E3",
+        "F4"
+      ],
+      "Delmar": [
+        "E3",
+        "F4"
+      ],
+      "Doyon": [
+        "E3",
+        "F4"
+      ],
+      "Pointe Claire": [
+        "E3",
+        "F4"
+      ],
+      "Stillview": [
+        "E3",
+        "F4"
+      ],
+      "Kirkland": [
+        "E3",
+        "F4"
+      ],
+      "Outremont": [
+        "F4"
+      ],
+      "Wavell": [
+        "F4"
+      ],
+      "Mackie": [
+        "F4"
+      ],
+      "Hickmore": [
+        "F4"
+      ],
+      "Ryan": [
+        "F4"
+      ],
+      "Marc Blain": [
+        "F4"
+      ],
+      "St Vincent de Paul": [
+        "C3"
+      ],
+      "Li\u00e9bert": [
+        "C3"
+      ],
+      "Pilon": [
+        "C3"
+      ],
+      "Monselet": [
+        "C3"
+      ],
+      "Denis Papin": [
+        "C3"
+      ],
+      "Jarry": [
+        "C3"
+      ],
+      "Beaubien": [
+        "C3"
+      ],
+      "Hochelaga": [
+        "C3"
+      ],
+      "D\u00e9z\u00e9ry": [
+        "C3"
+      ],
+      "Frontenac": [
+        "C3"
+      ],
+      "Square Papineau": [
+        "C3"
+      ],
+      "Atateken": [
+        "C3"
+      ],
+      "Champ de Mars": [
+        "C3"
+      ],
+      "Eleanor": [
+        "C3"
+      ],
+      "Little Burgundy": [
+        "C3"
+      ],
+      "Georges Vanier": [
+        "C3"
+      ],
+      "Ch\u00e2teauguay": [
+        "C3"
+      ],
+      "Rushbrooke": [
+        "C3"
+      ],
+      "De l'\u00c9glise": [
+        "C3"
+      ],
+      "Brault": [
+        "C3"
+      ],
+      "Douglas": [
+        "C3"
+      ],
+      "Clemen\u00e7eau": [
+        "C3"
+      ],
+      "Leroux": [
+        "C3"
+      ],
+      "Shevchenko": [
+        "C3"
+      ],
+      "Salley": [
+        "C3"
+      ],
+      "Upton": [
+        "C3"
+      ],
+      "LaSalle": [
+        "C3"
       ]
     }
   },
-  "target-station": "ES Marks",
-  "current-station": "Juniors Kingsford"
+  "target-station": "Des Ormeaux",
+  "current-station": "Panama"
 }

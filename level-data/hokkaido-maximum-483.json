@@ -1,0 +1,322 @@
+{
+    "services" : {
+        "Namboku Line" : {
+            "Asabu - Kita-Sanjuyo-Jo" : 2,
+            "Kita-Sanjuyo-Jo - Kita-Nijuyo-Jo" : 2,
+            "Kita-Nijuyo-Jo - Kita-Juhachi-Jo" : 2,
+            "Kita-Juhachi-Jo - Kita-Juni-Jo" : 2,
+            "Kita-Juni-Jo - Sapporo" : 2,
+            "Sapporo - Odori" : 2,
+            "Odori - Susukino" : 2,
+            "Susukino - Nakajima-Koen" : 2,
+            "Nakajima-Koen - Horohira-Bashi" : 2,
+            "Horohira-Bashi - Nakanoshima" : 2,
+            "Nakanoshima - Hiragishi" : 2,
+            "Hiragishi - Minami-Hiragishi" : 2,
+            "Minami-Hiragishi - Sumikawa" : 2,
+            "Sumikawa - Jieitai-Mae" : 3,
+            "Jieitai-Mae - Makomanai" : 2
+        },
+        "Sassho Line" : {
+            "Sapporo - Soen" : 3,
+            "Soen - Hatchiken" : 3,
+            "Hatchiken - Shinkawa" : 3,
+            "Shinkawa - Shin-Kotoni" : 3,
+            "Shin-Kotoni - Taihei" : 3,
+            "Taihei - Yurigahara" : 3,
+            "Yurigahara - Shinoro" : 3,
+            "Shinoro - Takuoku" : 3,
+            "Takuoku - Ainosato-Kyoikudai" : 3,
+            "Ainosato-Kyoikudai - Ainosato-Koen" : 3,
+            "Ainosato-Koen - ROYCE' Town" : 4,
+            "ROYCE' Town - Futomi" : 3,
+            "Futomi - Tobetsu" : 7,
+            "Tobetsu - Hokkaido-Iryodaigaku" : 4,
+            "Hokkaido-Iryodaigaku - Irhikari-Kanazawa" : 3,
+            "Irhikari-Kanazawa - Moto-Nakagoya" : 5,
+            "Moto-Nakagoya - Nakagoya" : 4,
+            "Nakagoya - Tsukigaoka" : 4,
+            "Tsukigaoka - Chiraiotsu" : 4,
+            "Chiraiotsu - Ishikari-Tsukigata" : 3,
+            "Ishikari-Tsukigata - Toyogaoka" : 5,
+            "Toyogaoka - Sappinai" : 4,
+            "Sappinai - Osokinai" : 5,
+            "Osokinai - Satteki" : 4,
+            "Satteki - Urausu" : 3,
+            "Urausu - Tsurunuma" : 4,
+            "Tsurunuma - Osatsunai" : 3,
+            "Osatsunai - Minami-Shimo-Toppu" : 3,
+            "Minami-Shimo-Toppu - Shimo-Toppu" : 3,
+            "Shimo-Toppu - Shin-Totsukawa" : 6
+        },
+        "Toho Line" : {
+            "Sakaemachi - Shindo-Higashi" : 2,
+            "Shindo-Higashi - Motomachi" : 2,
+            "Motomachi - Kanjo-Dori-Higashi" : 3,
+            "Kanjo-Dori-Higashi - Higashi-Kuyakusho-Mae" : 2,
+            "Higashi-Kuyakusho-Mae - Kita-Jusan-Jo-Higashi" : 2,
+            "Kita-Jusan-Jo-Higashi - Sapporo" : 3,
+            "Sapporo - Odori" : 2,
+            "Odori - Hosui-Susukino" : 2,
+            "Hosui-Susukino - Gakuen-Mae" : 3,
+            "Gakuen-Mae - Toyohira-Koen" : 2,
+            "Toyohira-Koen - Misono" : 2,
+            "Misono - Tsukisamu-Chuo" : 2,
+            "Tsukisamu-Chuo - Fukusumi" : 2
+        },
+        "Tozai Line" : {
+            "Miyanosawa - Hassamu-Minami" : 3,
+            "Hassamu-Minami - Kotoni" : 3,
+            "Kotoni - Nijuyon-Ken" : 2,
+            "Nijuyon-Ken - Nishi-Nijuhatchome" : 2,
+            "Nishi-Nijuhatchome - Maruyama-Koen" : 2,
+            "Maruyama-Koen - Nishi-Juhatchome" : 2,
+            "Nishi-Juhatchome - Nishi-Juitchome" : 2,
+            "Nishi-Juitchome - Odori" : 2,
+            "Odori - Bus Centre-Mae" : 2,
+            "Bus Centre-Mae - Kikusui" : 2,
+            "Kikusui - Higashi-Sapporo" : 2,
+            "Higashi-Sapporo - Shiroishi" : 2,
+            "Shiroishi - Nango-Nana-Chome" : 3,
+            "Nango-Nana-Chome - Nango-Jusan-Chome" : 2,
+            "Nango-Jusan-Chome - Nango-Juhatchome" : 2,
+            "Nango-Juhatchome - Oyachi" : 3,
+            "Oyachi - Hibarigaoka" : 2,
+            "Hibarigaoka - Shin-Sapporo" : 2
+        }
+    },
+    "stations" : {
+        "Ainosato-Koen" : [
+            "Sassho Line"
+        ],
+        "Ainosato-Kyoikudai" : [
+            "Sassho Line"
+        ],
+        "Asabu" : [
+            "Namboku Line"
+        ],
+        "Bus Centre-Mae" : [
+            "Tozai Line"
+        ],
+        "Chiraiotsu" : [
+            "Sassho Line"
+        ],
+        "Fukusumi" : [
+            "Toho Line"
+        ],
+        "Futomi" : [
+            "Sassho Line"
+        ],
+        "Gakuen-Mae" : [
+            "Toho Line"
+        ],
+        "Hassamu-Minami" : [
+            "Tozai Line"
+        ],
+        "Hatchiken" : [
+            "Sassho Line"
+        ],
+        "Hibarigaoka" : [
+            "Tozai Line"
+        ],
+        "Higashi-Kuyakusho-Mae" : [
+            "Toho Line"
+        ],
+        "Higashi-Sapporo" : [
+            "Tozai Line"
+        ],
+        "Hiragishi" : [
+            "Namboku Line"
+        ],
+        "Hokkaido-Iryodaigaku" : [
+            "Sassho Line"
+        ],
+        "Horohira-Bashi" : [
+            "Namboku Line"
+        ],
+        "Hosui-Susukino" : [
+            "Toho Line"
+        ],
+        "Irhikari-Kanazawa" : [
+            "Sassho Line"
+        ],
+        "Ishikari-Tsukigata" : [
+            "Sassho Line"
+        ],
+        "Jieitai-Mae" : [
+            "Namboku Line"
+        ],
+        "Kanjo-Dori-Higashi" : [
+            "Toho Line"
+        ],
+        "Kikusui" : [
+            "Tozai Line"
+        ],
+        "Kita-Juhachi-Jo" : [
+            "Namboku Line"
+        ],
+        "Kita-Juni-Jo" : [
+            "Namboku Line"
+        ],
+        "Kita-Jusan-Jo-Higashi" : [
+            "Toho Line"
+        ],
+        "Kita-Nijuyo-Jo" : [
+            "Namboku Line"
+        ],
+        "Kita-Sanjuyo-Jo" : [
+            "Namboku Line"
+        ],
+        "Kotoni" : [
+            "Tozai Line"
+        ],
+        "Makomanai" : [
+            "Namboku Line"
+        ],
+        "Maruyama-Koen" : [
+            "Tozai Line"
+        ],
+        "Minami-Hiragishi" : [
+            "Namboku Line"
+        ],
+        "Minami-Shimo-Toppu" : [
+            "Sassho Line"
+        ],
+        "Misono" : [
+            "Toho Line"
+        ],
+        "Miyanosawa" : [
+            "Tozai Line"
+        ],
+        "Moto-Nakagoya" : [
+            "Sassho Line"
+        ],
+        "Motomachi" : [
+            "Toho Line"
+        ],
+        "Nakagoya" : [
+            "Sassho Line"
+        ],
+        "Nakajima-Koen" : [
+            "Namboku Line"
+        ],
+        "Nakanoshima" : [
+            "Namboku Line"
+        ],
+        "Nango-Juhatchome" : [
+            "Tozai Line"
+        ],
+        "Nango-Jusan-Chome" : [
+            "Tozai Line"
+        ],
+        "Nango-Nana-Chome" : [
+            "Tozai Line"
+        ],
+        "Nijuyon-Ken" : [
+            "Tozai Line"
+        ],
+        "Nishi-Juhatchome" : [
+            "Tozai Line"
+        ],
+        "Nishi-Juitchome" : [
+            "Tozai Line"
+        ],
+        "Nishi-Nijuhatchome" : [
+            "Tozai Line"
+        ],
+        "Odori" : [
+            "Namboku Line",
+            "Toho Line",
+            "Tozai Line"
+        ],
+        "Osatsunai" : [
+            "Sassho Line"
+        ],
+        "Osokinai" : [
+            "Sassho Line"
+        ],
+        "Oyachi" : [
+            "Tozai Line"
+        ],
+        "ROYCE' Town" : [
+            "Sassho Line"
+        ],
+        "Sakaemachi" : [
+            "Toho Line"
+        ],
+        "Sappinai" : [
+            "Sassho Line"
+        ],
+        "Sapporo" : [
+            "Namboku Line",
+            "Sassho Line",
+            "Toho Line"
+        ],
+        "Satteki" : [
+            "Sassho Line"
+        ],
+        "Shimo-Toppu" : [
+            "Sassho Line"
+        ],
+        "Shin-Kotoni" : [
+            "Sassho Line"
+        ],
+        "Shin-Sapporo" : [
+            "Tozai Line"
+        ],
+        "Shin-Totsukawa" : [
+            "Sassho Line"
+        ],
+        "Shindo-Higashi" : [
+            "Toho Line"
+        ],
+        "Shinkawa" : [
+            "Sassho Line"
+        ],
+        "Shinoro" : [
+            "Sassho Line"
+        ],
+        "Shiroishi" : [
+            "Tozai Line"
+        ],
+        "Soen" : [
+            "Sassho Line"
+        ],
+        "Sumikawa" : [
+            "Namboku Line"
+        ],
+        "Susukino" : [
+            "Namboku Line"
+        ],
+        "Taihei" : [
+            "Sassho Line"
+        ],
+        "Takuoku" : [
+            "Sassho Line"
+        ],
+        "Tobetsu" : [
+            "Sassho Line"
+        ],
+        "Toyogaoka" : [
+            "Sassho Line"
+        ],
+        "Toyohira-Koen" : [
+            "Toho Line"
+        ],
+        "Tsukigaoka" : [
+            "Sassho Line"
+        ],
+        "Tsukisamu-Chuo" : [
+            "Toho Line"
+        ],
+        "Tsurunuma" : [
+            "Sassho Line"
+        ],
+        "Urausu" : [
+            "Sassho Line"
+        ],
+        "Yurigahara" : [
+            "Sassho Line"
+        ]
+    }
+}

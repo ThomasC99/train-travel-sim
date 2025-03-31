@@ -1,0 +1,324 @@
+{
+    "services" : {
+        "U1a" : {
+            "Norderstedt Mitte - Richtweg" : 2,
+            "Richtweg - Garstedt" : 2,
+            "Garstedt - Ochsenzoll" : 2,
+            "Ochsenzoll - Kiwittsmoor" : 1,
+            "Kiwittsmoor - Langenhorn Nord" : 3,
+            "Langenhorn Nord - Langenhorn Markt" : 2,
+            "Langenhorn Markt - Fuhlsbüttel Nord" : 2,
+            "Fuhlsbüttel Nord - Fuhlsbüttel" : 2,
+            "Fuhlsbüttel - Klein Borstel" : 1,
+            "Klein Borstel - Ohlsdorf" : 2,
+            "Ohlsdorf - Alsterdorf" : 4,
+            "Alsterdorf - Lattenkamp [Sporthalle]" : 2,
+            "Lattenkamp [Sporthalle] - Hudtwalckerstraße" : 1,
+            "Hudtwalckerstraße - Kellinghusenstraße" : 2,
+            "Kellinghusenstraße - Klosterstern" : 2,
+            "Klosterstern - Hallerstraße" : 2,
+            "Hallerstraße - Stephansplatz [Oper/CCH]" : 2,
+            "Stephansplatz [Oper/CCH] - Jungfernstieg" : 2,
+            "Jungfernstieg - Meßberg" : 2,
+            "Meßberg - Steinstraße" : 1,
+            "Steinstraße - Hauptbahnhof Süd" : 2,
+            "Hauptbahnhof Süd - Lohmühlenstraße" : 2,
+            "Lohmühlenstraße - Lübecker Straße" : 2
+        },
+        "U2" : {
+            "Niendorf Nord - Schippelsweg" : 1,
+            "Schippelsweg - Joachim-Mähl-Straße" : 1,
+            "Joachim-Mähl-Straße - Niendorf Markt" : 2,
+            "Niendorf Markt - Hagendeel" : 2,
+            "Hagendeel - Hagenbecks Tierpark" : 3,
+            "Hagenbecks Tierpark - Lutterothstraße" : 2,
+            "Lutterothstraße - Osterstraße" : 1,
+            "Osterstraße - Emilienstraße" : 2,
+            "Emilienstraße - Christuskirche" : 2,
+            "Christuskirche - Schlump" : 2,
+            "Schlump - Messehallen" : 1,
+            "Messehallen - Gänsemarlt [Oper]" : 1,
+            "Gänsemarlt [Oper] - Jungfernstieg" : 2,
+            "Jungfernstieg - Hauptbahnhof Nord" : 1,
+            "Hauptbahnhof Nord - Berliner Tor" : 3,
+            "Berliner Tor - Burgstraße" : 2,
+            "Burgstraße - Hammer Kirche" : 1,
+            "Hammer Kirche - Rauhes Haus" : 2,
+            "Rauhes Haus - Horner Rennbahn" : 2,
+            "Horner Rennbahn - Legienstraße" : 1,
+            "Legienstraße - Billstedt" : 2,
+            "Billstedt - Merkenstraße" : 2,
+            "Merkenstraße - Steinfurther Allee" : 2,
+            "Steinfurther Allee - Mümmelmannsberg" : 3
+        },
+        "U3" : {
+            "Wandsbek-Gartenstadt - Habichstraße" : 2,
+            "Habichstraße - Barmbek" : 3,
+            "Barmbek - Dehnhaide" : 2,
+            "Dehnhaide - Hamburger Straße" : 1,
+            "Hamburger Straße - Mundsburg" : 2,
+            "Mundsburg - Uhlandstraße" : 1,
+            "Uhlandstraße - Lübecker Straße" : 2,
+            "Lübecker Straße - Berliner Tor" : 2,
+            "Berliner Tor - Hauptbahnhof Süd" : 2,
+            "Hauptbahnhof Süd - Mönckebergstraße" : 1,
+            "Mönckebergstraße - Rathaus" : 2,
+            "Rathaus - Rödingmarkt" : 1,
+            "Rödingmarkt - Baumwall [Elbphilharmonie]" : 2,
+            "Baumwall [Elbphilharmonie] - Landungsbrücken" : 2,
+            "Landungsbrücken - St Pauli" : 2,
+            "St Pauli - Feldstraße [Heiligengeistfeld]" : 1,
+            "Feldstraße [Heiligengeistfeld] - Sternschanze" : 2,
+            "Sternschanze - Schlump" : 2,
+            "Schlump - Hoheluftbrücke" : 2,
+            "Hoheluftbrücke - Eppendorfer Baum" : 1,
+            "Eppendorfer Baum - Kellinghusenstraße" : 2,
+            "Kellinghusenstraße - Sierichstraße" : 2,
+            "Sierichstraße - Borgweg [Stadtpark]" : 1,
+            "Borgweg [Stadtpark] - Saarlandstraße" : 2
+        },
+        "U4" : {
+            "Elbbrücken - HafenCity Universität" : 2,
+            "HafenCity Universität - Überseequartier" : 1,
+            "Überseequartier - Jungfernstieg" : 4,
+            "Jungfernstieg - Hauptbahnhof Nord" : 1,
+            "Hauptbahnhof Nord - Berliner Tor" : 3,
+            "Berliner Tor - Burgstraße" : 2,
+            "Burgstraße - Hammer Kirche" : 1,
+            "Hammer Kirche - Rauhes Haus" : 2,
+            "Rauhes Haus - Horner Rennbahn" : 2,
+            "Horner Rennbahn - Legienstraße" : 1,
+            "Legienstraße - Billstedt" : 2
+        }
+    },
+    "stations" : {
+        "Alsterdorf" : [
+            "U1a"
+        ],
+        "Barmbek" : [
+            "U3"
+        ],
+        "Baumwall [Elbphilharmonie]" : [
+            "U3"
+        ],
+        "Berliner Tor" : [
+            "U2",
+            "U3",
+            "U4"
+        ],
+        "Billstedt" : [
+            "U2",
+            "U4"
+        ],
+        "Borgweg [Stadtpark]" : [
+            "U3"
+        ],
+        "Burgstraße" : [
+            "U2",
+            "U4"
+        ],
+        "Christuskirche" : [
+            "U2"
+        ],
+        "Dehnhaide" : [
+            "U3"
+        ],
+        "Elbbrücken" : [
+            "U4"
+        ],
+        "Emilienstraße" : [
+            "U2"
+        ],
+        "Eppendorfer Baum" : [
+            "U3"
+        ],
+        "Feldstraße [Heiligengeistfeld]" : [
+            "U3"
+        ],
+        "Fuhlsbüttel" : [
+            "U1a"
+        ],
+        "Fuhlsbüttel Nord" : [
+            "U1a"
+        ],
+        "Gänsemarlt [Oper]" : [
+            "U2"
+        ],
+        "Garstedt" : [
+            "U1a"
+        ],
+        "Habichstraße" : [
+            "U3"
+        ],
+        "HafenCity Universität" : [
+            "U4"
+        ],
+        "Hagenbecks Tierpark" : [
+            "U2"
+        ],
+        "Hagendeel" : [
+            "U2"
+        ],
+        "Hamburger Straße" : [
+            "U3"
+        ],
+        "Hammer Kirche" : [
+            "U2",
+            "U4"
+        ],
+        "Hallerstraße" : [
+            "U1a"
+        ],
+        "Hauptbahnhof Nord" : [
+            "U2",
+            "U4"
+        ],
+        "Hauptbahnhof Süd" : [
+            "U1a",
+            "U3"
+        ],
+        "Hoheluftbrücke" : [
+            "U3"
+        ],
+        "Horner Rennbahn" : [
+            "U2",
+            "U4"
+        ],
+        "Hudtwalckerstraße" : [
+            "U1a"
+        ],
+        "Joachim-Mähl-Straße" : [
+            "U2"
+        ],
+        "Jungfernstieg" : [
+            "U1a",
+            "U2",
+            "U4"
+        ],
+        "Kellinghusenstraße" : [
+            "U1a",
+            "U3"
+        ],
+        "Kiwittsmoor" : [
+            "U1a"
+        ],
+        "Klein Borstel" : [
+            "U1a"
+        ],
+        "Klosterstern" : [
+            "U1a"
+        ],
+        "Landungsbrücken" : [
+            "U3"
+        ],
+        "Langenhorn Markt" : [
+            "U1a"
+        ],
+        "Langenhorn Nord" : [
+            "U1a"
+        ],
+        "Lattenkamp [Sporthalle]" : [
+            "U1a"
+        ],
+        "Legienstraße" : [
+            "U2",
+            "U4"
+        ],
+        "Lohmühlenstraße" : [
+            "U1a"
+        ],
+        "Lübecker Straße" : [
+            "U1a",
+            "U3"
+        ],
+        "Lutterothstraße" : [
+            "U2"
+        ],
+        "Merkenstraße" : [
+            "U2"
+        ],
+        "Messehallen" : [
+            "U2"
+        ],
+        "Meßberg" : [
+            "U1a"
+        ],
+        "Mönckebergstraße" : [
+            "U3"
+        ],
+        "Mümmelmannsberg" : [
+            "U2"
+        ],
+        "Mundsburg" : [
+            "U3"
+        ],
+        "Niendorf Markt" : [
+            "U2"
+        ],
+        "Niendorf Nord" : [
+            "U2"
+        ],
+        "Norderstedt Mitte" : [
+            "U1a"
+        ],
+        "Ochsenzoll" : [
+            "U1a"
+        ],
+        "Ohlsdorf" : [
+            "U1a"
+        ],
+        "Osterstraße" : [
+            "U2"
+        ],
+        "Rathaus" : [
+            "U3"
+        ],
+        "Rauhes Haus" : [
+            "U2",
+            "U4"
+        ],
+        "Richtweg" : [
+            "U1a"
+        ],
+        "Rödingmarkt" : [
+            "U3"
+        ],
+        "Saarlandstraße" : [
+            "U3"
+        ],
+        "Schippelsweg" : [
+            "U2"
+        ],
+        "Schlump" : [
+            "U2",
+            "U3"
+        ],
+        "Sierichstraße" : [
+            "U3"
+        ],
+        "St Pauli" : [
+            "U3"
+        ],
+        "Steinfurther Allee" : [
+            "U2"
+        ],
+        "Steinstraße" : [
+            "U1a"
+        ],
+        "Stephansplatz [Oper/CCH]" : [
+            "U1a"
+        ],
+        "Sternschanze" : [
+            "U3"
+        ],
+        "Überseequartier" : [
+            "U4"
+        ],
+        "Uhlandstraße" : [
+            "U3"
+        ],
+        "Wandsbek-Gartenstadt" : [
+            "U3"
+        ]
+    }
+}

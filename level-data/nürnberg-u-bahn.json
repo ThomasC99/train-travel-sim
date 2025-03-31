@@ -1,0 +1,221 @@
+{
+    "services" : {
+        "U-1" : {
+            "Hardhöhe - Klinikum" : 1,
+            "Klinikum - Stadthalle" : 2,
+            "Stadthalle - Rathaus" : 1,
+            "Rathaus - Fürth Hauptbahnhof" : 1,
+            "Fürth Hauptbahnhof - Jabokinestraße" : 2,
+            "Jabokinestraße - Stadtgrenze" : 1,
+            "Stadtgrenze - Muggenhof" : 2,
+            "Muggenhof - Eberhardshof" : 1,
+            "Eberhardshof - Maximilanstraße" : 1,
+            "Maximilanstraße - Bärenschanze" : 2,
+            "Bärenschanze - Gostenhof" : 1,
+            "Gostenhof - Plärrer" : 1,
+            "Plärrer - Weißer Turm" : 1,
+            "Weißer Turm - Lornezkirche" : 2,
+            "Lornezkirche - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Aufseßplatz" : 2,
+            "Aufseßplatz - Maffeiplatz" : 1,
+            "Maffeiplatz - Frankenstraße" : 1,
+            "Frankenstraße - Hasenbuck" : 2,
+            "Hasenbuck - Bauernfeindstraße" : 1,
+            "Bauernfeindstraße - Messe" : 2,
+            "Messe - Langwasser Nord" : 1,
+            "Langwasser Nord - Scharfreiterring" : 1,
+            "Scharfreiterring - Langwasser Mitte" : 1,
+            "Langwasser Mitte - Gemeinschaftshaus" : 1,
+            "Gemeinschaftshaus - Langwasser Süd" : 1
+        },
+        "U-2" : {
+            "Röthenback - Hohe Marter" : 2,
+            "Hohe Marter - Schweinau" : 1,
+            "Schweinau - St Leonhard" : 1,
+            "St Leonhard - Rothenburger Straße" : 2,
+            "Rothenburger Straße - Plärrer" : 1,
+            "Plärrer - Opernhaus" : 2,
+            "Opernhaus - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Wöhrder Wiese" : 2,
+            "Wöhrder Wiese - Rathenauplatz" : 1,
+            "Rathenauplatz - Rennweg" : 2,
+            "Rennweg - Schoppershof" : 1,
+            "Schoppershof - Nordostbahnhof" : 1,
+            "Nordostbahnhof - Herrnhütte" : 2,
+            "Herrnhütte - Ziegelstein" : 1,
+            "Ziegelstein - Flughafen" : 3
+        },
+        "U-3" : {
+            "Großreuth bei Schweinau - Gustav-Adolf Straße" : 1,
+            "Gustav-Adolf Straße - Sündersbühl" : 2,
+            "Sündersbühl - Rothenburger Straße" : 3,
+            "Rothenburger Straße - Plärrer" : 1,
+            "Plärrer - Opernhaus" : 2,
+            "Opernhaus - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Wöhrder Wiese" : 2,
+            "Wöhrder Wiese - Rathenauplatz" : 1,
+            "Rathenauplatz - Maxfeld" : 2,
+            "Maxfeld - Kaulbachplatz" : 1,
+            "Kaulbachplatz - Freidrich-Ebert-Platz" : 1,
+            "Freidrich-Ebert-Platz - Klinikum Nord" : 2,
+            "Klinikum Nord - Nordwestring" : 1
+        }
+    },
+    "stations" : {
+        "Aufseßplatz" : [
+            "U-1"
+        ],
+        "Bärenschanze" : [
+            "U-1"
+        ],
+        "Bauernfeindstraße" : [
+            "U-1"
+        ],
+        "Eberhardshof" : [
+            "U-1"
+        ],
+        "Flughafen" : [
+            "U-2"
+        ],
+        "Frankenstraße" : [
+            "U-1"
+        ],
+        "Freidrich-Ebert-Platz" : [
+            "U-3"
+        ],
+        "Fürth Hauptbahnhof" : [
+            "U-1"
+        ],
+        "Gemeinschaftshaus" : [
+            "U-1"
+        ],
+        "Gostenhof" : [
+            "U-1"
+        ],
+        "Großreuth bei Schweinau" : [
+            "U-3"
+        ],
+        "Gustav-Adolf Straße" : [
+            "U-3"
+        ],
+        "Hardhöhe" : [
+            "U-1"
+        ],
+        "Hasenbuck" : [
+            "U-1"
+        ],
+        "Hauptbahnhof" : [
+            "U-1",
+            "U-2",
+            "U-3"
+        ],
+        "Herrnhütte" : [
+            "U-2"
+        ],
+        "Hohe Marter" : [
+            "U-2"
+        ],
+        "Jabokinestraße" : [
+            "U-1"
+        ],
+        "Kaulbachplatz" : [
+            "U-3"
+        ],
+        "Klinikum" : [
+            "U-1"
+        ],
+        "Klinikum Nord" : [
+            "U-3"
+        ],
+        "Langwasser Mitte" : [
+            "U-1"
+        ],
+        "Langwasser Nord" : [
+            "U-1"
+        ],
+        "Langwasser Süd" : [
+            "U-1"
+        ],
+        "Lornezkirche" : [
+            "U-1"
+        ],
+        "Maffeiplatz" : [
+            "U-1"
+        ],
+        "Messe" : [
+            "U-1"
+        ],
+        "Maxfeld" : [
+            "U-3"
+        ],
+        "Maximilanstraße" : [
+            "U-1"
+        ],
+        "Muggenhof" : [
+            "U-1"
+        ],
+        "Nordostbahnhof" : [
+            "U-2"
+        ],
+        "Nordwestring" : [
+            "U-3"
+        ],
+        "Opernhaus" : [
+            "U-2",
+            "U-3"
+        ],
+        "Plärrer" : [
+            "U-1",
+            "U-2",
+            "U-3"
+        ],
+        "Rathaus" : [
+            "U-1"
+        ],
+        "Rathenauplatz" : [
+            "U-2",
+            "U-3"
+        ],
+        "Rennweg" : [
+            "U-2"
+        ],
+        "Röthenback" : [
+            "U-2"
+        ],
+        "Rothenburger Straße" : [
+            "U-2",
+            "U-3"
+        ],
+        "Scharfreiterring" : [
+            "U-1"
+        ],
+        "Schoppershof" : [
+            "U-2"
+        ],
+        "Schweinau" : [
+            "U-2"
+        ],
+        "St Leonhard" : [
+            "U-2"
+        ],
+        "Stadtgrenze" : [
+            "U-1"
+        ],
+        "Stadthalle" : [
+            "U-1"
+        ],
+        "Sündersbühl" : [
+            "U-3"
+        ],
+        "Weißer Turm" : [
+            "U-1"
+        ],
+        "Wöhrder Wiese" : [
+            "U-2",
+            "U-3"
+        ],
+        "Ziegelstein" : [
+            "U-2"
+        ]
+    }
+}

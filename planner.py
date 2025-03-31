@@ -41,10 +41,11 @@ for line_name, stops in lines.items():
         if stops.index(current_station) < stops.index(target_station):
             # Calculate total travel time for the direct route
             route_stations = stops[stops.index(current_station):stops.index(target_station) + 1]
-            total_time = sum(
-                graph.get_edge(route_stations[i], route_stations[i + 1])
-                for i in range(len(route_stations) - 1)
-            )
+            total_time = find_path(graph, route_stations[0], route_stations[-1])[3]
+            # total_time = sum(
+            #     graph.get_edge(route_stations[i], route_stations[i + 1])
+            #     for i in range(len(route_stations) - 1)
+            # )
             route = [{"line": line_name, "stations": route_stations}]
             direct_route_found = True
             break
@@ -59,7 +60,6 @@ if not direct_route_found:
     except Exception as e:
         print(f"Error finding path: {e}")
         path = []
-        total_time = 0
 
     # Determine which lines to take to match the path
     route = []
@@ -105,7 +105,8 @@ minutes = total_time % 60
 print("\n\n\n")
 
 for segment in route:
-    print(f"Take {segment['line']} to {segment['stations'][-1]}")
+    seg_time = find_path(graph, segment["stations"][0], segment["stations"][-1])[3]
+    print(f"Take {segment['line']} to {segment['stations'][-1]} ({seg_time} minutes)")
 
 print("")
 

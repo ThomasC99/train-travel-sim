@@ -10,8 +10,14 @@ file = open("save.json", "r")
 save_data = json.loads(file.read())
 file.close()
 
+if "network-data" not in save_data:
+    save_data["network-data"] = {}
+
 if "services" not in save_data["network-data"]:
     save_data["network-data"]["services"] = {}
+
+if "stations" not in save_data["network-data"]:
+    save_data["network-data"]["stations"] = {}
 
 for service in level_data["services"]:
     if service not in save_data["network-data"] and service not in save_data["service-data"]["services"]:

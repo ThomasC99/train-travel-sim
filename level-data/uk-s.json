@@ -1,0 +1,399 @@
+{
+    "services" : {
+        "Line 1" : {
+            "Thurso - Todholes" : 5,
+            "Todholes - Hoy" : 5,
+            "Hoy - Georgemass Junction" : 3,
+            "Georgemass Junction - Bower" : 5,
+            "Bower - Watten" : 7,
+            "Watten - Bilbster" : 5,
+            "Bilbster - Wick" : 8
+        },
+        "Line 2" : {
+            "Wick - Thrumster" : 7,
+            "Thrumster - Welsh's Crossing" : 5,
+            "Welsh's Crossing - Ulbster" : 3,
+            "Ulbster - Mid Clyth" : 4,
+            "Mid Clyth - Roster Road" : 2,
+            "Roster Road - Occumster" : 5,
+            "Occumster - Parkside" : 2,
+            "Parkside - Plantation Crossing" : 2,
+            "Plantation Crossing - Lybster" : 2
+        },
+        "Line 3" : {
+            "Georgemass Junction - Halkirk" : 3,
+            "Halkirk - Scotscalder" : 5,
+            "Scotscalder - Altnabreac" : 14,
+            "Altnabreac - Auchnagool" : 7,
+            "Auchnagool - Forsinard" : 7,
+            "Forsinard - Kinbrace" : 12,
+            "Kinbrace - Borrobol" : 6,
+            "Borrobol - Kildonan" : 7,
+            "Kildonan - Salzcraggie" : 11,
+            "Salzcraggie - Helmsdale" : 5,
+            "Helmsdale - West Helmsdale" : 3,
+            "West Helmsdale - Loth" : 8,
+            "Loth - Brora" : 9,
+            "Brora - Dunrobin Castle" : 7,
+            "Dunrobin Castle - Golspie" : 4,
+            "Golspie - The Mound" : 6,
+            "The Mound - Rogart" : 7,
+            "Rogart - Acheilidh Crossing" : 7,
+            "Acheilidh Crossing - Lairg Summit" : 6,
+            "Lairg Summit - Lairg" : 5,
+            "Lairg - Invershin" : 9,
+            "Invershin - Culrain" : 2,
+            "Culrain - Ardgay" : 6,
+            "Ardgay - Mid Fearn" : 5,
+            "Mid Fearn - Edderton" : 9,
+            "Edderton - Meilke Ferry" : 5,
+            "Meilke Ferry - Glenmorangie" : 3,
+            "Glenmorangie - Tain" : 3,
+            "Tain - Fearn" : 6,
+            "Fearn - Nigg" : 3,
+            "Nigg - Kildary" : 5,
+            "Kildary - Delny" : 4,
+            "Delny - Invergordon" : 6,
+            "Invergordon - Belleport" : 3,
+            "Belleport - Alness" : 3,
+            "Alness - Evanton" : 7,
+            "Evanton - Foulis" : 4,
+            "Foulis - Dingwall" : 7,
+            "Dingwall - Conan Bridge" : 5,
+            "Conan Bridge - Muir of Ord" : 6,
+            "Muir of Ord - Beauly" : 5,
+            "Beauly - Clunes" : 5,
+            "Clunes - Lentran" : 4,
+            "Lentran - Bunchrew" : 4,
+            "Bunchrew - Clachnaharry" : 4,
+            "Clachnaharry - Inverness" : 4
+        },
+        "Line 4" : {
+            "The Mound - Cambusavie" : 3,
+            "Cambusavie - Skelbo" : 5,
+            "Skelbo - Embo" : 4,
+            "Embo - Dornoch" : 5
+        },
+        "Line 5" : {
+            "Belleport - Invergordon Harbour" : 3
+        },
+        "Line 6" : {
+            "Dingwall - Achterneed" : 8,
+            "Achterneed - Garve" : 12,
+            "Garve - Lochluichart" : 9,
+            "Lochluichart - Achanalt" : 7,
+            "Achanalt - Achnasheen" : 10,
+            "Achnasheen - Luib Houses" : 7,
+            "Luib Houses - Glencarron" : 7,
+            "Glencarron - Achnashellach" : 7,
+            "Achnashellach - Balnacra" : 5,
+            "Balnacra - Strathcarron" : 5,
+            "Strathcarron - Attadale" : 5,
+            "Attadale - Imber Houses" : 5,
+            "Imber Houses - Stromferry" : 5,
+            "Stromferry - Duncraig" : 7,
+            "Duncraig - Plockton" : 3,
+            "Plockton - Duirinish" : 3,
+            "Duirinish - Kyle of Lochalsh" : 7
+        },
+        "Line 7" : {
+            "Dingwall - Strathpeffer" : 9
+        },
+        "Line 8" : {
+            "Muir of Ord - Redsactle" : 7,
+            "Redsactle - Allangrange" : 4,
+            "Allangrange - Munlochy" : 5,
+            "Munlochy - Avoch" : 6,
+            "Avoch - Fortrose" : 5
+        },
+        "Line 9" : {
+            "Inverness - Muirtown Canal Basin" : 4
+        }
+    },
+    "stations" : {
+        "Achanalt" : [
+            "Line 6"
+        ],
+        "Acheilidh Crossing" : [
+            "Line 3"
+        ],
+        "Achnasheen" : [
+            "Line 6"
+        ],
+        "Achnashellach" : [
+            "Line 6"
+        ],
+        "Achterneed" : [
+            "Line 6"
+        ],
+        "Allangrange" : [
+            "Line 8"
+        ],
+        "Alness" : [
+            "Line 3"
+        ],
+        "Altnabreac" : [
+            "Line 3"
+        ],
+        "Ardgay" : [
+            "Line 3"
+        ],
+        "Attadale" : [
+            "Line 6"
+        ],
+        "Auchnagool" : [
+            "Line 3"
+        ],
+        "Avoch" : [
+            "Line 8"
+        ],
+        "Balnacra" : [
+            "Line 6"
+        ],
+        "Beauly" : [
+            "Line 3"
+        ],
+        "Belleport" : [
+            "Line 3",
+            "Line 5"
+        ],
+        "Bilbster" : [
+            "Line 1"
+        ],
+        "Borrobol" : [
+            "Line 3"
+        ],
+        "Bower" : [
+            "Line 1"
+        ],
+        "Brora" : [
+            "Line 3"
+        ],
+        "Bunchrew" : [
+            "Line 3"
+        ],
+        "Cambusavie" : [
+            "Line 4"
+        ],
+        "Clachnaharry" : [
+            "Line 3"
+        ],
+        "Clunes" : [
+            "Line 3"
+        ],
+        "Conan Bridge" : [
+            "Line 3"
+        ],
+        "Culrain" : [
+            "Line 3"
+        ],
+        "Delny" : [
+            "Line 3"
+        ],
+        "Dingwall" : [
+            "Line 3",
+            "Line 6",
+            "Line 7"
+        ],
+        "Dornoch" : [
+            "Line 4"
+        ],
+        "Duirinish" : [
+            "Line 6"
+        ],
+        "Duncraig" : [
+            "Line 6"
+        ],
+        "Dunrobin Castle" : [
+            "Line 3"
+        ],
+        "Edderton" : [
+            "Line 3"
+        ],
+        "Embo" : [
+            "Line 4"
+        ],
+        "Evanton" : [
+            "Line 3"
+        ],
+        "Fearn" : [
+            "Line 3"
+        ],
+        "Forsinard" : [
+            "Line 3"
+        ],
+        "Fortrose" : [
+            "Line 8"
+        ],
+        "Foulis" : [
+            "Line 3"
+        ],
+        "Garve" : [
+            "Line 6"
+        ],
+        "Georgemass Junction" : [
+            "Line 1",
+            "Line 3"
+        ],
+        "Glencarron" : [
+            "Line 6"
+        ],
+        "Glenmorangie" : [
+            "Line 3"
+        ],
+        "Golspie" : [
+            "Line 3"
+        ],
+        "Halkirk" : [
+            "Line 3"
+        ],
+        "Helmsdale" : [
+            "Line 3"
+        ],
+        "Hoy" : [
+            "Line 1"
+        ],
+        "Imber Houses" : [
+            "Line 6"
+        ],
+        "Invergordon" : [
+            "Line 3"
+        ],
+        "Invergordon Harbour" : [
+            "Line 5"
+        ],
+        "Inverness" : [
+            "Line 3",
+            "Line 9"
+        ],
+        "Invershin" : [
+            "Line 3"
+        ],
+        "Kildary" : [
+            "Line 3"
+        ],
+        "Kildonan" : [
+            "Line 3"
+        ],
+        "Kinbrace" : [
+            "Line 3"
+        ],
+        "Kyle of Lochalsh" : [
+            "Line 6"
+        ],
+        "Lairg" : [
+            "Line 3"
+        ],
+        "Lairg Summit" : [
+            "Line 3"
+        ],
+        "Lentran" : [
+            "Line 3"
+        ],
+        "Lochluichart" : [
+            "Line 6"
+        ],
+        "Loth" : [
+            "Line 3"
+        ],
+        "Luib Houses" : [
+            "Line 6"
+        ],
+        "Lybster" : [
+            "Line 2"
+        ],
+        "Meilke Ferry" : [
+            "Line 3"
+        ],
+        "Mid Clyth" : [
+            "Line 2"
+        ],
+        "Mid Fearn" : [
+            "Line 3"
+        ],
+        "Muir of Ord" : [
+            "Line 3",
+            "Line 8"
+        ],
+        "Muirtown Canal Basin" : [
+            "Line 9"
+        ],
+        "Munlochy" : [
+            "Line 8"
+        ],
+        "Nigg" : [
+            "Line 3"
+        ],
+        "Occumster" : [
+            "Line 2"
+        ],
+        "Parkside" : [
+            "Line 2"
+        ],
+        "Plantation Crossing" : [
+            "Line 2"
+        ],
+        "Plockton" : [
+            "Line 6"
+        ],
+        "Redsactle" : [
+            "Line 8"
+        ],
+        "Rogart" : [
+            "Line 3"
+        ],
+        "Roster Road" : [
+            "Line 2"
+        ],
+        "Salzcraggie" : [
+            "Line 3"
+        ],
+        "Scotscalder" : [
+            "Line 3"
+        ],
+        "Skelbo" : [
+            "Line 4"
+        ],
+        "Strathcarron" : [
+            "Line 6"
+        ],
+        "Strathpeffer" : [
+            "Line 7"
+        ],
+        "Stromferry" : [
+            "Line 6"
+        ],
+        "Tain" : [
+            "Line 3"
+        ],
+        "The Mound" : [
+            "Line 3",
+            "Line 4"
+        ],
+        "Thrumster" : [
+            "Line 2"
+        ],
+        "Thurso" : [
+            "Line 1"
+        ],
+        "Todholes" : [
+            "Line 1"
+        ],
+        "Ulbster" : [
+            "Line 2"
+        ],
+        "Watten" : [
+            "Line 1"
+        ],
+        "Welsh's Crossing" : [
+            "Line 2"
+        ],
+        "West Helmsdale" : [
+            "Line 3"
+        ],
+        "Wick" : [
+            "Line 1",
+            "Line 2"
+        ]
+    }
+}

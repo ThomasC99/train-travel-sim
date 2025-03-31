@@ -1,0 +1,148 @@
+{
+    "services" : {
+        "Line 1" : {
+            "Thurso - Todholes" : 4,
+            "Todholes - Hoy" : 4,
+            "Hoy - Georgemass Junction" : 3
+        },
+        "Line 2" : {
+            "Georgemass Junction - Bower" : 4,
+            "Bower - Watten" : 4,
+            "Watten - Bilbster" : 4,
+            "Bilbster - Wick" : 5
+        },
+        "Line 3" : {
+            "Wick - Thrumster" : 5,
+            "Thrumster - Welsh's Crossing" : 4,
+            "Welsh's Crossing - Ulbster" : 3,
+            "Ulbster - Mid Clyth" : 3,
+            "Mid Clyth - Roster Road" : 2,
+            "Roster Road - Occumster" : 4,
+            "Occumster - Parkside" : 2,
+            "Parkside - Plantation Crossing" : 2,
+            "Plantation Crossing - Lybster" : 2
+        },
+        "Line 4" : {
+            "Georgemass Junction - Halkirk" : 3,
+            "Halkirk - Scotscalder" : 4,
+            "Scotscalder - Altanbreac" : 7,
+            "Altanbreac - Auchnagool" : 5,
+            "Auchnagool - Forsinard" : 5,
+            "Forsinard - Kinbrace" : 6,
+            "Kinbrace - Borrobol" : 4,
+            "Borrobol - Kildonan" : 4,
+            "Kildonan - Salzcraggie" : 6,
+            "Salzcraggie - Helmsdale" : 4,
+            "Helmsdale - West Helmsdale" : 2,
+            "West Helmsdale - Loth" : 5,
+            "Loth - Brora" : 5,
+            "Brora - Dunrobin Castle" : 5,
+            "Dunrobin Castle - Golspie" : 3,
+            "Golspie - The Mound" : 4
+        }
+    },
+    "stations" : {
+        "Altanbreac" : [
+            "Line 4"
+        ],
+        "Auchnagool" : [
+            "Line 4"
+        ],
+        "Bilbster" : [
+            "Line 2"
+        ],
+        "Borrobol" : [
+            "Line 4"
+        ],
+        "Bower" : [
+            "Line 2"
+        ],
+        "Brora" : [
+            "Line 4"
+        ],
+        "Dunrobin Castle" : [
+            "Line 4"
+        ],
+        "Forsinard" : [
+            "Line 4"
+        ],
+        "Georgemass Junction" : [
+            "Line 1",
+            "Line 2",
+            "Line 4"
+        ],
+        "Golspie" : [
+            "Line 4"
+        ],
+        "Halkirk" : [
+            "Line 4"
+        ],
+        "Helmsdale" : [
+            "Line 4"
+        ],
+        "Hoy" : [
+            "Line 1"
+        ],
+        "Kildonan" : [
+            "Line 4"
+        ],
+        "Kinbrace" : [
+            "Line 4"
+        ],
+        "Loth" : [
+            "Line 4"
+        ],
+        "Lybster" : [
+            "Line 3"
+        ],
+        "Mid Clyth" : [
+            "Line 3"
+        ],
+        "Occumster" : [
+            "Line 3"
+        ],
+        "Parkside" : [
+            "Line 3"
+        ],
+        "Plantation Crossing" : [
+            "Line 3"
+        ],
+        "Roster Road" : [
+            "Line 3"
+        ],
+        "Salzcraggie" : [
+            "Line 4"
+        ],
+        "Scotscalder" : [
+            "Line 4"
+        ],
+        "The Mound" : [
+            "Line 4"
+        ],
+        "Thrumster" : [
+            "Line 3"
+        ],
+        "Thurso" : [
+            "Line 1"
+        ],
+        "Todholes" : [
+            "Line 1"
+        ],
+        "Ulbster" : [
+            "Line 3"
+        ],
+        "Watten" : [
+            "Line 2"
+        ],
+        "Welsh's Crossing" : [
+            "Line 3"
+        ],
+        "West Helmsdale" : [
+            "Line 4"
+        ],
+        "Wick" : [
+            "Line 2",
+            "Line 3"
+        ]
+    }
+}

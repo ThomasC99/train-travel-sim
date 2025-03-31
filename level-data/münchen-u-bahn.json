@@ -1,0 +1,530 @@
+{
+    "services" : {
+        "U-1" : {
+            "Olympia-Einkaufszentrum - Georg-Brauchle-Ring" : 1,
+            "Georg-Brauchle-Ring - Westfriedhof" : 1,
+            "Westfriedhof - Gern" : 1,
+            "Gern - Rotkreuzplatz" : 2,
+            "Rotkreuzplatz - Maillingerstraße" : 1,
+            "Maillingerstraße - Stiglmaierplatz" : 1,
+            "Stiglmaierplatz - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Fraunhoferstraße" : 1,
+            "Fraunhoferstraße - Kolumbusplatz" : 2,
+            "Kolumbusplatz - Candidplatz" : 1,
+            "Candidplatz - Wettersteinplatz" : 1,
+            "Wettersteinplatz - St-Quirin-Platz" : 1,
+            "St-Quirin-Platz - Mangfallplatz" : 1
+        },
+        "U-2" : {
+            "Feldmoching - Hasenbergl" : 1,
+            "Hasenbergl - Dülferstraße" : 1,
+            "Dülferstraße - Harthof" : 1,
+            "Harthof - Am Hart" : 2,
+            "Am Hart - Frankfurter Ring" : 1,
+            "Frankfurter Ring - Milbertshofen" : 1,
+            "Milbertshofen - Scheidplatz" : 1,
+            "Scheidplatz - Hohenzollernplatz" : 1,
+            "Hohenzollernplatz - Josephsplatz" : 1,
+            "Josephsplatz - Theresienstraße" : 1,
+            "Theresienstraße - Königsplatz" : 1,
+            "Königsplatz - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Fraunhoferstraße" : 1,
+            "Fraunhoferstraße - Kolumbusplatz" : 2,
+            "Kolumbusplatz - Silberhornstraße" : 1,
+            "Silberhornstraße - Unterbergstraße" : 1,
+            "Unterbergstraße - Giesing" : 1,
+            "Giesing - Karl-Preis-Platz" : 1,
+            "Karl-Preis-Platz - Innsbrucker Ring" : 1,
+            "Innsbrucker Ring - Josephsburg" : 2,
+            "Josephsburg - Kreillerstraße" : 2,
+            "Kreillerstraße - Trudering" : 1,
+            "Trudering - Moosfeld" : 1,
+            "Moosfeld - Messestadt West" : 2,
+            "Messestadt West - Messestadt Ost" : 1
+        },
+        "U-3" : {
+            "Moosach - Moosacher St. Martins-Platz" : 1,
+            "Moosacher St. Martins-Platz - Olympia-Einkaufszentrum" : 2,
+            "Olympia-Einkaufszentrum - Oberwiesenfeld" : 1,
+            "Oberwiesenfeld - Olympiazentrum" : 1,
+            "Olympiazentrum - Petuelring" : 1,
+            "Petuelring - Scheidplatz" : 1,
+            "Scheidplatz - Bonner Platz" : 1,
+            "Bonner Platz - Münchner Freiheit" : 1,
+            "Münchner Freiheit - Giselstraße" : 1,
+            "Giselstraße - Universität" : 1,
+            "Universität - Odeonplatz" : 1,
+            "Odeonplatz - Marienplatz" : 1,
+            "Marienplatz - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Goetheplatz" : 2,
+            "Goetheplatz - Poccistraße" : 1,
+            "Poccistraße - Implerstraße" : 1,
+            "Implerstraße - Brudermühlstraße" : 1,
+            "Brudermühlstraße - Thalkirchen [Tierpark]" : 1,
+            "Thalkirchen [Tierpark] - Obersendling" : 1,
+            "Obersendling - Aidenbachstraße" : 1,
+            "Aidenbachstraße - Machtlfinger Straße" : 1,
+            "Machtlfinger Straße - Forstenrieder Allee" : 1,
+            "Forstenrieder Allee - Basler Straße" : 1,
+            "Basler Straße - Fürstentied West" : 1
+        },
+        "U-4" : {
+            "Arabellapark - Richard-Strauss-Straße" : 1,
+            "Richard-Strauss-Straße - Böhmerwaldplatz" : 1,
+            "Böhmerwaldplatz - Prinzregentenplatz" : 1,
+            "Prinzregentenplatz - Max-Weber-Platz" : 1,
+            "Max-Weber-Platz - Lehel" : 1,
+            "Lehel - Odeonplatz" : 1,
+            "Odeonplatz - Karlsplatz [Stachus]" : 1,
+            "Karlsplatz [Stachus] - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Theresienwiese" : 1,
+            "Theresienwiese - Schwanthalerhöhe" : 1,
+            "Schwanthalerhöhe - Heimeranplatz" : 1,
+            "Heimeranplatz - Westendstraße" : 1
+        },
+        "U-5" : {
+            "Neuperlach Süd - Therese-Giehse-Allee" : 1,
+            "Therese-Giehse-Allee - Neuperlach Zentrum" : 1,
+            "Neuperlach Zentrum - Quiddestraße" : 1,
+            "Quiddestraße - Michaelibad" : 1,
+            "Michaelibad - Innsbrucker Ring" : 1,
+            "Innsbrucker Ring - Ostbahnhof" : 1,
+            "Ostbahnhof - Max-Weber-Platz" : 1,
+            "Max-Weber-Platz - Lehel" : 1,
+            "Lehel - Odeonplatz" : 1,
+            "Odeonplatz - Karlsplatz [Stachus]" : 1,
+            "Karlsplatz [Stachus] - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Theresienwiese" : 1,
+            "Theresienwiese - Schwanthalerhöhe" : 1,
+            "Schwanthalerhöhe - Heimeranplatz" : 1,
+            "Heimeranplatz - Westendstraße" : 1,
+            "Westendstraße - Friedenheimer Straße" : 1,
+            "Friedenheimer Straße - Laimer Platz" : 1
+        },
+        "U-6" : {
+            "Garching-Forschungszentrum - Garching" : 2,
+            "Garching - Garching-Hochbrück" : 2,
+            "Garching-Hochbrück - Fröttmaning" : 4,
+            "Fröttmaning - Kieferngarten" : 2,
+            "Kieferngarten - Freimann" : 2,
+            "Freimann - Studentenstadt" : 1,
+            "Studentenstadt - Alte Heide" : 1,
+            "Alte Heide - Nordfriedhof" : 1,
+            "Nordfriedhof - Dietlindenstraße" : 1,
+            "Dietlindenstraße - Münchner Freiheit" : 1,
+            "Münchner Freiheit - Giselstraße" : 1,
+            "Giselstraße - Universität" : 1,
+            "Universität - Odeonplatz" : 1,
+            "Odeonplatz - Marienplatz" : 1,
+            "Marienplatz - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Goetheplatz" : 2,
+            "Goetheplatz - Poccistraße" : 1,
+            "Poccistraße - Implerstraße" : 1,
+            "Implerstraße - Harras" : 1,
+            "Harras - Partnachplatz" : 1,
+            "Partnachplatz - Westpark" : 1,
+            "Westpark - Holzapfelkreuth" : 1,
+            "Holzapfelkreuth - Haderner Stern" : 1,
+            "Haderner Stern - Großhadern" : 2,
+            "Großhadern - Klinikum Großhadern" : 1
+        },
+        "U-7" : {
+            "Olympia-Einkaufszentrum - Georg-Brauchle-Ring" : 1,
+            "Georg-Brauchle-Ring - Westfriedhof" : 1,
+            "Westfriedhof - Gern" : 1,
+            "Gern - Rotkreuzplatz" : 2,
+            "Rotkreuzplatz - Maillingerstraße" : 1,
+            "Maillingerstraße - Stiglmaierplatz" : 1,
+            "Stiglmaierplatz - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Fraunhoferstraße" : 1,
+            "Fraunhoferstraße - Kolumbusplatz" : 2,
+            "Kolumbusplatz - Silberhornstraße" : 1,
+            "Silberhornstraße - Unterbergstraße" : 1,
+            "Unterbergstraße - Giesing" : 1,
+            "Giesing - Karl-Preis-Platz" : 1,
+            "Karl-Preis-Platz - Innsbrucker Ring" : 1,
+            "Innsbrucker Ring - Michaelibad" : 1,
+            "Michaelibad - Quiddestraße" : 1,
+            "Quiddestraße - Neuperlach Zentrum" : 1
+        },
+        "U-8" : {
+            "Olympiazentrum - Petuelring" : 1,
+            "Petuelring - Scheidplatz" : 1,
+            "Scheidplatz - Hohenzollernplatz" : 1,
+            "Hohenzollernplatz - Josephsplatz" : 1,
+            "Josephsplatz - Theresienstraße" : 1,
+            "Theresienstraße - Königsplatz" : 1,
+            "Königsplatz - Hauptbahnhof" : 1,
+            "Hauptbahnhof - Sendlinger Tor" : 1,
+            "Sendlinger Tor - Fraunhoferstraße" : 1,
+            "Fraunhoferstraße - Kolumbusplatz" : 2,
+            "Kolumbusplatz - Silberhornstraße" : 1,
+            "Silberhornstraße - Unterbergstraße" : 1,
+            "Unterbergstraße - Giesing" : 1,
+            "Giesing - Karl-Preis-Platz" : 1,
+            "Karl-Preis-Platz - Innsbrucker Ring" : 1,
+            "Innsbrucker Ring - Michaelibad" : 1,
+            "Michaelibad - Quiddestraße" : 1,
+            "Quiddestraße - Neuperlach Zentrum" : 1
+        }
+    },
+    "stations" : {
+        "Aidenbachstraße" : [
+            "U-3"
+        ],
+        "Alte Heide" : [
+            "U-6"
+        ],
+        "Am Hart" : [
+            "U-2"
+        ],
+        "Arabellapark" : [
+            "U-4"
+        ],
+        "Basler Straße" : [
+            "U-3"
+        ],
+        "Böhmerwaldplatz" : [
+            "U-4"
+        ],
+        "Bonner Platz" : [
+            "U-3"
+        ],
+        "Brudermühlstraße" : [
+            "U-3"
+        ],
+        "Candidplatz" : [
+            "U-1"
+        ],
+        "Dietlindenstraße" : [
+            "U-6"
+        ],
+        "Dülferstraße" : [
+            "U-2"
+        ],
+        "Feldmoching" : [
+            "U-2"
+        ],
+        "Forstenrieder Allee" : [
+            "U-3"
+        ],
+        "Fraunhoferstraße" : [
+            "U-1",
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "Frankfurter Ring" : [
+            "U-2"
+        ],
+        "Freimann" : [
+            "U-6"
+        ],
+        "Friedenheimer Straße" : [
+            "U-5"
+        ],
+        "Fröttmaning" : [
+            "U-6"
+        ],
+        "Fürstentied West" : [
+            "U-3"
+        ],
+        "Garching" : [
+            "U-6"
+        ],
+        "Garching-Forschungszentrum" : [
+            "U-6"
+        ],
+        "Garching-Hochbrück" : [
+            "U-6"
+        ],
+        "Georg-Brauchle-Ring" : [
+            "U-1",
+            "U-7"
+        ],
+        "Gern" : [
+            "U-1",
+            "U-7"
+        ],
+        "Giesing" : [
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "Giselstraße" : [
+            "U-3",
+            "U-6"
+        ],
+        "Goetheplatz" : [
+            "U-3",
+            "U-6"
+        ],
+        "Großhadern" : [
+            "U-6"
+        ],
+        "Haderner Stern" : [
+            "U-6"
+        ],
+        "Harras" : [
+            "U-6"
+        ],
+        "Harthof" : [
+            "U-2"
+        ],
+        "Hasenbergl" : [
+            "U-2"
+        ],
+        "Hauptbahnhof" : [
+            "U-1",
+            "U-2",
+            "U-4",
+            "U-5",
+            "U-7",
+            "U-8"
+        ],
+        "Heimeranplatz" : [
+            "U-4",
+            "U-5"
+        ],
+        "Hohenzollernplatz" : [
+            "U-2",
+            "U-8"
+        ],
+        "Holzapfelkreuth" : [
+            "U-6"
+        ],
+        "Implerstraße" : [
+            "U-3",
+            "U-6"
+        ],
+        "Innsbrucker Ring" : [
+            "U-2",
+            "U-5",
+            "U-7",
+            "U-8"
+        ],
+        "Josephsburg" : [
+            "U-2"
+        ],
+        "Josephsplatz" : [
+            "U-2",
+            "U-8"
+        ],
+        "Karl-Preis-Platz" : [
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "Karlsplatz [Stachus]" : [
+            "U-4",
+            "U-5"
+        ],
+        "Kieferngarten" : [
+            "U-6"
+        ],
+        "Klinikum Großhadern" : [
+            "U-6"
+        ],
+        "Kolumbusplatz" : [
+            "U-1",
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "Königsplatz" : [
+            "U-2",
+            "U-8"
+        ],
+        "Kreillerstraße" : [
+            "U-2"
+        ],
+        "Laimer Platz" : [
+            "U-5"
+        ],
+        "Lehel" : [
+            "U-4",
+            "U-5"
+        ],
+        "Machtlfinger Straße" : [
+            "U-3"
+        ],
+        "Maillingerstraße" : [
+            "U-1",
+            "U-7"
+        ],
+        "Mangfallplatz" : [
+            "U-1"
+        ],
+        "Marienplatz" : [
+            "U-3",
+            "U-6"
+        ],
+        "Max-Weber-Platz" : [
+            "U-4",
+            "U-5"
+        ],
+        "Messestadt Ost" : [
+            "U-2"
+        ],
+        "Messestadt West" : [
+            "U-2"
+        ],
+        "Michaelibad" : [
+            "U-5",
+            "U-7",
+            "U-8"
+        ],
+        "Milbertshofen" : [
+            "U-2"
+        ],
+        "Moosach" : [
+            "U-3"
+        ],
+        "Moosacher St. Martins-Platz" : [
+            "U-3"
+        ],
+        "Moosfeld" : [
+            "U-2"
+        ],
+        "Münchner Freiheit" : [
+            "U-3",
+            "U-6"
+        ],
+        "Neuperlach Süd" : [
+            "U-5"
+        ],
+        "Neuperlach Zentrum" : [
+            "U-5",
+            "U-7",
+            "U-8"
+        ],
+        "Nordfriedhof" : [
+            "U-6"
+        ],
+        "Obersendling" : [
+            "U-3"
+        ],
+        "Oberwiesenfeld" : [
+            "U-3"
+        ],
+        "Odeonplatz" : [
+            "U-3",
+            "U-4",
+            "U-5",
+            "U-6"
+        ],
+        "Olympia-Einkaufszentrum" : [
+            "U-1",
+            "U-3",
+            "U-7"
+        ],
+        "Olympiazentrum" : [
+            "U-3",
+            "U-8"
+        ],
+        "Ostbahnhof" : [
+            "U-5"
+        ],
+        "Partnachplatz" : [
+            "U-6"
+        ],
+        "Petuelring" : [
+            "U-3",
+            "U-8"
+        ],
+        "Poccistraße" : [
+            "U-3",
+            "U-6"
+        ],
+        "Prinzregentenplatz" : [
+            "U-4"
+        ],
+        "Quiddestraße" : [
+            "U-5",
+            "U-7",
+            "U-8"
+        ],
+        "Richard-Strauss-Straße" : [
+            "U-4"
+        ],
+        "Rotkreuzplatz" : [
+            "U-1",
+            "U-7"
+        ],
+        "Scheidplatz" : [
+            "U-2",
+            "U-3",
+            "U-8"
+        ],
+        "Schwanthalerhöhe" : [
+            "U-4",
+            "U-5"
+        ],
+        "Sendlinger Tor" : [
+            "U-1",
+            "U-2",
+            "U-3",
+            "U-6",
+            "U-7",
+            "U-8"
+        ],
+        "Silberhornstraße" : [
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "St-Quirin-Platz" : [
+            "U-1"
+        ],
+        "Stiglmaierplatz" : [
+            "U-1",
+            "U-7"
+        ],
+        "Studentenstadt" : [
+            "U-6"
+        ],
+        "Thalkirchen [Tierpark]" : [
+            "U-3"
+        ],
+        "Therese-Giehse-Allee" : [
+            "U-5"
+        ],
+        "Theresienstraße" : [
+            "U-2",
+            "U-8"
+        ],
+        "Theresienwiese" : [
+            "U-4",
+            "U-5"
+        ],
+        "Trudering" : [
+            "U-2"
+        ],
+        "Universität" : [
+            "U-3",
+            "U-6"
+        ],
+        "Unterbergstraße" : [
+            "U-2",
+            "U-7",
+            "U-8"
+        ],
+        "Westendstraße" : [
+            "U-4",
+            "U-5"
+        ],
+        "Westfriedhof" : [
+            "U-1",
+            "U-7"
+        ],
+        "Westpark" : [
+            "U-6"
+        ],
+        "Wettersteinplatz" : [
+            "U-1"
+        ]
+    }
+}

@@ -3,7 +3,7 @@ import json
 import random
 import time
 import pygame
-import re
+import os
 
 from curses import wrapper
 from gtts import gTTS
@@ -19,11 +19,11 @@ announcements = False
 game_time = None
 
 station_announcement_base = ""
-route_announcement = ""
-announcement = ""
+route_announcement_base = ""
+announcement_base = ""
 
 l = "en"
-acc = "us"
+acc = "ca"
 
 if l == "af": # Afrikaans
     pass
@@ -42,7 +42,10 @@ if l == "cs" : # Czech
 if l == "da": # Danish
     pass
 if l == "de": # German
-    pass
+    station_announcement_base = "Die SERVICE, zum, DEST, kommt jetzt. "
+    route_announcement_base = "SERVICE, zum, DIR, mit Haltestellen, "
+    announcement_base = "Jetzt angekommen bei, "
+    _and = "und, "
 if l == "el": # Greek
     pass
 if l == "en": # English
@@ -50,8 +53,8 @@ if l == "en": # English
     # co.uk (United Kingdom)
     # us (United States)
     station_announcement_base = "SERVICE, to, DEST, is now arriving. "
-    route_announcement = "This is SERVICe, to, DIR, stopping at, "
-    announcement = "Now arriving at, "
+    route_announcement_base = "This is, SERVICE, to, DIR, stopping at, "
+    announcement_base = "Now arriving at, "
     _and = "and, "
 if l == "fr": # French
     pass
@@ -60,6 +63,24 @@ if l == "it": # Italian
     route_announcement = "Questo treno è, SERVICE, a, DIR, con fermate a, "
     announcement = "Siamo in arrivo a, "
     _and = "e, "
+
+def select_departure_time (screen):
+    screen.nodelay(False)
+    running = True
+    user_time = ""
+    while running:
+        screen.clear()
+        screen.addstr(0, 0, "Input departure time")
+        screen.addstr(1, 0, user_time)
+        screen.refresh()
+        c = screen.getkey()
+        if c == "\n":
+            running = False
+        elif c in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ":"]:
+            user_time += c
+        time.sleep(0.01)
+    screen.nodelay(True)
+    return user_time
 
 def load_json_file (name):
     file = open(name, "r")
@@ -107,8 +128,8 @@ def work (screen, player_data):
         screen.addstr(0, 0, get_time_string(time.localtime().tm_hour, time.localtime().tm_min))
         screen.addstr(2, 0, "Points : " + str(player_data["points"]))
         screen.addstr(4, 0, "Back", curses.A_STANDOUT)
-        if (((time.time() - worked) / 3600) * 27.25) > 1:
-            player_data["points"] += int(((time.time() - worked) / 3600) * 27.25)
+        if (((time.time() - worked) / 3600) * 28.58) > 1:
+            player_data["points"] += int(((time.time() - worked) / 3600) * 28.58)
             worked = time.time()
         screen.refresh()
         c = screen.getch()
@@ -256,7 +277,7 @@ def get_travel_time (schedule, start, end):
             return total_time
     return total_time
 
-def add_route (player_data, service_name):
+def add_route (screen, player_data, service_name):
     service_data = player_data["network-data"]
     service = service_data["services"][service_name]
     player_data["service-data"]["services"][service_name] = {}
@@ -278,14 +299,9 @@ def add_route (player_data, service_name):
         if service_name not in player_data["service-data"]["stations"][station]:
             player_data["service-data"]["stations"][station].append(service_name)
 
-    hours = time.localtime().tm_hour
-    minutes = time.localtime().tm_min
-    minutes += 5
-    if minutes >= 60:
-        minutes -= 60
-        hours += 1
-    if hours >= 24:
-        hours -= 24
+    departure_time = select_departure_time(screen)
+    hours = int(departure_time.split(":")[0]) % 24
+    minutes = int(departure_time.split(":")[1]) % 60
 
     time_offset = minutes % 5
     player_data["service-data"]["services"][service_name]["time-offset"] = time_offset
@@ -338,6 +354,28 @@ def display_menu (screen, menu):
             running = False
             return menu[cursor]
 
+def create_annoucement (text, lang, accent):
+    result = None
+    if accent != "":
+        result = gTTS(text=text, lang=lang, tld=accent, slow=False, timeout=30)
+    else:
+        result = gTTS(text=text, lang=lang, slow=False, timeout=30)
+    return result
+
+def combine_sounds_and_play (sounds, time_str):
+    global last_beep
+    if last_beep != time_str:
+        base = AudioSegment.from_mp3("./arrival-chime.mp3")
+        for i in range (0, len(sounds)):
+            sounds[i].save("sound.mp3")
+            sound2 = AudioSegment.from_mp3("./sound.mp3")
+            base = base.append(sound2)
+        os.system("rm sound.mp3")
+        base.export("announcement.mp3")
+        pygame.mixer.music.load("announcement.mp3")
+        pygame.mixer.music.play()
+        last_beep = time_str
+
 def create_announcement_and_play(announcement, time_str, lang=l, tld=acc):
     global last_beep
     global silence
@@ -353,7 +391,11 @@ def create_announcement_and_play(announcement, time_str, lang=l, tld=acc):
     
     try:
         # Generate and save the announcement speech
-        text_to_speech = gTTS(text=announcement, lang=lang, tld=tld, slow=False, timeout=30)
+        text_to_speech = None
+        if tld != "":
+            text_to_speech = gTTS(text=announcement, lang=lang, tld=tld, slow=False, timeout=30)
+        else:
+            text_to_speech = gTTS(text=announcement, lang=lang, slow=False, timeout=30)
         text_to_speech.save("announce.mp3")
         
         # Load and merge audio files
@@ -413,16 +455,14 @@ def display_service (screen, service, service_name, direction, destination):
     global ran
     global last_beep
     global route_announcements
-    global route_announcement
-    global announcement
+    global route_announcement_base
+    global announcement_base
     running = True
     new_station = ""
     delete_first = False
     rows, cols = screen.getmaxyx()
     while running:
-        announcement = "Now arriving at, "
-        route_announcement = "This is, SERVICE, to, DIR, stopping at, "
-        route_announcement = route_announcement.replace("SERVICE", service_name).replace("DIR", direction)
+        route_announcement = route_announcement_base.replace("SERVICE", service_name).replace("DIR", direction)
         hour = time.localtime().tm_hour
         minute = time.localtime().tm_min
         time_str = get_time_string(hour, minute)
@@ -430,10 +470,11 @@ def display_service (screen, service, service_name, direction, destination):
         display_route_header(screen, time_str, destination, service_name, direction)
         menu_items = 0
         highlight = False
+        station = ""
         for i in range (0, len(list(service.keys()))):
             if time_str == list(service.keys())[i]:
                 screen.addstr(4 + i, 0, list(service.keys())[i] + "   " + service[list(service.keys())[i]], curses.A_STANDOUT)
-                announcement += service[list(service.keys())[i]]
+                station = service[list(service.keys())[i]]
                 route_announcements = None
                 highlight = True
             else:
@@ -453,7 +494,7 @@ def display_service (screen, service, service_name, direction, destination):
         if first == time_str:
             delete_first = True
         if first == time_str:
-            create_announcement_and_play(announcement, time_str)
+            create_announcement_and_play(announcement_base + " " + station, time_str)
             last_beep = time_str
         if delete_first and time_str != first:
             if len(service) == 1:
@@ -519,14 +560,10 @@ def create_initial_timetable (player_data, screen):
         if service_name not in player_data["service-data"]["stations"][station]:
             player_data["service-data"]["stations"][station].append(service_name)
 
-    hours = time.localtime().tm_hour
-    minutes = time.localtime().tm_min
-    minutes += 5
-    if minutes >= 60:
-        minutes -= 60
-        hours += 1
-    if hours >= 24:
-        hours -= 24
+    departure_time = select_departure_time(screen)
+
+    hours = int(departure_time.split(":")[0]) % 24
+    minutes = int(departure_time.split(":")[1]) % 60
     time_offset = minutes % 5
     player_data["service-data"]["services"][service_name]["time-offset"] = time_offset
     player_data["service-data"]["services"][service_name]["departures"] = []
@@ -604,6 +641,11 @@ def station (screen, player_data):
     global silence
     global announcements
     global station_announcement_base
+    global station_language
+    global station_accent
+    global to
+    global l
+    global acc
     chime = ""
     running = True
     cursor = 0
@@ -633,7 +675,6 @@ def station (screen, player_data):
         menu_items = 0
         deps = False
         station_announcement = ""
-        station_announcement_base = "SERVICE, to, DEST, is now arriving."
         for departure in station_departures:
             screen.addstr(3 + menu_items, 0, departure)
             for i in range (0, len(station_departures[departure])):
@@ -724,7 +765,7 @@ def buy_new_route (screen, player_data, services):
             else:
                 if player_data["points"] >= services[route_list[cursor]]:
                     player_data["points"] -= services[route_list[cursor]]
-                    player_data = add_route(player_data, route_list[cursor])
+                    player_data = add_route(screen, player_data, route_list[cursor])
                     del services[route_list[cursor]]
                     del route_list[cursor]
         screen.refresh()
@@ -736,7 +777,7 @@ def buy_new_departures (screen, player_data, departures, service):
     running = True
     total_cost = 0
     rows, cols = screen.getmaxyx()
-    rows -= 3
+    rows -= 4
     page = 0
     for item in player_data["service-data"]["services"][service]["schedule"]:
         total_cost += player_data["service-data"]["services"][service]["schedule"][item]
@@ -751,13 +792,14 @@ def buy_new_departures (screen, player_data, departures, service):
             max_index = len(departures)
         menu = departures[int(page * rows) : max_index]
         screen.clear()
-        screen.addstr(0, 0, "Points : " + str(player_data["points"]))
-        screen.addstr(1, 0, "Cost   : " + str(total_cost))
+        screen.addstr(0, 0, "Points            : " + str(player_data["points"]))
+        screen.addstr(1, 0, "Cost              : " + str(total_cost))
+        screen.addstr(2, 0, "Departures to buy : " + str(len(departures)))
         for i in range (0, len(menu)):
             if cursor == i:
-                screen.addstr(i + 3, 0, menu[i], curses.A_STANDOUT)
+                screen.addstr(i + 4, 0, menu[i], curses.A_STANDOUT)
             else:
-                screen.addstr(i + 3, 0, menu[i])
+                screen.addstr(i + 4, 0, menu[i])
         c = screen.getch()
         if c == curses.KEY_DOWN and cursor < len(menu) - 1:
             cursor += 1
@@ -767,14 +809,15 @@ def buy_new_departures (screen, player_data, departures, service):
             running = False
         elif c == curses.KEY_LEFT and page > 0:
             page -= 1
+            cursor = 0
         elif c == curses.KEY_RIGHT and page < pages:
             page += 1
+            cursor = 0
         elif c == ord("\n"):
             if player_data["points"] >= total_cost:
                 player_data["points"] -= total_cost
                 player_data["service-data"]["services"][service]["departures"].append(departures[cursor + (page * rows)])
                 del departures[cursor + (page * rows)]
-                cursor = 0
         screen.refresh()
         time.sleep(0.01)
     return player_data
@@ -784,8 +827,17 @@ def buy_new_departure_services (screen, player_data, services):
     running = True
     while running:
         menu = list(services.keys())
+        menu_with_costs = []
+        for item in menu:
+            cost = 0
+            service = player_data["service-data"]["services"][item]
+            for leg in service["schedule"]:
+                cost += service["schedule"][leg]
+            cost *= 2
+            menu_with_costs.append(item + " (" + str(cost) + ")")
         menu.append("Back")
-        result = display_menu(screen, menu)
+        menu_with_costs.append("Back")
+        result = menu[menu_with_costs.index(display_menu(screen, menu_with_costs))]
         if result == "Back":
             running = False
         else:
@@ -804,7 +856,6 @@ def store (screen, player_data):
             total_cost *= 2
             new_routes[route] = total_cost
     for route in player_data["service-data"]["services"]:
-        save_debug_data(json.dumps(player_data, indent=2))
         offset = player_data["service-data"]["services"][route]["time-offset"]
         departures = player_data["service-data"]["services"][route]["departures"]
         avail = []
@@ -836,11 +887,64 @@ def store (screen, player_data):
 
 def init_player_data ():
     player_data = {}
-    player_data["points"] = 28272
+    player_data["points"] = 30395
+    #player_data["points"] = 0
     player_data["network-data"] = {}
     player_data["service-data"] = {}
     player_data["target-station"] = ""
     return player_data
+
+def create_all_services (player_data):
+    service_data = player_data["network-data"]
+    service_list = list(service_data["services"].keys())
+    service_name = ""
+
+    for service_name in service_list:
+        player_data["service-data"]["services"] = {}
+        player_data["service-data"]["services"][service_name] = {}
+        player_data["service-data"]["services"][service_name]["schedule"] = service_data["services"][service_name]
+        player_data["service-data"]["stations"] = {}
+        service = service_data["services"][service_name]
+        player_data["service-data"]["services"][service_name]["origin"] = list(service.keys())[0].split(" - ")[0]
+        player_data["service-data"]["services"][service_name]["destination"] = list(service.keys())[-1].split(" - ")[1]
+        schedule = list(service.keys())
+        stations = []
+
+        for i in range (0, len(schedule)):
+            schedule_item = schedule[i].split(" - ")
+            stations.append(schedule_item[0])
+            stations.append(schedule_item[1])
+
+        # add stations into player data
+        for station in stations:
+            if station not in list(player_data["service-data"]["stations"].keys()):
+                player_data["service-data"]["stations"][station] = []
+            if service_name not in player_data["service-data"]["stations"][station]:
+                player_data["service-data"]["stations"][station].append(service_name)
+        time_offset = random.randint(0, 5)
+        player_data["service-data"]["services"][service_name]["time-offset"] = time_offset
+        player_data["service-data"]["services"][service_name]["departures"] = []
+
+        for hours in range (0, 24):
+            for minutes in range (time_offset, 60, 5):
+                player_data["service-data"]["services"][service_name]["departures"].append(get_time_string(hours, minutes))
+
+        del player_data["network-data"]["services"][service_name]
+        if len(player_data["network-data"]["services"]) == 0:
+            del player_data["network-data"]["services"]
+        for station in stations:
+            if station in player_data["network-data"]["stations"]:
+                if service_name in player_data["network-data"]["stations"][station]:
+                    del player_data["network-data"]["stations"][station][player_data["network-data"]["stations"][station].index(service_name)]
+        for station in stations:
+            if station in list(player_data["network-data"]["stations"].keys()):
+                if len(player_data["network-data"]["stations"][station]) == 0:
+                    del player_data["network-data"]["stations"][station]
+        if len(player_data["network-data"]["stations"]) == 0:
+            del player_data["network-data"]["stations"]
+        if len(player_data["network-data"]) == 0:
+            del player_data["network-data"]
+        return player_data
 
 def main (screen):
     global game_time
@@ -850,7 +954,7 @@ def main (screen):
     screen.nodelay(True)
 
     player_data = init_player_data()
-    new_game = display_menu(screen, ["New Game", "Load Game"])
+    new_game = display_menu(screen, ["New Game", "Load Game", "Test"])
     if new_game == "New Game":
         level = level_select(screen)
         player_data["network-data"] = load_json_file(level)
@@ -858,6 +962,11 @@ def main (screen):
         player_data["current-station"] = list(player_data["service-data"]["stations"].keys())[random.randint(0, len(list(player_data["service-data"]["stations"].keys())) - 1)]
     elif new_game == "Load Game":
         player_data = load_game()
+    elif new_game == "Test":
+        level = level_select(screen)
+        player_data["network-data"] = load_json_file(level)
+        player_data = create_all_services(player_data)
+        player_data["current-station"] = list(player_data["service-data"]["stations"].keys())[random.randint(0, len(list(player_data["service-data"]["stations"].keys())) - 1)]
 
     running = True
     while running:
