@@ -1,5 +1,3 @@
 {
-	"Hokkaido" : "level-data/hokkaido.json",
-	"Isle of Wight" : "level-data/iow.json",
-	"Montréal Metro Fantasy" : "level-data/montreal-metro-fantasy.json"
+	"Hastings, Haliburton, and Kawartha Regional Metro" : "level-data/hhk-metro.json"
 }
