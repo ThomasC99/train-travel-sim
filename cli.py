@@ -8,6 +8,7 @@ import os
 from curses import wrapper
 from gtts import gTTS
 from pydub import AudioSegment
+from pydub.playback import play
 
 from utils import *
 
@@ -135,19 +136,29 @@ def save_game (player_data):
 def work (screen, player_data):
     running = True
     worked = time.time()
+    wage = player_data["wage"]
+    # 1.000025 every hour
+    # 1.00000625 every 15 minutes
+    # 1.00000125 every 3 minutes
+    r = time.time()
     while running:
         screen.clear()
         screen.addstr(0, 0, get_time_string(time.localtime().tm_hour, time.localtime().tm_min))
+        screen.addstr(1, 0, "Wage   : {:,.2f}".format(wage))
         screen.addstr(2, 0, "Points : " + str(player_data["points"]))
         screen.addstr(4, 0, "Back", curses.A_STANDOUT)
-        if (((time.time() - worked) / 3600) * 28.58) > 1:
-            player_data["points"] += int(((time.time() - worked) / 3600) * 28.58)
+        if (((time.time() - worked) / 3600) * wage) > 1:
+            player_data["points"] += int(((time.time() - worked) / 3600) * wage)
             worked = time.time()
+        if ((time.time() - r) >= 1):
+            wage *= 1 + (0.00000125 / (3 * 60))
+            r = time.time()
         screen.refresh()
         c = screen.getch()
         if c == ord("\n"):
             running = False
         time.sleep(0.01)
+    player_data["wage"] = wage
     return player_data
 
 def level_select (screen):
@@ -374,20 +385,6 @@ def create_annoucement (text, lang, accent):
         result = gTTS(text=text, lang=lang, slow=False, timeout=30)
     return result
 
-def combine_sounds_and_play (sounds, time_str):
-    global last_beep
-    if last_beep != time_str:
-        base = AudioSegment.from_mp3("./arrival-chime.mp3")
-        for i in range (0, len(sounds)):
-            sounds[i].save("sound.mp3")
-            sound2 = AudioSegment.from_mp3("./sound.mp3")
-            base = base.append(sound2)
-        os.system("rm sound.mp3")
-        base.export("announcement.mp3")
-        pygame.mixer.music.load("announcement.mp3")
-        pygame.mixer.music.play()
-        last_beep = time_str
-
 def beep (current_time):
     global last_beep
     global silence
@@ -427,6 +424,10 @@ def create_announcement_and_play(announcement, time_str, lang=l, tld=acc):
         # Play the announcement sound
         pygame.mixer.music.load("chime-announce.mp3")
         pygame.mixer.music.play()
+        # try:
+        #     play(sound3)
+        # except Exception:
+        #     pass
         last_beep = time_str  # Update the last beep time after successful play
 
     except (FileNotFoundError, IOError) as e:
@@ -850,6 +851,7 @@ def buy_new_departures (screen, player_data, departures, service):
             if player_data["points"] >= total_cost:
                 player_data["points"] -= total_cost
                 player_data["service-data"]["services"][service]["departures"].append(departures[cursor + (page * rows)])
+                player_data["service-data"]["services"][service]["departures"].sort()
                 del departures[cursor + (page * rows)]
         screen.refresh()
         time.sleep(0.01)
@@ -927,6 +929,16 @@ def init_player_data ():
     player_data["target-station"] = ""
     player_data["language"] = ""
     player_data["accent"] = ""
+
+    # Current minimum wage
+    player_data["wage"] = 17.2
+
+    # previous wage
+    # player_data["wage"] = 28.58
+
+    # potential wage
+    # player_data["wage"] = 41.83
+
     return player_data
 
 def create_all_services (player_data):
@@ -985,13 +997,14 @@ def calc_points_needed (player_data):
     total = 0
     if "network-data" in player_data:
         network_data = player_data["network-data"]
-        for service in network_data["services"]:
-            service_data = network_data["services"][service]
-            service_total = 0
-            for leg in service_data:
-                service_total += service_data[leg]
-            service_total *= 2
-            total += service_total * 288
+        if "services" in network_data:
+            for service in network_data["services"]:
+                service_data = network_data["services"][service]
+                service_total = 0
+                for leg in service_data:
+                    service_total += service_data[leg]
+                service_total *= 2
+                total += service_total * 288
     service_data = player_data["service-data"]
     for service in service_data["services"]:
         service_total = 0

@@ -1,8 +1,9 @@
 import json
 from dijkstar import Graph, find_path
+import sys
 
-file_name = "level-data/iow.json"
-t = 6 * 60
+file_name = sys.argv[1]
+t = int(sys.argv[2])
 
 file = open(file_name, "r")
 data = json.loads(file.read())
@@ -34,4 +35,10 @@ for a in range (0, len(stations) - 1):
 
 print(num)
 print()
-print(highest_pair + " : " + str(highest))
+print(highest_pair + " : ", end="")
+if highest < 60:
+	print(highest)
+else:
+	hours = highest // 60
+	minutes = highest % 60
+	print(str(hours) + "h" + str(minutes))

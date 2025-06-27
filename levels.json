@@ -1,3 +1,5 @@
 {
-	"Hastings, Haliburton, and Kawartha Regional Metro" : "level-data/hhk-metro.json"
+	"Hastings, Haliburton, and Kawartha Regional Metro" : "level-data/hhk-metro.json",
+	"Liberty Metro" : "level-data/liberty-metro.json",
+	"Weaver Metro" : "level-data/weaver-metro.json"
 }
