@@ -419,16 +419,14 @@ def create_announcement_and_play(announcement, time_str, lang=l, tld=acc):
         sound1 = AudioSegment.from_mp3("./arrival-chime.mp3")
         sound2 = AudioSegment.from_mp3("./announce.mp3")
         sound3 = sound1.append(sound2)
-        sound3.export("chime-announce.mp3", format="mp3")
+        sound_file = sound3.export("chime-announce.mp3", format="mp3")
         
         # Play the announcement sound
-        pygame.mixer.music.load("chime-announce.mp3")
+        # pygame.mixer.music.load("chime-announce.mp3")
+        # pygame.mixer.music.unload()
+        pygame.mixer.music.load(sound_file)
         pygame.mixer.music.play()
-        # try:
-        #     play(sound3)
-        # except Exception:
-        #     pass
-        last_beep = time_str  # Update the last beep time after successful play
+        last_beep = time_str
 
     except (FileNotFoundError, IOError) as e:
         beep(time_str)
