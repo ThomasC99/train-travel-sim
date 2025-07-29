@@ -27,6 +27,8 @@ for service in level_data["services"]:
                 save_data["network-data"]["stations"][station] = []
             save_data["network-data"]["stations"][station].append(service)
 
+save_data["visited-all-stations"] = False
+
 file = open("save.json", "w")
 file.write(json.dumps(save_data, indent=2))
 file.close()

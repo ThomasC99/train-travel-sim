@@ -1,0 +1,13 @@
+{
+    "services" : {
+        "service 1" : {
+            "station 1 - station 2" : 2
+        }
+    },
+    "stations" : {
+        "station" : [
+            "service 1",
+            "service 2"
+        ]
+    }
+}

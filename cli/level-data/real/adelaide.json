@@ -1,0 +1,431 @@
+{
+	"services" : {
+		"Belair Line" : {
+			"Adelaide - Mile End" : 4,
+			"Mile End - Adelaide Showground" : 2,
+			"Adelaide Showground - Goodwood" : 2,
+			"Goodwood - Millswood" : 2,
+			"Millswood - Unley Park" : 2,
+			"Unley Park - Mitcham" : 2,
+			"Mitcham - Torrens Park" : 2,
+			"Torrens Park - Lynton" : 2,
+			"Lynton - Eden Hills" : 4,
+            "Eden Hills - Coromandel" : 3,
+            "Coromandel - Blackwood" : 2,
+            "Blackwood - Glenalta" : 2,
+            "Glenalta - Pinera" : 2,
+            "Pinera - Belair" : 2
+		},
+		"Flinders Line" : {
+			"Adelaide - Mile End" : 4,
+			"Mile End - Adelaide Showground" : 2,
+			"Adelaide Showground - Goodwood" : 2,
+            "Goodwood - Clarence Park" : 2,
+            "Clarence Park - Emerson" : 2,
+            "Emerson - Edwardstown" : 2,
+            "Edwardstown - Woodlands Park" : 2,
+            "Woodlands Park - Mitchell Park" : 3,
+            "Mitchell Park - Tonsley" : 2,
+            "Tonsley - Flinders" : 2
+		},
+		"Gawler Line" : {
+			"Adelaide - North Adelaide" : 4,
+			"North Adelaide - Ovingham" : 2,
+			"Ovingham - Dudley Park" : 2,
+			"Dudley Park - Islington" : 2,
+			"Islington - Kilburn" : 2,
+			"Kilburn - Dry Creek" : 3,
+			"Dry Creek - Mawson" : 4,
+			"Mawson - Greenfields" : 2,
+			"Greenfields - Parafield Gardens" : 2,
+			"Parafield Gardens - Parafield" : 2,
+			"Parafield - Chidda" : 2,
+			"Chidda - Salisbury" : 2,
+			"Salisbury - Nurlutta" : 2,
+			"Nurlutta - Elizabeth South" : 3,
+			"Elizabeth South - Elizabeth" : 2,
+			"Elizabeth - Womma" : 2,
+			"Womma - Broadmeadows" : 2,
+			"Broadmeadows - Smithfield" : 3,
+			"Smithfield - Munno Para" : 2,
+			"Munno Para - Kulda" : 3,
+			"Kulda - Tambelin" : 3,
+			"Tambelin - Evanston" : 2,
+			"Evanston - Gawler" : 6,
+			"Gawler - Gawler Oval" : 2,
+			"Gawler Oval - Gawler Central" : 2
+		},
+		"Grange Line" : {
+			"Adelaide - Bowden" : 4,
+			"Bowden - Croydon" : 2,
+			"Croydon - West Croydon" : 2,
+			"West Croydon - Kilkenny" : 2,
+			"Kilkenny - Woodville Park" : 2,
+			"Woodville Park - Woodville" : 2,
+			"Woodville - Albert Park" : 2,
+			"Albert Park - Seaton Park" : 2,
+			"Seaton Park - East Grange" : 2,
+			"East Grange - Grange" : 2
+		},
+        "Outer Harbor Line" : {
+            "Adelaide - Bowden" : 4,
+            "Bowden - Croydon" : 2,
+			"Croydon - West Croydon" : 2,
+			"West Croydon - Kilkenny" : 2,
+			"Kilkenny - Woodville Park" : 2,
+			"Woodville Park - Woodville" : 2,
+			"Woodville - St Clair" : 2,
+			"St Clair - Cheltenham" : 2,
+			"Cheltenham - Alberton" : 2,
+            "Alberton - Port Adelaide" : 3,
+            "Port Adelaide - Ethelton" : 2,
+            "Ethelton - Glanville" : 2,
+            "Glanville - Peterhead" : 2,
+            "Peterhead - Largs" : 2,
+            "Largs - Largs North" : 2,
+            "Largs North - Draper" : 2,
+            "Draper - Taperoo" : 2,
+            "Taperoo - Midlunga" : 2,
+            "Midlunga - Osborne" : 2,
+            "Osborne - North Haven" : 2,
+            "North Haven - Outer Harbor" : 2
+        },
+		"Port Dock Line" : {
+			"Adelaide - Bowden" : 4,
+			"Bowden - Croydon" : 2,
+			"Croydon - West Croydon" : 2,
+			"West Croydon - Kilkenny" : 2,
+			"Kilkenny - Woodville Park" : 2,
+			"Woodville Park - Woodville" : 2,
+			"Woodville - St Clair" : 2,
+			"St Clair - Cheltenham" : 2,
+			"Cheltenham - Alberton" : 2,
+			"Alberton - Port Dock" : 4
+		},
+		"Seaford Line" : {
+			"Adelaide - Mile End" : 4,
+			"Mile End - Adelaide Showground" : 2,
+			"Adelaide Showground - Goodwood" : 2,
+            "Goodwood - Clarence Park" : 2,
+            "Clarence Park - Emerson" : 2,
+            "Emerson - Edwardstown" : 2,
+            "Edwardstown - Woodlands Park" : 2,
+            "Woodlands Park - Ascot Park" : 2,
+            "Ascot Park - Marion" : 2,
+            "Marion - Oaklands" : 2,
+            "Oaklands - Warradale" : 2,
+            "Warradale - Hove" : 2,
+            "Hove - Brighton" : 2,
+            "Brighton - Seacliff" : 2,
+            "Seacliff - Marino" : 2,
+            "Marino - Marino Rocks" : 2,
+            "Marino Rocks - Hallett Cove" : 3,
+            "Hallett Cove - Hallett Cove Beach" : 2,
+            "Hallett Cove Beach - Lonsdale" : 4,
+            "Lonsdale - Christie Downs" : 2,
+            "Christie Downs - Noralunga Centre" : 2,
+            "Noralunga Centre - Seaford Meadows" : 3,
+            "Seaford Meadows - Seaford" : 2
+		}
+	},
+	"stations" : {
+		"Adelaide" : [
+			"Belair Line",
+			"Flinders Line",
+			"Gawler Line",
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line",
+			"Seaford Line"
+		],
+		"Adelaide Showground" : [
+			"Belair Line",
+			"Flinders Line",
+			"Seaford Line"
+		],
+		"Albert Park" : [
+			"Grange Line"
+		],
+		"Alberton" : [
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+        "Ascot Park" : [
+            "Seaford Line"
+        ],
+        "Belair" : [
+            "Belair Line"
+        ],
+        "Blackwood" : [
+            "Belair Line"
+        ],
+		"Bowden" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+        "Brighton" : [
+            "Seaford Line"
+        ],
+		"Broadmeadows" : [
+			"Gawler Line"
+		],
+		"Cheltenham" : [
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+		"Chidda" : [
+			"Gawler Line"
+		],
+        "Christie Downs" : [
+            "Seaford Line"
+        ],
+        "Clarence Park" : [
+            "Flinders Line",
+            "Seaford Line"
+        ],
+        "Coromandel" : [
+            "Belair Line"
+        ],
+		"Croydon" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+        "Draper" : [
+            "Outer Harbor Line"
+        ],
+		"Dry Creek" : [
+			"Gawler Line"
+		],
+		"Dudley Park" : [
+			"Gawler Line"
+		],
+		"East Grange" : [
+			"Grange Line"
+		],
+		"Eden Hills" : [
+			"Belair Line"
+		],
+        "Edwardstown" : [
+            "Flinders Line",
+            "Seaford Line"
+        ],
+		"Elizabeth" : [
+			"Gawler Line"
+		],
+		"Elizabeth South" : [
+			"Gawler Line"
+		],
+        "Emerson" : [
+            "Flinders Line",
+            "Seaford Line"
+        ],
+        "Ethelton" : [
+            "Outer Harbor Line"
+        ],
+		"Evanston" : [
+			"Gawler Line"
+		],
+        "Flinders" : [
+            "Flinders Line"
+        ],
+		"Gawler" : [
+			"Gawler Line"
+		],
+		"Gawler Central" : [
+			"Gawler Line"
+		],
+		"Gawler Oval" : [
+			"Gawler Line"
+		],
+        "Glanville" : [
+            "Outer Harbor Line"
+        ],
+        "Glenalta" : [
+            "Belair Line"
+        ],
+		"Goodwood" : [
+			"Belair Line",
+			"Flinders Line",
+			"Seaford Line"
+		],
+		"Grange" : [
+			"Grange Line"
+		],
+		"Greenfields" : [
+			"Gawler Line"
+		],
+        "Hallett Cove" : [
+            "Seaford Line"
+        ],
+        "Hallett Cove Beach" : [
+            "Seaford Line"
+        ],
+        "Hove" : [
+            "Seaford Line"
+        ],
+		"Islington" : [
+			"Gawler Line"
+		],
+		"Kilkenny" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+		"Kilburn" : [
+			"Gawler Line"
+		],
+		"Kulda" : [
+			"Gawler Line"
+		],
+        "Largs" : [
+            "Outer Harbor Line"
+        ],
+        "Largs North" : [
+            "Outer Harbor Line"
+        ],
+        "Lonsdale" : [
+            "Seaford Line"
+        ],
+		"Lynton" : [
+			"Belair Line"
+		],
+        "Marino" : [
+            "Seaford Line"
+        ],
+        "Marino Rocks" : [
+            "Seaford Line"
+        ],
+        "Marion" : [
+            "Seaford Line"
+        ],
+		"Mawson" : [
+			"Gawler Line"
+		],
+        "Midlunga" : [
+            "Outer Harbor Line"
+        ],
+		"Mile End" : [
+			"Belair Line",
+			"Flinders Line",
+			"Seaford Line"
+		],
+		"Millswood" : [
+			"Belair Line"
+		],
+		"Mitcham" : [
+			"Belair Line"
+		],
+        "Mitchell Park" : [
+            "Flinders Line"
+        ],
+		"Munno Para" : [
+			"Gawler Line"
+		],
+        "Noralunga Centre" : [
+            "Seaford Line"
+        ],
+		"North Adelaide" : [
+			"Gawler Line"
+		],
+        "North Haven" : [
+            "Outer Harbor Line"
+        ],
+		"Nurlutta" : [
+			"Gawler Line"
+		],
+        "Oaklands" : [
+            "Seaford Line"
+        ],
+        "Osborne" : [
+            "Outer Harbor Line"
+        ],
+        "Outer Harbor" : [
+            "Outer Harbor Line"
+        ],
+		"Ovingham" : [
+			"Gawler Line"
+		],
+		"Parafield" : [
+			"Gawler Line"
+		],
+		"Parafield Gardens" : [
+			"Gawler Line"
+		],
+        "Peterhead" : [
+            "Outer Harbor Line"
+        ],
+        "Pinera" : [
+            "Belair Line"
+        ],
+        "Port Adelaide" : [
+            "Outer Harbor Line"
+        ],
+		"Port Dock" : [
+			"Port Dock Line"
+		],
+		"Salisbury" : [
+			"Gawler Line"
+		],
+        "Seacliff" : [
+            "Seaford Line"
+        ],
+        "Seaford" : [
+            "Seaford Line"
+        ],
+        "Seaford Meadows" : [
+            "Seaford Line"
+        ],
+		"Seaton Park" : [
+			"Grange Line"
+		],
+		"Smithfield" : [
+			"Gawler Line"
+		],
+		"St Clair" : [
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+		"Tambelin" : [
+			"Gawler Line"
+		],
+        "Taperoo" : [
+            "Outer Harbor Line"
+        ],
+        "Tonsley" : [
+            "Flinders Line"
+        ],
+		"Torrens Park" : [
+			"Belair Line"
+		],
+		"Unley Park" : [
+			"Belair Line"
+		],
+        "Warradale" : [
+            "Seaford Line"
+        ],
+		"West Croydon" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+		"Womma" : [
+			"Gawler Line"
+		],
+        "Woodlands Park" : [
+            "Flinders Line",
+            "Seaford Line"
+        ],
+		"Woodville" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		],
+		"Woodville Park" : [
+			"Grange Line",
+            "Outer Harbor Line",
+			"Port Dock Line"
+		]
+	}
+}

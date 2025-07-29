@@ -1,0 +1,354 @@
+{
+    "services" : {
+        "L1" : {
+            "Silverpine - Fernmill" : 3,
+            "Fernmill - Pinegrove Crossing" : 3,
+            "Pinegrove Crossing - Bear Hollow" : 3,
+            "Bear Hollow - Stillpond" : 3,
+            "Stillpond - Foxrun" : 3,
+            "Foxrun - Timberrise" : 3,
+            "Timberrise - Greenglen" : 3,
+            "Greenglen - Windermere" : 3,
+            "Windermere - Larchbend" : 3,
+            "Larchbend - Moss Creek" : 3,
+            "Moss Creek - Willow End" : 3,
+            "Willow End - Thistle Cove" : 3,
+            "Thistle Cove - Coldvale" : 3,
+            "Coldvale - Stone Hollow" : 3,
+            "Stone Hollow - Briarwash" : 3,
+            "Briarwash - Raven Glen" : 3,
+            "Raven Glen - Highbrush" : 3,
+            "Highbrush - Aspen Reach" : 3,
+            "Aspen Reach - Elkspur" : 3,
+            "Elkspur - Hemlock Pass" : 3,
+            "Hemlock Pass - Crystal Rise" : 3,
+            "Crystal Rise - Misty Pines" : 3,
+            "Misty Pines - Firefly Bridge" : 3,
+            "Firefly Bridge - Owlsmere" : 3,
+            "Owlsmere - Valeridge" : 3,
+            "Valeridge - Cedarmead" : 3,
+            "Cedarmead - Lakewill" : 3,
+            "Lakewill - Driftwood Hollow" : 3,
+            "Driftwood Hollow - Foxlight Ridge" : 3,
+            "Foxlight Ridge - Bluebell Marsh" : 3,
+            "Bluebell Marsh - Bramble" : 3,
+            "Bramble - Morningside" : 3,
+            "Morningside - Fernpass Hollow" : 3,
+            "Fernpass Hollow - Rockfin Crossing" : 3,
+            "Rockfin Crossing - Maplebrush" : 3,
+            "Maplebrush - Eaglebrook" : 3,
+            "Eaglebrook - Wolfhaven" : 3,
+            "Wolfhaven - Grizzly Notch" : 3,
+            "Grizzly Notch - Aspenrun" : 3,
+            "Aspenrun - Timbervault" : 3,
+            "Timbervault - Loamhurst" : 3,
+            "Loamhurst - Frostwill" : 3,
+            "Frostwill - Stoneford" : 3,
+            "Stoneford - Creekshadow" : 3,
+            "Creekshadow - Hollowpine" : 3,
+            "Hollowpine - Narrowbrook Summit" : 3,
+            "Narrowbrook Summit - Glassmere" : 3,
+            "Glassmere - Alderfen" : 3,
+            "Alderfen - Deepwash Crossing" : 3,
+            "Deepwash Crossing - Hollowmere" : 3,
+            "Hollowmere - Wreacliff" : 3
+        },
+        "L2" : {
+            "Silverpine - Fernmill" : 3,
+            "Fernmill - Pinegrove Crossing" : 3,
+            "Pinegrove Crossing - Bear Hollow" : 3,
+            "Bear Hollow - Stillpond" : 3,
+            "Stillpond - Foxrun" : 3,
+            "Foxrun - Timberrise" : 3,
+            "Timberrise - Greenglen" : 3,
+            "Greenglen - Windermere" : 3,
+            "Windermere - Larchbend" : 3,
+            "Larchbend - Moss Creek" : 3,
+            "Moss Creek - Willow End" : 3,
+            "Willow End - Thistle Cove" : 3,
+            "Thistle Cove - Coldvale" : 3,
+            "Coldvale - Stone Hollow" : 3,
+            "Stone Hollow - Briarwash" : 3,
+            "Briarwash - Raven Glen" : 3,
+            "Raven Glen - Highbrush" : 3,
+            "Highbrush - Aspen Reach" : 3,
+            "Aspen Reach - Elkspur" : 3,
+            "Elkspur - Hemlock Pass" : 3,
+            "Hemlock Pass - Crystal Rise" : 3,
+            "Crystal Rise - Misty Pines" : 3,
+            "Misty Pines - Firefly Bridge" : 3,
+            "Firefly Bridge - Owlsmere" : 3,
+            "Owlsmere - Valeridge" : 3,
+            "Valeridge - Cedarmead" : 3,
+            "Cedarmead - Lakewill" : 3,
+            "Lakewill - Driftwood Hollow" : 3,
+            "Driftwood Hollow - Foxlight Ridge" : 3,
+            "Foxlight Ridge - Bluebell Marsh" : 3,
+            "Bluebell Marsh - Bramble" : 3,
+            "Bramble - Morningside" : 3,
+            "Morningside - Fernpass Hollow" : 3,
+            "Fernpass Hollow - Rockfin Crossing" : 3,
+            "Rockfin Crossing - Maplebrush" : 3,
+            "Maplebrush - Eaglebrook" : 3,
+            "Eaglebrook - Wolfhaven" : 3,
+            "Wolfhaven - Grizzly Notch" : 3,
+            "Grizzly Notch - Aspenrun" : 3,
+            "Aspenrun - Timbervault" : 3,
+            "Timbervault - Loamhurst" : 3,
+            "Loamhurst - Frostwill" : 3,
+            "Frostwill - Stoneford" : 3,
+            "Stoneford - Creekshadow" : 3,
+            "Creekshadow - Hollowpine" : 3,
+            "Hollowpine - Narrowbrook Summit" : 3,
+            "Narrowbrook Summit - Glassmere" : 3,
+            "Glassmere - Thundermoor" : 3,
+            "Thundermoor - Raventarn" : 3,
+            "Raventarn - Stillglen" : 3,
+            "Stillglen - Cragmere Summit" : 3,
+            "Cragmere Summit - Fogfall Hallow" : 3,
+            "Fogfall Hallow - Whitespire" : 3
+        },
+        "L3" : {
+            "Silverpine - Fernmill" : 3,
+            "Fernmill - Pinegrove Crossing" : 3,
+            "Pinegrove Crossing - Bear Hollow" : 3,
+            "Bear Hollow - Stillpond" : 3,
+            "Stillpond - Foxrun" : 3,
+            "Foxrun - Timberrise" : 3,
+            "Timberrise - Greenglen" : 3,
+            "Greenglen - Windermere" : 3,
+            "Windermere - Larchbend" : 3,
+            "Larchbend - Moss Creek" : 3,
+            "Moss Creek - Willow End" : 3,
+            "Willow End - Thistle Cove" : 3,
+            "Thistle Cove - Coldvale" : 3,
+            "Coldvale - Stone Hollow" : 3,
+            "Stone Hollow - Briarwash" : 3,
+            "Briarwash - Raven Glen" : 3,
+            "Raven Glen - Highbrush" : 3,
+            "Highbrush - Aspen Reach" : 3,
+            "Aspen Reach - Elkspur" : 3,
+            "Elkspur - Hemlock Pass" : 3,
+            "Hemlock Pass - Crystal Rise" : 3,
+            "Crystal Rise - Misty Pines" : 3,
+            "Misty Pines - Firefly Bridge" : 3,
+            "Firefly Bridge - Owlsmere" : 3,
+            "Owlsmere - Valeridge" : 3,
+            "Valeridge - Cedarmead" : 3,
+            "Cedarmead - Lakewill" : 3,
+            "Lakewill - Driftwood Hollow" : 3,
+            "Driftwood Hollow - Foxlight Ridge" : 3,
+            "Foxlight Ridge - Bluebell Marsh" : 3,
+            "Bluebell Marsh - Bramble" : 3,
+            "Bramble - Morningside" : 3,
+            "Morningside - Briarfen" : 3,
+            "Briarfen - Cragspur" : 3,
+            "Cragspur - Redvale" : 3,
+            "Redvale - Mossquartz" : 3,
+            "Mossquartz - Frostshade Glen" : 4,
+            "Frostshade Glen - Sable Hallow" : 3,
+            "Sable Hallow - Finbarrow Crossing" : 3,
+            "Finbarrow Crossing - Dawnridge" : 3
+        }
+    },
+    "stations" : {
+        "Alderfen" : [
+            "L1"
+        ],
+        "Aspen Reach" : [
+            "L1", "L2", "L3"
+        ],
+        "Aspenrun" : [
+            "L1", "L2"
+        ],
+        "Bear Hollow" : [
+            "L1", "L2", "L3"
+        ],
+        "Bluebell Marsh" : [
+            "L1", "L2", "L3"
+        ],
+        "Bramble" : [
+            "L1", "L2", "L3"
+        ],
+        "Briarfen" : [
+            "L3"
+        ],
+        "Briarwash" : [
+            "L1", "L2", "L3"
+        ],
+        "Cedarmead" : [
+            "L1", "L2", "L3"
+        ],
+        "Coldvale" : [
+            "L1", "L2", "L3"
+        ],
+        "Cragmere Summit" : [
+            "L2"
+        ],
+        "Cragspur" : [
+            "L3"
+        ],
+        "Creekshadow" : [
+            "L1", "L2"
+        ],
+        "Crystal Rise" : [
+            "L1", "L2", "L3"
+        ],
+        "Dawnridge" : [
+            "L3"
+        ],
+        "Deepwash Crossing" : [
+            "L1"
+        ],
+        "Driftwood Hollow" : [
+            "L1", "L2", "L3"
+        ],
+        "Eaglebrook" : [
+            "L1", "L2"
+        ],
+        "Elkspur" : [
+            "L1", "L2", "L3"
+        ],
+        "Fernmill" : [
+            "L1", "L2", "L3"
+        ],
+        "Fernpass Hollow" : [
+            "L1", "L2"
+        ],
+        "Finbarrow Crossing" : [
+            "L3"
+        ],
+        "Firefly Bridge" : [
+            "L1", "L2", "L3"
+        ],
+        "Fogfall Hallow" : [
+            "L2"
+        ],
+        "Foxlight Ridge" : [
+            "L1", "L2", "L3"
+        ],
+        "Foxrun" : [
+            "L1", "L2", "L3"
+        ],
+        "Frostshade Glen" : [
+            "L3"
+        ],
+        "Frostwill" : [
+            "L1", "L2"
+        ],
+        "Glassmere" : [
+            "L1", "L2"
+        ],
+        "Greenglen" : [
+            "L1", "L2", "L3"
+        ],
+        "Grizzly Notch" : [
+            "L1", "L2"
+        ],
+        "Hemlock Pass" : [
+            "L1", "L2", "L3"
+        ],
+        "Highbrush" : [
+            "L1", "L2", "L3"
+        ],
+        "Hollowmere" : [
+            "L1"
+        ],
+        "Hollowpine" : [
+            "L1", "L2"
+        ],
+        "Lakewill" : [
+            "L1", "L2", "L3"
+        ],
+        "Larchbend" : [
+            "L1", "L2", "L3"
+        ],
+        "Loamhurst" : [
+            "L1", "L2"
+        ],
+        "Maplebrush" : [
+            "L1", "L2"
+        ],
+        "Misty Pines" : [
+            "L1", "L2", "L3"
+        ],
+        "Morningside" : [
+            "L1", "L2", "L3"
+        ],
+        "Moss Creek" : [
+            "L1", "L2", "L3"
+        ],
+        "Mossquartz" : [
+            "L3"
+        ],
+        "Narrowbrook Summit" : [
+            "L1", "L2"
+        ],
+        "Owlsmere" : [
+            "L1", "L2", "L3"
+        ],
+        "Pinegrove Crossing" : [
+            "L1", "L2", "L3"
+        ],
+        "Raven Glen" : [
+            "L1", "L2", "L3"
+        ],
+        "Raventarn" : [
+            "L2"
+        ],
+        "Redvale" : [
+            "L3"
+        ],
+        "Rockfin Crossing" : [
+            "L1", "L2"
+        ],
+        "Sable Hallow" : [
+            "L3"
+        ],
+        "Silverpine" : [
+            "L1", "L2", "L3"
+        ],
+        "Stillglen" : [
+            "L2"
+        ],
+        "Stillpond" : [
+            "L1", "L2", "L3"
+        ],
+        "Stone Hollow" : [
+            "L1", "L2", "L3"
+        ],
+        "Stoneford" : [
+            "L1", "L2"
+        ],
+        "Thistle Cove" : [
+            "L1", "L2", "L3"
+        ],
+        "Thundermoor" : [
+            "L2"
+        ],
+        "Timberrise" : [
+            "L1", "L2", "L3"
+        ],
+        "Timbervault" : [
+            "L1", "L2"
+        ],
+        "Valeridge" : [
+            "L1", "L2", "L3"
+        ],
+        "Willow End" : [
+            "L1", "L2", "L3"
+        ],
+        "Whitespire" : [
+            "L2"
+        ],
+        "Windermere" : [
+            "L1", "L2", "L3"
+        ],
+        "Wolfhaven" : [
+            "L1", "L2"
+        ],
+        "Wreacliff" : [
+            "L1"
+        ]
+    }
+}
