@@ -9,14 +9,10 @@ from player import Player
 
 def load_json_file (name: str):
     """loads a file and converts it into a josn object"""
-    file = open(name, "r", encoding="utf-8")
-    data = json.loads(file.read())
-    file.close()
+    data = None
+    with open(name, "r", encoding="utf-8") as file:
+        data = json.loads(file.read())
     return data
-
-def load_game ():
-    """gets the json save data and returns as a json object"""
-    return load_json_file("save.json")
 
 def calc_points_needed (player: Player) -> int: # TODO
     """calculates the total points needed to complete a level"""
@@ -80,7 +76,8 @@ def display_stats (screen: Any, player: Player): # TODO
         screen.addstr(1, 0, "Current Location : " + player.get_current_station())
         screen.addstr(2, 0, "Destination      : " + player.get_target_station())
         screen.addstr(3, 0, "Time to compelte : " + points_str)
-        screen.addstr(4, 0, "Stations visited : " + str(stations_visited) + " / " + str(num_stations) + " (" + str(ratio) + "%)")
+        screen.addstr(4, 0, "Stations visited : " + str(stations_visited) +
+                      " / " + str(num_stations) + " (" + str(ratio) + "%)")
         screen.refresh()
         c = screen.getch()
         if c == ord("\n"):

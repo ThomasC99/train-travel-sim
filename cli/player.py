@@ -3,6 +3,24 @@
 import json
 from typing import Any
 
+
+
+class ServiceData ():
+    """The service data class"""
+
+    def __init__ (self):
+        self.data: Any = {}
+
+    def get_json_data (self) -> Any:
+        """returns the json of the service data class instance"""
+        return self.data
+
+    def load_json (self, data: Any):
+        """loads json into the service data"""
+        self.data = data
+
+
+
 class Player ():
     """The player class"""
 
@@ -17,6 +35,10 @@ class Player ():
         self.network_data: Any = {}
         self.visited_station: list[str] = []
         self.visited_all_stations: bool = False
+        self.last_beep: str = ""
+        self.announcements: bool = True
+        self.silence: bool = False
+        self.random_route: bool = False
 
     def get_json_data (self) -> Any:
         """returns the json of the player class instance"""
@@ -65,6 +87,10 @@ class Player ():
         """returns the player's prefered accent"""
         return self.accent
 
+    def get_announcement (self) -> bool:
+        """returns whether the player has announcements enabled"""
+        return self.announcements
+
     def get_current_station (self) -> str:
         """returns the player's current station"""
         return self.current_station
@@ -72,6 +98,10 @@ class Player ():
     def get_language (self) -> str:
         """returns the player's prefered language"""
         return self.language
+
+    def get_last_beep (self) -> str:
+        """returns the player's last beep"""
+        return self.last_beep
 
     def get_network_data (self) -> Any:
         """returns the player's network data"""
@@ -81,9 +111,17 @@ class Player ():
         """returns the player's points"""
         return self.points
 
+    def get_random_route (self) -> bool:
+        """returns whether the player has random route enabled"""
+        return self.random_route
+
     def get_service_data (self) -> Any:
         """returns the player's service data"""
         return self.service_data
+
+    def get_silence (self) -> bool:
+        """returns whether the player has silence enabled"""
+        return self.silence
 
     def get_target_station (self) -> str:
         """returns the player's target station"""
@@ -107,6 +145,10 @@ class Player ():
         """sets the player's preferred accent"""
         self.accent = accent
 
+    def set_announcement (self, announcements: bool):
+        """sets whether the player has announcements enabled"""
+        self.announcements = announcements
+
     def set_current_station (self, station: str):
         """sets the player's current station"""
         self.current_station = station
@@ -114,6 +156,10 @@ class Player ():
     def set_language (self, lang: str):
         """sets the player's prefered language"""
         self.language = lang
+
+    def set_last_beep (self, beep: str):
+        """sets the player's last beep"""
+        self.last_beep = beep
 
     def set_network_data (self, data: Any):
         """sets the network data"""
@@ -123,9 +169,17 @@ class Player ():
         """sets the player's points"""
         self.points = points
 
+    def set_random_route (self, random: bool):
+        """sets whether the player has random route enabled"""
+        self.random_route = random
+
     def set_service_data (self, service_data: Any):
         """sets the player's service data"""
         self.service_data = service_data
+
+    def set_silence (self, silence: bool):
+        """sets whether the player has silence enabled"""
+        self.silence = silence
 
     def set_target_station (self, station: str):
         """sets the player's target station"""
