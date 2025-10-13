@@ -18,7 +18,7 @@ def calc_points_needed (player: Player) -> int: # TODO
     """calculates the total points needed to complete a level"""
     total: int = 0
     network_data = player.get_network_data()
-    if "services" in network_data:
+    if network_data is not None and "services" in network_data:
         for service in network_data["services"]:
             service_data = network_data["services"][service]
             service_total = 0
@@ -26,7 +26,7 @@ def calc_points_needed (player: Player) -> int: # TODO
                 service_total += service_data[leg]
             service_total *= 2
             total += service_total * 288
-    service_data = player.get_service_data()
+    service_data = player.get_service_data().get_json_data()
     for service in service_data["services"]:
         service_total = 0
         for leg in service_data["services"][service]["schedule"]:
@@ -60,10 +60,10 @@ def display_stats (screen: Any, player: Player): # TODO
     points = calc_points_needed(player)
     points_str = points_to_time_str(points)
     station_list: list[str] = []
-    for station in player.get_service_data()["stations"].keys(): # TODO
+    for station in player.get_service_data().get_stations().keys():
         if station not in station_list:
             station_list.append(station)
-    if "stations" in player.get_network_data():
+    if player.get_network_data() is not None and "stations" in player.get_network_data():
         for station in player.get_network_data()["stations"].keys():
             if station not in station_list:
                 station_list.append(station)

@@ -2,15 +2,15 @@ import json
 import sys
 
 level = sys.argv[1]
-file = open(level, "r")
-level_data = json.loads(file.read())
-file.close()
+level_data = None
+with open(level, "r", encoding="UTF-8") as file:
+    level_data = json.loads(file.read())
 
-file = open("save.json", "r")
-save_data = json.loads(file.read())
-file.close()
+save_data = None
+with open("save.json", "r", encoding="UTF-8") as file:
+    save_data = json.loads(file.read())
 
-if "network-data" not in save_data:
+if "network-data" not in save_data or save_data["network-data"] is None:
     save_data["network-data"] = {}
 
 if "services" not in save_data["network-data"]:
@@ -29,6 +29,5 @@ for service in level_data["services"]:
 
 save_data["visited-all-stations"] = False
 
-file = open("save.json", "w")
-file.write(json.dumps(save_data, indent=2))
-file.close()
+with open("save.json", "w", encoding="UTF-8") as file:
+    file.write(json.dumps(save_data, indent=2))

@@ -1,6 +1,3 @@
 {
-	"Island Metro" : "level-data/fictional/island-metro.json",
-	"Silverpine Highlands Railway" : "level-data/WIP/silverpine-highland-railway.json",
-	"Southern" : "level-data/WIP/southern.json",
-	"TFL" : "level-data/real/tfl.json"
+	"Milan (Tyne and Wear Metrocar)" : "level-data/alt-trains/milan-tyne.json"
 }

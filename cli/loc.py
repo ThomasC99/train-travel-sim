@@ -8,6 +8,8 @@ def get_station_announcement_base(lang: str) -> str:
     text:str = ""
     if lang == "en":
         text = "SERVICE, to, DEST, is now arriving. "
+    elif lang == "it":
+        text = "SERVICE, a, DEST, è in arrivo. "
     return text
 
 def get_route_announcement_base(lang: str) -> str:
@@ -15,6 +17,8 @@ def get_route_announcement_base(lang: str) -> str:
     text:str = ""
     if lang == "en":
         text = "This is, SERVICE, to, DIR, stopping at, "
+    elif lang == "it":
+        text = "Questo treno è, SERVICE, a, DIR, con fermate a, "
     return text
 
 def get_announcement_base(lang: str) -> str:
@@ -22,6 +26,8 @@ def get_announcement_base(lang: str) -> str:
     text:str = ""
     if lang == "en":
         text = "Now arriving at, "
+    if lang == "it":
+        text = "In arrivo a, "
     return text
 
 def get_and_text(lang: str) -> str:
@@ -29,6 +35,8 @@ def get_and_text(lang: str) -> str:
     text:str = ""
     if lang == "en":
         text = "and, "
+    elif lang == "it":
+        text = "e, "
     return text
 
 # if l == "af": # Afrikaans
@@ -61,8 +69,3 @@ def get_and_text(lang: str) -> str:
 #     route_announcement_base = "C'est, SERVICE, vers, DIR, avec ârrets à, "
 #     announcement_base = "Nous arrivons à, "
 #     _and = "et, "
-# if l == "it": # Italian
-#     station_announcement_base = "SERVICE, a, DEST, è in arrivo. "
-#     route_announcement = "Questo treno è, SERVICE, a, DIR, con fermate a, "
-#     announcement = "Siamo in arrivo a, "
-#     _and = "e, "
