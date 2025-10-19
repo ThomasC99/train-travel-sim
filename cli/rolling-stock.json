@@ -1,0 +1,7 @@
+{
+    "metrocar" : {
+        "max-speed" : 80.0,
+        "weight" : 40.0,
+        "power" : 370.0
+    }
+}
