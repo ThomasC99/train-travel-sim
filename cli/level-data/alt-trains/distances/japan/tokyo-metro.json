@@ -1,0 +1,26 @@
+{
+	"services" : {
+		"Honancho Line" : {
+			"name" : "Honanco Line",
+			"schedule" : {
+				"Honancho - Nakano-Fujimocho" : 1.3,
+				"Nakano-Fujimocho - Nakano-Shimbashi" : 0.6,
+				"Nakano-Shimbashi - Nakano-Sakaue" : 1.3
+			}
+		}
+	},
+	"stations" : {
+		"Honancho" : [
+			"Honancho Line"
+		],
+		"Nakano-Fujimocho" : [
+			"Honancho Line"
+		],
+		"Nakano-Sakaue" : [
+			"Honancho Line"
+		],
+		"Nakano-Shimbashi" : [
+			"Honancho Line"
+		]
+	}
+}

@@ -1,7 +1,17 @@
 {
-    "metrocar" : {
-        "max-speed" : 80.0,
-        "weight" : 40.0,
-        "power" : 370.0
-    }
+	"Metrocar" : {
+		"max-speed" : 80.0,
+		"weight" : 40.0,
+		"power" : 370.0
+	},
+	"LINT 41" : {
+		"max-speed" : 140.0,
+		"weight" : 62.0,
+		"power" : 630.0
+	},
+	"FLIRT" : {
+		"max-speed" : 200.0,
+		"weight" : 167.0,
+		"power" : 3000.0
+	}
 }
