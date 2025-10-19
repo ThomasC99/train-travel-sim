@@ -1,0 +1,18 @@
+{
+    "and" : {
+        "en" : "and, ",
+        "it" : "è, "
+    },
+    "route-progress" : {
+        "en" : "This is, SERVICE, to, DIR, stopping at, ",
+        "it" : "Questo treno è, SERVICE, a, DIR, con fermate a, "
+    },
+    "station-arrival" : {
+        "en" : "SERVICE, to, DEST, is now arriving. ",
+        "it" : "SERVICE, a, DEST, è in arrivo. "
+    },
+    "train-arrival" : {
+        "en" : "Now arriving at, ",
+        "it" : "In arrivo a, "
+    }
+}

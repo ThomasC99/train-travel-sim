@@ -39,8 +39,6 @@ class ServiceData ():
         """loads json into the service data"""
         self.set_services(data["services"])
         self.set_stations(data["stations"])
-        del data["services"]
-        del data["stations"]
 
 
 

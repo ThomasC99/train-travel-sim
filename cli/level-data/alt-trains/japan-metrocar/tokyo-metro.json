@@ -1,0 +1,422 @@
+{
+    "services" : {
+        "Ginza Line" : {
+            "name" : "Ginza Line",
+            "schedule" : {
+                "Shibuya - Omote-Sando" : 3,
+                "Omote-Sando - Gaiemmae" : 2,
+                "Gaiemmae - Aoyama-Itchome" : 2,
+                "Aoyama-Itchome - Akasaka-Mitsuke" : 3,
+                "Akasaka-Mitsuke - Tameike-Sando" : 2,
+                "Tameike-Sando - Toranomon" : 2,
+                "Toranomon - Shimbashi" : 2,
+                "Shimbashi - Ginza" : 2,
+                "Ginza - Kyobashi" : 2,
+                "Kyobashi - Nihombashi" : 2,
+                "Nihombashi - Mitsukoshimae" : 2,
+                "Mitsukoshimae - Kanda" : 2,
+                "Kanda - Suehirocho" : 2,
+                "Suehirocho - Ueno-Hirokoji" : 2,
+                "Ueno-Hirokoji - Ueno" : 2,
+                "Ueno - Inaricho" : 2,
+                "Inaricho - Tawaramachi" : 2,
+                "Tawaramachi - Asakusa" : 2
+            }
+        },
+        "Hibiya Line" : {
+            "name" : "Hibiya Line",
+            "schedule" : {
+                "Naka-Meguro - Ebisu" : 2,
+                "Ebisu - Hiro-o" : 3,
+                "Hiro-o - Roppongi" : 3,
+                "Roppongi - Kamiyacho" : 3,
+                "Kamiyacho - Toranomon Hills" : 2,
+                "Toranomon Hills - Kasumigaseki" : 2,
+                "Kasumigaseki - Hibiya" : 2,
+                "Hibiya - Ginza" : 2,
+                "Ginza - Higashi-Ginza" : 2,
+                "Higashi-Ginza - Tsukiji" : 2,
+                "Tsukiji - Hatchobori" : 2,
+                "Hatchobori - Kayabacho" : 2,
+                "Kayabacho - Ningyocho" : 2,
+                "Ningyocho - Kodemmacho" : 2,
+                "Kodemmacho - Akihabara" : 2,
+                "Akihabara - Naka-Okachimachi" : 2,
+                "Naka-Okachimachi - Ueno" : 2,
+                "Ueno - Iriya" : 3,
+                "Iriya - Minowa" : 3,
+                "Minowa - Minami-Senju" : 2,
+                "Minami-Senju - Kita-Senju" : 3
+            }
+        },
+        "Hibiya Line Through Skytree" : {
+            "name" : "Hibiya Line",
+            "schedule" : {
+                "Naka-Meguro - Ebisu" : 2,
+                "Ebisu - Hiro-o" : 3,
+                "Hiro-o - Roppongi" : 3,
+                "Roppongi - Kamiyacho" : 3,
+                "Kamiyacho - Toranomon Hills" : 2,
+                "Toranomon Hills - Kasumigaseki" : 2,
+                "Kasumigaseki - Hibiya" : 2,
+                "Hibiya - Ginza" : 2,
+                "Ginza - Higashi-Ginza" : 2,
+                "Higashi-Ginza - Tsukiji" : 2,
+                "Tsukiji - Hatchobori" : 2,
+                "Hatchobori - Kayabacho" : 2,
+                "Kayabacho - Ningyocho" : 2,
+                "Ningyocho - Kodemmacho" : 2,
+                "Kodemmacho - Akihabara" : 2,
+                "Akihabara - Naka-Okachimachi" : 2,
+                "Naka-Okachimachi - Ueno" : 2,
+                "Ueno - Iriya" : 3,
+                "Iriya - Minowa" : 3,
+                "Minowa - Minami-Senju" : 2,
+                "Minami-Senju - Kita-Senju" : 3,
+                "Kita-Senju - Kosuge" : 2,
+                "Kosuge - Gotanno" : 2,
+                "Gotanno - Umejima" : 3,
+                "Umejima - Nishiarai" : 2,
+                "Nishiarai - Takenotsuka" : 3,
+                "Takenotsuka - Yatsuka" : 3,
+                "Yatsuka - Soka" : 3,
+                "Soka - Dokkyodaidakumae" : 3,
+                "Dokkyodaidakumae - Shinden" : 3,
+                "Shinden - Gamo" : 3,
+                "Gamo - Shin-Koshigaya" : 2,
+                "Shin-Koshigaya - Koshigaya" : 3,
+                "Koshigaya - Kita-Koshigaya" : 3,
+                "Kita-Koshigaya - Obukuro" : 3,
+                "Obukuro - Sengendai" : 3,
+                "Sengendai - Takesato" : 3,
+                "Takesato - Ichinowari" : 3,
+                "Ichinowari - Kasukabe" : 3,
+                "Kasukabe - Kita-Kasukabe" : 3,
+                "Kita-Kasukabe - Himemiya" : 3,
+                "Himemiya - Tobu-Dobutsu-Koen" : 4
+            }
+        },
+        "Honancho Line" : {
+            "name" : "Honancho Line",
+            "schedule" : {
+                "Honancho - Nakano-Fujimocho" : 3,
+                "Nakano-Fujimocho - Nakano-Shimbashi" : 2,
+                "Nakano-Shimbashi - Nakano-Sakaue" : 3
+            }
+        },
+        "Marunouchi Line" : {
+            "name" : "Marunouchi Line",
+            "schedule" : {
+                "Ogikubo - Minami-Asagaya" : 3,
+                "Minami-Asagaya - Shin-Koenji" : 3,
+                "Shin-Koenji - Higashi-Koenji" : 2,
+                "Higashi-Koenji - Shin-Nakano" : 2,
+                "Shin-Nakano - Nakano-Sakaue" : 2,
+                "Nakano-Sakaue - Nishi-Shinjuku" : 2,
+                "Nishi-Shinjuku - Shinjuku" : 2,
+                "Shinjuku - Shinjuku-Sanchome" : 2,
+                "Shinjuku-Sanchome - Shinjuku-Gyoemmae" : 2,
+                "Shinjuku-Gyoemmae - Yotsuya-Sanchome" : 2,
+                "Yotsuya-Sanchome - Yotsuya" : 2,
+                "Yotsuya - Akasaka-Mitsuke" : 3,
+                "Akasaka-Mitsuke - Kokkai-Gijido-Mae" : 2,
+                "Kokkai-Gijido-Mae - Kasumigaseki" : 2,
+                "Kasumigaseki - Ginza" : 2,
+                "Ginza - Tokyo" : 2,
+                "Tokyo - Otemachi" : 2,
+                "Otemachi - Awajicho" : 2,
+                "Awajicho - Ochanomizu" : 2,
+                "Ochanomizu - Hongo-Sanchome" : 2,
+                "Hongo-Sanchome - Korakuen" : 2,
+                "Korakuen - Myogandi" : 3,
+                "Myogandi - Shin-Otsuka" : 3,
+                "Shin-Otsuka - Ikebukuro" : 3
+            }
+        }
+    },
+    "stations" : {
+        "Akasaka-Mitsuke" : [
+            "Ginza Line",
+            "Marunouchi Line"
+        ],
+        "Akihabara" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Asakusa" : [
+            "Ginza Line"
+        ],
+        "Aoyama-Itchome" : [
+            "Ginza Line"
+        ],
+        "Awajicho" : [
+            "Marunouchi Line"
+        ],
+        "Dokkyodaidakumae" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Ebisu" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Gaiemmae" : [
+            "Ginza Line"
+        ],
+        "Gamo" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Ginza" : [
+            "Ginza Line",
+            "Hibiya Line",
+            "Hibiya Line Through Skytree",
+            "Marunouchi Line"
+        ],
+        "Gotanno" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Hatchobori" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Hibiya" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Higashi-Ginza" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Higashi-Koenji" : [
+            "Marunouchi Line"
+        ],
+        "Himemiya" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Hiro-o" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Honancho" : [
+            "Honancho Line"
+        ],
+        "Hongo-Sanchome" : [
+            "Marunouchi Line"
+        ],
+        "Ichinowari" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Ikebukuro" : [
+            "Marunouchi Line"
+        ],
+        "Inaricho" : [
+            "Ginza Line"
+        ],
+        "Iriya" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Kamiyacho" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Kanda" : [
+            "Ginza Line"
+        ],
+        "Kasukabe" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Kasumigaseki" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree",
+            "Marunouchi Line"
+        ],
+        "Kayabacho" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Kita-Kasukabe" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Kita-Koshigaya" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Kita-Senju" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Kodemmacho" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Kokkai-Gijido-Mae" : [
+            "Marunouchi Line"
+        ],
+        "Korakuen" : [
+            "Marunouchi Line"
+        ],
+        "Koshigaya" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Kosuge" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Kyobashi" : [
+            "Ginza Line"
+        ],
+        "Minami-Asagaya" : [
+            "Marunouchi Line"
+        ],
+        "Minami-Senju" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Minowa" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Mitsukoshimae" : [
+            "Ginza Line"
+        ],
+        "Myogandi" : [
+            "Marunouchi Line"
+        ],
+        "Naka-Meguro" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Naka-Okachimachi" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Nakano-Fujimocho" : [
+            "Honancho Line"
+        ],
+        "Nakano-Sakaue" : [
+            "Honancho Line",
+            "Marunouchi Line"
+        ],
+        "Nakano-Shimbashi" : [
+            "Honancho Line"
+        ],
+        "Nihombashi" : [
+            "Ginza Line"
+        ],
+        "Ningyocho" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Nishi-Shinjuku" : [
+            "Marunouchi Line"
+        ],
+        "Nishiarai" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Obukuro" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Ochanomizu" : [
+            "Marunouchi Line"
+        ],
+        "Ogikubo" : [
+            "Marunouchi Line"
+        ],
+        "Omote-Sando" : [
+            "Ginza Line"
+        ],
+        "Otemachi" : [
+            "Marunouchi Line"
+        ],
+        "Roppongi" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Sengendai" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Shibuya" : [
+            "Ginza Line"
+        ],
+        "Shimbashi" : [
+            "Ginza Line"
+        ],
+        "Shin-Koenji" : [
+            "Marunouchi Line"
+        ],
+        "Shin-Koshigaya" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Shin-Nakano" : [
+            "Marunouchi Line"
+        ],
+        "Shin-Otsuka" : [
+            "Marunouchi Line"
+        ],
+        "Shinden" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Shinjuku" : [
+            "Marunouchi Line"
+        ],
+        "Shinjuku-Gyoemmae" : [
+            "Marunouchi Line"
+        ],
+        "Shinjuku-Sanchome" : [
+            "Marunouchi Line"
+        ],
+        "Soka" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Suehirocho" : [
+            "Ginza Line"
+        ],
+        "Takenotsuka" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Takesato" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Tameike-Sando" : [
+            "Ginza Line"
+        ],
+        "Tawaramachi" : [
+            "Ginza Line"
+        ],
+        "Tobu-Dobutsu-Koen" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Tokyo" : [
+            "Marunouchi Line"
+        ],
+        "Toranomon" : [
+            "Ginza Line"
+        ],
+        "Toranomon Hills" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Tsukiji" : [
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Ueno" : [
+            "Ginza Line",
+            "Hibiya Line",
+            "Hibiya Line Through Skytree"
+        ],
+        "Ueno-Hirokoji" : [
+            "Ginza Line"
+        ],
+        "Umejima" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Yatsuka" : [
+            "Hibiya Line Through Skytree"
+        ],
+        "Yotsuya" : [
+            "Marunouchi Line"
+        ],
+        "Yotsuya-Sanchome" : [
+            "Marunouchi Line"
+        ]
+    }
+}

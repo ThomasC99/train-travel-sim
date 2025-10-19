@@ -12,7 +12,7 @@ file.close()
 graph = Graph (undirected = True)
 
 for line in data["services"]:
-    schedule = data["services"][line]
+    schedule = data["services"][line]["schedule"]
     for item in schedule:
         a = item.split(" - ")[0]
         b = item.split(" - ")[1]

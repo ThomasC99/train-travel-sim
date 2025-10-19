@@ -1,42 +1,41 @@
 """Localization module"""
 
-def get_station_announcement_base(lang: str) -> str:
+import json
+
+# com.au (Australian)
+# co.uk (United Kingdom)
+# us (United States)
+
+data:dict[str,dict[str,str]] = {}
+with open("announcements.json", "r", encoding="UTF-8") as file:
+    data = json.loads(file.read())
+
+def get_station_arrival(lang: str) -> str:
     """returns the base station announcement text for the given language"""
-    # com.au (Australian)
-    # co.uk (United Kingdom)
-    # us (United States)
     text:str = ""
-    if lang == "en":
-        text = "SERVICE, to, DEST, is now arriving. "
-    elif lang == "it":
-        text = "SERVICE, a, DEST, è in arrivo. "
+    if lang in data["station-arrival"]:
+        text = data["station-arrival"][lang]
     return text
 
-def get_route_announcement_base(lang: str) -> str:
+def get_route_progress(lang: str) -> str:
     """returns the base route announcement text for the given language"""
     text:str = ""
-    if lang == "en":
-        text = "This is, SERVICE, to, DIR, stopping at, "
-    elif lang == "it":
-        text = "Questo treno è, SERVICE, a, DIR, con fermate a, "
+    if lang in data["route-progress"]:
+        text = data["route-progress"][lang]
     return text
 
-def get_announcement_base(lang: str) -> str:
+def get_train_arrival(lang: str) -> str:
     """returns the base announcement text for the given language"""
     text:str = ""
-    if lang == "en":
-        text = "Now arriving at, "
-    if lang == "it":
-        text = "In arrivo a, "
+    if lang in data["train-arrival"]:
+        text = data["train-arrival"][lang]
     return text
 
 def get_and_text(lang: str) -> str:
     """returns the 'and' text for the given language"""
     text:str = ""
-    if lang == "en":
-        text = "and, "
-    elif lang == "it":
-        text = "e, "
+    if lang in data["and"]:
+        text = data["and"][lang]
     return text
 
 # if l == "af": # Afrikaans

@@ -10,7 +10,7 @@ file.close()
 num = 0
 # Service validation
 for service in data["services"]:
-    for schedule_item in data["services"][service]:
+    for schedule_item in data["services"][service]["schedule"]:
         for station in schedule_item.split(" - "):
             if station not in data["stations"]:
                 print("Station '" + station + "' found in service '" + service + "' does not exist")
@@ -27,7 +27,7 @@ for station in data["stations"]:
             num += 1
         else:
             found = False
-            for item in data["services"][line]:
+            for item in data["services"][line]["schedule"]:
                 if station in item:
                     found = True
             if not found:
