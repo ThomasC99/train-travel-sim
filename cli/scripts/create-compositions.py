@@ -39,4 +39,6 @@ for i in progressbar.progressbar(range(len(levels))):
 
 end = time.time()
 total_time = end - start
-print("Generated " + str(len(levels)) + " levels in " + str(int(total_time)) + " seconds")
+print("Generated " + str(len(levels)) + " levels in ", end="")
+
+print(str(int(total_time * 1000)) + " miliseconds")
