@@ -1,0 +1,12 @@
+{
+    "services" : {
+        "Shore Line East" : {
+            "name" : "Shore Line East",
+            "schedule" : {
+                
+            }
+        }
+    },
+    "stations" : {
+    }
+}

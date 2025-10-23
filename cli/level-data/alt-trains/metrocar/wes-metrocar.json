@@ -1,0 +1,30 @@
+{
+    "services": {
+        "WES": {
+            "name": "WES",
+            "schedule": {
+                "Beaverton - Hall / Nimbus": 4,
+                "Hall / Nimbus - Tigard": 4,
+                "Tigard - Tualatin": 6,
+                "Tualatin - Wilsonville": 8
+            }
+        }
+    },
+    "stations": {
+        "Beaverton": [
+            "WES"
+        ],
+        "Hall / Nimbus": [
+            "WES"
+        ],
+        "Tigard": [
+            "WES"
+        ],
+        "Tualatin": [
+            "WES"
+        ],
+        "Wilsonville": [
+            "WES"
+        ]
+    }
+}

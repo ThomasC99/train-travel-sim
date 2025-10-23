@@ -1,0 +1,18 @@
+{
+    "services" : {
+        "Waterloo and City Line" : {
+            "name" : "Waterloo and City Line",
+            "schedule" : {
+                "Waterloo - Bank" : 2.4
+            }
+        }
+    },
+    "stations" : {
+        "Bank" : [
+            "Waterloo and City Line"
+        ],
+        "Waterloo" : [
+            "Waterloo and City Line"
+        ]
+    }
+}

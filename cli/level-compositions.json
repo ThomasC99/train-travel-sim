@@ -1,8 +1,8 @@
 [
     {
-        "output-file" : "level-data/alt-trains/japan-metrocar.json",
+        "output-file" : "level-data/alt-trains/metrocar/wes-metrocar.json",
         "components" : [
-            "level-data/alt-trains/japan-metrocar/tokyo-metro.json"
+            "level-data/alt-trains/distances/wes.json"
         ]
     }
 ]

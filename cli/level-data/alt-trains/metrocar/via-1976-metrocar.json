@@ -1,0 +1,1618 @@
+{
+    "services": {
+        "1": {
+            "name": "1 Super Continental",
+            "schedule": {}
+        },
+        "3": {
+            "name": "3 Super Continental",
+            "schedule": {}
+        },
+        "9": {
+            "name": "9 table 16",
+            "schedule": {}
+        },
+        "11": {
+            "name": "11 Scotian",
+            "schedule": {
+                "Halifax - Windsor Junction": 20,
+                "Windsor Junction - Truro": 52,
+                "Truro - Oxford Junction": 57,
+                "Oxford Junction - Springhill Junction": 17,
+                "Springhill Junction - Amherst": 22,
+                "Amherst - Sackville": 13,
+                "Sackville - Moncton": 45,
+                "Moncton - Rogersville": 30,
+                "Rogersville - Newcastle": 27,
+                "Newcastle - Bathurst": 54,
+                "Bathurst - Jacquet River": 36,
+                "Jacquet River - Campbellton": 42,
+                "Campbellton - Matap\u00e9dia": 17,
+                "Matap\u00e9dia - St-Alexis": 8,
+                "St-Alexis - Ste-Florence": 28,
+                "Ste-Florence - Causapscal": 9,
+                "Causapscal - Lac-au-Saumon": 10,
+                "Lac-au-Saumon - Amqui": 8,
+                "Amqui - Val-Brillant": 12,
+                "Val-Brillant - Sayabec": 9,
+                "Sayabec - St-No\u00ebl": 9,
+                "St-No\u00ebl - Padoue": 11,
+                "Padoue - St-Octave": 12,
+                "St-Octave - Mont-Joli": 8,
+                "Mont-Joli - Luceville": 11,
+                "Luceville - Rimouski": 13,
+                "Rimouski - Bic": 14,
+                "Bic - St-Fabien": 12,
+                "St-Fabien - St-Simon": 13,
+                "St-Simon - Trois-Pistoles": 12,
+                "Trois-Pistoles - Isle-Verte": 14,
+                "Isle-Verte - St-Ars\u00e8ne": 12,
+                "St-Ars\u00e8ne - Rivi\u00e8re-du-Loup": 10,
+                "Rivi\u00e8re-du-Loup - Chemin-du-Lac": 9,
+                "Chemin-du-Lac - St-Alexandre": 8,
+                "St-Alexandre - Ste-H\u00e9l\u00e8ne": 11,
+                "Ste-H\u00e9l\u00e8ne - St-Pascal": 8,
+                "St-Pascal - St-Philippe-de-N\u00e9ri": 9,
+                "St-Philippe-de-N\u00e9ri - La Pocati\u00e8re": 12,
+                "La Pocati\u00e8re - St-Jean-Port-Joli": 20,
+                "St-Jean-Port-Joli - L'Islet": 11,
+                "L'Islet - Montmagny": 18,
+                "Montmagny - St-Charles": 29,
+                "St-Charles - L\u00e9vis": 18,
+                "L\u00e9vis - Charny": 11,
+                "Charny - Drummondville": 110,
+                "Drummondville - St-Hyacinthe": 36,
+                "St-Hyacinthe - St-Lambert": 36,
+                "St-Lambert - Montr\u00e9al": 6
+            }
+        },
+        "15": {
+            "name": "15",
+            "schedule": {
+                "Sydney - North Sydney": 19,
+                "North Sydney - Sydney Mines": 5,
+                "Sydney Mines - Orangedale": 67,
+                "Orangedale - Port Hawkesbury": 36,
+                "Port Hawkesbury - Havre Boucher": 16,
+                "Havre Boucher - Antigonish": 40,
+                "Antigonish - New Glasgow": 51,
+                "New Glasgow - Stellarton": 4,
+                "Stellarton - Truro": 50,
+                "Truro - Windsor Junction": 60,
+                "Windsor Junction - Halifax": 20
+            }
+        },
+        "18": {
+            "name": "18 ocean",
+            "schedule": {
+                "Halifax - Truro": 78,
+                "Truro - Springhill Junction": 73,
+                "Springhill Junction - Amherst": 22,
+                "Amherst - Sackville": 13,
+                "Sackville - Moncton": 45,
+                "Moncton - Rogersville": 30,
+                "Rogersville - Newcastle": 27,
+                "Newcastle - Bathurst": 54,
+                "Bathurst - Jacquet River": 36,
+                "Jacquet River - Campbellton": 42,
+                "Campbellton - Matap\u00e9dia": 17,
+                "Matap\u00e9dia - Causapscal": 43,
+                "Causapscal - Amqui": 17,
+                "Amqui - Sayabec": 20,
+                "Sayabec - Mont-Joli": 36,
+                "Mont-Joli - Rimouski": 23,
+                "Rimouski - Trois-Pistoles": 48,
+                "Trois-Pistoles - Rivi\u00e8re-du-Loup": 33,
+                "Rivi\u00e8re-du-Loup - La Pocati\u00e8re": 51,
+                "La Pocati\u00e8re - L\u00e9vis": 90,
+                "L\u00e9vis - Charny": 11,
+                "Charny - Drummondville": 110,
+                "Drummondville - St-Hyacinthe": 36,
+                "St-Hyacinthe - St-Lambert": 36,
+                "St-Lambert - Montr\u00e9al": 6
+            }
+        },
+        "21": {
+            "name": "21",
+            "schedule": {
+                "Qu\u00e9bec - Ste-Foy": 15,
+                "Ste-Foy - Charny": 5,
+                "Charny - Drummondville": 110,
+                "Drummondville - St-Hyacinthe": 36,
+                "St-Hyacinthe - St-Lambert": 36,
+                "St-Lambert - Montr\u00e9al": 6
+            }
+        },
+        "43": {
+            "name": "43 Capitale",
+            "schedule": {
+                "Ottawa - Smiths Falls": 51,
+                "Smiths Falls - Brockville": 35,
+                "Brockville - Gananoque": 35,
+                "Gananoque - Kingston": 24,
+                "Kingston - Napanee": 33,
+                "Napanee - Belleville": 27,
+                "Belleville - Trenton Junction": 15,
+                "Trenton Junction - Cobourg": 39,
+                "Cobourg - Port Hope": 9,
+                "Port Hope - Oshawa": 39,
+                "Oshawa - Guildwood": 24,
+                "Guildwood - Toronto": 16
+            }
+        },
+        "59": {
+            "name": "59 Cavalier",
+            "schedule": {
+                "Montr\u00e9al - Dorval": 16,
+                "Dorval - Coteau": 33,
+                "Coteau - Cornwall": 37,
+                "Cornwall - Prescott": 57,
+                "Prescott - Brockville": 15,
+                "Brockville - Gananoque": 35,
+                "Gananoque - Kingston": 24,
+                "Kingston - Napanee": 33,
+                "Napanee - Belleville": 27,
+                "Belleville - Trenton Junction": 15,
+                "Trenton Junction - Cobourg": 39,
+                "Cobourg - Port Hope": 9,
+                "Port Hope - Oshawa": 39,
+                "Oshawa - Guildwood": 24,
+                "Guildwood - Toronto": 16
+            }
+        },
+        "71": {
+            "name": "71",
+            "schedule": {
+                "Toronto - Oakville": 27,
+                "Oakville - Burlington": 15,
+                "Burlington - Dundas": 12,
+                "Dundas - Brantford": 23,
+                "Brantford - Woodstock": 33,
+                "Woodstock - Ingersoll": 12,
+                "Ingersoll - London": 24,
+                "London - Glencoe": 38,
+                "Glencoe - Chatham": 43,
+                "Chatham - Windsor, Ontario": 54
+            }
+        },
+        "81": {
+            "name": "81",
+            "schedule": {
+                "Toronto - Oakville": 27,
+                "Oakville - Burlington": 15,
+                "Burlington - Dundas": 12,
+                "Dundas - Brantford": 23,
+                "Brantford - Woodstock": 33,
+                "Woodstock - Ingersoll": 12,
+                "Ingersoll - London": 24,
+                "London - Strathroy": 25,
+                "Strathroy - Watford": 18,
+                "Watford - Wyoming": 15,
+                "Wyoming - Sarnia": 18
+            }
+        },
+        "90": {
+            "name": "90 table 44 / 45",
+            "schedule": {}
+        },
+        "92": {
+            "name": "92 table 44 / 45",
+            "schedule": {}
+        },
+        "96": {
+            "name": "96 table 40",
+            "schedule": {}
+        },
+        "98": {
+            "name": "98 table 40",
+            "schedule": {}
+        },
+        "120": {
+            "name": "120",
+            "schedule": {
+                "Montr\u00e9al - St-Lambert": 6,
+                "St-Lambert - St-Hubert": 6,
+                "St-Hubert - St-Bruno": 6,
+                "St-Bruno - St-Basile-le-Grand": 5,
+                "St-Basile-le-Grand - Beloeil": 6,
+                "Beloeil - Otterburn Park": 2,
+                "Otterburn Park - St-Hilaire": 2,
+                "St-Hilaire - St-Hilaire Est": 2,
+                "St-Hilaire Est - St-Hyacinthe": 17,
+                "St-Hyacinthe - St-Liboire": 12,
+                "St-Liboire - Upton": 5,
+                "Upton - Actonvale": 9,
+                "Actonvale - South Durham": 15,
+                "South Durham - Richmond": 14,
+                "Richmond - Windsor, Qu\u00e9bec": 13,
+                "Windsor, Qu\u00e9bec - Bromptonville": 11,
+                "Bromptonville - Sherbrooke": 9,
+                "Sherbrooke - Lennoxville": 5,
+                "Lennoxville - Waterville": 9,
+                "Waterville - Compton": 6,
+                "Compton - Coaticook": 11
+            }
+        },
+        "118": {
+            "name": "118",
+            "schedule": {
+                "Gasp\u00e9 - Douglastown": 10,
+                "Douglastown - Barachois": 22,
+                "Barachois - Perc\u00e9": 18,
+                "Perc\u00e9 - Grande-Rivi\u00e8re": 15,
+                "Grande-Rivi\u00e8re - Chandler": 13,
+                "Chandler - Newport": 9,
+                "Newport - Port-Daniel": 18,
+                "Port-Daniel - St-Godfroi": 15,
+                "St-Godfroi - New Carlisle": 15,
+                "New Carlisle - Bonaventure": 12,
+                "Bonaventure - Caplan": 14,
+                "Caplan - New Richmond": 12,
+                "New Richmond - Cascap\u00e9dia": 12,
+                "Cascap\u00e9dia - Maria": 10,
+                "Maria - Carleton": 12,
+                "Carleton - Nouvelle": 12,
+                "Nouvelle - Cross Point": 29,
+                "Cross Point - Matap\u00e9dia": 16,
+                "Matap\u00e9dia - Causapscal": 43,
+                "Causapscal - Amqui": 17,
+                "Amqui - Sayabec": 20,
+                "Sayabec - Mont-Joli": 36,
+                "Mont-Joli - Rimouski": 23,
+                "Rimouski - Trois-Pistoles": 48,
+                "Trois-Pistoles - Rivi\u00e8re-du-Loup": 33,
+                "Rivi\u00e8re-du-Loup - La Pocati\u00e8re": 51,
+                "La Pocati\u00e8re - L\u00e9vis": 90,
+                "L\u00e9vis - Charny": 11,
+                "Charny - Drummondville": 110,
+                "Drummondville - St-Hyacinthe": 36,
+                "St-Hyacinthe - St-Lambert": 36,
+                "St-Lambert - Montr\u00e9al": 6
+            }
+        },
+        "122": {
+            "name": "122",
+            "schedule": {
+                "Richmond - St-Cyr": 9,
+                "St-Cyr - Danville": 8,
+                "Danville - Warwick": 15,
+                "Warwick - Victoriaville": 10,
+                "Victoriaville - Princeville": 12,
+                "Princeville - Plessissville": 9,
+                "Plessissville - Ste-Julie": 11,
+                "Ste-Julie - Lyster": 6,
+                "Lyster - Dosquet": 11,
+                "Dosquet - St-Agapit": 11,
+                "St-Agapit - Chaudi\u00e8re": 15,
+                "Chaudi\u00e8re - Charny": 3,
+                "Charny - Ste-Foy": 5,
+                "Ste-Foy - Cap-Rouge": 3,
+                "Cap-Rouge - Qu\u00e9bec": 12
+            }
+        },
+        "138": {
+            "name": "138",
+            "schedule": {
+                "Ottawa - Vars": 21,
+                "Vars - Casselman": 17,
+                "Casselman - Moose Creek": 11,
+                "Moose Creek - Maxville": 9,
+                "Maxville - Alexandria": 14,
+                "Alexandria - Glen Robertson": 9,
+                "Glen Robertson - Coteau": 21,
+                "Coteau - Dorval": 33,
+                "Dorval - Montr\u00e9al": 16
+            }
+        },
+        "168": {
+            "name": "168",
+            "schedule": {
+                "Toronto - St Clair Avenue": 7,
+                "St Clair Avenue - Maple": 17,
+                "Maple - King": 7,
+                "King - Aurora": 9,
+                "Aurora - Newmarket": 6,
+                "Newmarket - Bradford": 10,
+                "Bradford - Lefroy": 13,
+                "Lefroy - Barrie": 15
+            }
+        },
+        "170": {
+            "name": "170 table 38",
+            "schedule": {}
+        },
+        "174": {
+            "name": "174 table 39",
+            "schedule": {}
+        },
+        "176": {
+            "name": "176 table 38",
+            "schedule": {}
+        },
+        "178": {
+            "name": "178",
+            "schedule": {
+                "Senneterre - Val-d'Or": 45,
+                "Val-d'Or - Malartic": 14,
+                "Malartic - Cadillac": 18,
+                "Cadillac - Noranda-Rouyn": 42
+            }
+        },
+        "183": {
+            "name": "183",
+            "schedule": {
+                "Chambord - Roberval": 15,
+                "Roberval - Pointe-Bleue": 7,
+                "Pointe-Bleue - St-Prime": 8,
+                "St-Prime - St-F\u00e9licien": 10,
+                "St-F\u00e9licien - Normandin": 17,
+                "Normandin - Albanel": 7,
+                "Albanel - Dolbeau": 12
+            }
+        },
+        "190": {
+            "name": "190 table 14",
+            "schedule": {}
+        },
+        "270": {
+            "name": "270",
+            "schedule": {
+                "Hornepayne - Hillsport": 52,
+                "Hillsport - Geco": 29,
+                "Geco - Manitouwadge": 7
+            }
+        },
+        "272": {
+            "name": "272",
+            "schedule": {
+                "Hearst - Calstock": 28,
+                "Calstock - Ameson": 26,
+                "Ameson - Savoff": 27,
+                "Savoff - Pagwa River": 15,
+                "Pagwa River - Pagwa": 4,
+                "Pagwa - Ogahalla": 33,
+                "Ogahalla - Grant": 27,
+                "Grant - Nakina": 24
+            }
+        },
+        "277": {
+            "name": "277 table 42",
+            "schedule": {}
+        },
+        "280": {
+            "name": "280 table 51",
+            "schedule": {}
+        },
+        "283": {
+            "name": "283",
+            "schedule": {
+                "Swastika - Kirkland Lake": 8,
+                "Kirkland Lake - Larder Lake": 21,
+                "Larder Lake - Cheminis": 13
+            }
+        },
+        "284": {
+            "name": "284",
+            "schedule": {
+                "Dauphin - Valley River": 12,
+                "Valley River - Sifton": 10,
+                "Sifton - Fishing River": 9,
+                "Fishing River - Fork River": 8,
+                "Fork River - Winnipegosis": 14
+            }
+        },
+        "286": {
+            "name": "286",
+            "schedule": {
+                "Winnipeg - Elma": 67,
+                "Elma - Malachi": 62,
+                "Malachi - Minaki": 13,
+                "Minaki - Redditt": 18,
+                "Redditt - Red Lake Road": 63,
+                "Red Lake Road - Hudson": 72,
+                "Hudson - Sioux Lookout": 15
+            }
+        },
+        "290": {
+            "name": "290 table 47",
+            "schedule": {}
+        },
+        "292": {
+            "name": "292 table 46",
+            "schedule": {}
+        },
+        "297": {
+            "name": "297 table 16",
+            "schedule": {}
+        },
+        "387": {
+            "name": "387",
+            "schedule": {
+                "Porquis - Connaught": 13,
+                "Connaught - South Porcupine": 21,
+                "South Porcupine - Timmins": 9
+            }
+        },
+        "601": {
+            "name": "601",
+            "schedule": {
+                "Sydney - Leitches Creek": 14,
+                "Leitches Creek - North Sydney": 6,
+                "North Sydney - Sydney Mines": 5,
+                "Sydney Mines - Little Bras d'Or": 6,
+                "Little Bras d'Or - Boisdale": 21,
+                "Boisdale - Christmas Island": 18,
+                "Christmas Island - Grand Narrows": 5,
+                "Grand Narrows - Iona": 2,
+                "Iona - McKinnon Harbor": 7,
+                "McKinnon Harbor - Ottawa Brook": 4,
+                "Ottawa Brook - Alba": 6,
+                "Alba - Orangedale": 7,
+                "Orangedale - River Denys": 11,
+                "River Denys - West Bay Road": 9,
+                "West Bay Road - McIntyres Lake": 9,
+                "McIntyres Lake - Port Hawkesbury": 9,
+                "Port Hawkesbury - Port Hastings": 5,
+                "Port Hastings - Auld Cove": 3,
+                "Auld Cove - Havre Boucher": 10,
+                "Havre Boucher - Monastery": 13,
+                "Monastery - Heatherton": 13,
+                "Heatherton - Pomquet": 4,
+                "Pomquet - Antigonish": 13,
+                "Antigonish - James River": 12,
+                "James River - Avondale": 13,
+                "Avondale - Merigomish": 12,
+                "Merigomish - Egerton": 5,
+                "Egerton - New Glasgow": 13,
+                "New Glasgow - Stellarton": 4,
+                "Stellarton - Eureka": 6,
+                "Eureka - Hopewell": 3,
+                "Hopewell - Lorne": 6,
+                "Lorne - Glengarry": 4,
+                "Glengarry - West River": 10,
+                "West River - Riversdale": 11,
+                "Riversdale - Union": 6,
+                "Union - Valley": 6,
+                "Valley - Truro": 6,
+                "Truro - Stewiacke": 22,
+                "Stewiacke - Shubenacadie": 6,
+                "Shubenacadie - Milford": 6,
+                "Milford - Elmsdale": 9,
+                "Elmsdale - Windsor Junction": 21,
+                "Windsor Junction - Bedford": 7,
+                "Bedford - Rockingham": 7,
+                "Rockingham - Armdale": 4,
+                "Armdale - Halifax": 5
+            }
+        },
+        "611": {
+            "name": "611",
+            "schedule": {
+                "Moncton - Salisbury": 17,
+                "Salisbury - River Glade": 7,
+                "River Glade - Petitcodiac": 7,
+                "Petitcodiac - Anagance": 8,
+                "Anagance - Penobsquis": 12,
+                "Penobsquis - Sussex": 10,
+                "Sussex - Apohaqui": 6,
+                "Apohaqui - Norton": 9,
+                "Norton - Bloomfield": 7,
+                "Bloomfield - Hampton": 2,
+                "Hampton - Rothesay": 17,
+                "Rothesay - Saint John": 10
+            }
+        },
+        "616": {
+            "name": "616",
+            "schedule": {
+                "Moncton - Chipman": 71,
+                "Chipman - McGivney": 48,
+                "McGivney - Napadogan": 27,
+                "Napadogan - Juniper": 20,
+                "Juniper - Plaster Rock": 48,
+                "Plaster Rock - Grand Falls": 35,
+                "Grand Falls - St Leonard": 15,
+                "St Leonard - Edmundston": 32,
+                "Edmundston - Rivi\u00e8re-Bleue": 56,
+                "Rivi\u00e8re-Bleue - Estcort": 13,
+                "Estcort - Monk": 84,
+                "Monk - Ste-Claire": 90,
+                "Ste-Claire - Joffre": 36,
+                "Joffre - Charny": 3,
+                "Charny - Ste-Foy": 5,
+                "Ste-Foy - Qu\u00e9bec": 15
+            }
+        },
+        "631": {
+            "name": "631",
+            "schedule": {
+                "Toronto - Agincourt": 18,
+                "Agincourt - Miliken": 5,
+                "Miliken - Unionville": 4,
+                "Unionville - Markham": 5,
+                "Markham - Stouffville": 9
+            }
+        },
+        "635": {
+            "name": "635",
+            "schedule": {
+                "Toronto - Oakville": 27,
+                "Oakville - Burlington": 15,
+                "Burlington - Hamilton": 9,
+                "Hamilton - Grimsby": 21,
+                "Grimsby - St Catharines": 8,
+                "St Catharines - Niagara Falls": 27
+            }
+        },
+        "661": {
+            "name": "661",
+            "schedule": {
+                "Toronto - West Toronto": 7,
+                "West Toronto - Weston": 6,
+                "Weston - Malton": 9,
+                "Malton - Brampton": 8,
+                "Brampton - Georgetown": 11,
+                "Georgetown - Guelph": 25,
+                "Guelph - Kitchener": 18,
+                "Kitchener - Stratford": 33,
+                "Stratford - St Marys": 14,
+                "St Marys - London": 27
+            }
+        },
+        "678": {
+            "name": "678",
+            "schedule": {
+                "Qu\u00e9bec - Limoilou": 2,
+                "Limoilou - Montmorency": 8,
+                "Montmorency - L'Ange-Gardien": 6,
+                "L'Ange-Gardien - Ch\u00e2teau-Richer": 8,
+                "Ch\u00e2teau-Richer - Ste-Anne-de-Beaupr\u00e9": 7,
+                "Ste-Anne-de-Beaupr\u00e9 - Beaupr\u00e9": 4,
+                "Beaupr\u00e9 - St-Joachim": 3,
+                "St-Joachim - Sault-au-Cochon": 21,
+                "Sault-au-Cochon - Labatis": 5,
+                "Labatis - Grande-Pointe": 4,
+                "Grande-Pointe - Petite-Rivi\u00e8re": 5,
+                "Petite-Rivi\u00e8re - Maillard": 3,
+                "Maillard - Baie-St-Paul": 11,
+                "Baie-St-Paul - Gravel & Thibault": 6,
+                "Gravel & Thibault - Les \u00c9boulements": 6,
+                "Les \u00c9boulements - Cap-aux-Oies": 9,
+                "Cap-aux-Oies - Boulaine": 3,
+                "Boulaine - Ruisseau-Jureux": 3,
+                "Ruisseau-Jureux - St-Ir\u00e9n\u00e9e": 3,
+                "St-Ir\u00e9n\u00e9e - Pointe-au-Pic": 8,
+                "Pointe-au-Pic - La Malbaie": 3,
+                "La Malbaie - Clermont": 6
+            }
+        },
+        "686": {
+            "name": "686 table 43",
+            "schedule": {}
+        },
+        "688": {
+            "name": "688 table 46",
+            "schedule": {}
+        },
+        "690": {
+            "name": "690 table 54",
+            "schedule": {}
+        },
+        "694": {
+            "name": "694 table 52",
+            "schedule": {}
+        },
+        "696": {
+            "name": "696 table 53",
+            "schedule": {}
+        }
+    },
+    "stations": {
+        "Actonvale": [
+            "120"
+        ],
+        "Agincourt": [
+            "631"
+        ],
+        "Alba": [
+            "601"
+        ],
+        "Albanel": [
+            "183"
+        ],
+        "Alexandria": [
+            "138"
+        ],
+        "Ameson": [
+            "272"
+        ],
+        "Amherst": [
+            "11",
+            "18"
+        ],
+        "Amqui": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Anagance": [
+            "611"
+        ],
+        "Antigonish": [
+            "15",
+            "601"
+        ],
+        "Apohaqui": [
+            "611"
+        ],
+        "Armdale": [
+            "601"
+        ],
+        "Auld Cove": [
+            "601"
+        ],
+        "Aurora": [
+            "168"
+        ],
+        "Avondale": [
+            "601"
+        ],
+        "Baie-St-Paul": [
+            "678"
+        ],
+        "Barachois": [
+            "118"
+        ],
+        "Barrie": [
+            "168"
+        ],
+        "Bathurst": [
+            "11",
+            "18"
+        ],
+        "Beaupr\u00e9": [
+            "678"
+        ],
+        "Bedford": [
+            "601"
+        ],
+        "Belleville": [
+            "43",
+            "59"
+        ],
+        "Beloeil": [
+            "120"
+        ],
+        "Bic": [
+            "11"
+        ],
+        "Bloomfield": [
+            "611"
+        ],
+        "Boisdale": [
+            "601"
+        ],
+        "Bonaventure": [
+            "118"
+        ],
+        "Boulaine": [
+            "678"
+        ],
+        "Bradford": [
+            "168"
+        ],
+        "Brampton": [
+            "661"
+        ],
+        "Brantford": [
+            "71",
+            "81"
+        ],
+        "Brockville": [
+            "43",
+            "59"
+        ],
+        "Bromptonville": [
+            "120"
+        ],
+        "Burlington": [
+            "71",
+            "81",
+            "635"
+        ],
+        "Cadillac": [
+            "178"
+        ],
+        "Calstock": [
+            "272"
+        ],
+        "Campbellton": [
+            "11",
+            "18"
+        ],
+        "Cap-aux-Oies": [
+            "678"
+        ],
+        "Cap-Rouge": [
+            "122"
+        ],
+        "Caplan": [
+            "118"
+        ],
+        "Carleton": [
+            "118"
+        ],
+        "Cascap\u00e9dia": [
+            "118"
+        ],
+        "Casselman": [
+            "138"
+        ],
+        "Causapscal": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Chambord": [
+            "183"
+        ],
+        "Chandler": [
+            "118"
+        ],
+        "Charny": [
+            "11",
+            "18",
+            "21",
+            "118",
+            "122",
+            "616"
+        ],
+        "Ch\u00e2teau-Richer": [
+            "678"
+        ],
+        "Chatham": [
+            "71"
+        ],
+        "Chaudi\u00e8re": [
+            "122"
+        ],
+        "Chemin-du-Lac": [
+            "11"
+        ],
+        "Chipman": [
+            "616"
+        ],
+        "Christmas Island": [
+            "601"
+        ],
+        "Clermont": [
+            "678"
+        ],
+        "Coaticook": [
+            "120"
+        ],
+        "Cobourg": [
+            "43",
+            "59"
+        ],
+        "Compton": [
+            "120"
+        ],
+        "Connaught": [
+            "387"
+        ],
+        "Cornwall": [
+            "59"
+        ],
+        "Coteau": [
+            "59",
+            "138"
+        ],
+        "Cross Point": [
+            "118"
+        ],
+        "Danville": [
+            "122"
+        ],
+        "Dauphin": [
+            "284"
+        ],
+        "Dolbeau": [
+            "183"
+        ],
+        "Dorval": [
+            "59",
+            "138"
+        ],
+        "Dosquet": [
+            "122"
+        ],
+        "Douglastown": [
+            "118"
+        ],
+        "Drummondville": [
+            "11",
+            "18",
+            "21",
+            "118"
+        ],
+        "Dundas": [
+            "71",
+            "81"
+        ],
+        "Edmundston": [
+            "616"
+        ],
+        "Egerton": [
+            "601"
+        ],
+        "Elma": [
+            "286"
+        ],
+        "Elmsdale": [
+            "601"
+        ],
+        "Estcort": [
+            "616"
+        ],
+        "Eureka": [
+            "601"
+        ],
+        "Fishing River": [
+            "284"
+        ],
+        "Fork River": [
+            "284"
+        ],
+        "Gananoque": [
+            "43",
+            "59"
+        ],
+        "Gasp\u00e9": [
+            "118"
+        ],
+        "Geco": [
+            "270"
+        ],
+        "Georgetown": [
+            "661"
+        ],
+        "Glen Robertson": [
+            "138"
+        ],
+        "Glencoe": [
+            "71"
+        ],
+        "Glengarry": [
+            "601"
+        ],
+        "Grand Falls": [
+            "616"
+        ],
+        "Grand Narrows": [
+            "601"
+        ],
+        "Grande-Pointe": [
+            "678"
+        ],
+        "Grande-Rivi\u00e8re": [
+            "118"
+        ],
+        "Grant": [
+            "272"
+        ],
+        "Gravel & Thibault": [
+            "678"
+        ],
+        "Grimsby": [
+            "635"
+        ],
+        "Guelph": [
+            "661"
+        ],
+        "Guildwood": [
+            "43",
+            "59"
+        ],
+        "Halifax": [
+            "11",
+            "15",
+            "18",
+            "601"
+        ],
+        "Hamilton": [
+            "635"
+        ],
+        "Hampton": [
+            "611"
+        ],
+        "Havre Boucher": [
+            "15",
+            "601"
+        ],
+        "Hearst": [
+            "272"
+        ],
+        "Heatherton": [
+            "601"
+        ],
+        "Hillsport": [
+            "270"
+        ],
+        "Hopewell": [
+            "601"
+        ],
+        "Hornepayne": [
+            "270"
+        ],
+        "Hudson": [
+            "286"
+        ],
+        "Ingersoll": [
+            "71",
+            "81"
+        ],
+        "Iona": [
+            "601"
+        ],
+        "Isle-Verte": [
+            "11"
+        ],
+        "Jacquet River": [
+            "11",
+            "18"
+        ],
+        "James River": [
+            "601"
+        ],
+        "Joffre": [
+            "616"
+        ],
+        "Juniper": [
+            "616"
+        ],
+        "King": [
+            "168"
+        ],
+        "Kingston": [
+            "43",
+            "59"
+        ],
+        "Kitchener": [
+            "661"
+        ],
+        "L'Ange-Gardien": [
+            "678"
+        ],
+        "L'Islet": [
+            "11"
+        ],
+        "La Malbaie": [
+            "678"
+        ],
+        "La Pocati\u00e8re": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Labatis": [
+            "678"
+        ],
+        "Lac-au-Saumon": [
+            "11"
+        ],
+        "Leitches Creek": [
+            "601"
+        ],
+        "Lefroy": [
+            "168"
+        ],
+        "Lennoxville": [
+            "120"
+        ],
+        "Les \u00c9boulements": [
+            "678"
+        ],
+        "L\u00e9vis": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Limoilou": [
+            "678"
+        ],
+        "Little Bras d'Or": [
+            "601"
+        ],
+        "London": [
+            "71",
+            "81",
+            "661"
+        ],
+        "Lorne": [
+            "601"
+        ],
+        "Luceville": [
+            "11"
+        ],
+        "Lyster": [
+            "122"
+        ],
+        "Maillard": [
+            "678"
+        ],
+        "Malachi": [
+            "286"
+        ],
+        "Malartic": [
+            "178"
+        ],
+        "Malton": [
+            "661"
+        ],
+        "Manitouwadge": [
+            "270"
+        ],
+        "Maple": [
+            "168"
+        ],
+        "Maria": [
+            "118"
+        ],
+        "Markham": [
+            "631"
+        ],
+        "Matap\u00e9dia": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Maxville": [
+            "138"
+        ],
+        "McGivney": [
+            "616"
+        ],
+        "McIntyres Lake": [
+            "601"
+        ],
+        "McKinnon Harbor": [
+            "601"
+        ],
+        "Merigomish": [
+            "601"
+        ],
+        "Milford": [
+            "601"
+        ],
+        "Miliken": [
+            "631"
+        ],
+        "Minaki": [
+            "286"
+        ],
+        "Monastery": [
+            "601"
+        ],
+        "Moncton": [
+            "11",
+            "18",
+            "611",
+            "616"
+        ],
+        "Monk": [
+            "616"
+        ],
+        "Mont-Joli": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Montmagny": [
+            "11"
+        ],
+        "Montmorency": [
+            "678"
+        ],
+        "Montr\u00e9al": [
+            "11",
+            "18",
+            "21",
+            "59",
+            "118",
+            "120",
+            "138"
+        ],
+        "Moose Creek": [
+            "138"
+        ],
+        "Nakina": [
+            "272"
+        ],
+        "Napadogan": [
+            "616"
+        ],
+        "Napanee": [
+            "43",
+            "59"
+        ],
+        "New Carlisle": [
+            "118"
+        ],
+        "New Glasgow": [
+            "15",
+            "601"
+        ],
+        "New Richmond": [
+            "118"
+        ],
+        "Newcastle": [
+            "11",
+            "18"
+        ],
+        "Newmarket": [
+            "168"
+        ],
+        "Newport": [
+            "118"
+        ],
+        "Niagara Falls": [
+            "635"
+        ],
+        "Noranda-Rouyn": [
+            "178"
+        ],
+        "Normandin": [
+            "183"
+        ],
+        "Norton": [
+            "611"
+        ],
+        "North Sydney": [
+            "15",
+            "601"
+        ],
+        "Nouvelle": [
+            "118"
+        ],
+        "Oakville": [
+            "71",
+            "81",
+            "635"
+        ],
+        "Ogahalla": [
+            "272"
+        ],
+        "Orangedale": [
+            "15",
+            "601"
+        ],
+        "Oshawa": [
+            "43",
+            "59"
+        ],
+        "Ottawa": [
+            "43",
+            "138"
+        ],
+        "Ottawa Brook": [
+            "601"
+        ],
+        "Otterburn Park": [
+            "120"
+        ],
+        "Oxford Junction": [
+            "11"
+        ],
+        "Pagwa": [
+            "272"
+        ],
+        "Pagwa River": [
+            "272"
+        ],
+        "Padoue": [
+            "11"
+        ],
+        "Penobsquis": [
+            "611"
+        ],
+        "Perc\u00e9": [
+            "118"
+        ],
+        "Petite-Rivi\u00e8re": [
+            "678"
+        ],
+        "Petitcodiac": [
+            "611"
+        ],
+        "Plaster Rock": [
+            "616"
+        ],
+        "Plessissville": [
+            "122"
+        ],
+        "Pointe-Bleue": [
+            "183"
+        ],
+        "Pointe-au-Pic": [
+            "678"
+        ],
+        "Pomquet": [
+            "601"
+        ],
+        "Port-Daniel": [
+            "118"
+        ],
+        "Port Hastings": [
+            "601"
+        ],
+        "Port Hawkesbury": [
+            "15",
+            "601"
+        ],
+        "Port Hope": [
+            "43",
+            "59"
+        ],
+        "Porquis": [
+            "387"
+        ],
+        "Prescott": [
+            "59"
+        ],
+        "Princeville": [
+            "122"
+        ],
+        "Qu\u00e9bec": [
+            "21",
+            "122",
+            "616",
+            "678"
+        ],
+        "Red Lake Road": [
+            "286"
+        ],
+        "Redditt": [
+            "286"
+        ],
+        "Richmond": [
+            "120",
+            "122"
+        ],
+        "Rimouski": [
+            "11",
+            "18",
+            "118"
+        ],
+        "River Denys": [
+            "601"
+        ],
+        "River Glade": [
+            "611"
+        ],
+        "Riversdale": [
+            "601"
+        ],
+        "Rivi\u00e8re-Bleue": [
+            "616"
+        ],
+        "Rivi\u00e8re-du-Loup": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Roberval": [
+            "183"
+        ],
+        "Rockingham": [
+            "601"
+        ],
+        "Rogersville": [
+            "11",
+            "18"
+        ],
+        "Rothesay": [
+            "611"
+        ],
+        "Ruisseau-Jureux": [
+            "678"
+        ],
+        "Sackville": [
+            "11",
+            "18"
+        ],
+        "Saint John": [
+            "611"
+        ],
+        "Salisbury": [
+            "611"
+        ],
+        "Sarnia": [
+            "81"
+        ],
+        "Sault-au-Cochon": [
+            "678"
+        ],
+        "Savoff": [
+            "272"
+        ],
+        "Sayabec": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Senneterre": [
+            "178"
+        ],
+        "Sherbrooke": [
+            "120"
+        ],
+        "Shubenacadie": [
+            "601"
+        ],
+        "Sifton": [
+            "284"
+        ],
+        "Sioux Lookout": [
+            "286"
+        ],
+        "Smiths Falls": [
+            "43"
+        ],
+        "South Durham": [
+            "120"
+        ],
+        "South Porcupine": [
+            "387"
+        ],
+        "Springhill Junction": [
+            "11",
+            "18"
+        ],
+        "St-Agapit": [
+            "122"
+        ],
+        "St-Alexandre": [
+            "11"
+        ],
+        "St-Alexis": [
+            "11"
+        ],
+        "St-Ars\u00e8ne": [
+            "11"
+        ],
+        "St-Basile-le-Grand": [
+            "120"
+        ],
+        "St-Bruno": [
+            "120"
+        ],
+        "St Catharines": [
+            "635"
+        ],
+        "St-Charles": [
+            "11"
+        ],
+        "St Clair Avenue": [
+            "168"
+        ],
+        "St-Cyr": [
+            "122"
+        ],
+        "St-Fabien": [
+            "11"
+        ],
+        "St-F\u00e9licien": [
+            "183"
+        ],
+        "St-Godfroi": [
+            "118"
+        ],
+        "St-Hilaire": [
+            "120"
+        ],
+        "St-Hilaire Est": [
+            "120"
+        ],
+        "St-Hubert": [
+            "120"
+        ],
+        "St-Hyacinthe": [
+            "11",
+            "18",
+            "21",
+            "118",
+            "120"
+        ],
+        "St-Ir\u00e9n\u00e9e": [
+            "678"
+        ],
+        "St-Jean-Port-Joli": [
+            "11"
+        ],
+        "St-Joachim": [
+            "678"
+        ],
+        "St-Lambert": [
+            "11",
+            "18",
+            "21",
+            "118",
+            "120"
+        ],
+        "St Leonard": [
+            "616"
+        ],
+        "St-Liboire": [
+            "120"
+        ],
+        "St Marys": [
+            "661"
+        ],
+        "St-No\u00ebl": [
+            "11"
+        ],
+        "St-Octave": [
+            "11"
+        ],
+        "St-Pascal": [
+            "11"
+        ],
+        "St-Philippe-de-N\u00e9ri": [
+            "11"
+        ],
+        "St-Prime": [
+            "183"
+        ],
+        "St-Simon": [
+            "11"
+        ],
+        "Ste-Anne-de-Beaupr\u00e9": [
+            "678"
+        ],
+        "Ste-Claire": [
+            "616"
+        ],
+        "Ste-Florence": [
+            "11"
+        ],
+        "Ste-Foy": [
+            "21",
+            "122",
+            "616"
+        ],
+        "Ste-H\u00e9l\u00e8ne": [
+            "11"
+        ],
+        "Ste-Julie": [
+            "122"
+        ],
+        "Stellarton": [
+            "15",
+            "601"
+        ],
+        "Stewiacke": [
+            "601"
+        ],
+        "Stratford": [
+            "661"
+        ],
+        "Strathroy": [
+            "81"
+        ],
+        "Stouffville": [
+            "631"
+        ],
+        "Sussex": [
+            "611"
+        ],
+        "Sydney": [
+            "15",
+            "601"
+        ],
+        "Sydney Mines": [
+            "15",
+            "601"
+        ],
+        "Timmins": [
+            "387"
+        ],
+        "Trois-Pistoles": [
+            "11",
+            "18",
+            "118"
+        ],
+        "Toronto": [
+            "43",
+            "59",
+            "71",
+            "81",
+            "168",
+            "631",
+            "635",
+            "661"
+        ],
+        "Trenton Junction": [
+            "43",
+            "59"
+        ],
+        "Truro": [
+            "11",
+            "15",
+            "18",
+            "601"
+        ],
+        "Union": [
+            "601"
+        ],
+        "Unionville": [
+            "631"
+        ],
+        "Upton": [
+            "120"
+        ],
+        "Val-Brillant": [
+            "11"
+        ],
+        "Val-d'Or": [
+            "178"
+        ],
+        "Valley": [
+            "601"
+        ],
+        "Valley River": [
+            "284"
+        ],
+        "Vars": [
+            "138"
+        ],
+        "Victoriaville": [
+            "122"
+        ],
+        "Warwick": [
+            "122"
+        ],
+        "Waterville": [
+            "120"
+        ],
+        "Watford": [
+            "81"
+        ],
+        "West Bay Road": [
+            "601"
+        ],
+        "West River": [
+            "601"
+        ],
+        "West Toronto": [
+            "661"
+        ],
+        "Weston": [
+            "661"
+        ],
+        "Windsor, Ontario": [
+            "71"
+        ],
+        "Windsor, Qu\u00e9bec": [
+            "120"
+        ],
+        "Windsor Junction": [
+            "11",
+            "15",
+            "601"
+        ],
+        "Winnipeg": [
+            "286"
+        ],
+        "Winnipegosis": [
+            "284"
+        ],
+        "Woodstock": [
+            "71",
+            "81"
+        ],
+        "Wyoming": [
+            "81"
+        ]
+    }
+}

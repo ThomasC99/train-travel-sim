@@ -9,6 +9,11 @@
 		"weight" : 62.0,
 		"power" : 630.0
 	},
+	"Xplorer" : {
+		"max-speed" : 145.0,
+		"weight" : 172.0,
+		"power" : 1149.0
+	},
 	"FLIRT" : {
 		"max-speed" : 200.0,
 		"weight" : 167.0,

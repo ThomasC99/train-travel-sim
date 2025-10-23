@@ -1,0 +1,50 @@
+{
+    "services": {
+        "138": {
+            "name": "138 Bytowner",
+            "schedule": {
+                "Ottawa - Vars": 13,
+                "Vars - Casselman": 10,
+                "Casselman - Moose Creek": 7,
+                "Moose Creek - Maxville": 6,
+                "Maxville - Alexandria": 9,
+                "Alexandria - Glen Robertson": 6,
+                "Glen Robertson - Coteau": 13,
+                "Coteau - Dorval": 20,
+                "Dorval - Montr\u00e9al": 10
+            }
+        }
+    },
+    "stations": {
+        "Alexandria": [
+            "138"
+        ],
+        "Casselman": [
+            "138"
+        ],
+        "Coteau": [
+            "138"
+        ],
+        "Dorval": [
+            "138"
+        ],
+        "Glen Robertson": [
+            "138"
+        ],
+        "Maxville": [
+            "138"
+        ],
+        "Montr\u00e9al": [
+            "138"
+        ],
+        "Moose Creek": [
+            "138"
+        ],
+        "Ottawa": [
+            "138"
+        ],
+        "Vars": [
+            "138"
+        ]
+    }
+}

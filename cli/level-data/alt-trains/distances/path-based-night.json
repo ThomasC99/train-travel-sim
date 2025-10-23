@@ -1,0 +1,26 @@
+{
+    "services" : {
+        "Line 1" : {
+            "name" : "Line 1",
+            "schedule" : {
+                "Central - Madsion" : 1.1,
+                "Madison - Union" : 1.1,
+                "Union - Greenwich" : 1.2
+            }
+        }
+    },
+    "stations" : {
+        "Central" : [
+            "Line 1"
+        ],
+        "Greenwich" : [
+            "Line 1"
+        ],
+        "Madison" : [
+            "Line 1"
+        ],
+        "Union" : [
+            "Line 1"
+        ]
+    }
+}

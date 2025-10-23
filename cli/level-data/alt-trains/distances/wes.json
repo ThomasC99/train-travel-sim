@@ -1,0 +1,30 @@
+{
+    "services" : {
+        "WES" : {
+            "name" : "WES",
+            "schedule" : {
+                "Beaverton - Hall / Nimbus" : 4.1,
+                "Hall / Nimbus - Tigard" : 3.6,
+                "Tigard - Tualatin" : 6.2,
+                "Tualatin - Wilsonville" : 9.8
+            }
+        }
+    },
+    "stations" : {
+        "Beaverton" : [
+            "WES"
+        ],
+        "Hall / Nimbus" : [
+            "WES"
+        ],
+        "Tigard" : [
+            "WES"
+        ],
+        "Tualatin" : [
+            "WES"
+        ],
+        "Wilsonville" : [
+            "WES"
+        ]
+    }
+}

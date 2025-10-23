@@ -1,7 +1,7 @@
 [
 	{
-		"source" : "level-data/alt-trains/distances/japan/tokyo-metro.json",
-		"train" : "Metrocar",
-		"output" : "level-data/alt-trains/metrocar/japan/tokyo-metro.json"
+		"source" : "level-data/alt-trains/distances/via-1-1.json",
+		"train" : "Xplorer",
+		"output" : "level-data/alt-trains/xplorer/via-1-1-xplorer.json"
 	}
 ]

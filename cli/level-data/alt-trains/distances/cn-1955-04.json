@@ -1,0 +1,105 @@
+{
+    "services" : {
+        "89" : {
+            "name" : "89 - 53",
+            "schedule" : {
+                "Ottawa - Bells Corners" : 19.6,
+                "Bells Corners - South March" : 9.2,
+                "South March - Carp" : 9.6,
+                "Carp - Kinburn" : 13.5,
+                "Kinburn - Galetta" : 7.4,
+                "Galetta - Marshall's Bay" : 3.7,
+                "Marshall's Bay - Arnprior" : 4.5,
+                "Arnprior - Glasgow" : 12.2,
+                "Glasgow - Goshen" : 6.1,
+                "Goshen - Renfrew" : 7.9,
+                "Renfrew - Renfrew Junction" : 1.6,
+                "Renfrew Junction - Admaston" : 8.4,
+                "Admaston - Douglas" : 9.2,
+                "Douglas - Caldwell" : 4.8
+            }
+        },
+        "193" : {
+            "name" : "193",
+            "schedule" : {
+                "Pembroke - Locksley" : 10.4,
+                "Locksley - Woito" : 7.4,
+                "Woito - Dore Bay" : 6.9,
+                "Dore Bay - Golden Lake" : 9.2
+            }
+        },
+        "216" : {
+            "name" : "216",
+            "schedule" : {
+                "Glen Robertson - Glen Sandfield" : 5.8,
+                "Glen Sandfield - Dalkeith" : 5.8,
+                "Dalkeith - Vankleek Hill" : 10.4,
+                "Vankleek Hill - Green Lane" : 6.9,
+                "Green Lane - Hawkesbury" : 4.8
+            }
+        },
+        "221" : {
+            "name" : "221",
+            "schedule" : {
+                "Barrys Bay - Aylen Lake" : 14.8,
+                "Aylen Lake - Opeongo" : 7.1,
+                "Opeongo - Madawaska" : 12.2,
+                "Madawaska - L'Amable" : 13.0,
+                "L'Amable - Whitney" : 12.4
+            }
+        }
+    },
+    "stations" : {
+        "Aylen Lake" : [
+            "221"
+        ],
+        "Barrys Bay" : [
+            "221"
+        ],
+        "Dalkeith" : [
+            "216"
+        ],
+        "Dore Bay" : [
+            "193"
+        ],
+        "Glen Robertson" : [
+            "216"
+        ],
+        "Glen Sandfield" : [
+            "216"
+        ],
+        "Golden Lake" : [
+            "193"
+        ],
+        "Green Lane" : [
+            "216"
+        ],
+        "Hawkesbury" : [
+            "216"
+        ],
+        "L'Amable" : [
+            "221"
+        ],
+        "Locksley" : [
+            "193"
+        ],
+        "Madawaska" : [
+            "221"
+        ],
+        "Opeongo" : [
+            "221"
+        ],
+        "Pembroke" : [
+            "193"
+        ],
+        "Vankleek Hill" : [
+            "216"
+        ],
+        "Whitney" : [
+            "221"
+        ],
+        "Woito" : [
+            "193"
+        ]
+    }
+}
