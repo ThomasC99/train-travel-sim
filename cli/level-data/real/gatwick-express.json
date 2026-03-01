@@ -1,0 +1,18 @@
+{
+    "services" : {
+        "Gatwick Express" : {
+            "name" : "Gatwick Express",
+            "schedule" : {
+                "London Victoria - Gatwick Airport" : 31
+            }
+        }
+    },
+    "stations" : {
+        "Gatwick Airport" : [
+            "Gatwick Express"
+        ],
+        "London Victoria" : [
+            "Gatwick Express"
+        ]
+    }
+}

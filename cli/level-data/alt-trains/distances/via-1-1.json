@@ -1,5 +1,22 @@
 {
 	"services" : {
+		"43" : {
+			"name" : "43 Capitale",
+			"schedule" : {
+				"Ottawa - Smiths Falls" : 66.0,
+				"Smiths Falls - Brockville" : 55.0,
+				"Brockville - Gananoque" : 55.0,
+				"Gananoque - Kingston" : 31.0,
+				"Kingston - Napanee" : 42.0,
+				"Napanee - Belleville" : 35.0,
+				"Belleville - Trenton Junction" : 19.0,
+				"Trenton Junction - Cobourg" : 50.0,
+				"Cobourg - Port Hope" : 11.0,
+				"Port Hope - Oshawa" : 51.0,
+				"Oshawa - Guildwood" : 31.0,
+				"Guildwood - Toronto" : 20.0
+			}
+		},
 		"138" : {
 			"name" : "138 Bytowner",
 			"schedule" : {
@@ -13,14 +30,50 @@
 				"Coteau - Dorval" : 43.0,
 				"Dorval - Montréal" : 20.0
 			}
+		},
+		"631" : {
+			"name" : "631",
+			"schedule" : {
+				"Toronto - Agincourt" : 22.0,
+				"Agincourt - Milliken" : 5.0,
+				"Milliken - Unionville" : 4.0,
+				"Unionville - Markham" : 5.0,
+				"Markham - Stouffville" : 10.0
+			}
+		},
+		"635" : {
+			"name" : "635 General Brock",
+			"schedule" : {
+				"Toronto - Oakville" : 34.0,
+				"Oakville - Burlington" : 18.0,
+				"Burlington - Hamilton" : 11.0,
+				"Hamilton - Grimsby" : 27.0,
+				"Grimsby - St Catharines" : 9.0,
+				"St Catharines - Niagara Falls" : 34.0
+			}
 		}
 	},
 	"stations" : {
+		"Agincourt" : [
+			"631"
+		],
 		"Alexandria" : [
 			"138"
 		],
+		"Belleville" : [
+			"43"
+		],
+		"Brockville" : [
+			"43"
+		],
+		"Burlington" : [
+			"635"
+		],
 		"Casselman" : [
 			"138"
+		],
+		"Cobourg" : [
+			"43"
 		],
 		"Coteau" : [
 			"138"
@@ -28,11 +81,32 @@
 		"Dorval" : [
 			"138"
 		],
+		"Gananoque" : [
+			"43"
+		],
 		"Glen Robertson" : [
 			"138"
 		],
+		"Grimsby" : [
+			"635"
+		],
+		"Guildwood" : [
+			"43"
+		],
+		"Hamilton" : [
+			"635"
+		],
+		"Kingston" : [
+			"43"
+		],
+		"Markham" : [
+			"631"
+		],
 		"Maxville" : [
 			"138"
+		],
+		"Milliken" : [
+			"631"
 		],
 		"Montréal" : [
 			"138"
@@ -40,8 +114,44 @@
 		"Moose Creek" : [
 			"138"
 		],
+		"Napanee" : [
+			"43"
+		],
+		"Niagara Falls" : [
+			"635"
+		],
+		"Oakville" : [
+			"635"
+		],
+		"Oshawa" : [
+			"43"
+		],
 		"Ottawa" : [
+			"43",
 			"138"
+		],
+		"Port Hope" : [
+			"43"
+		],
+		"Smiths Falls" : [
+			"43"
+		],
+		"St Catharines" : [
+			"635"
+		],
+		"Stouffville" : [
+			"631"
+		],
+		"Toronto" : [
+			"43",
+			"631",
+			"635"
+		],
+		"Trenton Junction" : [
+			"43"
+		],
+		"Unionville" : [
+			"631"
 		],
 		"Vars" : [
 			"138"

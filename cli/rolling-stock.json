@@ -18,5 +18,25 @@
 		"max-speed" : 200.0,
 		"weight" : 167.0,
 		"power" : 3000.0
+	},
+	"KiHa 150" : {
+		"max-speed" : 110.0,
+		"weight" : 33.3,
+		"power" : 330.0
+	},
+	"PRT" : {
+		"max-speed" : 48.0,
+		"weight" : 4.0,
+		"power" : 52.0
+	},
+	"Class 483" : {
+		"max-speed" : 72.0,
+		"weight" : 55.0,
+		"power" : 500.0
+	},
+	"Highliner" : {
+		"max-speed" : 140.0,
+		"weight" : 67.0,
+		"power" : 600.0
 	}
 }

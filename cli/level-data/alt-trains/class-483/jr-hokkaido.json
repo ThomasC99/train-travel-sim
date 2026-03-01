@@ -1,0 +1,92 @@
+{
+    "services": {
+        "Chitose Line": {
+            "name": "Chitose Line",
+            "schedule": {
+                "Tomakomai - Numanohata": 8,
+                "Numanohata - Uenae": 6,
+                "Uenae - Bibi": 7,
+                "Bibi - Minami-Chitose": 5,
+                "Minami-Chitose - Chitose": 4,
+                "Chitose - Osatsu": 4,
+                "Osatsu - Sapporo Beer Teien": 3,
+                "Sapporo Beer Teien - Eniwa": 3,
+                "Eniwa - Megumino": 3,
+                "Megumino - Shimamatsu": 3,
+                "Shimamatsu - Kitahiroshima": 7,
+                "Kitahiroshima - Kami-Nopporo": 8,
+                "Kami-Nopporo - Shin-Sapporo": 4,
+                "Shin-Sapporo - Heiwa": 4,
+                "Heiwa - Shiroishi Hakodate Main Line": 3,
+                "Shiroishi Hakodate Main Line - Naebo": 4,
+                "Naebo - Sapporo": 3
+            }
+        },
+        "Chitose Airport Line": {
+            "name": "Chitose Line",
+            "schedule": {
+                "Minami-Chitose - New Chitose Airport": 3
+            }
+        }
+    },
+    "stations": {
+        "Bibi": [
+            "Chitose Line"
+        ],
+        "Chitose": [
+            "Chitose Line"
+        ],
+        "Eniwa": [
+            "Chitose Line"
+        ],
+        "Heiwa": [
+            "Chitose Line"
+        ],
+        "Kami-Nopporo": [
+            "Chitose Line"
+        ],
+        "Kitahiroshima": [
+            "Chitose Line"
+        ],
+        "Megumino": [
+            "Chitose Line"
+        ],
+        "Minami-Chitose": [
+            "Chitose Line",
+            "Chitose Airport Line"
+        ],
+        "Naebo": [
+            "Chitose Line"
+        ],
+        "New Chitose Airport": [
+            "Chitose Airport Line"
+        ],
+        "Numanohata": [
+            "Chitose Line"
+        ],
+        "Osatsu": [
+            "Chitose Line"
+        ],
+        "Sapporo": [
+            "Chitose Line"
+        ],
+        "Sapporo Beer Teien": [
+            "Chitose Line"
+        ],
+        "Shimamatsu": [
+            "Chitose Line"
+        ],
+        "Shin-Sapporo": [
+            "Chitose Line"
+        ],
+        "Shiroishi Hakodate Main Line": [
+            "Chitose Line"
+        ],
+        "Tomakomai": [
+            "Chitose Line"
+        ],
+        "Uenae": [
+            "Chitose Line"
+        ]
+    }
+}

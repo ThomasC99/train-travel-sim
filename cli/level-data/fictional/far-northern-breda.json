@@ -1,0 +1,18 @@
+{
+	"services" : {
+		"M1" : {
+			"name" : "M1",
+			"schedule" : {
+				"Millbourne - Drexel" : 2
+			}
+		}
+	},
+	"stations" : {
+		"Drexel" : [
+			"M1"
+		],
+		"Millbourne" : [
+			"M1"
+		]
+	}
+}

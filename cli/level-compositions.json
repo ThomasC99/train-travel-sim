@@ -1,8 +1,9 @@
 [
     {
-        "output-file" : "level-data/alt-trains/metrocar/wes-metrocar.json",
+        "output-file" : "level-data/alt-trains/class-483/hokkaido.json",
         "components" : [
-            "level-data/alt-trains/distances/wes.json"
+            "level-data/alt-trains/class-483/sapporo-subway.json",
+            "level-data/alt-trains/class-483/jr-hokkaido.json"
         ]
     }
 ]

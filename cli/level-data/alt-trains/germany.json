@@ -1,0 +1,18 @@
+{
+	"services" : {
+		"Lichtenhain Funicular" : {
+			"name" : "Litchtenhain Funicular",
+			"schedule" : {
+				"Obstfelderschmiede - Lichtenhain" : 2
+			}
+		}
+	},
+	"stations" : {
+		"Lichtenhain" : [
+			"Lichtenhain Funicular"
+		],
+		"Obstfelderschmiede" : [
+			"Lichtenhain Funicular"
+		]
+	}
+}

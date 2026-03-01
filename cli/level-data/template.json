@@ -1,7 +1,18 @@
 {
     "services" : {
         "service 1" : {
-            "station 1 - station 2" : 2
+            "name" : "Service Name",
+            "schedule" : {
+                "station 1 - station 2" : 2
+            },
+            "departures" : {
+                "origin" : [
+                    "00:00"
+                ],
+                "destination" : [
+                    "00:00"
+                ]
+            }
         }
     },
     "stations" : {

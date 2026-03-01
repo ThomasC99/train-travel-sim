@@ -1,0 +1,104 @@
+{
+    "services": {
+        "Flemington Line": {
+            "name": "Flemington Line",
+            "schedule": {
+                "Flinders Street - Southern Cross": 2,
+                "Southern Cross - North Melbourne": 2,
+                "North Melbourne - Kensington": 2,
+                "Kensington - Newmarket": 2,
+                "Newmarket - Showgrounds": 2,
+                "Showgrounds - Flemington": 2
+            }
+        },
+        "Sandringham Line": {
+            "name": "Sandringham Line",
+            "schedule": {
+                "Flinders Street - Botanic Gardens": 2,
+                "Botanic Gardens - Richmond": 2,
+                "Richmond - Cremorne": 2,
+                "Cremorne - South Yarra": 2,
+                "South Yarra - Prahran": 2,
+                "Prahran - Windsor": 2,
+                "Windsor - Balaclava": 2,
+                "Balaclava - Ripponlea": 2,
+                "Ripponlea - Elsternwick": 2,
+                "Elsternwick - Gardenvale": 2,
+                "Gardenvale - North Brighton": 2,
+                "North Brighton - Middle Brighton": 2,
+                "Middle Brighton - Brighton Beach": 2,
+                "Brighton Beach - Hampton": 2,
+                "Hampton - Sandringham": 2
+            }
+        }
+    },
+    "stations": {
+        "Balaclava": [
+            "Sandringham Line"
+        ],
+        "Botanic Gardens": [
+            "Sandringham Line"
+        ],
+        "Brighton Beach": [
+            "Sandringham Line"
+        ],
+        "Cremorne": [
+            "Sandringham Line"
+        ],
+        "Elsternwick": [
+            "Sandringham Line"
+        ],
+        "Flemington": [
+            "Flemington Line"
+        ],
+        "Flinders Street": [
+            "Flemington Line",
+            "Sandringham Line"
+        ],
+        "Gardenvale": [
+            "Sandringham Line"
+        ],
+        "Hampton": [
+            "Sandringham Line"
+        ],
+        "Kensington": [
+            "Flemington Line"
+        ],
+        "Middle Brighton": [
+            "Sandringham Line"
+        ],
+        "Newmarket": [
+            "Flemington Line"
+        ],
+        "North Brighton": [
+            "Sandringham Line"
+        ],
+        "North Melbourne": [
+            "Flemington Line"
+        ],
+        "Prahran": [
+            "Sandringham Line"
+        ],
+        "Richmond": [
+            "Sandringham Line"
+        ],
+        "Ripponlea": [
+            "Sandringham Line"
+        ],
+        "Sandringham": [
+            "Sandringham Line"
+        ],
+        "Showgrounds": [
+            "Flemington Line"
+        ],
+        "South Yarra": [
+            "Sandringham Line"
+        ],
+        "Southern Cross": [
+            "Flemington Line"
+        ],
+        "Windsor": [
+            "Sandringham Line"
+        ]
+    }
+}

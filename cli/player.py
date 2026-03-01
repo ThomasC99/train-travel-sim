@@ -27,6 +27,12 @@ class ServiceData ():
     def set_stations (self, data: Any):
         """sets the stations"""
         self.stations = data
+    
+    def add_station (self, station):
+        self.stations[station] = []
+    
+    def add_service_to_station (self, station, serivce):
+        self.stations[station].append(service)
 
     def get_json_data (self) -> Any:
         """returns the json of the service data class instance"""
@@ -64,6 +70,10 @@ class Localization ():
     def set_accent (self, accent: str):
         """sets the preferred accent"""
         self.accent = accent
+    
+    def load_json (self, data):
+        self.set_language(data["language"])
+        self.set_accent(data["accent"])
 
 
 
@@ -71,7 +81,7 @@ class Player ():
     """The player class"""
 
     def __init__ (self):
-        self.wage: float = 17.2
+        self.wage: float = 10.0
         self.points: int = 0
         self.current_station: str = ""
         self.target_station: str = ""
@@ -83,8 +93,17 @@ class Player ():
         self.announcements: bool = False
         self.silence: bool = False
         self.random_route: bool = False
+        self.work = False
+        self.educate = False
         self.localization: Localization = Localization()
         self.home: str = ""
+        self.courses = []
+        self.degrees = []
+        self.current_course = ""
+        self.current_course_prog = 0.0
+        self.current_course_len = 0
+        self.current_degree = ""
+        self.time = 0
 
     def get_json_data (self) -> Any:
         """returns the json of the player class instance"""
@@ -98,8 +117,16 @@ class Player ():
         data["accent"] = self.get_localization().get_accent()
         data["network-data"] = self.get_network_data()
         data["visited-stations"] = self.get_visited_stations()
+        data["visited-stations"].sort()
         data["visited-all-stations"] = self.get_visited_all_stations()
         data["home"] = self.get_home()
+        data["courses"] = self.courses
+        data["degrees"] = self.degrees
+        data["current-course"] = self.current_course
+        data["current-course-prog"] = self.current_course_prog
+        data["current-degree"] = self.current_degree
+        data["time"] = self.time
+        data["current-course-len"] = self.current_course_len
         return data
 
     def load_game (self):
@@ -115,14 +142,20 @@ class Player ():
         self.set_points(data["points"])
         self.set_current_station(data["current-station"])
         self.set_target_station(data["target-station"])
-        self.get_localization().set_language(data["language"])
-        self.get_localization().set_accent(data["accent"])
+        self.get_localization().load_json(data)
         self.set_network_data(data["network-data"])
         self.set_visited_stations(data["visited-stations"])
         self.set_visited_all_stations(data["visited-all-stations"])
         service_data = ServiceData()
         service_data.load_json(data["service-data"])
         self.set_service_data(service_data)
+        self.courses = data["courses"]
+        self.degrees = data["degrees"]
+        self.current_course = data["current-course"]
+        self.current_course_prog = data["current-course-prog"]
+        self.current_degree = data["current-degree"]
+        self.time = data["time"]
+        self.current_course_len = data["current-course-len"]
 
     def save_game(self):
         """saves the player data to a file"""

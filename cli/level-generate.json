@@ -1,7 +1,7 @@
 [
 	{
-		"source" : "level-data/alt-trains/distances/via-1-1.json",
-		"train" : "Xplorer",
-		"output" : "level-data/alt-trains/xplorer/via-1-1-xplorer.json"
+		"source" : "level-data/alt-trains/distances/melbourne.json",
+		"train" : "Highliner",
+		"output" : "level-data/alt-trains/highliner/melbourne.json"
 	}
 ]

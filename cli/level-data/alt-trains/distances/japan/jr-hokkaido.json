@@ -1,0 +1,114 @@
+{
+	"services" : {
+		"Chitose Line" : {
+			"name" : "Chitose Line",
+			"schedule" : {
+				"Tomakomai - Numanohata" : 8.8,
+				"Numanohata - Uenae" : 6.4,
+				"Uenae - Bibi" : 7.5,
+				"Bibi - Minami-Chitose" : 4.5,
+				"Minami-Chitose - Chitose" : 3.0,
+				"Chitose - Osatsu" : 3.5,
+				"Osatsu - Sapporo Beer Teien" : 2.2,
+				"Sapporo Beer Teien - Eniwa" : 2.3,
+				"Eniwa - Megumino" : 2.5,
+				"Megumino - Shimamatsu" : 2.2,
+				"Shimamatsu - Kitahiroshima" : 6.5,
+				"Kitahiroshima - Kami-Nopporo" : 8.0,
+				"Kami-Nopporo - Shin-Sapporo" : 2.9,
+				"Shin-Sapporo - Heiwa" : 2.9,
+				"Heiwa - Shiroishi Hakodate Main Line" : 2.2,
+				"Shiroishi Hakodate Main Line - Naebo" : 3.6,
+				"Naebo - Sapporo" : 2.2
+			}
+		},
+		"Chitose Airport Line" : {
+			"name" : "Chitose Line",
+			"schedule" : {
+				"Minami-Chitose - New Chitose Airport" : 2.6
+			}
+		},
+		"Sekisho Line" : {
+			"name" : "Sekisho Line",
+			"schedule" : {
+				"Minami-Chitose - Komasato" : 5.4,
+				"Komasato - Nishi-Hayakita" : 6.3,
+				"Nishi-Hayakita - Oiwake" : 5.9,
+				"Oiwake - Higashi-Oiwake" : 4.0
+			}
+		}
+	},
+	"stations" : {
+		"Bibi" : [
+			"Chitose Line"
+		],
+		"Chitose" : [
+			"Chitose Line"
+		],
+		"Eniwa" : [
+			"Chitose Line"
+		],
+		"Higashi-Oiwake" : [
+			"Sekisho Line"
+		],
+		"Heiwa" : [
+			"Chitose Line"
+		],
+		"Kami-Nopporo" : [
+			"Chitose Line"
+		],
+		"Kitahiroshima" : [
+			"Chitose Line"
+		],
+		"Komasato" : [
+			"Sekisho Line"
+		],
+		"Megumino" : [
+			"Chitose Line"
+		],
+		"Minami-Chitose" : [
+			"Chitose Line",
+			"Chitose Airport Line",
+			"Sekisho Line"
+		],
+		"Naebo" : [
+			"Chitose Line"
+		],
+		"New Chitose Airport" : [
+			"Chitose Airport Line"
+		],
+		"Nishi-Hayakita" : [
+			"Sekisho Line"
+		],
+		"Numanohata" : [
+			"Chitose Line"
+		],
+		"Oiwake" : [
+			"Sekisho Line"
+		],
+		"Osatsu" : [
+			"Chitose Line"
+		],
+		"Sapporo" : [
+			"Chitose Line"
+		],
+		"Sapporo Beer Teien" : [
+			"Chitose Line"
+		],
+		"Shimamatsu" : [
+			"Chitose Line"
+		],
+		"Shin-Sapporo" : [
+			"Chitose Line"
+		],
+		"Shiroishi Hakodate Main Line" : [
+			"Chitose Line"
+		],
+		"Tomakomai" : [
+			"Chitose Line"
+		],
+		"Uenae" : [
+			"Chitose Line"
+		]
+	}
+}

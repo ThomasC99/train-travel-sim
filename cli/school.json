@@ -1,0 +1,95 @@
+{
+    "Bookkeeping" : {
+        "ACC2152" : {
+            "prereq" : [
+                "ACC2202"
+            ]
+        },
+        "ACC2201" : {
+            "prereq" : [
+            ]
+        },
+        "ACC2202" : {
+            "prereq" : [
+                "ACC2201"
+            ]
+        },
+        "ACC2346" : {
+            "prereq" : [
+                "ACC2202", "ACC5039"
+            ]
+        },
+        "ACC2384" : {
+            "prereq" : [
+                "ACC2152"
+            ]
+        },
+        "ACC5039" : {
+            "prereq" : [
+            ]
+        },
+        "BUS2301" : {
+            "prereq" : [
+            ]
+        },
+        "QUA0002" : {
+            "prereq" : [
+            ]
+        }
+    },
+    "Technical Writer" : {
+        "TWR2000" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2003" : {
+            "prereq" : [
+                "TWR2000", "TWR2010"
+            ]
+        },
+        "TWR2004" : {
+            "prereq" : [
+                "TWR2000", "TWR2010"
+            ]
+        },
+        "TWR2009" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2010" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2011" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2012" : {
+            "prereq" : [
+                "TWR2000", "TWR2019"
+            ]
+        },
+        "TWR2014" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2017" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2018" : {
+            "prereq" : [
+                "TWR2000", "TWR2019"
+            ]
+        },
+        "TWR2019" : {
+            "prereq" : [
+            ]
+        },
+        "TWR2201" : {
+            "prereq" : [
+                "TWR2009"
+            ]
+        }
+    }
+}
